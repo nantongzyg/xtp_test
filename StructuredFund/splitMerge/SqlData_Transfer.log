@@ -1,0 +1,150 @@
+2017-12-21 10:04:59,104-log_demo-INFO-sql able to connect!
+2017-12-21 10:04:59,104-log_demo-INFO-delete from xtp_fund_asset_20171221 where fund_acc = 53300007513
+2017-12-21 10:04:59,130-log_demo-INFO-delete table xtp_fund_asset_20171221 success!
+2017-12-21 10:04:59,169-log_demo-INFO-insert into xtp_fund_asset_20171221
+                       select
+                        53300007513,
+                        cur_type,
+                        fund_avl_bal,
+                        fund_frz_bal,
+                        fund_bal,
+                        fund_buy_sale,
+                        fund_unc_buy,
+                        fund_unc_sale,
+                        fund_trsf,
+                        node_id
+                  from xtp_fund_asset_auto where py_name="YW_FJJJ_SZCFHB_019"
+2017-12-21 10:04:59,190-log_demo-INFO-insert_fund_assetYW_FJJJ_SZCFHB_019success!
+2017-12-21 10:04:59,195-paramiko.transport-DEBUG-starting thread (client mode): 0xe57212d0L
+2017-12-21 10:04:59,195-paramiko.transport-DEBUG-Local version/idstring: SSH-2.0-paramiko_2.3.1
+2017-12-21 10:04:59,201-paramiko.transport-DEBUG-Remote version/idstring: SSH-2.0-OpenSSH_7.4
+2017-12-21 10:04:59,201-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_7.4)
+2017-12-21 10:04:59,206-paramiko.transport-DEBUG-kex algos:[u'curve25519-sha256', u'curve25519-sha256@libssh.org', u'ecdh-sha2-nistp256', u'ecdh-sha2-nistp384', u'ecdh-sha2-nistp521', u'diffie-hellman-group-exchange-sha256', u'diffie-hellman-group16-sha512', u'diffie-hellman-group18-sha512', u'diffie-hellman-group-exchange-sha1', u'diffie-hellman-group14-sha256', u'diffie-hellman-group14-sha1', u'diffie-hellman-group1-sha1'] server key:[u'ssh-rsa', u'rsa-sha2-512', u'rsa-sha2-256', u'ecdsa-sha2-nistp256', u'ssh-ed25519'] client encrypt:[u'chacha20-poly1305@openssh.com', u'aes128-ctr', u'aes192-ctr', u'aes256-ctr', u'aes128-gcm@openssh.com', u'aes256-gcm@openssh.com', u'aes128-cbc', u'aes192-cbc', u'aes256-cbc', u'blowfish-cbc', u'cast128-cbc', u'3des-cbc'] server encrypt:[u'chacha20-poly1305@openssh.com', u'aes128-ctr', u'aes192-ctr', u'aes256-ctr', u'aes128-gcm@openssh.com', u'aes256-gcm@openssh.com', u'aes128-cbc', u'aes192-cbc', u'aes256-cbc', u'blowfish-cbc', u'cast128-cbc', u'3des-cbc'] client mac:[u'umac-64-etm@openssh.com', u'umac-128-etm@openssh.com', u'hmac-sha2-256-etm@openssh.com', u'hmac-sha2-512-etm@openssh.com', u'hmac-sha1-etm@openssh.com', u'umac-64@openssh.com', u'umac-128@openssh.com', u'hmac-sha2-256', u'hmac-sha2-512', u'hmac-sha1'] server mac:[u'umac-64-etm@openssh.com', u'umac-128-etm@openssh.com', u'hmac-sha2-256-etm@openssh.com', u'hmac-sha2-512-etm@openssh.com', u'hmac-sha1-etm@openssh.com', u'umac-64@openssh.com', u'umac-128@openssh.com', u'hmac-sha2-256', u'hmac-sha2-512', u'hmac-sha1'] client compress:[u'none', u'zlib@openssh.com'] server compress:[u'none', u'zlib@openssh.com'] client lang:[u''] server lang:[u''] kex follows?False
+2017-12-21 10:04:59,206-paramiko.transport-DEBUG-Kex agreed: ecdh-sha2-nistp256
+2017-12-21 10:04:59,206-paramiko.transport-DEBUG-HostKey agreed: ssh-ed25519
+2017-12-21 10:04:59,207-paramiko.transport-DEBUG-Cipher agreed: aes128-ctr
+2017-12-21 10:04:59,207-paramiko.transport-DEBUG-MAC agreed: hmac-sha2-256
+2017-12-21 10:04:59,207-paramiko.transport-DEBUG-Compression agreed: none
+2017-12-21 10:04:59,240-paramiko.transport-DEBUG-kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2017-12-21 10:04:59,240-paramiko.transport-DEBUG-Switch to new keys ...
+2017-12-21 10:04:59,261-paramiko.transport-DEBUG-Adding ssh-ed25519 host key for 10.26.134.198: 41bb8c1082243b2f3a7dd575e2c054a6
+2017-12-21 10:04:59,262-paramiko.transport-DEBUG-Trying SSH agent key 4eb5ae232406e6faaeb470e130c74d19
+2017-12-21 10:04:59,283-paramiko.transport-DEBUG-userauth is OK
+2017-12-21 10:04:59,307-paramiko.transport-INFO-Authentication (publickey) failed.
+2017-12-21 10:04:59,330-paramiko.transport-DEBUG-Trying discovered key 4eb5ae232406e6faaeb470e130c74d19 in /home/yhl7/.ssh/id_rsa
+2017-12-21 10:04:59,334-paramiko.transport-DEBUG-userauth is OK
+2017-12-21 10:04:59,346-paramiko.transport-INFO-Authentication (publickey) failed.
+2017-12-21 10:04:59,351-paramiko.transport-DEBUG-userauth is OK
+2017-12-21 10:04:59,368-paramiko.transport-INFO-Authentication (password) successful!
+2017-12-21 10:04:59,382-paramiko.transport-DEBUG-[chan 0] Max packet in: 32768 bytes
+2017-12-21 10:04:59,386-paramiko.transport-DEBUG-Received global request "hostkeys-00@openssh.com"
+2017-12-21 10:04:59,386-paramiko.transport-DEBUG-Rejecting "hostkeys-00@openssh.com" global request from server.
+2017-12-21 10:04:59,437-paramiko.transport-DEBUG-[chan 0] Max packet out: 32768 bytes
+2017-12-21 10:04:59,437-paramiko.transport-DEBUG-Secsh channel 0 opened.
+2017-12-21 10:04:59,453-paramiko.transport-DEBUG-[chan 0] Sesch channel 0 request ok
+2017-12-21 10:04:59,746-paramiko.transport-DEBUG-[chan 0] EOF received (0)
+2017-12-21 10:04:59,746-paramiko.transport-DEBUG-[chan 0] EOF sent (0)
+2017-12-21 10:05:01,750-paramiko.transport-DEBUG-[chan 1] Max packet in: 32768 bytes
+2017-12-21 10:05:01,755-paramiko.transport-DEBUG-[chan 1] Max packet out: 32768 bytes
+2017-12-21 10:05:01,755-paramiko.transport-DEBUG-Secsh channel 1 opened.
+2017-12-21 10:05:01,764-paramiko.transport-DEBUG-[chan 1] Sesch channel 1 request ok
+2017-12-21 10:05:02,212-paramiko.transport-DEBUG-[chan 1] EOF received (1)
+2017-12-21 10:05:02,212-paramiko.transport-DEBUG-[chan 1] EOF sent (1)
+2017-12-21 10:05:04,215-paramiko.transport-DEBUG-[chan 2] Max packet in: 32768 bytes
+2017-12-21 10:05:04,233-paramiko.transport-DEBUG-[chan 2] Max packet out: 32768 bytes
+2017-12-21 10:05:04,233-paramiko.transport-DEBUG-Secsh channel 2 opened.
+2017-12-21 10:05:04,276-paramiko.transport-DEBUG-[chan 2] Sesch channel 2 request ok
+2017-12-21 10:05:04,869-paramiko.transport-DEBUG-[chan 2] EOF received (2)
+2017-12-21 10:05:04,870-paramiko.transport-DEBUG-[chan 2] EOF sent (2)
+2017-12-21 10:05:06,882-paramiko.transport-DEBUG-EOF in transport thread
+2017-12-21 10:05:07,229-myloger-WARNING-深圳分级基金拆分合并—分拆--验资验券：资金=0
+2017-12-21 10:05:07,541-myloger-INFO-查询到的委托入参相关信息如下
+2017-12-21 10:05:07,541-myloger-INFO-证券代码:160630
+2017-12-21 10:05:07,542-myloger-INFO-返回结果:True
+2017-12-21 10:05:07,542-myloger-INFO-错误原因:
+2017-12-21 10:05:07,544-myloger-INFO-ParmIni初始化全局变量开始..
+2017-12-21 10:05:07,544-myloger-INFO-ParmIni初始化全局变量完成
+2017-12-21 10:05:07,635-myloger-INFO-初始资金持仓为:
+2017-12-21 10:05:07,635-myloger-INFO-可用资金:0.0
+2017-12-21 10:05:07,635-myloger-INFO-预扣资金:0.0
+2017-12-21 10:05:07,635-myloger-INFO-拥股数量:0
+2017-12-21 10:05:07,635-myloger-INFO-卖出资金:0.0
+2017-12-21 10:05:07,635-myloger-INFO-买入费用:0.0
+2017-12-21 10:05:07,635-myloger-INFO-可用股份数:0
+2017-12-21 10:05:07,636-myloger-INFO-市场:XTP_MKT_SZ_A
+2017-12-21 10:05:07,636-myloger-INFO-总资产:0.0
+2017-12-21 10:05:07,636-myloger-INFO-卖出费用:0.0
+2017-12-21 10:05:07,636-myloger-INFO-昨日持仓:0
+2017-12-21 10:05:07,636-myloger-INFO-股票代码:160630
+2017-12-21 10:05:07,636-myloger-INFO-持仓成本:0
+2017-12-21 10:05:07,636-myloger-INFO-买入资金:0.0
+2017-12-21 10:05:07,636-myloger-INFO-今日可申购赎回持仓:0
+2017-12-21 10:05:07,636-myloger-INFO-浮动盈亏:0
+2017-12-21 10:05:07,636-myloger-INFO-下单的xtpID=900884917582303141
+2017-12-21 10:05:07,822-myloger-INFO-正在进行报单查询，xtpID=900884917582303141
+2017-12-21 10:05:07,822-myloger-INFO-报单推送-报单状态/提交状态check结果:True,
+2017-12-21 10:05:07,822-myloger-ERROR-报单回报状态为未成交,提交状态为已提交,XTP_ORDER_STATUS_NOTRADEQUEUEING,XTP_ORDER_SUBMIT_STATUS_INSERT_ACCEPTED
+2017-12-21 10:05:07,822-myloger-INFO-这里是未成交状态的报单推送业务校验
+2017-12-21 10:05:07,822-myloger-INFO-未成交状态报单回报校验正确！
+2017-12-21 10:05:07,822-myloger-INFO-报单推送数据检查结束，检查结果如下
+2017-12-21 10:05:07,822-myloger-INFO-撤销时间:0
+2017-12-21 10:05:07,822-myloger-INFO-报单检查状态:end
+2017-12-21 10:05:07,822-myloger-INFO-提交状态:XTP_ORDER_SUBMIT_STATUS_INSERT_ACCEPTED
+2017-12-21 10:05:07,823-myloger-INFO-报单状态:XTP_ORDER_STATUS_NOTRADEQUEUEING
+2017-12-21 10:05:07,823-myloger-INFO-cancel_xtpID:0
+2017-12-21 10:05:07,823-myloger-INFO-成交金额:0.0
+2017-12-21 10:05:07,823-myloger-INFO-xtpID:900884917582303141
+2017-12-21 10:05:07,823-myloger-INFO-ErrMsg:
+2017-12-21 10:05:07,823-myloger-INFO-剩余数量:1000
+2017-12-21 10:05:07,823-myloger-INFO-错误信息:
+2017-12-21 10:05:07,823-myloger-INFO-测试结果:True
+2017-12-21 10:05:07,823-myloger-INFO-委托时间:20171221100451023
+2017-12-21 10:05:07,823-myloger-INFO-成交数量:0
+2017-12-21 10:05:07,824-myloger-INFO-Err_code:0
+2017-12-21 10:05:07,824-myloger-INFO-最后修改时间:0
+2017-12-21 10:05:07,824-myloger-INFO-委托价格:0.0
+2017-12-21 10:05:07,854-myloger-INFO-报单查询回调开始，当前报单xtpID=900884917582303141,报单状态=XTP_ORDER_STATUS_NOTRADEQUEUEING,提交状态=XTP_ORDER_SUBMIT_STATUS_INSERT_ACCEPTED
+2017-12-21 10:05:07,934-myloger-INFO-最终资金持仓为:
+2017-12-21 10:05:07,934-myloger-INFO-可用资金:0.0
+2017-12-21 10:05:07,934-myloger-INFO-预扣资金:0.0
+2017-12-21 10:05:07,934-myloger-INFO-拥股数量:0
+2017-12-21 10:05:07,934-myloger-INFO-卖出资金:0.0
+2017-12-21 10:05:07,934-myloger-INFO-买入费用:0.0
+2017-12-21 10:05:07,934-myloger-INFO-可用股份数:0
+2017-12-21 10:05:07,935-myloger-INFO-市场:XTP_MKT_SZ_A
+2017-12-21 10:05:07,935-myloger-INFO-总资产:0.0
+2017-12-21 10:05:07,935-myloger-INFO-卖出费用:0.0
+2017-12-21 10:05:07,935-myloger-INFO-昨日持仓:0
+2017-12-21 10:05:07,935-myloger-INFO-股票代码:160630
+2017-12-21 10:05:07,935-myloger-INFO-持仓成本:0
+2017-12-21 10:05:07,935-myloger-INFO-买入资金:0.0
+2017-12-21 10:05:07,935-myloger-INFO-今日可申购赎回持仓:0
+2017-12-21 10:05:07,935-myloger-INFO-浮动盈亏:0
+2017-12-21 10:05:07,935-myloger-INFO-报单查询-报单状态/提交状态check结果:True,end,
+2017-12-21 10:05:07,935-myloger-INFO-当前为报单类型data
+2017-12-21 10:05:07,935-myloger-INFO-报单查询状态为未成交,提交状态为已提交，XTP_ORDER_STATUS_NOTRADEQUEUEING,XTP_ORDER_SUBMIT_STATUS_INSERT_ACCEPTED
+2017-12-21 10:05:07,935-myloger-INFO-未成交状态报单资金股份校验
+2017-12-21 10:05:07,935-myloger-INFO-资金股份验证正确
+2017-12-21 10:05:07,935-myloger-INFO-正在进行未成交状态的报单查询业务校验
+2017-12-21 10:05:07,935-myloger-INFO-未成交状态的报单查询业务校验正确
+2017-12-21 10:05:07,935-myloger-INFO-报单查询数据检查结束，检查结果如下
+2017-12-21 10:05:07,935-myloger-INFO-报单类型:报单
+2017-12-21 10:05:07,935-myloger-INFO-撤销时间:0
+2017-12-21 10:05:07,935-myloger-INFO-报单检查状态:end
+2017-12-21 10:05:07,936-myloger-INFO-提交状态:XTP_ORDER_SUBMIT_STATUS_INSERT_ACCEPTED
+2017-12-21 10:05:07,936-myloger-INFO-报单状态:XTP_ORDER_STATUS_NOTRADEQUEUEING
+2017-12-21 10:05:07,936-myloger-INFO-cancel_xtpID:0
+2017-12-21 10:05:07,936-myloger-INFO-成交金额:0.0
+2017-12-21 10:05:07,936-myloger-INFO-xtpID:900884917582303141
+2017-12-21 10:05:07,936-myloger-INFO-ErrMsg:
+2017-12-21 10:05:07,936-myloger-INFO-剩余数量:1000
+2017-12-21 10:05:07,936-myloger-INFO-错误信息:
+2017-12-21 10:05:07,936-myloger-INFO-测试结果:True
+2017-12-21 10:05:07,936-myloger-INFO-委托时间:20171221100451023
+2017-12-21 10:05:07,936-myloger-INFO-成交数量:0
+2017-12-21 10:05:07,936-myloger-INFO-Err_code:0
+2017-12-21 10:05:07,936-myloger-INFO-最后修改时间:0
+2017-12-21 10:05:07,936-myloger-INFO-委托价格:0.0
+2017-12-21 10:05:08,137-myloger-INFO-CaseEndCheck校验开始
+2017-12-21 10:05:08,138-myloger-INFO-CaseEndCheck校验结束
+2017-12-21 10:05:08,138-myloger-WARNING-执行结果为True,,

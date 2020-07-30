@@ -1,0 +1,102 @@
+# -*- encoding: utf-8 -*-
+
+########################################################
+# 配置文件
+#
+# 行情服务器的交易服务器的配置
+#
+# 使用示例:
+#   from config import Config
+#
+#   ip = Config.quote.ip
+#   port = Config.quote.port
+#   print ip + ':' + str(port)
+#
+#   all = Config.trade.all()
+#   print all
+#
+########################################################
+
+from attribute import Attribute
+
+########################################################
+# 交易服务器配置
+#
+# Config.trade.client_id
+CONST_TRADE_CLIENT_ID = 278            # 客户端 id
+# Config.trade.save_file_path
+CONST_TRADE_SAVE_FILE_PATH = './'   # 存贮订阅信息文件的目录
+# Config.trade.ip
+CONST_TRADE_IP = '10.26.134.192'    # 服务器地址
+# Config.trade.port
+CONST_TRADE_PORT = 6102             # 端口号
+# Config.trade.name
+CONST_TRADE_USER = 'test02a'          # 帐号
+# Config.trade.password
+CONST_TRADE_PASSWORD = '111111'     # 密码
+# Config.trade.sock_type
+CONST_TRADE_SOCK_TYPE = 1           # 传输方式  1: 采用TCP方式传输,  2: 采用UDP方式传输
+# Config.trade.auto_login
+CONST_TRADE_AUTO_LOGIN = True       # 是否自动登录
+# Config.trade.key
+CONST_TRADE_KEY = "61bb908e5338b852ca26e02d0c5ec2df"
+########################################################
+# 行情服务器配置
+#
+# Config.quote.client_id
+CONST_QUOTE_CLIENT_ID = 211          # 客户端 id
+# Config.quote.save_file_path
+CONST_QUOTE_SAVE_FILE_PATH = './'   # 存贮订阅信息文件的目录
+# Config.quote.ip
+CONST_QUOTE_IP = '10.26.134.195'   # 服务器地址
+# Config.quote.port
+CONST_QUOTE_PORT = 6661             # 端口号
+# Config.quote.name
+CONST_QUOTE_USER = 'test02a'          # 帐号
+# Config.quote.password
+CONST_QUOTE_PASSWORD = '111111'     # 密码
+# Config.quote.sock_type
+CONST_QUOTE_SOCK_TYPE = 1           # 传输方式  1: 采用TCP方式传输,  2: 采用UDP方式传输
+
+CONST_QUOTE_AUTO_LOGIN = True       # 是否自动登录
+
+########################################################
+#
+# 配置信息结束
+#
+########################################################
+
+
+########################################################
+# 配置类
+#
+class Config:
+    # 行情
+    quote = Attribute({
+            'client_id': CONST_QUOTE_CLIENT_ID,
+            'save_file_path': CONST_QUOTE_SAVE_FILE_PATH,
+            'ip': CONST_QUOTE_IP,
+            'port': CONST_QUOTE_PORT,
+            'user': CONST_QUOTE_USER,
+            'password': CONST_QUOTE_PASSWORD,
+            'sock_type': CONST_QUOTE_SOCK_TYPE,
+            'auto_login': CONST_QUOTE_AUTO_LOGIN
+        })
+
+    # 交易
+    trade = Attribute({
+            'client_id': CONST_TRADE_CLIENT_ID,
+            'save_file_path': CONST_TRADE_SAVE_FILE_PATH,
+            'ip': CONST_TRADE_IP,
+            'port': CONST_TRADE_PORT,
+            'user': CONST_TRADE_USER,
+            'password': CONST_TRADE_PASSWORD,
+            'sock_type': CONST_TRADE_SOCK_TYPE,
+            'auto_login': CONST_TRADE_AUTO_LOGIN,
+            'key': CONST_TRADE_KEY
+        })
+
+    # --------------------------------------------------
+    def __init__(self):
+        """Constructor"""
+        raise NotImplementedError()

@@ -1,0 +1,6 @@
+python /home/yhl2/workspace/xtp_test/crossmarketetf/crossmarket_redemption_HA/YW_CETFSS_SHSH_081.py
+python /home/yhl2/workspace/xtp_test/crossmarketetf/crossmarket_redemption_HA/YW_CETFSS_SHSH_082.py
+python /home/yhl2/workspace/xtp_test/crossmarketetf/crossmarket_redemption_HA/YW_CETFSS_SHSH_083.py
+python /home/yhl2/workspace/xtp_test/crossmarketetf/crossmarket_redemption_HA/YW_CETFSS_SHSH_084.py
+python /home/yhl2/workspace/xtp_test/crossmarketetf/crossmarket_redemption_HA/YW_CETFSS_SHSH_085.py
+python /home/yhl2/workspace/xtp_test/crossmarketetf/crossmarket_redemption_HA/YW_CETFSS_SHSH_086.py

@@ -1,0 +1,7 @@
+2020-06-10 10:41:36,014-myloger-WARNING-限价委托买-已成（费用=min)
+2020-06-10 10:41:37,140-myloger-WARNING-执行结果为True,,
+2020-06-10 10:41:37,141-myloger-WARNING-限价委托买-已成（费用<min)
+2020-06-10 10:41:38,259-myloger-WARNING-执行结果为True,,
+2020-06-10 10:41:38,259-myloger-WARNING-限价委托买-买前有持仓
+2020-06-10 10:41:39,381-myloger-WARNING-执行结果为True,,
+2020-06-10 10:41:39,398-myloger-WARNING-限价委托买-全成再撤单（OMS)

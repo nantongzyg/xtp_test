@@ -1,0 +1,25 @@
+
+python /home/yhl2/workspace/xtp_test/Autocase_Result/KCB_AllotmentPayment/YW_PGJK_SHKCB_004.py
+python /home/yhl2/workspace/xtp_test/Autocase_Result/KCB_AllotmentPayment/YW_PGJK_SHKCB_005.py
+python /home/yhl2/workspace/xtp_test/Autocase_Result/KCB_AllotmentPayment/YW_PGJK_SHKCB_006.py
+python /home/yhl2/workspace/xtp_test/Autocase_Result/KCB_AllotmentPayment/YW_PGJK_SHKCB_012_2.py
+python /home/yhl2/workspace/xtp_test/Autocase_Result/KCB_AllotmentPayment/YW_PGJK_SHKCB_012.py
+python /home/yhl2/workspace/xtp_test/Autocase_Result/KCB_AllotmentPayment/YW_PGJK_SHKCB_013.py
+python /home/yhl2/workspace/xtp_test/Autocase_Result/KCB_AllotmentPayment/YW_PGJK_SHKCB_017.py
+python /home/yhl2/workspace/xtp_test/Autocase_Result/KCB_AllotmentPayment/YW_PGJK_SHKCB_018.py
+python /home/yhl2/workspace/xtp_test/Autocase_Result/KCB_AllotmentPayment/YW_PGJK_SHKCB_019.py
+python /home/yhl2/workspace/xtp_test/Autocase_Result/KCB_AllotmentPayment/YW_PGJK_SHKCB_020.py
+python /home/yhl2/workspace/xtp_test/Autocase_Result/KCB_AllotmentPayment/YW_PGJK_SHKCB_021.py
+python /home/yhl2/workspace/xtp_test/Autocase_Result/KCB_AllotmentPayment/YW_PGJK_SHKCB_022.py
+#python /home/yhl2/workspace/xtp_test/Autocase_Result/KCB_AllotmentPayment/YW_PGJK_SHKCB_023.py
+#python /home/yhl2/workspace/xtp_test/Autocase_Result/KCB_AllotmentPayment/YW_PGJK_SHKCB_024.py
+#python /home/yhl2/workspace/xtp_test/Autocase_Result/KCB_AllotmentPayment/YW_PGJK_SHKCB_025.py
+#python /home/yhl2/workspace/xtp_test/Autocase_Result/KCB_AllotmentPayment/YW_PGJK_SHKCB_026.py
+#python /home/yhl2/workspace/xtp_test/Autocase_Result/KCB_AllotmentPayment/YW_PGJK_SHKCB_027.py
+#python /home/yhl2/workspace/xtp_test/Autocase_Result/KCB_AllotmentPayment/YW_PGJK_SHKCB_028.py
+#python /home/yhl2/workspace/xtp_test/Autocase_Result/KCB_AllotmentPayment/YW_PGJK_SHKCB_029.py
+#python /home/yhl2/workspace/xtp_test/Autocase_Result/KCB_AllotmentPayment/YW_PGJK_SHKCB_030.py
+#python /home/yhl2/workspace/xtp_test/Autocase_Result/KCB_AllotmentPayment/YW_PGJK_SHKCB_031.py
+#python /home/yhl2/workspace/xtp_test/Autocase_Result/KCB_AllotmentPayment/YW_PGJK_SHKCB_032.py
+#python /home/yhl2/workspace/xtp_test/Autocase_Result/KCB_AllotmentPayment/YW_PGJK_SHKCB_033.py
+#python /home/yhl2/workspace/xtp_test/Autocase_Result/KCB_AllotmentPayment/YW_PGJK_SHKCB_034.py

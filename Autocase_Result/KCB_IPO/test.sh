@@ -1,0 +1,17 @@
+python /home/yhl2/workspace/xtp_test/Autocase_Result/KCB_IPO/YW_XGSG_SHSG_KCB_005.py
+python /home/yhl2/workspace/xtp_test/Autocase_Result/KCB_IPO/YW_XGSG_SHSG_KCB_008.py
+python /home/yhl2/workspace/xtp_test/Autocase_Result/KCB_IPO/YW_XGSG_SHSG_KCB_009.py
+python /home/yhl2/workspace/xtp_test/Autocase_Result/KCB_IPO/YW_XGSG_SHSG_KCB_010.py
+python /home/yhl2/workspace/xtp_test/Autocase_Result/KCB_IPO/YW_XGSG_SHSG_KCB_011.py
+python /home/yhl2/workspace/xtp_test/Autocase_Result/KCB_IPO/YW_XGSG_SHSG_KCB_012.py
+python /home/yhl2/workspace/xtp_test/Autocase_Result/KCB_IPO/YW_XGSG_SHSG_KCB_013.py
+python /home/yhl2/workspace/xtp_test/Autocase_Result/KCB_IPO/YW_XGSG_SHSG_KCB_014.py
+python /home/yhl2/workspace/xtp_test/Autocase_Result/KCB_IPO/YW_XGSG_SHSG_KCB_015.py
+python /home/yhl2/workspace/xtp_test/Autocase_Result/KCB_IPO/YW_XGSG_SHSG_KCB_016.py
+python /home/yhl2/workspace/xtp_test/Autocase_Result/KCB_IPO/YW_XGSG_SHSG_KCB_017.py
+python /home/yhl2/workspace/xtp_test/Autocase_Result/KCB_IPO/YW_XGSG_SHSG_KCB_018.py
+python /home/yhl2/workspace/xtp_test/Autocase_Result/KCB_IPO/YW_XGSG_SHSG_KCB_019.py
+python /home/yhl2/workspace/xtp_test/Autocase_Result/KCB_IPO/YW_XGSG_SHSG_KCB_020.py
+python /home/yhl2/workspace/xtp_test/Autocase_Result/KCB_IPO/YW_XGSG_SHSG_KCB_022.py
+python /home/yhl2/workspace/xtp_test/Autocase_Result/KCB_IPO/YW_XGSG_SHSG_KCB_023.py
+python /home/yhl2/workspace/xtp_test/Autocase_Result/KCB_IPO/YW_XGSG_SHSG_KCB_024.py

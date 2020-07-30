@@ -1,0 +1,10 @@
+python /home/yhl2/workspace/xtp_test/Autocase_Result/AbnormalRecovery/OMS_RESTART_ETFDMM_SZ-2.py
+python /home/yhl2/workspace/xtp_test/Autocase_Result/AbnormalRecovery/OMS_RESTART_ETFKMM_SZ-2.py
+python /home/yhl2/workspace/xtp_test/Autocase_Result/AbnormalRecovery/OMS_RESTART_FJZJJMM_SZ-2.py
+python /home/yhl2/workspace/xtp_test/Autocase_Result/AbnormalRecovery/OMS_RESTART_GPMM_SZ-2.py
+python /home/yhl2/workspace/xtp_test/Autocase_Result/AbnormalRecovery/OMS_RESTART_NHG_SZ-2.py
+#python /home/yhl2/workspace/xtp_test/Autocase_Result/AbnormalRecovery/XOGW_RESTART_ETFDMM_SZ.py
+#python /home/yhl2/workspace/xtp_test/Autocase_Result/AbnormalRecovery/XOGW_RESTART_ETFKMM_SZ.py
+#python /home/yhl2/workspace/xtp_test/Autocase_Result/AbnormalRecovery/XOGW_RESTART_FJZJJMM_SZ.py
+#python /home/yhl2/workspace/xtp_test/Autocase_Result/AbnormalRecovery/XOGW_RESTART_GPMM_SZ.py
+#python /home/yhl2/workspace/xtp_test/Autocase_Result/AbnormalRecovery/XOGW_RESTART_NHG_SZ.py

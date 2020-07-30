@@ -1,0 +1,99 @@
+<XTP>
+    <Server type="trade" name="test oms" vip_name="XTPVIP" id = "28" daemon="1">
+        <Log path="/home/xtp5/xoms/log/oms.log" log_level="debug" screen_level="info"/>
+	<Data path="/home/xtp5/xoms/data/"/>
+        <Listen>
+            <listen1 type = "tcp" ip="10.26.134.198" port="8005" />
+        </Listen>
+
+        <Thread>
+            <thread1 type = "xtp_recv" name = "xtp_recv" cpu = "2-3" />
+
+            <thread2 type = "xtp_push" name = "xtp_push" cpu = "4,5" num = "4" queue = "xtp_push"/>
+            <xtp_sh_order type = "xtp_push" name = "xtp_sh_order" cpu = "6" num = "1" queue = "xtp_sh_order"/>
+            <xtp_sz_order type = "xtp_push" name = "xtp_sz_order" cpu = "7" num = "1" queue = "xtp_sz_order"/>
+        </Thread>
+
+        <Queue busy_wait = "false">
+    		<queue1 type = "xtp_push" name = "xtp_push" size = "102400" busy_wait = "false" /> 
+   		<sh_order type = "xtp_push" name = "xtp_sh_order" size = "102400" />
+    		<sz_order type = "xtp_push" name = "xtp_sz_order" size = "102400" />
+	</Queue>
+
+        <Module path="/home/xtp5/lib/">
+            <module1 name="omsmodule"/>
+        </Module>
+	<public_key path="/home/omskey/public_key.bin" />
+	<private_key path="/home/omskey/private_key.bin" />
+
+    </Server>
+
+    <XOMS>
+        <IP value="10.26.134.198"/>
+        <Capacity order_num_max="1000000" user_num_max="1024" user_seq_max="1000000" report_num_max="3000000" />
+        <Data path="/home/xtp5/xoms/data/"/>
+        
+        <Switch>
+		    <SendPartOrderEvent enable="0"/>
+            <TradeTimeIgnore enable = "0"/>
+        </Switch>
+	
+        <!--<OfferSH socket_type="tcp" ip = "10.26.134.197" port = "9999"  gw = "OGW-SH-1" /> -->
+        <!--<OfferSZ socket_type="tcp" ip = "10.26.134.198" port = "6090"  gw = "N000633Y0045" /> -->
+	 <OfferSH socket_type="tcp" ip = "10.26.134.197" port = "7995"  gw = "OGW-SH-1" />
+        <OfferSZ socket_type="tcp" ip = "10.26.134.198" port = "7005"  gw = "N000633Y0045" />
+    </XOMS>
+
+    <DBConfig source = "mc-test" username = "mc-test" password = "mc-test" />
+
+
+    <Asset>
+	 <fee fee_rate_buy = "0.003" fee_rate_sell = "0.003" fee_min = "5" fee_max = "1000" 
+	fee_rate_etf_creation = "0.0005" fee_rate_etf_redemption = "0.0005" fee_etf_min = "5" fee_etf_max = "1000" 
+	fee_rate_reverse_repos = "0.002" fee_min_reverse_repos = "3"
+fee_rate_structured_fund_creation = "0.002" fee_rate_structured_fund_redemption = "0.002" fee_min_structured_fund_creation_redemption = "10"/>
+	 <price price_overflow_allow ="1" price_overflow_value="0.01" /> 	
+    </Asset>
+ 
+  <Risk>
+    <User>
+
+      <User0 user_name = "">
+
+        <Rule1 enable ="0" quantity = "320000" />
+
+        <Rule2 enable ="0" amount = "100000" />
+
+        <Rule9 enable ="0" quantity = "10000" />
+
+        <Rule10 enable ="0" quantity = "10000" />
+
+        <Rule14 enable ="0" times = "3" in_time = "30" brk_time = "60" />
+
+        <Rule19 enable ="0" times = "10000" />
+
+        <Rule20 enable ="0" rights = "10000.2" />
+
+        <Rule25 enable ="0" times = "3" /> 
+
+        <Rule26 enable ="0" times = "3" />
+
+        <Rule27 enable ="0" times = "3" in_time = "60" brk_time = "60" />  
+
+        <Rule38 enable ="0" times = "3" in_time = "60" brk_time = "60" />
+
+        <Rule41 enable ="0" times = "3" />
+
+        <Rule42 enable ="0" per = "59" cancel_num = "2" />
+      </User0>
+    </User>
+
+    <Stock>
+	
+      <Rule43 enable ="0" times = "3" in_time = "60" brk_time = "60" />
+    </Stock>
+
+    <Stat time_zone = "8" time_from = "0" time_to = "86399"/>
+  </Risk>
+
+</XTP>

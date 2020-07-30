@@ -1,0 +1,609 @@
+2019-11-05 14:25:14,248-myloger-WARNING-停止OMS服务(沪A限价未成买入)
+2019-11-05 14:25:14,670-myloger-WARNING-执行结果为True,,
+2019-11-05 14:25:14,672-myloger-WARNING-停止OMS服务(沪A限价部成买入)
+2019-11-05 14:25:15,097-myloger-WARNING-执行结果为True,,
+2019-11-05 14:25:15,099-myloger-WARNING-停止OMS服务（沪A限价全成买入）
+2019-11-05 14:25:15,520-myloger-WARNING-执行结果为True,,
+2019-11-05 14:25:15,523-myloger-WARNING-停止OMS服务（沪A限价全撤买入）
+2019-11-05 14:25:15,951-myloger-WARNING-执行结果为True,,
+2019-11-05 14:25:15,953-myloger-WARNING-停止OMS服务（沪A限价部撤买入）
+2019-11-05 14:25:16,374-myloger-WARNING-执行结果为True,,
+2019-11-05 14:25:16,376-myloger-WARNING-停止OMS服务（沪A限价废单买入）
+2019-11-05 14:25:16,798-myloger-WARNING-执行结果为True,,
+2019-11-05 14:25:16,800-myloger-WARNING-停止OMS服务（沪A限价撤废买入）
+2019-11-05 14:25:17,222-myloger-WARNING-执行结果为True,,
+2019-11-05 14:25:17,224-myloger-WARNING-停止OMS服务(沪A五档即成转限价未成买入)
+2019-11-05 14:25:17,646-myloger-WARNING-执行结果为True,,
+2019-11-05 14:25:17,648-myloger-WARNING-停止OMS服务(沪A五档即成转限价部成买入)
+2019-11-05 14:25:18,069-myloger-WARNING-执行结果为True,,
+2019-11-05 14:25:18,071-myloger-WARNING-停止OMS服务（沪A五档即成转限价全成买入）
+2019-11-05 14:25:18,493-myloger-WARNING-执行结果为True,,
+2019-11-05 14:25:18,495-myloger-WARNING-停止OMS服务（沪A五档即成转限价全撤买入）
+2019-11-05 14:25:18,916-myloger-WARNING-执行结果为True,,
+2019-11-05 14:25:18,918-myloger-WARNING-停止OMS服务（沪A五档即成转限价部撤买入）
+2019-11-05 14:25:19,341-myloger-WARNING-执行结果为True,,
+2019-11-05 14:25:19,343-myloger-WARNING-停止OMS服务（沪A五档即成转限价撤废买入）
+2019-11-05 14:25:19,767-myloger-WARNING-执行结果为True,,
+2019-11-05 14:25:19,769-myloger-WARNING-停止OMS服务（沪A五档即成转限价废单买入）
+2019-11-05 14:25:20,191-myloger-WARNING-执行结果为True,,
+2019-11-05 14:25:20,193-myloger-WARNING-停止OMS服务（沪A五档即成转撤单全成买入）
+2019-11-05 14:25:20,621-myloger-WARNING-执行结果为True,,
+2019-11-05 14:25:20,623-myloger-WARNING-停止OMS服务（沪A五档即成转撤单部撤买入）
+2019-11-05 14:25:21,057-myloger-WARNING-执行结果为True,,
+2019-11-05 14:25:21,059-myloger-WARNING-停止OMS服务（沪A五档即成转撤单全撤买入）
+2019-11-05 14:25:21,493-myloger-WARNING-执行结果为True,,
+2019-11-05 14:25:21,495-myloger-WARNING-停止OMS服务（沪A五档即成转撤单废单买入）
+2019-11-05 14:25:21,916-myloger-WARNING-执行结果为True,,
+2019-11-05 14:25:21,918-myloger-WARNING-停止OMS服务（沪A五档即成转撤单撤废买入）
+2019-11-05 14:25:22,340-myloger-WARNING-执行结果为True,,
+2019-11-05 14:25:22,341-myloger-WARNING-停止OMS服务(沪A本方最优未成买入)
+2019-11-05 14:25:22,763-myloger-WARNING-执行结果为True,,
+2019-11-05 14:25:22,768-myloger-WARNING-停止OMS服务(沪A本方最优部成买入)
+2019-11-05 14:25:23,190-myloger-WARNING-执行结果为True,,
+2019-11-05 14:25:23,193-myloger-WARNING-停止OMS服务（沪A本方最优全成买入）
+2019-11-05 14:25:23,614-myloger-WARNING-执行结果为True,,
+2019-11-05 14:25:23,616-myloger-WARNING-停止OMS服务（沪A本方最优全撤买入）
+2019-11-05 14:25:24,039-myloger-WARNING-执行结果为True,,
+2019-11-05 14:25:24,041-myloger-WARNING-停止OMS服务（沪A本方最优部撤买入）
+2019-11-05 14:25:24,463-myloger-WARNING-执行结果为True,,
+2019-11-05 14:25:24,465-myloger-WARNING-停止OMS服务（沪A本方最优撤废买入）
+2019-11-05 14:25:24,887-myloger-WARNING-执行结果为True,,
+2019-11-05 14:25:24,889-myloger-WARNING-停止OMS服务（沪A本方最优废单买入）
+2019-11-05 14:25:25,312-myloger-WARNING-执行结果为True,,
+2019-11-05 14:25:25,314-myloger-WARNING-停止OMS服务(沪A对手方最优转限价未成买入)
+2019-11-05 14:25:25,747-myloger-WARNING-执行结果为True,,
+2019-11-05 14:25:25,749-myloger-WARNING-停止OMS服务(沪A对手方最优转限价部成买入)
+2019-11-05 14:25:26,171-myloger-WARNING-执行结果为True,,
+2019-11-05 14:25:26,173-myloger-WARNING-停止OMS服务（沪A对手方最优转限价全成买入）
+2019-11-05 14:25:26,595-myloger-WARNING-执行结果为True,,
+2019-11-05 14:25:26,598-myloger-WARNING-停止OMS服务（沪A对手方最优转限价全撤买入）
+2019-11-05 14:25:27,019-myloger-WARNING-执行结果为True,,
+2019-11-05 14:25:27,021-myloger-WARNING-停止OMS服务（沪A对手方最优转限价部撤买入）
+2019-11-05 14:25:27,445-myloger-WARNING-执行结果为True,,
+2019-11-05 14:25:27,447-myloger-WARNING-停止OMS服务（沪A对手方最优转限价撤废买入）
+2019-11-05 14:25:27,870-myloger-WARNING-执行结果为True,,
+2019-11-05 14:25:27,872-myloger-WARNING-停止OMS服务（沪A对手方最优转限价废单买入）
+2019-11-05 14:25:28,293-myloger-WARNING-执行结果为True,,
+2019-11-05 14:25:28,295-myloger-WARNING-停止OMS服务(沪A限价未成卖出)
+2019-11-05 14:25:28,786-myloger-WARNING-执行结果为True,,
+2019-11-05 14:25:28,788-myloger-WARNING-停止OMS服务(沪A限价部成卖出)
+2019-11-05 14:25:29,253-myloger-WARNING-执行结果为True,,
+2019-11-05 14:25:29,255-myloger-WARNING-停止OMS服务（沪A限价全成卖出）
+2019-11-05 14:25:29,720-myloger-WARNING-执行结果为True,,
+2019-11-05 14:25:29,722-myloger-WARNING-停止OMS服务（沪A限价全撤卖出）
+2019-11-05 14:25:30,214-myloger-WARNING-执行结果为True,,
+2019-11-05 14:25:30,216-myloger-WARNING-停止OMS服务（沪A限价部撤卖出）
+2019-11-05 14:25:30,683-myloger-WARNING-执行结果为True,,
+2019-11-05 14:25:30,685-myloger-WARNING-停止OMS服务（沪A限价废单卖出）
+2019-11-05 14:25:31,149-myloger-WARNING-执行结果为True,,
+2019-11-05 14:25:31,151-myloger-WARNING-停止OMS服务（沪A限价撤废卖出）
+2019-11-05 14:25:31,628-myloger-WARNING-执行结果为True,,
+2019-11-05 14:25:31,630-myloger-WARNING-停止OMS服务（沪A限价：单笔成交_成交金额 < 手续费）
+2019-11-05 14:25:32,089-myloger-WARNING-执行结果为True,,
+2019-11-05 14:25:32,091-myloger-WARNING-停止OMS服务（沪A限价：分笔成交_累积成交金额 < 累积成交费用）
+2019-11-05 14:25:32,572-myloger-WARNING-执行结果为True,,
+2019-11-05 14:25:32,575-myloger-WARNING-停止OMS服务（沪A限价：分笔成交_累积成交金额 >= 手续费 且手续费小于最小值）
+2019-11-05 14:25:33,040-myloger-WARNING-执行结果为True,,
+2019-11-05 14:25:33,042-myloger-WARNING-停止OMS服务（沪A限价：分笔成交_累积成交金额 >= 手续费 且手续费大于最小值）
+2019-11-05 14:25:33,506-myloger-WARNING-执行结果为True,,
+2019-11-05 14:25:33,507-log_demo-INFO-delete from  xtp_default_fee_rate  
+            where fee_rate_id in (select fee_rate_id from  xtp_default_fee_rate_auto  where py_name = 'YW_KCB_YCHF_BUY_001')
+2019-11-05 14:25:33,509-log_demo-INFO-delete_xtp_default_fee_rateYW_KCB_YCHF_BUY_001success!
+2019-11-05 14:25:33,511-log_demo-INFO-insert into xtp_default_fee_rate select user_id, fee_rate_id, value 
+            from  xtp_default_fee_rate_auto  where py_name = "YW_KCB_YCHF_BUY_001"
+2019-11-05 14:25:33,512-log_demo-INFO-insert_xtp_default_fee_rateYW_KCB_YCHF_BUY_001success!
+2019-11-05 14:25:33,519-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-05 14:25:33,625-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-05 14:25:40,902-myloger-WARNING-停止OMS服务（沪A限价：买入最低特殊费用=0）
+2019-11-05 14:25:41,325-myloger-WARNING-执行结果为True,,
+2019-11-05 14:25:41,327-log_demo-INFO-delete from  xtp_default_fee_rate  
+            where fee_rate_id in (select fee_rate_id from  xtp_default_fee_rate_auto  where py_name = 'YW_KCB_BAK_000')
+2019-11-05 14:25:41,329-log_demo-INFO-delete_xtp_default_fee_rateYW_KCB_BAK_000success!
+2019-11-05 14:25:41,330-log_demo-INFO-insert into xtp_default_fee_rate select user_id, fee_rate_id, value 
+            from  xtp_default_fee_rate_auto  where py_name = "YW_KCB_BAK_000"
+2019-11-05 14:25:41,331-log_demo-INFO-insert_xtp_default_fee_rateYW_KCB_BAK_000success!
+2019-11-05 14:25:41,339-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-05 14:25:41,414-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-05 14:25:48,591-log_demo-INFO-delete from  xtp_default_fee_rate  
+            where fee_rate_id in (select fee_rate_id from  xtp_default_fee_rate_auto  where py_name = 'YW_KCB_YCHF_SELL_001')
+2019-11-05 14:25:48,597-log_demo-INFO-delete_xtp_default_fee_rateYW_KCB_YCHF_SELL_001success!
+2019-11-05 14:25:48,598-log_demo-INFO-insert into xtp_default_fee_rate select user_id, fee_rate_id, value 
+            from  xtp_default_fee_rate_auto  where py_name = "YW_KCB_YCHF_SELL_001"
+2019-11-05 14:25:48,609-log_demo-INFO-insert_xtp_default_fee_rateYW_KCB_YCHF_SELL_001success!
+2019-11-05 14:25:48,616-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-05 14:25:48,682-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-05 14:25:55,933-myloger-WARNING-停止OMS服务（沪A限价：卖出最低特殊费用=0）
+2019-11-05 14:25:56,394-myloger-WARNING-执行结果为True,,
+2019-11-05 14:25:56,395-log_demo-INFO-delete from  xtp_default_fee_rate  
+            where fee_rate_id in (select fee_rate_id from  xtp_default_fee_rate_auto  where py_name = 'YW_KCB_BAK_000')
+2019-11-05 14:25:56,399-log_demo-INFO-delete_xtp_default_fee_rateYW_KCB_BAK_000success!
+2019-11-05 14:25:56,400-log_demo-INFO-insert into xtp_default_fee_rate select user_id, fee_rate_id, value 
+            from  xtp_default_fee_rate_auto  where py_name = "YW_KCB_BAK_000"
+2019-11-05 14:25:56,406-log_demo-INFO-insert_xtp_default_fee_rateYW_KCB_BAK_000success!
+2019-11-05 14:25:56,413-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-05 14:25:56,479-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-05 14:26:03,589-myloger-WARNING-停止OMS服务(沪A五档即成转限价未成卖出)
+2019-11-05 14:26:08,617-myloger-WARNING-停止OMS服务(沪A五档即成转限价部成卖出)
+2019-11-05 14:26:13,641-myloger-WARNING-停止OMS服务（沪A五档即成转限价全成卖出）
+2019-11-05 14:26:18,665-myloger-WARNING-停止OMS服务（沪A五档即成转限价全撤卖出）
+2019-11-05 14:26:23,697-myloger-WARNING-停止OMS服务（沪A五档即成转限价部撤卖出）
+2019-11-05 14:26:28,722-myloger-WARNING-停止OMS服务（沪A五档即成转限价撤废卖出）
+2019-11-05 14:26:33,748-myloger-WARNING-停止OMS服务（沪A五档即成转限价废单卖出）
+2019-11-05 14:26:38,772-myloger-WARNING-停止OMS服务（沪A五档即成转限价：单笔成交_成交金额 < 手续费）
+2019-11-05 14:26:43,797-myloger-WARNING-停止OMS服务（沪A五档即成转限价：分笔成交_累积成交金额 < 累积成交费用）
+2019-11-05 14:26:48,833-myloger-WARNING-停止OMS服务（沪A五档即成转限价：分笔成交_累积成交金额 >= 手续费 且手续费小于最小值）
+2019-11-05 14:26:53,857-myloger-WARNING-停止OMS服务（沪A五档即成转限价：分笔成交_累积成交金额 >= 手续费 且手续费大于最小值）
+2019-11-05 14:26:58,881-log_demo-INFO-delete from  xtp_default_fee_rate  
+            where fee_rate_id in (select fee_rate_id from  xtp_default_fee_rate_auto  where py_name = 'YW_KCB_YCHF_BUY_001')
+2019-11-05 14:26:58,883-log_demo-INFO-delete_xtp_default_fee_rateYW_KCB_YCHF_BUY_001success!
+2019-11-05 14:26:58,884-log_demo-INFO-insert into xtp_default_fee_rate select user_id, fee_rate_id, value 
+            from  xtp_default_fee_rate_auto  where py_name = "YW_KCB_YCHF_BUY_001"
+2019-11-05 14:26:58,886-log_demo-INFO-insert_xtp_default_fee_rateYW_KCB_YCHF_BUY_001success!
+2019-11-05 14:26:58,893-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-05 14:26:58,960-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-05 14:27:06,208-myloger-WARNING-停止OMS服务（沪A五档即成转限价：买入最低特殊费用=0）
+2019-11-05 14:27:06,629-myloger-WARNING-执行结果为True,,
+2019-11-05 14:27:06,631-log_demo-INFO-delete from  xtp_default_fee_rate  
+            where fee_rate_id in (select fee_rate_id from  xtp_default_fee_rate_auto  where py_name = 'YW_KCB_BAK_000')
+2019-11-05 14:27:06,632-log_demo-INFO-delete_xtp_default_fee_rateYW_KCB_BAK_000success!
+2019-11-05 14:27:06,634-log_demo-INFO-insert into xtp_default_fee_rate select user_id, fee_rate_id, value 
+            from  xtp_default_fee_rate_auto  where py_name = "YW_KCB_BAK_000"
+2019-11-05 14:27:06,635-log_demo-INFO-insert_xtp_default_fee_rateYW_KCB_BAK_000success!
+2019-11-05 14:27:06,643-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-05 14:27:06,708-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-05 14:27:13,854-log_demo-INFO-delete from  xtp_default_fee_rate  
+            where fee_rate_id in (select fee_rate_id from  xtp_default_fee_rate_auto  where py_name = 'YW_KCB_YCHF_SELL_001')
+2019-11-05 14:27:13,856-log_demo-INFO-delete_xtp_default_fee_rateYW_KCB_YCHF_SELL_001success!
+2019-11-05 14:27:13,858-log_demo-INFO-insert into xtp_default_fee_rate select user_id, fee_rate_id, value 
+            from  xtp_default_fee_rate_auto  where py_name = "YW_KCB_YCHF_SELL_001"
+2019-11-05 14:27:13,859-log_demo-INFO-insert_xtp_default_fee_rateYW_KCB_YCHF_SELL_001success!
+2019-11-05 14:27:13,866-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-05 14:27:13,931-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-05 14:27:21,165-myloger-WARNING-停止OMS服务（沪A五档即成转限价：卖出最低特殊费用=0）
+2019-11-05 14:27:21,625-myloger-WARNING-执行结果为True,,
+2019-11-05 14:27:21,626-log_demo-INFO-delete from  xtp_default_fee_rate  
+            where fee_rate_id in (select fee_rate_id from  xtp_default_fee_rate_auto  where py_name = 'YW_KCB_BAK_000')
+2019-11-05 14:27:21,628-log_demo-INFO-delete_xtp_default_fee_rateYW_KCB_BAK_000success!
+2019-11-05 14:27:21,629-log_demo-INFO-insert into xtp_default_fee_rate select user_id, fee_rate_id, value 
+            from  xtp_default_fee_rate_auto  where py_name = "YW_KCB_BAK_000"
+2019-11-05 14:27:21,631-log_demo-INFO-insert_xtp_default_fee_rateYW_KCB_BAK_000success!
+2019-11-05 14:27:21,638-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-05 14:27:21,704-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-05 14:27:28,818-myloger-WARNING-停止OMS服务（沪A五档即成转撤单全成卖出）
+2019-11-05 14:27:33,849-myloger-WARNING-停止OMS服务（沪A五档即成转撤单部撤卖出）
+2019-11-05 14:27:38,888-myloger-WARNING-停止OMS服务（沪A五档即成转撤单全撤卖出）
+2019-11-05 14:27:43,920-myloger-WARNING-停止OMS服务（沪A五档即成转撤单废单卖出）
+2019-11-05 14:27:48,945-myloger-WARNING-停止OMS服务（沪A五档即成转撤单撤废卖出）
+2019-11-05 14:27:53,969-myloger-WARNING-停止OMS服务（沪A五档即成转撤销：单笔成交_成交金额 < 手续费）
+2019-11-05 14:27:59,005-myloger-WARNING-停止OMS服务（沪A五档即成转撤销：分笔成交_累积成交金额 < 累积成交费用）
+2019-11-05 14:28:04,040-myloger-WARNING-停止OMS服务（沪A五档即成转撤销：分笔成交_累积成交金额 >= 手续费 且手续费小于最小值）
+2019-11-05 14:28:09,071-myloger-WARNING-停止OMS服务（沪A五档即成转撤销：分笔成交_累积成交金额 >= 手续费 且手续费大于最小值）
+2019-11-05 14:28:14,106-log_demo-INFO-delete from  xtp_default_fee_rate  
+            where fee_rate_id in (select fee_rate_id from  xtp_default_fee_rate_auto  where py_name = 'YW_KCB_YCHF_BUY_001')
+2019-11-05 14:28:14,108-log_demo-INFO-delete_xtp_default_fee_rateYW_KCB_YCHF_BUY_001success!
+2019-11-05 14:28:14,109-log_demo-INFO-insert into xtp_default_fee_rate select user_id, fee_rate_id, value 
+            from  xtp_default_fee_rate_auto  where py_name = "YW_KCB_YCHF_BUY_001"
+2019-11-05 14:28:14,111-log_demo-INFO-insert_xtp_default_fee_rateYW_KCB_YCHF_BUY_001success!
+2019-11-05 14:28:14,117-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-05 14:28:14,182-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-05 14:28:21,438-myloger-WARNING-停止OMS服务（沪A五档即成转撤销：买入最低特殊费用=0）
+2019-11-05 14:28:21,859-myloger-WARNING-执行结果为True,,
+2019-11-05 14:28:21,861-log_demo-INFO-delete from  xtp_default_fee_rate  
+            where fee_rate_id in (select fee_rate_id from  xtp_default_fee_rate_auto  where py_name = 'YW_KCB_BAK_000')
+2019-11-05 14:28:21,875-log_demo-INFO-delete_xtp_default_fee_rateYW_KCB_BAK_000success!
+2019-11-05 14:28:21,879-log_demo-INFO-insert into xtp_default_fee_rate select user_id, fee_rate_id, value 
+            from  xtp_default_fee_rate_auto  where py_name = "YW_KCB_BAK_000"
+2019-11-05 14:28:21,905-log_demo-INFO-insert_xtp_default_fee_rateYW_KCB_BAK_000success!
+2019-11-05 14:28:21,911-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-05 14:28:21,976-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-05 14:28:29,107-log_demo-INFO-delete from  xtp_default_fee_rate  
+            where fee_rate_id in (select fee_rate_id from  xtp_default_fee_rate_auto  where py_name = 'YW_KCB_YCHF_SELL_001')
+2019-11-05 14:28:29,110-log_demo-INFO-delete_xtp_default_fee_rateYW_KCB_YCHF_SELL_001success!
+2019-11-05 14:28:29,111-log_demo-INFO-insert into xtp_default_fee_rate select user_id, fee_rate_id, value 
+            from  xtp_default_fee_rate_auto  where py_name = "YW_KCB_YCHF_SELL_001"
+2019-11-05 14:28:29,112-log_demo-INFO-insert_xtp_default_fee_rateYW_KCB_YCHF_SELL_001success!
+2019-11-05 14:28:29,118-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-05 14:28:29,183-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-05 14:28:36,417-myloger-WARNING-停止OMS服务（沪A五档即成转撤销：卖出最低特殊费用=0）
+2019-11-05 14:28:36,878-myloger-WARNING-执行结果为True,,
+2019-11-05 14:28:36,879-log_demo-INFO-delete from  xtp_default_fee_rate  
+            where fee_rate_id in (select fee_rate_id from  xtp_default_fee_rate_auto  where py_name = 'YW_KCB_BAK_000')
+2019-11-05 14:28:36,881-log_demo-INFO-delete_xtp_default_fee_rateYW_KCB_BAK_000success!
+2019-11-05 14:28:36,882-log_demo-INFO-insert into xtp_default_fee_rate select user_id, fee_rate_id, value 
+            from  xtp_default_fee_rate_auto  where py_name = "YW_KCB_BAK_000"
+2019-11-05 14:28:36,884-log_demo-INFO-insert_xtp_default_fee_rateYW_KCB_BAK_000success!
+2019-11-05 14:28:36,891-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-05 14:28:36,955-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-05 14:28:44,064-myloger-WARNING-停止OMS服务(沪A本方最优未成卖出)
+2019-11-05 14:28:49,101-myloger-WARNING-停止OMS服务(沪A本方最优部成卖出)
+2019-11-05 14:28:54,126-myloger-WARNING-停止OMS服务（沪A本方最优全成卖出）
+2019-11-05 14:28:59,152-myloger-WARNING-停止OMS服务（沪A本方最优全撤卖出）
+2019-11-05 14:29:04,177-myloger-WARNING-停止OMS服务（沪A本方最优部撤卖出）
+2019-11-05 14:29:09,203-myloger-WARNING-停止OMS服务（沪A本方最优撤废卖出）
+2019-11-05 14:29:14,228-myloger-WARNING-停止OMS服务（沪A本方最优废单卖出）
+2019-11-05 14:29:19,255-myloger-WARNING-停止OMS服务（沪A本方最优：单笔成交_成交金额 < 手续费）
+2019-11-05 14:29:24,279-myloger-WARNING-停止OMS服务（沪A本方最优：分笔成交_累积成交金额 < 累积成交费用）
+2019-11-05 14:29:29,304-myloger-WARNING-停止OMS服务（沪A本方最优：分笔成交_累积成交金额 >= 手续费 且手续费小于最小值）
+2019-11-05 14:29:34,328-myloger-WARNING-停止OMS服务（沪A本方最优：分笔成交_累积成交金额 >= 手续费 且手续费大于最小值）
+2019-11-05 14:29:39,352-log_demo-INFO-delete from  xtp_default_fee_rate  
+            where fee_rate_id in (select fee_rate_id from  xtp_default_fee_rate_auto  where py_name = 'YW_KCB_YCHF_BUY_001')
+2019-11-05 14:29:39,354-log_demo-INFO-delete_xtp_default_fee_rateYW_KCB_YCHF_BUY_001success!
+2019-11-05 14:29:39,355-log_demo-INFO-insert into xtp_default_fee_rate select user_id, fee_rate_id, value 
+            from  xtp_default_fee_rate_auto  where py_name = "YW_KCB_YCHF_BUY_001"
+2019-11-05 14:29:39,357-log_demo-INFO-insert_xtp_default_fee_rateYW_KCB_YCHF_BUY_001success!
+2019-11-05 14:29:39,366-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-05 14:29:39,442-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-05 14:29:46,716-myloger-WARNING-停止OMS服务（沪A本方最优：买入最低特殊费用=0）
+2019-11-05 14:29:47,139-myloger-WARNING-执行结果为True,,
+2019-11-05 14:29:47,141-log_demo-INFO-delete from  xtp_default_fee_rate  
+            where fee_rate_id in (select fee_rate_id from  xtp_default_fee_rate_auto  where py_name = 'YW_KCB_BAK_000')
+2019-11-05 14:29:47,143-log_demo-INFO-delete_xtp_default_fee_rateYW_KCB_BAK_000success!
+2019-11-05 14:29:47,144-log_demo-INFO-insert into xtp_default_fee_rate select user_id, fee_rate_id, value 
+            from  xtp_default_fee_rate_auto  where py_name = "YW_KCB_BAK_000"
+2019-11-05 14:29:47,145-log_demo-INFO-insert_xtp_default_fee_rateYW_KCB_BAK_000success!
+2019-11-05 14:29:47,151-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-05 14:29:47,216-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-05 14:29:54,347-log_demo-INFO-delete from  xtp_default_fee_rate  
+            where fee_rate_id in (select fee_rate_id from  xtp_default_fee_rate_auto  where py_name = 'YW_KCB_YCHF_SELL_001')
+2019-11-05 14:29:54,350-log_demo-INFO-delete_xtp_default_fee_rateYW_KCB_YCHF_SELL_001success!
+2019-11-05 14:29:54,351-log_demo-INFO-insert into xtp_default_fee_rate select user_id, fee_rate_id, value 
+            from  xtp_default_fee_rate_auto  where py_name = "YW_KCB_YCHF_SELL_001"
+2019-11-05 14:29:54,354-log_demo-INFO-insert_xtp_default_fee_rateYW_KCB_YCHF_SELL_001success!
+2019-11-05 14:29:54,360-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-05 14:29:54,433-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-05 14:30:01,676-myloger-WARNING-停止OMS服务（沪A本方最优：卖出最低特殊费用=0）
+2019-11-05 14:30:02,159-myloger-WARNING-执行结果为True,,
+2019-11-05 14:30:02,161-log_demo-INFO-delete from  xtp_default_fee_rate  
+            where fee_rate_id in (select fee_rate_id from  xtp_default_fee_rate_auto  where py_name = 'YW_KCB_BAK_000')
+2019-11-05 14:30:02,163-log_demo-INFO-delete_xtp_default_fee_rateYW_KCB_BAK_000success!
+2019-11-05 14:30:02,164-log_demo-INFO-insert into xtp_default_fee_rate select user_id, fee_rate_id, value 
+            from  xtp_default_fee_rate_auto  where py_name = "YW_KCB_BAK_000"
+2019-11-05 14:30:02,166-log_demo-INFO-insert_xtp_default_fee_rateYW_KCB_BAK_000success!
+2019-11-05 14:30:02,173-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-05 14:30:02,239-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-05 14:30:09,363-myloger-WARNING-停止OMS服务(沪A对手方最优转限价未成卖出)
+2019-11-05 14:30:14,390-myloger-WARNING-停止OMS服务(沪A对手方最优转限价部成卖出)
+2019-11-05 14:30:19,421-myloger-WARNING-停止OMS服务（沪A对手方最优转限价全成卖出）
+2019-11-05 14:30:24,457-myloger-WARNING-停止OMS服务（沪A对手方最优转限价全撤卖出）
+2019-11-05 14:30:29,482-myloger-WARNING-停止OMS服务（沪A对手方最优转限价部撤卖出）
+2019-11-05 14:30:34,507-myloger-WARNING-停止OMS服务（沪A对手方最优转限价撤废卖出）
+2019-11-05 14:30:39,532-myloger-WARNING-停止OMS服务（沪A对手方最优转限价废单卖出）
+2019-11-05 14:30:44,558-myloger-WARNING-停止OMS服务（沪A对手方最优转限价：单笔成交_成交金额 < 手续费）
+2019-11-05 14:30:49,582-myloger-WARNING-停止OMS服务（沪A对手方最优转限价：分笔成交_累积成交金额 < 累积成交费用）
+2019-11-05 14:30:54,606-myloger-WARNING-停止OMS服务（沪A对手方最优转限价：分笔成交_累积成交金额 >= 手续费 且手续费小于最小值）
+2019-11-05 14:30:59,631-myloger-WARNING-停止OMS服务（沪A对手方最优转限价：分笔成交_累积成交金额 >= 手续费 且手续费大于最小值）
+2019-11-05 14:31:04,655-log_demo-INFO-delete from  xtp_default_fee_rate  
+            where fee_rate_id in (select fee_rate_id from  xtp_default_fee_rate_auto  where py_name = 'YW_KCB_YCHF_BUY_001')
+2019-11-05 14:31:04,657-log_demo-INFO-delete_xtp_default_fee_rateYW_KCB_YCHF_BUY_001success!
+2019-11-05 14:31:04,658-log_demo-INFO-insert into xtp_default_fee_rate select user_id, fee_rate_id, value 
+            from  xtp_default_fee_rate_auto  where py_name = "YW_KCB_YCHF_BUY_001"
+2019-11-05 14:31:04,659-log_demo-INFO-insert_xtp_default_fee_rateYW_KCB_YCHF_BUY_001success!
+2019-11-05 14:31:04,668-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-05 14:31:04,735-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-05 14:31:12,000-myloger-WARNING-停止OMS服务（沪A对手方最优转限价：买入最低特殊费用=0）
+2019-11-05 14:31:12,421-myloger-WARNING-执行结果为True,,
+2019-11-05 14:31:12,423-log_demo-INFO-delete from  xtp_default_fee_rate  
+            where fee_rate_id in (select fee_rate_id from  xtp_default_fee_rate_auto  where py_name = 'YW_KCB_BAK_000')
+2019-11-05 14:31:12,425-log_demo-INFO-delete_xtp_default_fee_rateYW_KCB_BAK_000success!
+2019-11-05 14:31:12,426-log_demo-INFO-insert into xtp_default_fee_rate select user_id, fee_rate_id, value 
+            from  xtp_default_fee_rate_auto  where py_name = "YW_KCB_BAK_000"
+2019-11-05 14:31:12,428-log_demo-INFO-insert_xtp_default_fee_rateYW_KCB_BAK_000success!
+2019-11-05 14:31:12,436-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-05 14:31:12,500-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-05 14:31:19,683-log_demo-INFO-delete from  xtp_default_fee_rate  
+            where fee_rate_id in (select fee_rate_id from  xtp_default_fee_rate_auto  where py_name = 'YW_KCB_YCHF_SELL_001')
+2019-11-05 14:31:19,686-log_demo-INFO-delete_xtp_default_fee_rateYW_KCB_YCHF_SELL_001success!
+2019-11-05 14:31:19,687-log_demo-INFO-insert into xtp_default_fee_rate select user_id, fee_rate_id, value 
+            from  xtp_default_fee_rate_auto  where py_name = "YW_KCB_YCHF_SELL_001"
+2019-11-05 14:31:19,689-log_demo-INFO-insert_xtp_default_fee_rateYW_KCB_YCHF_SELL_001success!
+2019-11-05 14:31:19,695-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-05 14:31:19,760-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-05 14:31:27,038-myloger-WARNING-停止OMS服务（沪A对手方最优转限价：卖出最低特殊费用=0）
+2019-11-05 14:31:27,498-myloger-WARNING-执行结果为True,,
+2019-11-05 14:31:27,499-log_demo-INFO-delete from  xtp_default_fee_rate  
+            where fee_rate_id in (select fee_rate_id from  xtp_default_fee_rate_auto  where py_name = 'YW_KCB_BAK_000')
+2019-11-05 14:31:27,502-log_demo-INFO-delete_xtp_default_fee_rateYW_KCB_BAK_000success!
+2019-11-05 14:31:27,503-log_demo-INFO-insert into xtp_default_fee_rate select user_id, fee_rate_id, value 
+            from  xtp_default_fee_rate_auto  where py_name = "YW_KCB_BAK_000"
+2019-11-05 14:31:27,505-log_demo-INFO-insert_xtp_default_fee_rateYW_KCB_BAK_000success!
+2019-11-05 14:31:27,511-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-05 14:31:27,584-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-05 14:31:34,737-myloger-WARNING-OMS断网(沪A限价未成买入)
+2019-11-05 14:31:35,158-myloger-WARNING-执行结果为True,,
+2019-11-05 14:31:35,160-myloger-WARNING-OMS断网(沪A限价部成买入)
+2019-11-05 14:31:35,589-myloger-WARNING-执行结果为True,,
+2019-11-05 14:31:35,591-myloger-WARNING-OMS断网（沪A限价全成买入）
+2019-11-05 14:31:36,014-myloger-WARNING-执行结果为True,,
+2019-11-05 14:31:36,015-myloger-WARNING-OMS断网（沪A限价全撤买入）
+2019-11-05 14:31:36,437-myloger-WARNING-执行结果为True,,
+2019-11-05 14:31:36,439-myloger-WARNING-OMS断网（沪A限价部撤买入）
+2019-11-05 14:31:36,860-myloger-WARNING-执行结果为True,,
+2019-11-05 14:31:36,862-myloger-WARNING-OMS断网（沪A限价废单买入）
+2019-11-05 14:31:37,283-myloger-WARNING-执行结果为True,,
+2019-11-05 14:31:37,285-myloger-WARNING-OMS断网（沪A限价撤废买入）
+2019-11-05 14:31:37,707-myloger-WARNING-执行结果为True,,
+2019-11-05 14:31:37,708-myloger-WARNING-OMS断网(沪A五档即成转限价未成买入)
+2019-11-05 14:31:38,130-myloger-WARNING-执行结果为True,,
+2019-11-05 14:31:38,133-myloger-WARNING-OMS断网(沪A五档即成转限价部成买入)
+2019-11-05 14:31:38,557-myloger-WARNING-执行结果为True,,
+2019-11-05 14:31:38,559-myloger-WARNING-OMS断网（沪A五档即成转限价全成买入）
+2019-11-05 14:31:38,981-myloger-WARNING-执行结果为True,,
+2019-11-05 14:31:38,983-myloger-WARNING-OMS断网（沪A五档即成转限价全撤买入）
+2019-11-05 14:31:39,404-myloger-WARNING-执行结果为True,,
+2019-11-05 14:31:39,407-myloger-WARNING-OMS断网（沪A五档即成转限价部撤买入）
+2019-11-05 14:31:39,832-myloger-WARNING-执行结果为True,,
+2019-11-05 14:31:39,834-myloger-WARNING-OMS断网（沪A五档即成转限价撤废买入）
+2019-11-05 14:31:40,255-myloger-WARNING-执行结果为True,,
+2019-11-05 14:31:40,257-myloger-WARNING-OMS断网（沪A五档即成转限价废单买入）
+2019-11-05 14:31:40,679-myloger-WARNING-执行结果为True,,
+2019-11-05 14:31:40,681-myloger-WARNING-OMS断网（沪A五档即成转撤单全成买入）
+2019-11-05 14:31:41,103-myloger-WARNING-执行结果为True,,
+2019-11-05 14:31:41,105-myloger-WARNING-OMS断网（沪A五档即成转撤单部撤买入）
+2019-11-05 14:31:41,527-myloger-WARNING-执行结果为True,,
+2019-11-05 14:31:41,529-myloger-WARNING-OMS断网（沪A五档即成转撤单全撤买入）
+2019-11-05 14:31:41,950-myloger-WARNING-执行结果为True,,
+2019-11-05 14:31:41,952-myloger-WARNING-OMS断网（沪A五档即成转撤单撤废买入）
+2019-11-05 14:31:42,374-myloger-WARNING-执行结果为True,,
+2019-11-05 14:31:42,376-myloger-WARNING-OMS断网（沪A五档即成转撤单废单买入）
+2019-11-05 14:31:42,798-myloger-WARNING-执行结果为True,,
+2019-11-05 14:31:42,800-myloger-WARNING-OMS断网（沪A本方最优未成买入）
+2019-11-05 14:31:43,221-myloger-WARNING-执行结果为True,,
+2019-11-05 14:31:43,223-myloger-WARNING-OMS断网（沪A本方最优部成买入）
+2019-11-05 14:31:43,645-myloger-WARNING-执行结果为True,,
+2019-11-05 14:31:43,647-myloger-WARNING-OMS断网（沪A本方最优全成买入）
+2019-11-05 14:31:44,071-myloger-WARNING-执行结果为True,,
+2019-11-05 14:31:44,073-myloger-WARNING-OMS断网（沪A本方最优全撤买入）
+2019-11-05 14:31:44,494-myloger-WARNING-执行结果为True,,
+2019-11-05 14:31:44,496-myloger-WARNING-OMS断网（沪A本方最优部撤买入）
+2019-11-05 14:31:44,918-myloger-WARNING-执行结果为True,,
+2019-11-05 14:31:44,920-myloger-WARNING-OMS断网（沪A本方最优撤废买入）
+2019-11-05 14:31:45,344-myloger-WARNING-执行结果为True,,
+2019-11-05 14:31:45,346-myloger-WARNING-OMS断网（沪A本方最优废单买入）
+2019-11-05 14:31:45,767-myloger-WARNING-执行结果为True,,
+2019-11-05 14:31:45,769-myloger-WARNING-OMS断网(沪A对手方最优转限价未成买入)
+2019-11-05 14:31:46,193-myloger-WARNING-执行结果为True,,
+2019-11-05 14:31:46,195-myloger-WARNING-OMS断网(沪A对手方最优转限价部成买入)
+2019-11-05 14:31:46,617-myloger-WARNING-执行结果为True,,
+2019-11-05 14:31:46,619-myloger-WARNING-OMS断网（沪A对手方最优转限价全成买入）
+2019-11-05 14:31:47,041-myloger-WARNING-执行结果为True,,
+2019-11-05 14:31:47,043-myloger-WARNING-OMS断网（沪A对手方最优转限价全撤买入）
+2019-11-05 14:31:47,464-myloger-WARNING-执行结果为True,,
+2019-11-05 14:31:47,466-myloger-WARNING-OMS断网（沪A对手方最优转限价部撤买入）
+2019-11-05 14:31:47,895-myloger-WARNING-执行结果为True,,
+2019-11-05 14:31:47,897-myloger-WARNING-OMS断网（沪A对手方最优转限价废单买入）
+2019-11-05 14:31:48,318-myloger-WARNING-执行结果为True,,
+2019-11-05 14:31:48,320-myloger-WARNING-OMS断网（沪A对手方最优转限价撤废买入）
+2019-11-05 14:31:48,746-myloger-WARNING-执行结果为True,,
+2019-11-05 14:31:48,748-myloger-WARNING-OMS断网(沪A限价未成卖出)
+2019-11-05 14:31:53,775-myloger-WARNING-OMS断网(沪A限价部成卖出)
+2019-11-05 14:31:58,801-myloger-WARNING-OMS断网（沪A限价全成卖出）
+2019-11-05 14:32:03,825-myloger-WARNING-OMS断网（沪A限价全撤卖出）
+2019-11-05 14:32:08,850-myloger-WARNING-OMS断网（沪A限价部撤卖出）
+2019-11-05 14:32:13,874-myloger-WARNING-OMS断网（沪A限价废单卖出）
+2019-11-05 14:32:18,903-myloger-WARNING-OMS断网（沪A限价撤废卖出）
+2019-11-05 14:32:23,928-myloger-WARNING-OMS断网（沪A限价：单笔成交_成交金额 < 手续费）
+2019-11-05 14:32:28,953-myloger-WARNING-OMS断网（沪A限价：分笔成交_累积成交金额 < 累积成交费用）
+2019-11-05 14:32:33,977-myloger-WARNING-OMS断网（沪A限价：分笔成交_累积成交金额 >= 手续费 且手续费小于最小值）
+2019-11-05 14:32:39,001-myloger-WARNING-OMS断网（沪A限价：分笔成交_累积成交金额 >= 手续费 且手续费大于最小值）
+2019-11-05 14:32:44,037-log_demo-INFO-delete from  xtp_default_fee_rate  
+            where fee_rate_id in (select fee_rate_id from  xtp_default_fee_rate_auto  where py_name = 'YW_KCB_YCHF_BUY_001')
+2019-11-05 14:32:44,039-log_demo-INFO-delete_xtp_default_fee_rateYW_KCB_YCHF_BUY_001success!
+2019-11-05 14:32:44,040-log_demo-INFO-insert into xtp_default_fee_rate select user_id, fee_rate_id, value 
+            from  xtp_default_fee_rate_auto  where py_name = "YW_KCB_YCHF_BUY_001"
+2019-11-05 14:32:44,043-log_demo-INFO-insert_xtp_default_fee_rateYW_KCB_YCHF_BUY_001success!
+2019-11-05 14:32:44,049-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-05 14:32:44,114-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-05 14:32:51,388-myloger-WARNING-OMS断网（沪A限价：买入最低特殊费用=0）
+2019-11-05 14:32:51,809-myloger-WARNING-执行结果为True,,
+2019-11-05 14:32:51,811-log_demo-INFO-delete from  xtp_default_fee_rate  
+            where fee_rate_id in (select fee_rate_id from  xtp_default_fee_rate_auto  where py_name = 'YW_KCB_BAK_000')
+2019-11-05 14:32:51,814-log_demo-INFO-delete_xtp_default_fee_rateYW_KCB_BAK_000success!
+2019-11-05 14:32:51,815-log_demo-INFO-insert into xtp_default_fee_rate select user_id, fee_rate_id, value 
+            from  xtp_default_fee_rate_auto  where py_name = "YW_KCB_BAK_000"
+2019-11-05 14:32:51,817-log_demo-INFO-insert_xtp_default_fee_rateYW_KCB_BAK_000success!
+2019-11-05 14:32:51,823-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-05 14:32:51,888-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-05 14:32:59,023-log_demo-INFO-delete from  xtp_default_fee_rate  
+            where fee_rate_id in (select fee_rate_id from  xtp_default_fee_rate_auto  where py_name = 'YW_KCB_YCHF_SELL_001')
+2019-11-05 14:32:59,026-log_demo-INFO-delete_xtp_default_fee_rateYW_KCB_YCHF_SELL_001success!
+2019-11-05 14:32:59,028-log_demo-INFO-insert into xtp_default_fee_rate select user_id, fee_rate_id, value 
+            from  xtp_default_fee_rate_auto  where py_name = "YW_KCB_YCHF_SELL_001"
+2019-11-05 14:32:59,029-log_demo-INFO-insert_xtp_default_fee_rateYW_KCB_YCHF_SELL_001success!
+2019-11-05 14:32:59,035-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-05 14:32:59,101-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-05 14:33:06,362-myloger-WARNING-OMS断网（沪A限价：卖出最低特殊费用=0）
+2019-11-05 14:33:06,820-myloger-WARNING-执行结果为True,,
+2019-11-05 14:33:06,821-log_demo-INFO-delete from  xtp_default_fee_rate  
+            where fee_rate_id in (select fee_rate_id from  xtp_default_fee_rate_auto  where py_name = 'YW_KCB_BAK_000')
+2019-11-05 14:33:06,823-log_demo-INFO-delete_xtp_default_fee_rateYW_KCB_BAK_000success!
+2019-11-05 14:33:06,824-log_demo-INFO-insert into xtp_default_fee_rate select user_id, fee_rate_id, value 
+            from  xtp_default_fee_rate_auto  where py_name = "YW_KCB_BAK_000"
+2019-11-05 14:33:06,826-log_demo-INFO-insert_xtp_default_fee_rateYW_KCB_BAK_000success!
+2019-11-05 14:33:06,832-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-05 14:33:06,897-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-05 14:33:14,072-myloger-WARNING-OMS断网(沪A五档即成转限价未成卖出)
+2019-11-05 14:33:19,103-myloger-WARNING-OMS断网(沪A五档即成转限价部成卖出)
+2019-11-05 14:33:24,127-myloger-WARNING-OMS断网（沪A五档即成转限价全成卖出）
+2019-11-05 14:33:29,151-myloger-WARNING-OMS断网（沪A五档即成转限价全撤卖出）
+2019-11-05 14:33:34,175-myloger-WARNING-OMS断网（沪A五档即成转限价部撤卖出）
+2019-11-05 14:33:39,201-myloger-WARNING-OMS断网（沪A五档即成转限价撤废卖出）
+2019-11-05 14:33:44,235-myloger-WARNING-OMS断网（沪A五档即成转限价废单卖出）
+2019-11-05 14:33:49,260-myloger-WARNING-OMS断网（沪A五档即成转限价：单笔成交_成交金额 < 手续费）
+2019-11-05 14:33:54,294-myloger-WARNING-OMS断网（沪A五档即成转限价：分笔成交_累积成交金额 < 累积成交费用）
+2019-11-05 14:33:59,319-myloger-WARNING-OMS断网（沪A五档即成转限价：分笔成交_累积成交金额 >= 手续费 且手续费小于最小值）
+2019-11-05 14:34:04,344-myloger-WARNING-OMS断网（沪A五档即成转限价：分笔成交_累积成交金额 >= 手续费 且手续费大于最小值）
+2019-11-05 14:34:09,368-log_demo-INFO-delete from  xtp_default_fee_rate  
+            where fee_rate_id in (select fee_rate_id from  xtp_default_fee_rate_auto  where py_name = 'YW_KCB_YCHF_BUY_001')
+2019-11-05 14:34:09,370-log_demo-INFO-delete_xtp_default_fee_rateYW_KCB_YCHF_BUY_001success!
+2019-11-05 14:34:09,371-log_demo-INFO-insert into xtp_default_fee_rate select user_id, fee_rate_id, value 
+            from  xtp_default_fee_rate_auto  where py_name = "YW_KCB_YCHF_BUY_001"
+2019-11-05 14:34:09,372-log_demo-INFO-insert_xtp_default_fee_rateYW_KCB_YCHF_BUY_001success!
+2019-11-05 14:34:09,379-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-05 14:34:09,444-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-05 14:34:16,714-myloger-WARNING-OMS断网（沪A五档即成转限价：买入最低特殊费用=0）
+2019-11-05 14:34:17,136-myloger-WARNING-执行结果为True,,
+2019-11-05 14:34:17,138-log_demo-INFO-delete from  xtp_default_fee_rate  
+            where fee_rate_id in (select fee_rate_id from  xtp_default_fee_rate_auto  where py_name = 'YW_KCB_BAK_000')
+2019-11-05 14:34:17,140-log_demo-INFO-delete_xtp_default_fee_rateYW_KCB_BAK_000success!
+2019-11-05 14:34:17,141-log_demo-INFO-insert into xtp_default_fee_rate select user_id, fee_rate_id, value 
+            from  xtp_default_fee_rate_auto  where py_name = "YW_KCB_BAK_000"
+2019-11-05 14:34:17,144-log_demo-INFO-insert_xtp_default_fee_rateYW_KCB_BAK_000success!
+2019-11-05 14:34:17,150-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-05 14:34:17,215-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-05 14:34:24,393-log_demo-INFO-delete from  xtp_default_fee_rate  
+            where fee_rate_id in (select fee_rate_id from  xtp_default_fee_rate_auto  where py_name = 'YW_KCB_YCHF_SELL_001')
+2019-11-05 14:34:24,395-log_demo-INFO-delete_xtp_default_fee_rateYW_KCB_YCHF_SELL_001success!
+2019-11-05 14:34:24,396-log_demo-INFO-insert into xtp_default_fee_rate select user_id, fee_rate_id, value 
+            from  xtp_default_fee_rate_auto  where py_name = "YW_KCB_YCHF_SELL_001"
+2019-11-05 14:34:24,398-log_demo-INFO-insert_xtp_default_fee_rateYW_KCB_YCHF_SELL_001success!
+2019-11-05 14:34:24,405-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-05 14:34:24,471-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-05 14:34:31,765-myloger-WARNING-OMS断网（沪A五档即成转限价：卖出最低特殊费用=0）
+2019-11-05 14:34:32,224-myloger-WARNING-执行结果为True,,
+2019-11-05 14:34:32,226-log_demo-INFO-delete from  xtp_default_fee_rate  
+            where fee_rate_id in (select fee_rate_id from  xtp_default_fee_rate_auto  where py_name = 'YW_KCB_BAK_000')
+2019-11-05 14:34:32,228-log_demo-INFO-delete_xtp_default_fee_rateYW_KCB_BAK_000success!
+2019-11-05 14:34:32,229-log_demo-INFO-insert into xtp_default_fee_rate select user_id, fee_rate_id, value 
+            from  xtp_default_fee_rate_auto  where py_name = "YW_KCB_BAK_000"
+2019-11-05 14:34:32,231-log_demo-INFO-insert_xtp_default_fee_rateYW_KCB_BAK_000success!
+2019-11-05 14:34:32,238-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-05 14:34:32,304-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-05 14:34:39,440-myloger-WARNING-OMS断网（沪A五档即成转撤单全成卖出）
+2019-11-05 14:34:44,467-myloger-WARNING-OMS断网（沪A五档即成转撤单部撤卖出）
+2019-11-05 14:34:49,491-myloger-WARNING-OMS断网（沪A五档即成转撤单全撤卖出）
+2019-11-05 14:34:54,517-myloger-WARNING-OMS断网（沪A五档即成转撤单撤废卖出）
+2019-11-05 14:34:59,545-myloger-WARNING-OMS断网（沪A五档即成转撤单废单卖出）
+2019-11-05 14:35:04,569-myloger-WARNING-OMS断网（沪A五档即成转撤销：单笔成交_成交金额 < 手续费）
+2019-11-05 14:35:09,594-myloger-WARNING-OMS断网（沪A五档即成转撤销：分笔成交_累积成交金额 < 累积成交费用）
+2019-11-05 14:35:14,626-myloger-WARNING-OMS断网（沪A五档即成转撤销：分笔成交_累积成交金额 >= 手续费 且手续费小于最小值）
+2019-11-05 14:35:19,651-myloger-WARNING-OMS断网（沪A五档即成转撤销：分笔成交_累积成交金额 >= 手续费 且手续费大于最小值）
+2019-11-05 14:35:24,675-log_demo-INFO-delete from  xtp_default_fee_rate  
+            where fee_rate_id in (select fee_rate_id from  xtp_default_fee_rate_auto  where py_name = 'YW_KCB_YCHF_BUY_001')
+2019-11-05 14:35:24,676-log_demo-INFO-delete_xtp_default_fee_rateYW_KCB_YCHF_BUY_001success!
+2019-11-05 14:35:24,677-log_demo-INFO-insert into xtp_default_fee_rate select user_id, fee_rate_id, value 
+            from  xtp_default_fee_rate_auto  where py_name = "YW_KCB_YCHF_BUY_001"
+2019-11-05 14:35:24,678-log_demo-INFO-insert_xtp_default_fee_rateYW_KCB_YCHF_BUY_001success!
+2019-11-05 14:35:24,686-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-05 14:35:24,753-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-05 14:35:32,055-myloger-WARNING-OMS断网（沪A五档即成转撤销：买入最低特殊费用=0）
+2019-11-05 14:35:32,477-myloger-WARNING-执行结果为True,,
+2019-11-05 14:35:32,479-log_demo-INFO-delete from  xtp_default_fee_rate  
+            where fee_rate_id in (select fee_rate_id from  xtp_default_fee_rate_auto  where py_name = 'YW_KCB_BAK_000')
+2019-11-05 14:35:32,482-log_demo-INFO-delete_xtp_default_fee_rateYW_KCB_BAK_000success!
+2019-11-05 14:35:32,482-log_demo-INFO-insert into xtp_default_fee_rate select user_id, fee_rate_id, value 
+            from  xtp_default_fee_rate_auto  where py_name = "YW_KCB_BAK_000"
+2019-11-05 14:35:32,485-log_demo-INFO-insert_xtp_default_fee_rateYW_KCB_BAK_000success!
+2019-11-05 14:35:32,493-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-05 14:35:32,563-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-05 14:35:39,718-log_demo-INFO-delete from  xtp_default_fee_rate  
+            where fee_rate_id in (select fee_rate_id from  xtp_default_fee_rate_auto  where py_name = 'YW_KCB_YCHF_SELL_001')
+2019-11-05 14:35:39,720-log_demo-INFO-delete_xtp_default_fee_rateYW_KCB_YCHF_SELL_001success!
+2019-11-05 14:35:39,721-log_demo-INFO-insert into xtp_default_fee_rate select user_id, fee_rate_id, value 
+            from  xtp_default_fee_rate_auto  where py_name = "YW_KCB_YCHF_SELL_001"
+2019-11-05 14:35:39,722-log_demo-INFO-insert_xtp_default_fee_rateYW_KCB_YCHF_SELL_001success!
+2019-11-05 14:35:39,729-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-05 14:35:39,794-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-05 14:35:47,082-myloger-WARNING-OMS断网（沪A五档即成转撤销：卖出最低特殊费用=0）
+2019-11-05 14:35:47,543-myloger-WARNING-执行结果为True,,
+2019-11-05 14:35:47,544-log_demo-INFO-delete from  xtp_default_fee_rate  
+            where fee_rate_id in (select fee_rate_id from  xtp_default_fee_rate_auto  where py_name = 'YW_KCB_BAK_000')
+2019-11-05 14:35:47,547-log_demo-INFO-delete_xtp_default_fee_rateYW_KCB_BAK_000success!
+2019-11-05 14:35:47,548-log_demo-INFO-insert into xtp_default_fee_rate select user_id, fee_rate_id, value 
+            from  xtp_default_fee_rate_auto  where py_name = "YW_KCB_BAK_000"
+2019-11-05 14:35:47,550-log_demo-INFO-insert_xtp_default_fee_rateYW_KCB_BAK_000success!
+2019-11-05 14:35:47,557-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-05 14:35:47,626-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-05 14:35:54,761-myloger-WARNING-OMS断网（沪A本方最优未成卖出）
+2019-11-05 14:35:59,789-myloger-WARNING-OMS断网（沪A本方最优部成卖出）
+2019-11-05 14:36:04,814-myloger-WARNING-OMS断网（沪A本方最优全成卖出）
+2019-11-05 14:36:09,842-myloger-WARNING-OMS断网（沪A本方最优全撤卖出）
+2019-11-05 14:36:14,866-myloger-WARNING-OMS断网（沪A本方最优部撤卖出）
+2019-11-05 14:36:19,893-myloger-WARNING-OMS断网（沪A本方最优撤废卖出）
+2019-11-05 14:36:24,917-myloger-WARNING-OMS断网（沪A本方最优废单卖出）
+2019-11-05 14:36:29,945-myloger-WARNING-OMS断网（沪A本方最优：单笔成交_成交金额 < 手续费）
+2019-11-05 14:36:34,970-myloger-WARNING-OMS断网（沪A本方最优：分笔成交_累积成交金额 < 累积成交费用）
+2019-11-05 14:36:39,997-myloger-WARNING-OMS断网（沪A本方最优：分笔成交_累积成交金额 >= 手续费 且手续费小于最小值）
+2019-11-05 14:36:45,022-myloger-WARNING-OMS断网（沪A本方最优：分笔成交_累积成交金额 >= 手续费 且手续费大于最小值）
+2019-11-05 14:36:50,046-log_demo-INFO-delete from  xtp_default_fee_rate  
+            where fee_rate_id in (select fee_rate_id from  xtp_default_fee_rate_auto  where py_name = 'YW_KCB_YCHF_BUY_001')
+2019-11-05 14:36:50,048-log_demo-INFO-delete_xtp_default_fee_rateYW_KCB_YCHF_BUY_001success!
+2019-11-05 14:36:50,049-log_demo-INFO-insert into xtp_default_fee_rate select user_id, fee_rate_id, value 
+            from  xtp_default_fee_rate_auto  where py_name = "YW_KCB_YCHF_BUY_001"
+2019-11-05 14:36:50,050-log_demo-INFO-insert_xtp_default_fee_rateYW_KCB_YCHF_BUY_001success!
+2019-11-05 14:36:50,057-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-05 14:36:50,124-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-05 14:36:57,382-myloger-WARNING-OMS断网（沪A本方最优：买入最低特殊费用=0）
+2019-11-05 14:36:57,804-myloger-WARNING-执行结果为True,,
+2019-11-05 14:36:57,805-log_demo-INFO-delete from  xtp_default_fee_rate  
+            where fee_rate_id in (select fee_rate_id from  xtp_default_fee_rate_auto  where py_name = 'YW_KCB_BAK_000')
+2019-11-05 14:36:57,807-log_demo-INFO-delete_xtp_default_fee_rateYW_KCB_BAK_000success!
+2019-11-05 14:36:57,808-log_demo-INFO-insert into xtp_default_fee_rate select user_id, fee_rate_id, value 
+            from  xtp_default_fee_rate_auto  where py_name = "YW_KCB_BAK_000"
+2019-11-05 14:36:57,810-log_demo-INFO-insert_xtp_default_fee_rateYW_KCB_BAK_000success!
+2019-11-05 14:36:57,817-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-05 14:36:57,882-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-05 14:37:05,034-log_demo-INFO-delete from  xtp_default_fee_rate  
+            where fee_rate_id in (select fee_rate_id from  xtp_default_fee_rate_auto  where py_name = 'YW_KCB_YCHF_SELL_001')
+2019-11-05 14:37:05,036-log_demo-INFO-delete_xtp_default_fee_rateYW_KCB_YCHF_SELL_001success!
+2019-11-05 14:37:05,038-log_demo-INFO-insert into xtp_default_fee_rate select user_id, fee_rate_id, value 
+            from  xtp_default_fee_rate_auto  where py_name = "YW_KCB_YCHF_SELL_001"
+2019-11-05 14:37:05,039-log_demo-INFO-insert_xtp_default_fee_rateYW_KCB_YCHF_SELL_001success!
+2019-11-05 14:37:05,045-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-05 14:37:05,127-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-05 14:37:12,425-myloger-WARNING-OMS断网（沪A本方最优：卖出最低特殊费用=0）
+2019-11-05 14:37:12,885-myloger-WARNING-执行结果为True,,
+2019-11-05 14:37:12,887-log_demo-INFO-delete from  xtp_default_fee_rate  
+            where fee_rate_id in (select fee_rate_id from  xtp_default_fee_rate_auto  where py_name = 'YW_KCB_BAK_000')
+2019-11-05 14:37:12,889-log_demo-INFO-delete_xtp_default_fee_rateYW_KCB_BAK_000success!
+2019-11-05 14:37:12,890-log_demo-INFO-insert into xtp_default_fee_rate select user_id, fee_rate_id, value 
+            from  xtp_default_fee_rate_auto  where py_name = "YW_KCB_BAK_000"
+2019-11-05 14:37:12,892-log_demo-INFO-insert_xtp_default_fee_rateYW_KCB_BAK_000success!
+2019-11-05 14:37:12,900-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-05 14:37:12,982-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-05 14:37:20,188-myloger-WARNING-OMS断网(沪A对手方最优转限价未成卖出)
+2019-11-05 14:37:25,215-myloger-WARNING-OMS断网(沪A对手方最优转限价部成卖出)
+2019-11-05 14:37:30,240-myloger-WARNING-OMS断网（沪A对手方最优转限价全成卖出）
+2019-11-05 14:37:35,266-myloger-WARNING-OMS断网（沪A对手方最优转限价全撤卖出）
+2019-11-05 14:37:40,292-myloger-WARNING-OMS断网（沪A对手方最优转限价部撤卖出）
+2019-11-05 14:37:45,317-myloger-WARNING-OMS断网（沪A对手方最优转限价废单卖出）
+2019-11-05 14:37:50,341-myloger-WARNING-OMS断网（沪A对手方最优转限价撤废卖出）
+2019-11-05 14:37:55,370-myloger-WARNING-OMS断网（沪A对手方最优转限价：单笔成交_成交金额 < 手续费）
+2019-11-05 14:38:00,395-myloger-WARNING-OMS断网（沪A对手方最优转限价：分笔成交_累积成交金额 < 累积成交费用）
+2019-11-05 14:38:05,420-myloger-WARNING-OMS断网（沪A对手方最优转限价：分笔成交_累积成交金额 >= 手续费 且手续费小于最小值）
+2019-11-05 14:38:10,446-myloger-WARNING-OMS断网（沪A对手方最优转限价：分笔成交_累积成交金额 >= 手续费 且手续费大于最小值）
+2019-11-05 14:38:15,472-log_demo-INFO-delete from  xtp_default_fee_rate  
+            where fee_rate_id in (select fee_rate_id from  xtp_default_fee_rate_auto  where py_name = 'YW_KCB_YCHF_BUY_001')
+2019-11-05 14:38:15,474-log_demo-INFO-delete_xtp_default_fee_rateYW_KCB_YCHF_BUY_001success!
+2019-11-05 14:38:15,475-log_demo-INFO-insert into xtp_default_fee_rate select user_id, fee_rate_id, value 
+            from  xtp_default_fee_rate_auto  where py_name = "YW_KCB_YCHF_BUY_001"
+2019-11-05 14:38:15,477-log_demo-INFO-insert_xtp_default_fee_rateYW_KCB_YCHF_BUY_001success!
+2019-11-05 14:38:15,484-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-05 14:38:15,549-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-05 14:38:22,838-myloger-WARNING-OMS断网（沪A对手方最优转限价：买入最低特殊费用=0）
+2019-11-05 14:38:23,265-myloger-WARNING-执行结果为True,,
+2019-11-05 14:38:23,266-log_demo-INFO-delete from  xtp_default_fee_rate  
+            where fee_rate_id in (select fee_rate_id from  xtp_default_fee_rate_auto  where py_name = 'YW_KCB_BAK_000')
+2019-11-05 14:38:23,268-log_demo-INFO-delete_xtp_default_fee_rateYW_KCB_BAK_000success!
+2019-11-05 14:38:23,269-log_demo-INFO-insert into xtp_default_fee_rate select user_id, fee_rate_id, value 
+            from  xtp_default_fee_rate_auto  where py_name = "YW_KCB_BAK_000"
+2019-11-05 14:38:23,271-log_demo-INFO-insert_xtp_default_fee_rateYW_KCB_BAK_000success!
+2019-11-05 14:38:23,279-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-05 14:38:23,349-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-05 14:38:30,528-log_demo-INFO-delete from  xtp_default_fee_rate  
+            where fee_rate_id in (select fee_rate_id from  xtp_default_fee_rate_auto  where py_name = 'YW_KCB_YCHF_SELL_001')
+2019-11-05 14:38:30,531-log_demo-INFO-delete_xtp_default_fee_rateYW_KCB_YCHF_SELL_001success!
+2019-11-05 14:38:30,532-log_demo-INFO-insert into xtp_default_fee_rate select user_id, fee_rate_id, value 
+            from  xtp_default_fee_rate_auto  where py_name = "YW_KCB_YCHF_SELL_001"
+2019-11-05 14:38:30,534-log_demo-INFO-insert_xtp_default_fee_rateYW_KCB_YCHF_SELL_001success!
+2019-11-05 14:38:30,541-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-05 14:38:30,624-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-05 14:38:37,882-myloger-WARNING-OMS断网（沪A对手方最优转限价：卖出最低特殊费用=0）
+2019-11-05 14:38:38,342-myloger-WARNING-执行结果为True,,
+2019-11-05 14:38:38,343-log_demo-INFO-delete from  xtp_default_fee_rate  
+            where fee_rate_id in (select fee_rate_id from  xtp_default_fee_rate_auto  where py_name = 'YW_KCB_BAK_000')
+2019-11-05 14:38:38,345-log_demo-INFO-delete_xtp_default_fee_rateYW_KCB_BAK_000success!
+2019-11-05 14:38:38,346-log_demo-INFO-insert into xtp_default_fee_rate select user_id, fee_rate_id, value 
+            from  xtp_default_fee_rate_auto  where py_name = "YW_KCB_BAK_000"
+2019-11-05 14:38:38,349-log_demo-INFO-insert_xtp_default_fee_rateYW_KCB_BAK_000success!
+2019-11-05 14:38:38,355-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-05 14:38:38,421-paramiko.transport-INFO-Authentication (password) successful!

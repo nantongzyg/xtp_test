@@ -1,0 +1,9 @@
+python /home/yhl2/workspace/xtp_test/run/cybqx.py
+python /home/yhl2/workspace/xtp_test/run/fxjsqx.py
+python /home/yhl2/workspace/xtp_test/run/kcbqx.py
+python /home/yhl2/workspace/xtp_test/run/kcbxgsgqx.py
+python /home/yhl2/workspace/xtp_test/run/sjqx.py
+python /home/yhl2/workspace/xtp_test/run/tszlqx.py
+python /home/yhl2/workspace/xtp_test/run/cybggqx.py
+python /home/yhl2/workspace/xtp_test/run/cybggxgsgqx.py
+python /home/yhl2/workspace/xtp_test/run/cybggpgqx.py

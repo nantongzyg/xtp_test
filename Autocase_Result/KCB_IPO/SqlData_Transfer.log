@@ -1,0 +1,8 @@
+2020-03-20 17:29:48,139-log_demo-INFO-sql able to connect!
+2020-03-20 17:29:48,139-log_demo-INFO-TRUNCATE TABLE ashare_cjhb
+2020-03-20 17:29:48,143-log_demo-INFO-TRUNCATE TABLE ashare_ordwth
+2020-03-20 17:29:48,146-log_demo-INFO-TRUNCATE TABLE ashare_ordwth2
+2020-03-20 17:29:48,149-log_demo-INFO-TRUNCATE TABLE reqresp
+2020-03-20 17:29:48,152-log_demo-INFO-TRUNCATE TABLE execreport
+2020-03-20 17:29:48,156-log_demo-INFO-TRUNCATE TABLE ashare_ordwth_cancel
+2020-03-20 17:29:48,159-log_demo-INFO-truncate table ashare_ordwth_cancel success!

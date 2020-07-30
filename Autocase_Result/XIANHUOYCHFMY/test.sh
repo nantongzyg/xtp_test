@@ -1,0 +1,2 @@
+python /home/yhl2/workspace/xtp_test/Autocase_Result/XIANHUOYCHFMY/YCHF_PTMMYCHF_OMS_RESTART.py
+python /home/yhl2/workspace/xtp_test/Autocase_Result/XIANHUOYCHFMY/YCHF_PTMMYCHF_OMS_SHOFFER_RESTART.py

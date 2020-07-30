@@ -1,0 +1,87 @@
+2019-11-07 19:31:15,608-myloger-WARNING-五档即成转限价买-买前有持仓
+2019-11-07 19:31:16,178-myloger-WARNING-执行结果为True,,
+2019-11-07 19:31:16,179-myloger-WARNING-五档即成转限价买-保护价格<允许的最小价格0.01
+2019-11-07 19:31:16,738-myloger-WARNING-执行结果为True,,
+2019-11-07 19:31:16,740-myloger-WARNING-五档即成转限价买--保护价格>允许最大价格
+2019-11-07 19:31:17,312-myloger-WARNING-执行结果为True,,
+2019-11-07 19:31:17,314-myloger-WARNING-五档即成转限价卖-保护价格>允许的最大价格
+2019-11-07 19:31:17,917-myloger-WARNING-执行结果为True,,
+2019-11-07 19:31:17,919-myloger-WARNING-五档即成转限价卖--保护价格<<允许的最小价格
+2019-11-07 19:31:18,519-myloger-WARNING-执行结果为True,,
+2019-11-07 19:31:18,520-log_demo-INFO-delete from  xtp_default_fee_rate  
+            where fee_rate_id in (select fee_rate_id from  xtp_default_fee_rate_auto  where py_name = 'YW_KCB_HASNOPRICELIMIT_GPMM_SHSJ_WDZX_052')
+2019-11-07 19:31:18,521-log_demo-INFO-delete_xtp_default_fee_rateYW_KCB_HASNOPRICELIMIT_GPMM_SHSJ_WDZX_052success!
+2019-11-07 19:31:18,522-log_demo-INFO-insert into xtp_default_fee_rate select user_id, fee_rate_id, value 
+            from  xtp_default_fee_rate_auto  where py_name = "YW_KCB_HASNOPRICELIMIT_GPMM_SHSJ_WDZX_052"
+2019-11-07 19:31:18,523-log_demo-INFO-insert_xtp_default_fee_rateYW_KCB_HASNOPRICELIMIT_GPMM_SHSJ_WDZX_052success!
+2019-11-07 19:31:18,529-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:31:18,626-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:31:25,876-myloger-WARNING-买入最低特殊费用=0  xtp_default_fee_rate表改值
+2019-11-07 19:31:26,501-myloger-WARNING-执行结果为True,,
+2019-11-07 19:31:26,502-log_demo-INFO-delete from  xtp_default_fee_rate  
+            where fee_rate_id in (select fee_rate_id from  xtp_default_fee_rate_auto  where py_name = 'YW_KCB_BAK_000')
+2019-11-07 19:31:26,505-log_demo-INFO-delete_xtp_default_fee_rateYW_KCB_BAK_000success!
+2019-11-07 19:31:26,506-log_demo-INFO-insert into xtp_default_fee_rate select user_id, fee_rate_id, value 
+            from  xtp_default_fee_rate_auto  where py_name = "YW_KCB_BAK_000"
+2019-11-07 19:31:26,508-log_demo-INFO-insert_xtp_default_fee_rateYW_KCB_BAK_000success!
+2019-11-07 19:31:26,514-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:31:26,579-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:31:33,725-log_demo-INFO-delete from  xtp_default_fee_rate  
+            where fee_rate_id in (select fee_rate_id from  xtp_default_fee_rate_auto  where py_name = 'YW_KCB_HASNOPRICELIMIT_GPMM_SHSJ_WDZX_053')
+2019-11-07 19:31:33,726-log_demo-INFO-delete_xtp_default_fee_rateYW_KCB_HASNOPRICELIMIT_GPMM_SHSJ_WDZX_053success!
+2019-11-07 19:31:33,727-log_demo-INFO-insert into xtp_default_fee_rate select user_id, fee_rate_id, value 
+            from  xtp_default_fee_rate_auto  where py_name = "YW_KCB_HASNOPRICELIMIT_GPMM_SHSJ_WDZX_053"
+2019-11-07 19:31:33,727-log_demo-INFO-insert_xtp_default_fee_rateYW_KCB_HASNOPRICELIMIT_GPMM_SHSJ_WDZX_053success!
+2019-11-07 19:31:33,734-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:31:33,798-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:31:41,090-myloger-WARNING-卖出最低特殊费用=0  xtp_default_fee_rate表改值
+2019-11-07 19:31:41,696-myloger-WARNING-执行结果为True,,
+2019-11-07 19:31:41,697-log_demo-INFO-delete from  xtp_default_fee_rate  
+            where fee_rate_id in (select fee_rate_id from  xtp_default_fee_rate_auto  where py_name = 'YW_KCB_BAK_000')
+2019-11-07 19:31:41,699-log_demo-INFO-delete_xtp_default_fee_rateYW_KCB_BAK_000success!
+2019-11-07 19:31:41,700-log_demo-INFO-insert into xtp_default_fee_rate select user_id, fee_rate_id, value 
+            from  xtp_default_fee_rate_auto  where py_name = "YW_KCB_BAK_000"
+2019-11-07 19:31:41,701-log_demo-INFO-insert_xtp_default_fee_rateYW_KCB_BAK_000success!
+2019-11-07 19:31:41,708-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:31:41,774-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:31:49,038-myloger-WARNING-五档即成转撤销买-买前有持仓
+2019-11-07 19:31:54,062-myloger-WARNING-五档即成转撤销买-保护价格<允许的最小价格0.01
+2019-11-07 19:31:59,086-myloger-WARNING-五档即成转撤销买--保护价格>允许最大价格
+2019-11-07 19:32:04,110-myloger-WARNING-五档即成转撤销卖-保护价格>允许的最大价格
+2019-11-07 19:32:09,136-myloger-WARNING-五档即成转撤销卖--保护价格<<允许的最小价格
+2019-11-07 19:32:14,162-log_demo-INFO-delete from  xtp_default_fee_rate  
+            where fee_rate_id in (select fee_rate_id from  xtp_default_fee_rate_auto  where py_name = 'YW_KCB_HASNOPRICELIMIT_GPMM_SHSJ_WDZC_052')
+2019-11-07 19:32:14,162-log_demo-INFO-delete_xtp_default_fee_rateYW_KCB_HASNOPRICELIMIT_GPMM_SHSJ_WDZC_052success!
+2019-11-07 19:32:14,163-log_demo-INFO-insert into xtp_default_fee_rate select user_id, fee_rate_id, value 
+            from  xtp_default_fee_rate_auto  where py_name = "YW_KCB_HASNOPRICELIMIT_GPMM_SHSJ_WDZC_052"
+2019-11-07 19:32:14,164-log_demo-INFO-insert_xtp_default_fee_rateYW_KCB_HASNOPRICELIMIT_GPMM_SHSJ_WDZC_052success!
+2019-11-07 19:32:14,170-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:32:14,236-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:32:21,527-myloger-WARNING-买入最低特殊费用=0  xtp_default_fee_rate表改值
+2019-11-07 19:32:22,121-myloger-WARNING-执行结果为True,,
+2019-11-07 19:32:22,122-log_demo-INFO-delete from  xtp_default_fee_rate  
+            where fee_rate_id in (select fee_rate_id from  xtp_default_fee_rate_auto  where py_name = 'YW_KCB_BAK_000')
+2019-11-07 19:32:22,124-log_demo-INFO-delete_xtp_default_fee_rateYW_KCB_BAK_000success!
+2019-11-07 19:32:22,125-log_demo-INFO-insert into xtp_default_fee_rate select user_id, fee_rate_id, value 
+            from  xtp_default_fee_rate_auto  where py_name = "YW_KCB_BAK_000"
+2019-11-07 19:32:22,127-log_demo-INFO-insert_xtp_default_fee_rateYW_KCB_BAK_000success!
+2019-11-07 19:32:22,134-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:32:22,200-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:32:29,337-log_demo-INFO-delete from  xtp_default_fee_rate  
+            where fee_rate_id in (select fee_rate_id from  xtp_default_fee_rate_auto  where py_name = 'YW_KCB_HASNOPRICELIMIT_GPMM_SHSJ_WDZC_053')
+2019-11-07 19:32:29,338-log_demo-INFO-delete_xtp_default_fee_rateYW_KCB_HASNOPRICELIMIT_GPMM_SHSJ_WDZC_053success!
+2019-11-07 19:32:29,339-log_demo-INFO-insert into xtp_default_fee_rate select user_id, fee_rate_id, value 
+            from  xtp_default_fee_rate_auto  where py_name = "YW_KCB_HASNOPRICELIMIT_GPMM_SHSJ_WDZC_053"
+2019-11-07 19:32:29,340-log_demo-INFO-insert_xtp_default_fee_rateYW_KCB_HASNOPRICELIMIT_GPMM_SHSJ_WDZC_053success!
+2019-11-07 19:32:29,346-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:32:29,413-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:32:36,687-myloger-WARNING-卖出最低特殊费用=0  xtp_default_fee_rate表改值
+2019-11-07 19:32:37,295-myloger-WARNING-执行结果为True,,
+2019-11-07 19:32:37,296-log_demo-INFO-delete from  xtp_default_fee_rate  
+            where fee_rate_id in (select fee_rate_id from  xtp_default_fee_rate_auto  where py_name = 'YW_KCB_BAK_000')
+2019-11-07 19:32:37,300-log_demo-INFO-delete_xtp_default_fee_rateYW_KCB_BAK_000success!
+2019-11-07 19:32:37,301-log_demo-INFO-insert into xtp_default_fee_rate select user_id, fee_rate_id, value 
+            from  xtp_default_fee_rate_auto  where py_name = "YW_KCB_BAK_000"
+2019-11-07 19:32:37,302-log_demo-INFO-insert_xtp_default_fee_rateYW_KCB_BAK_000success!
+2019-11-07 19:32:37,309-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:32:37,384-paramiko.transport-INFO-Authentication (password) successful!

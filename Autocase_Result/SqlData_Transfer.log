@@ -1,0 +1,28 @@
+2020-07-29 18:19:24,199-log_demo-INFO-sql able to connect!
+2020-07-29 18:19:24,199-log_demo-INFO-delete from xtp_opt_fund_asset_20200729 where fund_acc = 300065003677 and oms_id = 6
+2020-07-29 18:19:24,201-log_demo-INFO-delete table xtp_opt_fund_asset_20200729 success!
+2020-07-29 18:19:24,250-log_demo-INFO-insert into xtp_opt_fund_asset_20200729
+                       select
+                        300065003677,
+                        cur_type,
+                        fund_avl_bal,
+                        fund_frz_bal,
+                        fund_bal,
+                        fund_buy_sale,
+                        fund_unc_buy,
+                        fund_unc_sale,
+                        fund_trsf,
+                        node_id,
+                        margin_used,
+                        margin_incl_rlt,
+                        fund_exe_freeze,
+                        fund_exe_margin,
+                        fund_fee_freeze,
+			6
+                  from xtp_opt_fund_asset_auto where py_name="YW_GGQQ_YWFSJHA_GOU_008"
+2020-07-29 18:19:24,252-log_demo-INFO-insert_fund_assetYW_GGQQ_YWFSJHA_GOU_008success!
+2020-07-29 18:19:24,252-myloger-WARNING-卖开（义务方开仓）：T日增加11002633和20002438空头持仓
+2020-07-29 18:19:25,772-myloger-WARNING-执行结果为True
+2020-07-29 18:19:28,792-myloger-WARNING-执行结果为True
+2020-07-29 18:19:31,814-myloger-WARNING-执行结果为True
+2020-07-29 18:19:34,834-myloger-WARNING-执行结果为True

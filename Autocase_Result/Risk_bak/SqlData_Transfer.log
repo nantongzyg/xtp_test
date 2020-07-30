@@ -1,0 +1,47 @@
+2018-12-21 17:14:47,195-log_demo-INFO-sql able to connect!
+2018-12-21 17:14:47,195-log_demo-INFO-delete xtp_cur_risk from xtp_cur_risk, xtp_oms_user where xtp_oms_user.user_name = 'testshopt02'  and xtp_cur_risk.server_id = xtp_oms_user.trade_server_id
+2018-12-21 17:14:47,197-log_demo-INFO-delete table xtp_cur_risk success!
+2018-12-21 17:14:47,198-log_demo-INFO-sql able to connect!
+2018-12-21 17:14:47,199-log_demo-INFO-sql able to connect!
+2018-12-21 17:14:47,199-log_demo-INFO-select * from xtp_cur_risk_auto where xtp_cur_risk_auto.py_name = 'FK_FKYW_GPWT_632'
+2018-12-21 17:14:47,199-log_demo-INFO-insert_cur_risk success!
+2018-12-21 17:14:47,200-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 0, '0', 16)
+2018-12-21 17:14:47,200-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 1001, '0', 16)
+2018-12-21 17:14:47,200-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 1002, '320000', 16)
+2018-12-21 17:14:47,200-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 2001, '0', 16)
+2018-12-21 17:14:47,200-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 2002, '10000000', 16)
+2018-12-21 17:14:47,201-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 9001, '0', 16)
+2018-12-21 17:14:47,201-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 9002, '310000', 16)
+2018-12-21 17:14:47,201-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 10001, '0', 16)
+2018-12-21 17:14:47,201-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 10002, '300000', 16)
+2018-12-21 17:14:47,201-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 14001, '0', 16)
+2018-12-21 17:14:47,202-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 14002, '3000', 16)
+2018-12-21 17:14:47,202-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 14003, '1', 16)
+2018-12-21 17:14:47,202-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 14004, '60', 16)
+2018-12-21 17:14:47,202-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 25001, '0', 16)
+2018-12-21 17:14:47,202-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 25002, '100', 16)
+2018-12-21 17:14:47,202-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 26001, '0', 16)
+2018-12-21 17:14:47,203-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 26002, '500', 16)
+2018-12-21 17:14:47,203-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 27001, '0', 16)
+2018-12-21 17:14:47,203-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 27002, '5', 16)
+2018-12-21 17:14:47,203-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 27003, '10', 16)
+2018-12-21 17:14:47,203-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 27004, '60', 16)
+2018-12-21 17:14:47,204-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 38001, '0', 16)
+2018-12-21 17:14:47,204-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 38002, '5', 16)
+2018-12-21 17:14:47,204-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 38003, '10', 16)
+2018-12-21 17:14:47,204-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 38004, '60', 16)
+2018-12-21 17:14:47,204-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 41001, '0', 16)
+2018-12-21 17:14:47,204-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 41002, '3', 16)
+2018-12-21 17:14:47,205-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 42001, '0', 16)
+2018-12-21 17:14:47,205-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 42002, '59', 16)
+2018-12-21 17:14:47,205-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 42003, '2', 16)
+2018-12-21 17:14:47,205-log_demo-INFO-insert into xtp_cur_risk values(null, -1, 43001, '1', 16)
+2018-12-21 17:14:47,205-log_demo-INFO-insert into xtp_cur_risk values(null, -1, 43002, '1000', 16)
+2018-12-21 17:14:47,205-log_demo-INFO-insert into xtp_cur_risk values(null, -1, 43003, '1', 16)
+2018-12-21 17:14:47,206-log_demo-INFO-insert into xtp_cur_risk values(null, -1, 43004, '60', 16)
+2018-12-21 17:14:47,206-log_demo-INFO-insert_cur_risk success!
+2018-12-21 17:14:47,207-paramiko.transport-DEBUG-starting thread (client mode): 0xb3537a50L
+2018-12-21 17:14:47,207-paramiko.transport-DEBUG-Local version/idstring: SSH-2.0-paramiko_2.4.1
+2018-12-21 17:14:47,213-paramiko.transport-DEBUG-Remote version/idstring: SSH-2.0-OpenSSH_6.6.1
+2018-12-21 17:14:47,213-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2018-12-21 17:14:47,215-paramiko.transport-DEBUG-EOF in transport thread

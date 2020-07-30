@@ -1,0 +1,296 @@
+2019-11-07 19:22:17,240-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:22:17,339-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:22:19,679-log_demo-INFO-sql able to connect!
+2019-11-07 19:22:19,679-log_demo-INFO-TRUNCATE TABLE ashare_cjhb
+2019-11-07 19:22:19,683-log_demo-INFO-TRUNCATE TABLE ashare_ordwth
+2019-11-07 19:22:19,694-log_demo-INFO-TRUNCATE TABLE ashare_ordwth2
+2019-11-07 19:22:19,696-log_demo-INFO-TRUNCATE TABLE reqresp
+2019-11-07 19:22:19,709-log_demo-INFO-TRUNCATE TABLE execreport
+2019-11-07 19:22:19,711-log_demo-INFO-TRUNCATE TABLE ashare_ordwth_cancel
+2019-11-07 19:22:19,724-log_demo-INFO-truncate table ashare_ordwth_cancel success!
+2019-11-07 19:22:19,730-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:22:19,796-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:22:21,826-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:22:21,893-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:22:23,920-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:22:24,024-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:22:31,327-myloger-WARNING-科创板新股申购--交易时间撤单
+2019-11-07 19:22:31,548-myloger-WARNING-报单查询等待...,xtpID=901029374143236049
+2019-11-07 19:22:31,867-myloger-WARNING-执行结果为True,,
+2019-11-07 19:22:31,869-myloger-WARNING-科创板新股申购--小于交易所规定最低额度：400股
+2019-11-07 19:22:32,408-myloger-WARNING-执行结果为True,,
+2019-11-07 19:22:32,415-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:22:32,480-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:22:34,793-log_demo-INFO-sql able to connect!
+2019-11-07 19:22:34,793-log_demo-INFO-TRUNCATE TABLE ashare_cjhb
+2019-11-07 19:22:34,803-log_demo-INFO-TRUNCATE TABLE ashare_ordwth
+2019-11-07 19:22:34,813-log_demo-INFO-TRUNCATE TABLE ashare_ordwth2
+2019-11-07 19:22:34,820-log_demo-INFO-TRUNCATE TABLE reqresp
+2019-11-07 19:22:34,855-log_demo-INFO-TRUNCATE TABLE execreport
+2019-11-07 19:22:34,857-log_demo-INFO-TRUNCATE TABLE ashare_ordwth_cancel
+2019-11-07 19:22:34,866-log_demo-INFO-truncate table ashare_ordwth_cancel success!
+2019-11-07 19:22:34,873-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:22:34,938-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:22:36,972-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:22:37,038-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:22:39,069-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:22:39,136-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:22:46,437-myloger-WARNING-科创板新股申购--等于交易所最低额度单位：500股
+2019-11-07 19:22:46,977-myloger-WARNING-执行结果为True,,
+2019-11-07 19:22:46,985-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:22:47,050-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:22:49,351-log_demo-INFO-sql able to connect!
+2019-11-07 19:22:49,351-log_demo-INFO-TRUNCATE TABLE ashare_cjhb
+2019-11-07 19:22:49,353-log_demo-INFO-TRUNCATE TABLE ashare_ordwth
+2019-11-07 19:22:49,366-log_demo-INFO-TRUNCATE TABLE ashare_ordwth2
+2019-11-07 19:22:49,368-log_demo-INFO-TRUNCATE TABLE reqresp
+2019-11-07 19:22:49,380-log_demo-INFO-TRUNCATE TABLE execreport
+2019-11-07 19:22:49,385-log_demo-INFO-TRUNCATE TABLE ashare_ordwth_cancel
+2019-11-07 19:22:49,387-log_demo-INFO-truncate table ashare_ordwth_cancel success!
+2019-11-07 19:22:49,394-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:22:49,464-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:22:51,497-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:22:51,564-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:22:53,596-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:22:53,667-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:23:00,977-myloger-WARNING-科创板新股申购--(交易所规定最低额度,交易所规定最高额度)&等于最低额度的整数倍
+2019-11-07 19:23:01,519-myloger-WARNING-执行结果为True,,
+2019-11-07 19:23:01,526-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:23:01,592-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:23:03,898-log_demo-INFO-sql able to connect!
+2019-11-07 19:23:03,898-log_demo-INFO-TRUNCATE TABLE ashare_cjhb
+2019-11-07 19:23:03,904-log_demo-INFO-TRUNCATE TABLE ashare_ordwth
+2019-11-07 19:23:03,914-log_demo-INFO-TRUNCATE TABLE ashare_ordwth2
+2019-11-07 19:23:03,919-log_demo-INFO-TRUNCATE TABLE reqresp
+2019-11-07 19:23:03,928-log_demo-INFO-TRUNCATE TABLE execreport
+2019-11-07 19:23:03,930-log_demo-INFO-TRUNCATE TABLE ashare_ordwth_cancel
+2019-11-07 19:23:03,944-log_demo-INFO-truncate table ashare_ordwth_cancel success!
+2019-11-07 19:23:03,953-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:23:04,029-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:23:06,085-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:23:06,151-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:23:08,183-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:23:08,252-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:23:15,509-myloger-WARNING-科创板新股申购--等于交易所规定最高申购数量：99,999,000股
+2019-11-07 19:23:16,073-myloger-WARNING-执行结果为True,,
+2019-11-07 19:23:16,080-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:23:16,145-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:23:18,469-log_demo-INFO-sql able to connect!
+2019-11-07 19:23:18,469-log_demo-INFO-TRUNCATE TABLE ashare_cjhb
+2019-11-07 19:23:18,476-log_demo-INFO-TRUNCATE TABLE ashare_ordwth
+2019-11-07 19:23:18,481-log_demo-INFO-TRUNCATE TABLE ashare_ordwth2
+2019-11-07 19:23:18,492-log_demo-INFO-TRUNCATE TABLE reqresp
+2019-11-07 19:23:18,505-log_demo-INFO-TRUNCATE TABLE execreport
+2019-11-07 19:23:18,508-log_demo-INFO-TRUNCATE TABLE ashare_ordwth_cancel
+2019-11-07 19:23:18,511-log_demo-INFO-truncate table ashare_ordwth_cancel success!
+2019-11-07 19:23:18,518-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:23:18,584-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:23:20,617-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:23:20,692-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:23:22,748-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:23:22,814-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:23:30,105-myloger-WARNING-科创板新股申购--大于交易所规定最高申购量：99,999,000股
+2019-11-07 19:23:30,643-myloger-WARNING-执行结果为True,,
+2019-11-07 19:23:30,652-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:23:30,722-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:23:33,022-log_demo-INFO-sql able to connect!
+2019-11-07 19:23:33,022-log_demo-INFO-TRUNCATE TABLE ashare_cjhb
+2019-11-07 19:23:33,027-log_demo-INFO-TRUNCATE TABLE ashare_ordwth
+2019-11-07 19:23:33,038-log_demo-INFO-TRUNCATE TABLE ashare_ordwth2
+2019-11-07 19:23:33,040-log_demo-INFO-TRUNCATE TABLE reqresp
+2019-11-07 19:23:33,053-log_demo-INFO-TRUNCATE TABLE execreport
+2019-11-07 19:23:33,055-log_demo-INFO-TRUNCATE TABLE ashare_ordwth_cancel
+2019-11-07 19:23:33,057-log_demo-INFO-truncate table ashare_ordwth_cancel success!
+2019-11-07 19:23:33,064-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:23:33,135-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:23:35,168-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:23:35,247-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:23:37,301-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:23:37,370-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:23:44,646-myloger-WARNING-科创板新股申购--等于股票申购额度：15000股
+2019-11-07 19:23:45,186-myloger-WARNING-执行结果为True,,
+2019-11-07 19:23:45,193-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:23:45,258-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:23:47,570-log_demo-INFO-sql able to connect!
+2019-11-07 19:23:47,570-log_demo-INFO-TRUNCATE TABLE ashare_cjhb
+2019-11-07 19:23:47,573-log_demo-INFO-TRUNCATE TABLE ashare_ordwth
+2019-11-07 19:23:47,585-log_demo-INFO-TRUNCATE TABLE ashare_ordwth2
+2019-11-07 19:23:47,589-log_demo-INFO-TRUNCATE TABLE reqresp
+2019-11-07 19:23:47,597-log_demo-INFO-TRUNCATE TABLE execreport
+2019-11-07 19:23:47,601-log_demo-INFO-TRUNCATE TABLE ashare_ordwth_cancel
+2019-11-07 19:23:47,616-log_demo-INFO-truncate table ashare_ordwth_cancel success!
+2019-11-07 19:23:47,624-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:23:47,689-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:23:49,728-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:23:49,795-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:23:51,826-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:23:51,901-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:23:59,230-myloger-WARNING-科创板新股申购--大于股票申购额度：16000股
+2019-11-07 19:23:59,782-myloger-WARNING-执行结果为True,,
+2019-11-07 19:23:59,790-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:23:59,856-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:24:02,152-log_demo-INFO-sql able to connect!
+2019-11-07 19:24:02,152-log_demo-INFO-TRUNCATE TABLE ashare_cjhb
+2019-11-07 19:24:02,163-log_demo-INFO-TRUNCATE TABLE ashare_ordwth
+2019-11-07 19:24:02,164-log_demo-INFO-TRUNCATE TABLE ashare_ordwth2
+2019-11-07 19:24:02,172-log_demo-INFO-TRUNCATE TABLE reqresp
+2019-11-07 19:24:02,177-log_demo-INFO-TRUNCATE TABLE execreport
+2019-11-07 19:24:02,179-log_demo-INFO-TRUNCATE TABLE ashare_ordwth_cancel
+2019-11-07 19:24:02,184-log_demo-INFO-truncate table ashare_ordwth_cancel success!
+2019-11-07 19:24:02,191-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:24:02,261-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:24:04,404-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:24:04,509-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:24:06,550-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:24:06,627-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:24:13,918-myloger-WARNING-科创板新股申购--等于客户申购额度：15000股
+2019-11-07 19:24:14,457-myloger-WARNING-执行结果为True,,
+2019-11-07 19:24:14,467-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:24:14,534-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:24:16,828-log_demo-INFO-sql able to connect!
+2019-11-07 19:24:16,828-log_demo-INFO-TRUNCATE TABLE ashare_cjhb
+2019-11-07 19:24:16,830-log_demo-INFO-TRUNCATE TABLE ashare_ordwth
+2019-11-07 19:24:16,832-log_demo-INFO-TRUNCATE TABLE ashare_ordwth2
+2019-11-07 19:24:16,834-log_demo-INFO-TRUNCATE TABLE reqresp
+2019-11-07 19:24:16,836-log_demo-INFO-TRUNCATE TABLE execreport
+2019-11-07 19:24:16,838-log_demo-INFO-TRUNCATE TABLE ashare_ordwth_cancel
+2019-11-07 19:24:16,842-log_demo-INFO-truncate table ashare_ordwth_cancel success!
+2019-11-07 19:24:16,852-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:24:16,926-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:24:18,968-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:24:19,071-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:24:21,112-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:24:21,179-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:24:28,254-myloger-WARNING-科创板新股申购--大于客户申购额度：16000股
+2019-11-07 19:24:28,793-myloger-WARNING-执行结果为True,,
+2019-11-07 19:24:28,803-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:24:28,870-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:24:31,179-log_demo-INFO-sql able to connect!
+2019-11-07 19:24:31,179-log_demo-INFO-TRUNCATE TABLE ashare_cjhb
+2019-11-07 19:24:31,180-log_demo-INFO-TRUNCATE TABLE ashare_ordwth
+2019-11-07 19:24:31,187-log_demo-INFO-TRUNCATE TABLE ashare_ordwth2
+2019-11-07 19:24:31,194-log_demo-INFO-TRUNCATE TABLE reqresp
+2019-11-07 19:24:31,196-log_demo-INFO-TRUNCATE TABLE execreport
+2019-11-07 19:24:31,232-log_demo-INFO-TRUNCATE TABLE ashare_ordwth_cancel
+2019-11-07 19:24:31,233-log_demo-INFO-truncate table ashare_ordwth_cancel success!
+2019-11-07 19:24:31,240-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:24:31,307-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:24:33,342-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:24:33,409-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:24:35,438-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:24:35,509-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:24:42,765-myloger-WARNING-科创板新股申购--价格条件：科创板市价类型
+2019-11-07 19:24:43,305-myloger-WARNING-执行结果为True,,
+2019-11-07 19:24:43,313-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:24:43,390-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:24:45,713-log_demo-INFO-sql able to connect!
+2019-11-07 19:24:45,713-log_demo-INFO-TRUNCATE TABLE ashare_cjhb
+2019-11-07 19:24:45,720-log_demo-INFO-TRUNCATE TABLE ashare_ordwth
+2019-11-07 19:24:45,727-log_demo-INFO-TRUNCATE TABLE ashare_ordwth2
+2019-11-07 19:24:45,730-log_demo-INFO-TRUNCATE TABLE reqresp
+2019-11-07 19:24:45,736-log_demo-INFO-TRUNCATE TABLE execreport
+2019-11-07 19:24:45,742-log_demo-INFO-TRUNCATE TABLE ashare_ordwth_cancel
+2019-11-07 19:24:45,747-log_demo-INFO-truncate table ashare_ordwth_cancel success!
+2019-11-07 19:24:45,753-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:24:45,819-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:24:47,853-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:24:47,924-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:24:49,954-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:24:50,020-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:24:57,297-myloger-WARNING-科创板新股申购--价格条件：深圳市价类型
+2019-11-07 19:24:57,834-myloger-WARNING-执行结果为True,,
+2019-11-07 19:24:57,844-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:24:57,960-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:25:00,336-log_demo-INFO-sql able to connect!
+2019-11-07 19:25:00,336-log_demo-INFO-TRUNCATE TABLE ashare_cjhb
+2019-11-07 19:25:00,338-log_demo-INFO-TRUNCATE TABLE ashare_ordwth
+2019-11-07 19:25:00,350-log_demo-INFO-TRUNCATE TABLE ashare_ordwth2
+2019-11-07 19:25:00,353-log_demo-INFO-TRUNCATE TABLE reqresp
+2019-11-07 19:25:00,366-log_demo-INFO-TRUNCATE TABLE execreport
+2019-11-07 19:25:00,368-log_demo-INFO-TRUNCATE TABLE ashare_ordwth_cancel
+2019-11-07 19:25:00,373-log_demo-INFO-truncate table ashare_ordwth_cancel success!
+2019-11-07 19:25:00,379-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:25:00,449-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:25:02,507-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:25:02,573-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:25:04,603-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:25:04,708-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:25:12,002-myloger-WARNING-科创板新股申购--非500的倍数
+2019-11-07 19:25:12,543-myloger-WARNING-执行结果为True,,
+2019-11-07 19:25:12,552-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:25:12,619-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:25:14,898-log_demo-INFO-sql able to connect!
+2019-11-07 19:25:14,899-log_demo-INFO-TRUNCATE TABLE ashare_cjhb
+2019-11-07 19:25:14,903-log_demo-INFO-TRUNCATE TABLE ashare_ordwth
+2019-11-07 19:25:14,913-log_demo-INFO-TRUNCATE TABLE ashare_ordwth2
+2019-11-07 19:25:14,914-log_demo-INFO-TRUNCATE TABLE reqresp
+2019-11-07 19:25:14,919-log_demo-INFO-TRUNCATE TABLE execreport
+2019-11-07 19:25:14,928-log_demo-INFO-TRUNCATE TABLE ashare_ordwth_cancel
+2019-11-07 19:25:14,930-log_demo-INFO-truncate table ashare_ordwth_cancel success!
+2019-11-07 19:25:14,937-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:25:15,002-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:25:17,049-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:25:17,117-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:25:19,148-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:25:19,214-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:25:26,510-myloger-WARNING-科创板新股申购--多次申购
+2019-11-07 19:25:26,510-myloger-WARNING-上海新股申购--多次申购-第一次下单
+2019-11-07 19:25:27,063-myloger-WARNING-执行结果为True,,
+2019-11-07 19:25:27,063-myloger-WARNING-上海新股申购--多次申购-第二次下单
+2019-11-07 19:25:27,604-myloger-WARNING-执行结果为True,,
+2019-11-07 19:25:27,604-myloger-WARNING-上海新股申购--多次申购-第三次下单
+2019-11-07 19:25:28,148-myloger-WARNING-执行结果为True,,
+2019-11-07 19:25:28,155-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:25:28,222-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:25:30,585-log_demo-INFO-sql able to connect!
+2019-11-07 19:25:30,585-log_demo-INFO-TRUNCATE TABLE ashare_cjhb
+2019-11-07 19:25:30,588-log_demo-INFO-TRUNCATE TABLE ashare_ordwth
+2019-11-07 19:25:30,601-log_demo-INFO-TRUNCATE TABLE ashare_ordwth2
+2019-11-07 19:25:30,603-log_demo-INFO-TRUNCATE TABLE reqresp
+2019-11-07 19:25:30,616-log_demo-INFO-TRUNCATE TABLE execreport
+2019-11-07 19:25:30,619-log_demo-INFO-TRUNCATE TABLE ashare_ordwth_cancel
+2019-11-07 19:25:30,623-log_demo-INFO-truncate table ashare_ordwth_cancel success!
+2019-11-07 19:25:30,630-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:25:30,698-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:25:32,731-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:25:32,796-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:25:34,826-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:25:34,905-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:25:42,228-myloger-WARNING-科创板新股申购--错误的市场
+2019-11-07 19:25:42,768-myloger-WARNING-执行结果为True,,
+2019-11-07 19:25:42,775-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:25:42,841-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:25:45,148-log_demo-INFO-sql able to connect!
+2019-11-07 19:25:45,148-log_demo-INFO-TRUNCATE TABLE ashare_cjhb
+2019-11-07 19:25:45,154-log_demo-INFO-TRUNCATE TABLE ashare_ordwth
+2019-11-07 19:25:45,164-log_demo-INFO-TRUNCATE TABLE ashare_ordwth2
+2019-11-07 19:25:45,264-log_demo-INFO-TRUNCATE TABLE reqresp
+2019-11-07 19:25:45,273-log_demo-INFO-TRUNCATE TABLE execreport
+2019-11-07 19:25:45,287-log_demo-INFO-TRUNCATE TABLE ashare_ordwth_cancel
+2019-11-07 19:25:45,289-log_demo-INFO-truncate table ashare_ordwth_cancel success!
+2019-11-07 19:25:45,296-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:25:45,367-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:25:47,400-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:25:47,466-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:25:49,495-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:25:49,603-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:25:56,900-myloger-WARNING-科创板新股申购--错误的证券代码
+2019-11-07 19:25:57,443-myloger-WARNING-执行结果为True,,
+2019-11-07 19:25:57,450-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:25:57,517-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:25:59,818-log_demo-INFO-sql able to connect!
+2019-11-07 19:25:59,818-log_demo-INFO-TRUNCATE TABLE ashare_cjhb
+2019-11-07 19:25:59,821-log_demo-INFO-TRUNCATE TABLE ashare_ordwth
+2019-11-07 19:25:59,827-log_demo-INFO-TRUNCATE TABLE ashare_ordwth2
+2019-11-07 19:25:59,836-log_demo-INFO-TRUNCATE TABLE reqresp
+2019-11-07 19:25:59,837-log_demo-INFO-TRUNCATE TABLE execreport
+2019-11-07 19:25:59,851-log_demo-INFO-TRUNCATE TABLE ashare_ordwth_cancel
+2019-11-07 19:25:59,852-log_demo-INFO-truncate table ashare_ordwth_cancel success!
+2019-11-07 19:25:59,859-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:25:59,925-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:26:01,956-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:26:02,022-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:26:04,049-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-07 19:26:04,118-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-07 19:26:11,385-myloger-WARNING-科创板新股申购--错误的业务类型
+2019-11-07 19:26:11,931-myloger-WARNING-执行结果为True,,

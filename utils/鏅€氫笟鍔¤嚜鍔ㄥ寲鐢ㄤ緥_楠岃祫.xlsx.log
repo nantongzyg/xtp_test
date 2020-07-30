@@ -1,0 +1,122 @@
+2020-04-24 13:50:11,388-log_demo-INFO-sql able to connect!
+2020-04-24 13:50:11,388-log_demo-INFO-delete from xtp_fund_asset_20200424 where fund_acc = 100065004975 and oms_id = 6
+2020-04-24 13:50:11,390-log_demo-INFO-delete table xtp_fund_asset_20200424 success!
+2020-04-24 13:50:11,437-log_demo-INFO-insert into xtp_fund_asset_20200424
+                       select
+                        100065004975,
+                        cur_type,
+                        fund_avl_bal,
+                        fund_frz_bal,
+                        fund_bal,
+                        fund_buy_sale,
+                        fund_unc_buy,
+                        fund_unc_sale,
+                        fund_trsf,
+                        node_id,
+                        6
+                  from xtp_fund_asset_auto where py_name="YW_PGJK_SZPG_003"
+2020-04-24 13:50:11,438-log_demo-INFO-insert_fund_assetYW_PGJK_SZPG_003success!
+2020-04-24 13:50:11,451-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2020-04-24 13:50:11,570-paramiko.transport-INFO-Authentication (password) successful!
+2020-04-24 13:50:14,390-log_demo-INFO-sql able to connect!
+2020-04-24 13:50:14,390-log_demo-INFO-TRUNCATE TABLE ashare_cjhb
+2020-04-24 13:50:14,392-log_demo-INFO-TRUNCATE TABLE ashare_ordwth
+2020-04-24 13:50:14,393-log_demo-INFO-TRUNCATE TABLE ashare_ordwth2
+2020-04-24 13:50:14,395-log_demo-INFO-TRUNCATE TABLE reqresp
+2020-04-24 13:50:14,396-log_demo-INFO-TRUNCATE TABLE execreport
+2020-04-24 13:50:14,398-log_demo-INFO-TRUNCATE TABLE ashare_ordwth_cancel
+2020-04-24 13:50:14,400-log_demo-INFO-truncate table ashare_ordwth_cancel success!
+2020-04-24 13:50:14,411-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2020-04-24 13:50:14,494-paramiko.transport-INFO-Authentication (password) successful!
+2020-04-24 13:50:54,914-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2020-04-24 13:50:54,997-paramiko.transport-INFO-Authentication (password) successful!
+2020-04-24 13:51:17,171-myloger-WARNING-深圳配股缴款--已报
+2020-04-24 13:51:19,756-myloger-WARNING-执行结果为True,,
+2020-04-24 13:51:19,779-myloger-WARNING-深圳配股缴款--验资：买数量负数
+2020-04-24 13:51:19,864-myloger-WARNING-执行结果为True,,
+2020-04-24 13:51:19,882-myloger-WARNING-深圳配股缴款--验资：买数量为0
+2020-04-24 13:51:20,460-myloger-WARNING-执行结果为True,,
+2020-04-24 13:51:20,476-myloger-WARNING-深圳配股缴款--验资：买数量=1亿
+2020-04-24 13:51:21,052-myloger-WARNING-执行结果为True,,
+2020-04-24 13:51:21,052-myloger-WARNING-深圳配股缴款--验资：买数量=100w
+2020-04-24 13:51:23,636-myloger-WARNING-执行结果为True,,
+2020-04-24 13:51:23,636-myloger-WARNING-深圳配股缴款--验资：买数量=99999999
+2020-04-24 13:51:26,214-myloger-WARNING-执行结果为True,,
+2020-04-24 13:51:26,260-log_demo-INFO-sql able to connect!
+2020-04-24 13:51:26,260-log_demo-INFO-delete from xtp_fund_asset_20200424 where fund_acc = 100065004975 and oms_id = 6
+2020-04-24 13:51:26,265-log_demo-INFO-delete table xtp_fund_asset_20200424 success!
+2020-04-24 13:51:26,310-log_demo-INFO-insert into xtp_fund_asset_20200424
+                       select
+                        100065004975,
+                        cur_type,
+                        fund_avl_bal,
+                        fund_frz_bal,
+                        fund_bal,
+                        fund_buy_sale,
+                        fund_unc_buy,
+                        fund_unc_sale,
+                        fund_trsf,
+                        node_id,
+                        6
+                  from xtp_fund_asset_auto where py_name="YW_PGJK_SZPG_024"
+2020-04-24 13:51:26,322-log_demo-INFO-insert_fund_assetYW_PGJK_SZPG_024success!
+2020-04-24 13:51:26,335-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2020-04-24 13:51:26,416-paramiko.transport-INFO-Authentication (password) successful!
+2020-04-24 13:51:29,251-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2020-04-24 13:51:29,336-paramiko.transport-INFO-Authentication (password) successful!
+2020-04-24 13:51:35,624-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2020-04-24 13:51:35,703-paramiko.transport-INFO-Authentication (password) successful!
+2020-04-24 13:51:57,932-myloger-WARNING-深圳配股缴款--验资：资金=买金额-0.01
+2020-04-24 13:51:58,515-myloger-WARNING-执行结果为True,,
+2020-04-24 13:51:58,562-log_demo-INFO-sql able to connect!
+2020-04-24 13:51:58,563-log_demo-INFO-delete from xtp_fund_asset_20200424 where fund_acc = 100065004975 and oms_id = 6
+2020-04-24 13:51:58,564-log_demo-INFO-delete table xtp_fund_asset_20200424 success!
+2020-04-24 13:51:58,610-log_demo-INFO-insert into xtp_fund_asset_20200424
+                       select
+                        100065004975,
+                        cur_type,
+                        fund_avl_bal,
+                        fund_frz_bal,
+                        fund_bal,
+                        fund_buy_sale,
+                        fund_unc_buy,
+                        fund_unc_sale,
+                        fund_trsf,
+                        node_id,
+                        6
+                  from xtp_fund_asset_auto where py_name="YW_PGJK_SZPG_022"
+2020-04-24 13:51:58,613-log_demo-INFO-insert_fund_assetYW_PGJK_SZPG_022success!
+2020-04-24 13:51:58,625-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2020-04-24 13:51:58,708-paramiko.transport-INFO-Authentication (password) successful!
+2020-04-24 13:52:01,525-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2020-04-24 13:52:01,607-paramiko.transport-INFO-Authentication (password) successful!
+2020-04-24 13:52:07,899-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2020-04-24 13:52:07,980-paramiko.transport-INFO-Authentication (password) successful!
+2020-04-24 13:52:30,331-myloger-WARNING-深圳配股缴款--验资：资金=买金额
+2020-04-24 13:52:32,910-myloger-WARNING-执行结果为True,,
+2020-04-24 13:52:32,958-log_demo-INFO-sql able to connect!
+2020-04-24 13:52:32,958-log_demo-INFO-delete from xtp_fund_asset_20200424 where fund_acc = 100065004975 and oms_id = 6
+2020-04-24 13:52:32,960-log_demo-INFO-delete table xtp_fund_asset_20200424 success!
+2020-04-24 13:52:33,006-log_demo-INFO-insert into xtp_fund_asset_20200424
+                       select
+                        100065004975,
+                        cur_type,
+                        fund_avl_bal,
+                        fund_frz_bal,
+                        fund_bal,
+                        fund_buy_sale,
+                        fund_unc_buy,
+                        fund_unc_sale,
+                        fund_trsf,
+                        node_id,
+                        6
+                  from xtp_fund_asset_auto where py_name="YW_PGJK_SZPG_023"
+2020-04-24 13:52:33,008-log_demo-INFO-insert_fund_assetYW_PGJK_SZPG_023success!
+2020-04-24 13:52:33,019-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2020-04-24 13:52:33,101-paramiko.transport-INFO-Authentication (password) successful!
+2020-04-24 13:52:35,906-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2020-04-24 13:52:35,989-paramiko.transport-INFO-Authentication (password) successful!
+2020-04-24 13:52:42,275-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2020-04-24 13:52:42,357-paramiko.transport-INFO-Authentication (password) successful!
+2020-04-24 13:53:04,730-myloger-WARNING-深圳配股缴款--验资：资金=买金额+0.01
+2020-04-24 13:53:07,309-myloger-WARNING-执行结果为True,,

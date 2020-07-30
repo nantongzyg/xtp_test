@@ -1,0 +1,34 @@
+<XTP>
+	<Server id="41" type="match" daemon="true"/>
+	<Gateway data_path="/home/xtp3/match/data/">
+		<gateway1 type="CAS" port="5031" name="F000633Y0045" pbuid="016701"/>
+		<gateway2 type="FIN" port="5032" name="F000633Y0045" pbuid="016701"/>
+		<gateway3 type="NON" port="5033" name="F000633Y0045" pbuid="016701"/>
+		<!--gateway4 type="DER" port="8022" name="N000633Y0002" pbuid="016701"/-->
+		<gateway5 type="CAS" port="5034" name="N000633Y0008" pbuid="016701"/>
+		<gateway6 type="FIN" port="5035" name="N000633Y0008" pbuid="016701"/>
+		<gateway7 type="NON" port="5036" name="N000633Y0008" pbuid="016701"/>
+		<!--gateway8 type="DER" port="9022" name="N000633Y0008" pbuid="016701"/-->
+	</Gateway>
+
+    <Rule mode="report" index="7" market_style="EqualHigh">
+            <rule1 account="0128569678" mode="report"/>
+            <rule2 account="0128569679" mode="pending"/>
+            <rule3 account="1" mode="pending"/>
+            <rule4 account="2" mode="report"/>
+            <rule5 account="3" mode="part"/>
+            <rule6 account="4" mode="cancel"/>
+            <rule7 account="5" mode="fail"/>
+        </Rule>
+	<!-- mode="auto|fail|pending|report|part|cancel" -->
+	<!-- type="Open|HourEnd|EqualHigh|EqualMedium|EqualLow|Exchange"-->
+
+    <Queue>
+		<match_queue name = "match_queue" size = "102400" busy_wait="false"/>
+		<push_queue name = "push_queue" size = "102400" busy_wait="false"/>
+	</Queue>
+	<!-- 内部队列 通常不需要修�?-->
+
+	<DBConfig source = "mc-test" username = "mc-test" password = "mc-test"/>
+	<Log path="/home/xtp3/match/log/match.log" level="debug"/>
+</XTP>

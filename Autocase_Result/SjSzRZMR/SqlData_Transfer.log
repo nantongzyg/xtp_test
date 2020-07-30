@@ -1,0 +1,382 @@
+2018-12-21 14:41:30,960-log_demo-INFO-sql able to connect!
+2018-12-21 14:41:30,960-log_demo-INFO-delete from xtp_credit_asset_20181221 where fund_acc = 200021000246
+2018-12-21 14:41:30,963-log_demo-INFO-delete table xtp_credit_asset_20181221 success!
+2018-12-21 14:41:30,964-log_demo-INFO-insert into xtp_credit_asset_20181221
+                       select
+                            2100069928,
+                            200021000246,
+                            branch_id,
+                            cur_type,
+                            fund_avl_bal,
+                            debt_bal,
+                            mar_avl,
+                            fund_des,
+                            asset_des,
+                            fi_avl,
+                            fi_used,
+                            fi_contract_amt,
+                            sl_avl,
+                            sl_used,
+                            sl_mkt,
+                            sub_stk_mkt,
+                            all_stk_mkt,
+                            mdbp_avl,
+                            rzbd_avl,
+                            mqhq_avl,
+                            xjhk_avl,
+                            expect_intr,
+                            other_fee,
+                            correct_amt,
+                            debts_type,
+                            debts_value,
+                            node_id
+                  from xtp_credit_asset_auto where py_name="YW_RZMR_SZSJ_173"
+2018-12-21 14:41:30,965-log_demo-INFO-insert_credit_assetYW_RZMR_SZSJ_173success!
+2018-12-21 14:41:30,966-log_demo-INFO-update 
+                         xtp_credit_cash_fund_asset_20181221 a
+                     inner join 
+                         xtp_credit_cash_fund_asset_auto b
+                     set
+                         a.fund_avl_bal = b.fund_avl_bal
+                     where 
+                         a.cash_grp_name = b.cash_grp_name
+                     and b.py_name = 'YW_RZMR_SZSJ_173'
+                  
+2018-12-21 14:41:30,968-log_demo-INFO-update_credit_cash_fund_assetYW_RZMR_SZSJ_173success!
+2018-12-21 14:41:30,968-paramiko.transport-DEBUG-starting thread (client mode): 0x82957250L
+2018-12-21 14:41:30,969-paramiko.transport-DEBUG-Local version/idstring: SSH-2.0-paramiko_2.4.1
+2018-12-21 14:41:30,974-paramiko.transport-DEBUG-Remote version/idstring: SSH-2.0-OpenSSH_6.6.1
+2018-12-21 14:41:30,974-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2018-12-21 14:41:30,975-paramiko.transport-DEBUG-kex algos:[u'curve25519-sha256@libssh.org', u'ecdh-sha2-nistp256', u'ecdh-sha2-nistp384', u'ecdh-sha2-nistp521', u'diffie-hellman-group-exchange-sha256', u'diffie-hellman-group-exchange-sha1', u'diffie-hellman-group14-sha1', u'diffie-hellman-group1-sha1'] server key:[u'ssh-rsa', u'ecdsa-sha2-nistp256', u'ssh-ed25519'] client encrypt:[u'aes128-ctr', u'aes192-ctr', u'aes256-ctr', u'arcfour256', u'arcfour128', u'aes128-gcm@openssh.com', u'aes256-gcm@openssh.com', u'chacha20-poly1305@openssh.com', u'aes128-cbc', u'3des-cbc', u'blowfish-cbc', u'cast128-cbc', u'aes192-cbc', u'aes256-cbc', u'arcfour', u'rijndael-cbc@lysator.liu.se'] server encrypt:[u'aes128-ctr', u'aes192-ctr', u'aes256-ctr', u'arcfour256', u'arcfour128', u'aes128-gcm@openssh.com', u'aes256-gcm@openssh.com', u'chacha20-poly1305@openssh.com', u'aes128-cbc', u'3des-cbc', u'blowfish-cbc', u'cast128-cbc', u'aes192-cbc', u'aes256-cbc', u'arcfour', u'rijndael-cbc@lysator.liu.se'] client mac:[u'hmac-md5-etm@openssh.com', u'hmac-sha1-etm@openssh.com', u'umac-64-etm@openssh.com', u'umac-128-etm@openssh.com', u'hmac-sha2-256-etm@openssh.com', u'hmac-sha2-512-etm@openssh.com', u'hmac-ripemd160-etm@openssh.com', u'hmac-sha1-96-etm@openssh.com', u'hmac-md5-96-etm@openssh.com', u'hmac-md5', u'hmac-sha1', u'umac-64@openssh.com', u'umac-128@openssh.com', u'hmac-sha2-256', u'hmac-sha2-512', u'hmac-ripemd160', u'hmac-ripemd160@openssh.com', u'hmac-sha1-96', u'hmac-md5-96'] server mac:[u'hmac-md5-etm@openssh.com', u'hmac-sha1-etm@openssh.com', u'umac-64-etm@openssh.com', u'umac-128-etm@openssh.com', u'hmac-sha2-256-etm@openssh.com', u'hmac-sha2-512-etm@openssh.com', u'hmac-ripemd160-etm@openssh.com', u'hmac-sha1-96-etm@openssh.com', u'hmac-md5-96-etm@openssh.com', u'hmac-md5', u'hmac-sha1', u'umac-64@openssh.com', u'umac-128@openssh.com', u'hmac-sha2-256', u'hmac-sha2-512', u'hmac-ripemd160', u'hmac-ripemd160@openssh.com', u'hmac-sha1-96', u'hmac-md5-96'] client compress:[u'none', u'zlib@openssh.com'] server compress:[u'none', u'zlib@openssh.com'] client lang:[u''] server lang:[u''] kex follows?False
+2018-12-21 14:41:30,975-paramiko.transport-DEBUG-Kex agreed: ecdh-sha2-nistp256
+2018-12-21 14:41:30,975-paramiko.transport-DEBUG-HostKey agreed: ssh-ed25519
+2018-12-21 14:41:30,975-paramiko.transport-DEBUG-Cipher agreed: aes128-ctr
+2018-12-21 14:41:30,975-paramiko.transport-DEBUG-MAC agreed: hmac-sha2-256
+2018-12-21 14:41:30,975-paramiko.transport-DEBUG-Compression agreed: none
+2018-12-21 14:41:31,008-paramiko.transport-DEBUG-kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2018-12-21 14:41:31,009-paramiko.transport-DEBUG-Switch to new keys ...
+2018-12-21 14:41:31,041-paramiko.transport-DEBUG-Adding ssh-ed25519 host key for 10.29.181.88: 9c589c255248bf0581d9b58ecf85e2ed
+2018-12-21 14:41:31,049-paramiko.transport-DEBUG-userauth is OK
+2018-12-21 14:41:31,074-paramiko.transport-INFO-Authentication (password) successful!
+2018-12-21 14:41:31,105-paramiko.transport-DEBUG-[chan 0] Max packet in: 32768 bytes
+2018-12-21 14:41:31,105-paramiko.transport-DEBUG-[chan 0] Max packet out: 32768 bytes
+2018-12-21 14:41:31,105-paramiko.transport-DEBUG-Secsh channel 0 opened.
+2018-12-21 14:41:31,107-paramiko.transport-DEBUG-[chan 0] Sesch channel 0 request ok
+2018-12-21 14:41:31,369-paramiko.transport-DEBUG-[chan 0] EOF received (0)
+2018-12-21 14:41:31,369-paramiko.transport-DEBUG-[chan 0] EOF sent (0)
+2018-12-21 14:41:33,373-paramiko.transport-DEBUG-EOF in transport thread
+2018-12-21 14:41:33,374-paramiko.transport-DEBUG-starting thread (client mode): 0x829572d0L
+2018-12-21 14:41:33,374-paramiko.transport-DEBUG-Local version/idstring: SSH-2.0-paramiko_2.4.1
+2018-12-21 14:41:33,379-paramiko.transport-DEBUG-Remote version/idstring: SSH-2.0-OpenSSH_6.6.1
+2018-12-21 14:41:33,379-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2018-12-21 14:41:33,381-paramiko.transport-DEBUG-kex algos:[u'curve25519-sha256@libssh.org', u'ecdh-sha2-nistp256', u'ecdh-sha2-nistp384', u'ecdh-sha2-nistp521', u'diffie-hellman-group-exchange-sha256', u'diffie-hellman-group-exchange-sha1', u'diffie-hellman-group14-sha1', u'diffie-hellman-group1-sha1'] server key:[u'ssh-rsa', u'ecdsa-sha2-nistp256', u'ssh-ed25519'] client encrypt:[u'aes128-ctr', u'aes192-ctr', u'aes256-ctr', u'arcfour256', u'arcfour128', u'aes128-gcm@openssh.com', u'aes256-gcm@openssh.com', u'chacha20-poly1305@openssh.com', u'aes128-cbc', u'3des-cbc', u'blowfish-cbc', u'cast128-cbc', u'aes192-cbc', u'aes256-cbc', u'arcfour', u'rijndael-cbc@lysator.liu.se'] server encrypt:[u'aes128-ctr', u'aes192-ctr', u'aes256-ctr', u'arcfour256', u'arcfour128', u'aes128-gcm@openssh.com', u'aes256-gcm@openssh.com', u'chacha20-poly1305@openssh.com', u'aes128-cbc', u'3des-cbc', u'blowfish-cbc', u'cast128-cbc', u'aes192-cbc', u'aes256-cbc', u'arcfour', u'rijndael-cbc@lysator.liu.se'] client mac:[u'hmac-md5-etm@openssh.com', u'hmac-sha1-etm@openssh.com', u'umac-64-etm@openssh.com', u'umac-128-etm@openssh.com', u'hmac-sha2-256-etm@openssh.com', u'hmac-sha2-512-etm@openssh.com', u'hmac-ripemd160-etm@openssh.com', u'hmac-sha1-96-etm@openssh.com', u'hmac-md5-96-etm@openssh.com', u'hmac-md5', u'hmac-sha1', u'umac-64@openssh.com', u'umac-128@openssh.com', u'hmac-sha2-256', u'hmac-sha2-512', u'hmac-ripemd160', u'hmac-ripemd160@openssh.com', u'hmac-sha1-96', u'hmac-md5-96'] server mac:[u'hmac-md5-etm@openssh.com', u'hmac-sha1-etm@openssh.com', u'umac-64-etm@openssh.com', u'umac-128-etm@openssh.com', u'hmac-sha2-256-etm@openssh.com', u'hmac-sha2-512-etm@openssh.com', u'hmac-ripemd160-etm@openssh.com', u'hmac-sha1-96-etm@openssh.com', u'hmac-md5-96-etm@openssh.com', u'hmac-md5', u'hmac-sha1', u'umac-64@openssh.com', u'umac-128@openssh.com', u'hmac-sha2-256', u'hmac-sha2-512', u'hmac-ripemd160', u'hmac-ripemd160@openssh.com', u'hmac-sha1-96', u'hmac-md5-96'] client compress:[u'none', u'zlib@openssh.com'] server compress:[u'none', u'zlib@openssh.com'] client lang:[u''] server lang:[u''] kex follows?False
+2018-12-21 14:41:33,381-paramiko.transport-DEBUG-Kex agreed: ecdh-sha2-nistp256
+2018-12-21 14:41:33,381-paramiko.transport-DEBUG-HostKey agreed: ssh-ed25519
+2018-12-21 14:41:33,382-paramiko.transport-DEBUG-Cipher agreed: aes128-ctr
+2018-12-21 14:41:33,382-paramiko.transport-DEBUG-MAC agreed: hmac-sha2-256
+2018-12-21 14:41:33,382-paramiko.transport-DEBUG-Compression agreed: none
+2018-12-21 14:41:33,423-paramiko.transport-DEBUG-kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2018-12-21 14:41:33,424-paramiko.transport-DEBUG-Switch to new keys ...
+2018-12-21 14:41:33,438-paramiko.transport-DEBUG-Adding ssh-ed25519 host key for 10.29.181.88: 9c589c255248bf0581d9b58ecf85e2ed
+2018-12-21 14:41:33,463-paramiko.transport-DEBUG-userauth is OK
+2018-12-21 14:41:33,487-paramiko.transport-INFO-Authentication (password) successful!
+2018-12-21 14:41:33,502-paramiko.transport-DEBUG-[chan 0] Max packet in: 32768 bytes
+2018-12-21 14:41:33,502-paramiko.transport-DEBUG-[chan 0] Max packet out: 32768 bytes
+2018-12-21 14:41:33,502-paramiko.transport-DEBUG-Secsh channel 0 opened.
+2018-12-21 14:41:33,504-paramiko.transport-DEBUG-[chan 0] Sesch channel 0 request ok
+2018-12-21 14:41:33,516-paramiko.transport-DEBUG-[chan 0] EOF received (0)
+2018-12-21 14:41:33,516-paramiko.transport-DEBUG-[chan 0] EOF sent (0)
+2018-12-21 14:41:35,518-paramiko.transport-DEBUG-[chan 1] Max packet in: 32768 bytes
+2018-12-21 14:41:35,519-paramiko.transport-DEBUG-[chan 1] Max packet out: 32768 bytes
+2018-12-21 14:41:35,519-paramiko.transport-DEBUG-Secsh channel 1 opened.
+2018-12-21 14:41:35,521-paramiko.transport-DEBUG-[chan 1] Sesch channel 1 request ok
+2018-12-21 14:41:35,532-paramiko.transport-DEBUG-[chan 1] EOF received (1)
+2018-12-21 14:41:35,533-paramiko.transport-DEBUG-[chan 1] EOF sent (1)
+2018-12-21 14:41:37,535-paramiko.transport-DEBUG-[chan 2] Max packet in: 32768 bytes
+2018-12-21 14:41:37,535-paramiko.transport-DEBUG-[chan 2] Max packet out: 32768 bytes
+2018-12-21 14:41:37,535-paramiko.transport-DEBUG-Secsh channel 2 opened.
+2018-12-21 14:41:37,537-paramiko.transport-DEBUG-[chan 2] Sesch channel 2 request ok
+2018-12-21 14:41:37,548-paramiko.transport-DEBUG-[chan 2] EOF received (2)
+2018-12-21 14:41:37,549-paramiko.transport-DEBUG-[chan 2] EOF sent (2)
+2018-12-21 14:41:39,552-paramiko.transport-DEBUG-EOF in transport thread
+2018-12-21 14:41:39,555-paramiko.transport-DEBUG-starting thread (client mode): 0x829571d0L
+2018-12-21 14:41:39,555-paramiko.transport-DEBUG-Local version/idstring: SSH-2.0-paramiko_2.4.1
+2018-12-21 14:41:39,560-paramiko.transport-DEBUG-Remote version/idstring: SSH-2.0-OpenSSH_6.6.1
+2018-12-21 14:41:39,561-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2018-12-21 14:41:39,562-paramiko.transport-DEBUG-kex algos:[u'curve25519-sha256@libssh.org', u'ecdh-sha2-nistp256', u'ecdh-sha2-nistp384', u'ecdh-sha2-nistp521', u'diffie-hellman-group-exchange-sha256', u'diffie-hellman-group-exchange-sha1', u'diffie-hellman-group14-sha1', u'diffie-hellman-group1-sha1'] server key:[u'ssh-rsa', u'ecdsa-sha2-nistp256', u'ssh-ed25519'] client encrypt:[u'aes128-ctr', u'aes192-ctr', u'aes256-ctr', u'arcfour256', u'arcfour128', u'aes128-gcm@openssh.com', u'aes256-gcm@openssh.com', u'chacha20-poly1305@openssh.com', u'aes128-cbc', u'3des-cbc', u'blowfish-cbc', u'cast128-cbc', u'aes192-cbc', u'aes256-cbc', u'arcfour', u'rijndael-cbc@lysator.liu.se'] server encrypt:[u'aes128-ctr', u'aes192-ctr', u'aes256-ctr', u'arcfour256', u'arcfour128', u'aes128-gcm@openssh.com', u'aes256-gcm@openssh.com', u'chacha20-poly1305@openssh.com', u'aes128-cbc', u'3des-cbc', u'blowfish-cbc', u'cast128-cbc', u'aes192-cbc', u'aes256-cbc', u'arcfour', u'rijndael-cbc@lysator.liu.se'] client mac:[u'hmac-md5-etm@openssh.com', u'hmac-sha1-etm@openssh.com', u'umac-64-etm@openssh.com', u'umac-128-etm@openssh.com', u'hmac-sha2-256-etm@openssh.com', u'hmac-sha2-512-etm@openssh.com', u'hmac-ripemd160-etm@openssh.com', u'hmac-sha1-96-etm@openssh.com', u'hmac-md5-96-etm@openssh.com', u'hmac-md5', u'hmac-sha1', u'umac-64@openssh.com', u'umac-128@openssh.com', u'hmac-sha2-256', u'hmac-sha2-512', u'hmac-ripemd160', u'hmac-ripemd160@openssh.com', u'hmac-sha1-96', u'hmac-md5-96'] server mac:[u'hmac-md5-etm@openssh.com', u'hmac-sha1-etm@openssh.com', u'umac-64-etm@openssh.com', u'umac-128-etm@openssh.com', u'hmac-sha2-256-etm@openssh.com', u'hmac-sha2-512-etm@openssh.com', u'hmac-ripemd160-etm@openssh.com', u'hmac-sha1-96-etm@openssh.com', u'hmac-md5-96-etm@openssh.com', u'hmac-md5', u'hmac-sha1', u'umac-64@openssh.com', u'umac-128@openssh.com', u'hmac-sha2-256', u'hmac-sha2-512', u'hmac-ripemd160', u'hmac-ripemd160@openssh.com', u'hmac-sha1-96', u'hmac-md5-96'] client compress:[u'none', u'zlib@openssh.com'] server compress:[u'none', u'zlib@openssh.com'] client lang:[u''] server lang:[u''] kex follows?False
+2018-12-21 14:41:39,562-paramiko.transport-DEBUG-Kex agreed: ecdh-sha2-nistp256
+2018-12-21 14:41:39,562-paramiko.transport-DEBUG-HostKey agreed: ssh-ed25519
+2018-12-21 14:41:39,562-paramiko.transport-DEBUG-Cipher agreed: aes128-ctr
+2018-12-21 14:41:39,562-paramiko.transport-DEBUG-MAC agreed: hmac-sha2-256
+2018-12-21 14:41:39,562-paramiko.transport-DEBUG-Compression agreed: none
+2018-12-21 14:41:39,566-paramiko.transport-DEBUG-kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2018-12-21 14:41:39,566-paramiko.transport-DEBUG-Switch to new keys ...
+2018-12-21 14:41:39,570-paramiko.transport-DEBUG-Adding ssh-ed25519 host key for 10.29.181.88: 9c589c255248bf0581d9b58ecf85e2ed
+2018-12-21 14:41:39,606-paramiko.transport-DEBUG-userauth is OK
+2018-12-21 14:41:39,629-paramiko.transport-INFO-Authentication (password) successful!
+2018-12-21 14:41:39,634-paramiko.transport-DEBUG-[chan 0] Max packet in: 32768 bytes
+2018-12-21 14:41:39,635-paramiko.transport-DEBUG-[chan 0] Max packet out: 32768 bytes
+2018-12-21 14:41:39,635-paramiko.transport-DEBUG-Secsh channel 0 opened.
+2018-12-21 14:41:39,637-paramiko.transport-DEBUG-[chan 0] Sesch channel 0 request ok
+2018-12-21 14:41:39,648-paramiko.transport-DEBUG-[chan 0] EOF received (0)
+2018-12-21 14:41:39,649-paramiko.transport-DEBUG-[chan 0] EOF sent (0)
+2018-12-21 14:41:41,652-paramiko.transport-DEBUG-EOF in transport thread
+2018-12-21 14:41:41,657-paramiko.transport-DEBUG-starting thread (client mode): 0x82957290L
+2018-12-21 14:41:41,657-paramiko.transport-DEBUG-Local version/idstring: SSH-2.0-paramiko_2.4.1
+2018-12-21 14:41:41,662-paramiko.transport-DEBUG-Remote version/idstring: SSH-2.0-OpenSSH_6.6.1
+2018-12-21 14:41:41,662-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2018-12-21 14:41:41,663-paramiko.transport-DEBUG-kex algos:[u'curve25519-sha256@libssh.org', u'ecdh-sha2-nistp256', u'ecdh-sha2-nistp384', u'ecdh-sha2-nistp521', u'diffie-hellman-group-exchange-sha256', u'diffie-hellman-group-exchange-sha1', u'diffie-hellman-group14-sha1', u'diffie-hellman-group1-sha1'] server key:[u'ssh-rsa', u'ecdsa-sha2-nistp256', u'ssh-ed25519'] client encrypt:[u'aes128-ctr', u'aes192-ctr', u'aes256-ctr', u'arcfour256', u'arcfour128', u'aes128-gcm@openssh.com', u'aes256-gcm@openssh.com', u'chacha20-poly1305@openssh.com', u'aes128-cbc', u'3des-cbc', u'blowfish-cbc', u'cast128-cbc', u'aes192-cbc', u'aes256-cbc', u'arcfour', u'rijndael-cbc@lysator.liu.se'] server encrypt:[u'aes128-ctr', u'aes192-ctr', u'aes256-ctr', u'arcfour256', u'arcfour128', u'aes128-gcm@openssh.com', u'aes256-gcm@openssh.com', u'chacha20-poly1305@openssh.com', u'aes128-cbc', u'3des-cbc', u'blowfish-cbc', u'cast128-cbc', u'aes192-cbc', u'aes256-cbc', u'arcfour', u'rijndael-cbc@lysator.liu.se'] client mac:[u'hmac-md5-etm@openssh.com', u'hmac-sha1-etm@openssh.com', u'umac-64-etm@openssh.com', u'umac-128-etm@openssh.com', u'hmac-sha2-256-etm@openssh.com', u'hmac-sha2-512-etm@openssh.com', u'hmac-ripemd160-etm@openssh.com', u'hmac-sha1-96-etm@openssh.com', u'hmac-md5-96-etm@openssh.com', u'hmac-md5', u'hmac-sha1', u'umac-64@openssh.com', u'umac-128@openssh.com', u'hmac-sha2-256', u'hmac-sha2-512', u'hmac-ripemd160', u'hmac-ripemd160@openssh.com', u'hmac-sha1-96', u'hmac-md5-96'] server mac:[u'hmac-md5-etm@openssh.com', u'hmac-sha1-etm@openssh.com', u'umac-64-etm@openssh.com', u'umac-128-etm@openssh.com', u'hmac-sha2-256-etm@openssh.com', u'hmac-sha2-512-etm@openssh.com', u'hmac-ripemd160-etm@openssh.com', u'hmac-sha1-96-etm@openssh.com', u'hmac-md5-96-etm@openssh.com', u'hmac-md5', u'hmac-sha1', u'umac-64@openssh.com', u'umac-128@openssh.com', u'hmac-sha2-256', u'hmac-sha2-512', u'hmac-ripemd160', u'hmac-ripemd160@openssh.com', u'hmac-sha1-96', u'hmac-md5-96'] client compress:[u'none', u'zlib@openssh.com'] server compress:[u'none', u'zlib@openssh.com'] client lang:[u''] server lang:[u''] kex follows?False
+2018-12-21 14:41:41,663-paramiko.transport-DEBUG-Kex agreed: ecdh-sha2-nistp256
+2018-12-21 14:41:41,663-paramiko.transport-DEBUG-HostKey agreed: ssh-ed25519
+2018-12-21 14:41:41,664-paramiko.transport-DEBUG-Cipher agreed: aes128-ctr
+2018-12-21 14:41:41,664-paramiko.transport-DEBUG-MAC agreed: hmac-sha2-256
+2018-12-21 14:41:41,664-paramiko.transport-DEBUG-Compression agreed: none
+2018-12-21 14:41:41,667-paramiko.transport-DEBUG-kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2018-12-21 14:41:41,667-paramiko.transport-DEBUG-Switch to new keys ...
+2018-12-21 14:41:41,672-paramiko.transport-DEBUG-Adding ssh-ed25519 host key for 10.29.181.88: 9c589c255248bf0581d9b58ecf85e2ed
+2018-12-21 14:41:41,707-paramiko.transport-DEBUG-userauth is OK
+2018-12-21 14:41:41,730-paramiko.transport-INFO-Authentication (password) successful!
+2018-12-21 14:41:41,736-paramiko.transport-DEBUG-[chan 0] Max packet in: 32768 bytes
+2018-12-21 14:41:41,736-paramiko.transport-DEBUG-[chan 0] Max packet out: 32768 bytes
+2018-12-21 14:41:41,737-paramiko.transport-DEBUG-Secsh channel 0 opened.
+2018-12-21 14:41:41,738-paramiko.transport-DEBUG-[chan 0] Sesch channel 0 request ok
+2018-12-21 14:41:41,751-paramiko.transport-DEBUG-[chan 0] EOF received (0)
+2018-12-21 14:41:41,751-paramiko.transport-DEBUG-[chan 0] EOF sent (0)
+2018-12-21 14:41:43,754-paramiko.transport-DEBUG-starting thread (client mode): 0x82957210L
+2018-12-21 14:41:43,754-paramiko.transport-DEBUG-Local version/idstring: SSH-2.0-paramiko_2.4.1
+2018-12-21 14:41:43,759-paramiko.transport-DEBUG-Remote version/idstring: SSH-2.0-OpenSSH_6.6.1
+2018-12-21 14:41:43,759-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2018-12-21 14:41:43,760-paramiko.transport-DEBUG-kex algos:[u'curve25519-sha256@libssh.org', u'ecdh-sha2-nistp256', u'ecdh-sha2-nistp384', u'ecdh-sha2-nistp521', u'diffie-hellman-group-exchange-sha256', u'diffie-hellman-group-exchange-sha1', u'diffie-hellman-group14-sha1', u'diffie-hellman-group1-sha1'] server key:[u'ssh-rsa', u'ecdsa-sha2-nistp256', u'ssh-ed25519'] client encrypt:[u'aes128-ctr', u'aes192-ctr', u'aes256-ctr', u'arcfour256', u'arcfour128', u'aes128-gcm@openssh.com', u'aes256-gcm@openssh.com', u'chacha20-poly1305@openssh.com', u'aes128-cbc', u'3des-cbc', u'blowfish-cbc', u'cast128-cbc', u'aes192-cbc', u'aes256-cbc', u'arcfour', u'rijndael-cbc@lysator.liu.se'] server encrypt:[u'aes128-ctr', u'aes192-ctr', u'aes256-ctr', u'arcfour256', u'arcfour128', u'aes128-gcm@openssh.com', u'aes256-gcm@openssh.com', u'chacha20-poly1305@openssh.com', u'aes128-cbc', u'3des-cbc', u'blowfish-cbc', u'cast128-cbc', u'aes192-cbc', u'aes256-cbc', u'arcfour', u'rijndael-cbc@lysator.liu.se'] client mac:[u'hmac-md5-etm@openssh.com', u'hmac-sha1-etm@openssh.com', u'umac-64-etm@openssh.com', u'umac-128-etm@openssh.com', u'hmac-sha2-256-etm@openssh.com', u'hmac-sha2-512-etm@openssh.com', u'hmac-ripemd160-etm@openssh.com', u'hmac-sha1-96-etm@openssh.com', u'hmac-md5-96-etm@openssh.com', u'hmac-md5', u'hmac-sha1', u'umac-64@openssh.com', u'umac-128@openssh.com', u'hmac-sha2-256', u'hmac-sha2-512', u'hmac-ripemd160', u'hmac-ripemd160@openssh.com', u'hmac-sha1-96', u'hmac-md5-96'] server mac:[u'hmac-md5-etm@openssh.com', u'hmac-sha1-etm@openssh.com', u'umac-64-etm@openssh.com', u'umac-128-etm@openssh.com', u'hmac-sha2-256-etm@openssh.com', u'hmac-sha2-512-etm@openssh.com', u'hmac-ripemd160-etm@openssh.com', u'hmac-sha1-96-etm@openssh.com', u'hmac-md5-96-etm@openssh.com', u'hmac-md5', u'hmac-sha1', u'umac-64@openssh.com', u'umac-128@openssh.com', u'hmac-sha2-256', u'hmac-sha2-512', u'hmac-ripemd160', u'hmac-ripemd160@openssh.com', u'hmac-sha1-96', u'hmac-md5-96'] client compress:[u'none', u'zlib@openssh.com'] server compress:[u'none', u'zlib@openssh.com'] client lang:[u''] server lang:[u''] kex follows?False
+2018-12-21 14:41:43,760-paramiko.transport-DEBUG-Kex agreed: ecdh-sha2-nistp256
+2018-12-21 14:41:43,761-paramiko.transport-DEBUG-HostKey agreed: ssh-ed25519
+2018-12-21 14:41:43,761-paramiko.transport-DEBUG-Cipher agreed: aes128-ctr
+2018-12-21 14:41:43,761-paramiko.transport-DEBUG-MAC agreed: hmac-sha2-256
+2018-12-21 14:41:43,761-paramiko.transport-DEBUG-Compression agreed: none
+2018-12-21 14:41:43,764-paramiko.transport-DEBUG-kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2018-12-21 14:41:43,764-paramiko.transport-DEBUG-Switch to new keys ...
+2018-12-21 14:41:43,769-paramiko.transport-DEBUG-Adding ssh-ed25519 host key for 10.29.181.88: 9c589c255248bf0581d9b58ecf85e2ed
+2018-12-21 14:41:43,804-paramiko.transport-DEBUG-userauth is OK
+2018-12-21 14:41:43,828-paramiko.transport-INFO-Authentication (password) successful!
+2018-12-21 14:41:43,833-paramiko.transport-DEBUG-[chan 0] Max packet in: 32768 bytes
+2018-12-21 14:41:43,833-paramiko.transport-DEBUG-[chan 0] Max packet out: 32768 bytes
+2018-12-21 14:41:43,834-paramiko.transport-DEBUG-Secsh channel 0 opened.
+2018-12-21 14:41:43,835-paramiko.transport-DEBUG-[chan 0] Sesch channel 0 request ok
+2018-12-21 14:41:44,330-paramiko.transport-DEBUG-[chan 0] EOF received (0)
+2018-12-21 14:41:44,330-paramiko.transport-DEBUG-[chan 0] EOF sent (0)
+2018-12-21 14:41:47,333-paramiko.transport-DEBUG-[chan 1] Max packet in: 32768 bytes
+2018-12-21 14:41:47,334-paramiko.transport-DEBUG-[chan 1] Max packet out: 32768 bytes
+2018-12-21 14:41:47,334-paramiko.transport-DEBUG-Secsh channel 1 opened.
+2018-12-21 14:41:47,336-paramiko.transport-DEBUG-[chan 1] Sesch channel 1 request ok
+2018-12-21 14:41:47,909-paramiko.transport-DEBUG-[chan 1] EOF received (1)
+2018-12-21 14:41:47,909-paramiko.transport-DEBUG-[chan 1] EOF sent (1)
+2018-12-21 14:41:50,913-paramiko.transport-DEBUG-[chan 2] Max packet in: 32768 bytes
+2018-12-21 14:41:50,913-paramiko.transport-DEBUG-[chan 2] Max packet out: 32768 bytes
+2018-12-21 14:41:50,913-paramiko.transport-DEBUG-Secsh channel 2 opened.
+2018-12-21 14:41:50,915-paramiko.transport-DEBUG-[chan 2] Sesch channel 2 request ok
+2018-12-21 14:41:51,178-paramiko.transport-DEBUG-[chan 2] EOF received (2)
+2018-12-21 14:41:51,179-paramiko.transport-DEBUG-[chan 2] EOF sent (2)
+2018-12-21 14:41:54,181-paramiko.transport-DEBUG-[chan 3] Max packet in: 32768 bytes
+2018-12-21 14:41:54,181-paramiko.transport-DEBUG-[chan 3] Max packet out: 32768 bytes
+2018-12-21 14:41:54,181-paramiko.transport-DEBUG-Secsh channel 3 opened.
+2018-12-21 14:41:54,183-paramiko.transport-DEBUG-[chan 3] Sesch channel 3 request ok
+2018-12-21 14:41:54,655-paramiko.transport-DEBUG-[chan 3] EOF received (3)
+2018-12-21 14:41:54,655-paramiko.transport-DEBUG-[chan 3] EOF sent (3)
+2018-12-21 14:41:57,657-paramiko.transport-DEBUG-[chan 4] Max packet in: 32768 bytes
+2018-12-21 14:41:57,657-paramiko.transport-DEBUG-[chan 4] Max packet out: 32768 bytes
+2018-12-21 14:41:57,657-paramiko.transport-DEBUG-Secsh channel 4 opened.
+2018-12-21 14:41:57,659-paramiko.transport-DEBUG-[chan 4] Sesch channel 4 request ok
+2018-12-21 14:41:57,921-paramiko.transport-DEBUG-[chan 4] EOF received (4)
+2018-12-21 14:41:57,921-paramiko.transport-DEBUG-[chan 4] EOF sent (4)
+2018-12-21 14:41:59,922-paramiko.transport-DEBUG-[chan 5] Max packet in: 32768 bytes
+2018-12-21 14:41:59,922-paramiko.transport-DEBUG-[chan 5] Max packet out: 32768 bytes
+2018-12-21 14:41:59,922-paramiko.transport-DEBUG-Secsh channel 5 opened.
+2018-12-21 14:41:59,924-paramiko.transport-DEBUG-[chan 5] Sesch channel 5 request ok
+2018-12-21 14:42:00,286-paramiko.transport-DEBUG-[chan 5] EOF received (5)
+2018-12-21 14:42:00,286-paramiko.transport-DEBUG-[chan 5] EOF sent (5)
+2018-12-21 14:42:02,289-paramiko.transport-DEBUG-[chan 6] Max packet in: 32768 bytes
+2018-12-21 14:42:02,289-paramiko.transport-DEBUG-[chan 6] Max packet out: 32768 bytes
+2018-12-21 14:42:02,289-paramiko.transport-DEBUG-Secsh channel 6 opened.
+2018-12-21 14:42:02,291-paramiko.transport-DEBUG-[chan 6] Sesch channel 6 request ok
+2018-12-21 14:42:02,776-paramiko.transport-DEBUG-[chan 6] EOF received (6)
+2018-12-21 14:42:02,777-paramiko.transport-DEBUG-[chan 6] EOF sent (6)
+2018-12-21 14:42:04,780-paramiko.transport-DEBUG-EOF in transport thread
+2018-12-21 14:42:04,888-myloger-WARNING-对方最优转限价买--单金额+手续费>融资头寸+可用资金
+2018-12-21 14:42:04,893-myloger-INFO-查询到的委托入参相关信息如下
+2018-12-21 14:42:04,894-myloger-INFO-跌停价:8181.0
+2018-12-21 14:42:04,894-myloger-INFO-证券代码:003271
+2018-12-21 14:42:04,894-myloger-INFO-返回结果:True
+2018-12-21 14:42:04,894-myloger-INFO-卖－随机数量:0
+2018-12-21 14:42:04,894-myloger-INFO-涨停价:9999.0
+2018-12-21 14:42:04,894-myloger-INFO-昨收盘价:9090.0
+2018-12-21 14:42:04,894-myloger-INFO-随机中间价:9563.28
+2018-12-21 14:42:04,894-myloger-INFO-卖－可用数量:0
+2018-12-21 14:42:04,894-myloger-INFO-错误原因:
+2018-12-21 14:42:04,894-myloger-INFO-ParmIni初始化全局变量开始..
+2018-12-21 14:42:04,895-myloger-INFO-ParmIni初始化全局变量完成
+2018-12-21 14:42:04,895-myloger-INFO-测试用例入参和期待结果插入数据库
+2018-12-21 14:42:04,898-myloger-INFO-初始资金持仓为:
+2018-12-21 14:42:04,898-myloger-INFO-当天出入金:0.0
+2018-12-21 14:42:04,898-myloger-INFO-可用资金:2000.0
+2018-12-21 14:42:04,898-myloger-INFO-预垫付资金:0.0
+2018-12-21 14:42:04,898-myloger-INFO-预扣资金:0.0
+2018-12-21 14:42:04,898-myloger-INFO-资金资产:0.0
+2018-12-21 14:42:04,898-myloger-INFO-冻结保证金:0.0
+2018-12-21 14:42:04,898-myloger-INFO-两融保证金可用数:1.26569536689e+11
+2018-12-21 14:42:04,899-myloger-INFO-拥股数量:2000000
+2018-12-21 14:42:04,899-myloger-INFO-买入资金:0.0
+2018-12-21 14:42:04,899-myloger-INFO-维持担保品比例:20435048330.3
+2018-12-21 14:42:04,899-myloger-INFO-卖出资金:0.0
+2018-12-21 14:42:04,899-myloger-INFO-买入费用:0.0
+2018-12-21 14:42:04,899-myloger-INFO-信用账户总负债:9.0
+2018-12-21 14:42:04,899-myloger-INFO-可用股份数:2000000
+2018-12-21 14:42:04,899-myloger-INFO-市场:XTP_MKT_SZ_A
+2018-12-21 14:42:04,899-myloger-INFO-信用账户负债:0
+2018-12-21 14:42:04,899-myloger-INFO-行权冻结资金:0.0
+2018-12-21 14:42:04,899-myloger-INFO-行权费用:0.0
+2018-12-21 14:42:04,899-myloger-INFO-总资产:20070011332.5
+2018-12-21 14:42:04,899-myloger-INFO-融券卖出所得资金可用:20070009332.5
+2018-12-21 14:42:04,899-myloger-INFO-融资头寸可用金额:1002899.0
+2018-12-21 14:42:04,899-myloger-INFO-卖出费用:0.0
+2018-12-21 14:42:04,900-myloger-INFO-垫付资金:0.0
+2018-12-21 14:42:04,900-myloger-INFO-昨日持仓:2000000
+2018-12-21 14:42:04,900-myloger-INFO-昨日余额:0.0
+2018-12-21 14:42:04,900-myloger-INFO-当前余额:0.0
+2018-12-21 14:42:04,900-myloger-INFO-持仓成本:9900.0
+2018-12-21 14:42:04,900-myloger-INFO-总负债:9.0
+2018-12-21 14:42:04,900-myloger-INFO-证券资产:0.0
+2018-12-21 14:42:04,900-myloger-INFO-今日可申购赎回持仓:0
+2018-12-21 14:42:04,900-myloger-INFO-信用账户总资产:1.83915434972e+11
+2018-12-21 14:42:04,900-myloger-INFO-两融授信额度:200000000.0
+2018-12-21 14:42:04,900-myloger-INFO-股票代码:003271
+2018-12-21 14:42:04,900-myloger-INFO-当日交易资金轧差:0.0
+2018-12-21 14:42:04,900-myloger-INFO-浮动盈亏:0.0
+2018-12-21 14:42:04,900-myloger-INFO-下单的xtpID=108587150286548507
+2018-12-21 14:42:04,910-myloger-INFO-最终资金持仓为:
+2018-12-21 14:42:04,910-myloger-INFO-当天出入金:0.0
+2018-12-21 14:42:04,911-myloger-INFO-可用资金:2000.0
+2018-12-21 14:42:04,911-myloger-INFO-冻结融券数量:0
+2018-12-21 14:42:04,911-myloger-INFO-预垫付资金:0.0
+2018-12-21 14:42:04,911-myloger-INFO-预扣资金:0.0
+2018-12-21 14:42:04,911-myloger-INFO-资金资产:0.0
+2018-12-21 14:42:04,911-myloger-INFO-冻结保证金:0.0
+2018-12-21 14:42:04,911-myloger-INFO-两融保证金可用数:1.26569536689e+11
+2018-12-21 14:42:04,911-myloger-INFO-拥股数量:2000000
+2018-12-21 14:42:04,911-myloger-INFO-买入资金:0.0
+2018-12-21 14:42:04,911-myloger-INFO-剩余可融券数量:0
+2018-12-21 14:42:04,911-myloger-INFO-维持担保品比例:20435048330.3
+2018-12-21 14:42:04,911-myloger-INFO-昨日日融券数量:0
+2018-12-21 14:42:04,911-myloger-INFO-卖出资金:0.0
+2018-12-21 14:42:04,911-myloger-INFO-买入费用:0.0
+2018-12-21 14:42:04,911-myloger-INFO-信用账户总负债:9.0
+2018-12-21 14:42:04,912-myloger-INFO-可用股份数:2000000
+2018-12-21 14:42:04,912-myloger-INFO-市场:XTP_MKT_SZ_A
+2018-12-21 14:42:04,912-myloger-INFO-融券限量:0
+2018-12-21 14:42:04,912-myloger-INFO-行权冻结资金:0.0
+2018-12-21 14:42:04,912-myloger-INFO-行权费用:0.0
+2018-12-21 14:42:04,912-myloger-INFO-总资产:20070011332.5
+2018-12-21 14:42:04,912-myloger-INFO-融券卖出所得资金可用:20070009332.5
+2018-12-21 14:42:04,912-myloger-INFO-融资头寸可用金额:1002899.0
+2018-12-21 14:42:04,912-myloger-INFO-卖出费用:0.0
+2018-12-21 14:42:04,912-myloger-INFO-垫付资金:0.0
+2018-12-21 14:42:04,912-myloger-INFO-昨日持仓:2000000
+2018-12-21 14:42:04,913-myloger-INFO-昨日余额:0.0
+2018-12-21 14:42:04,913-myloger-INFO-当前余额:0.0
+2018-12-21 14:42:04,913-myloger-INFO-持仓成本:9900.0
+2018-12-21 14:42:04,913-myloger-INFO-证券资产:0.0
+2018-12-21 14:42:04,913-myloger-INFO-今日可申购赎回持仓:0
+2018-12-21 14:42:04,913-myloger-INFO-信用账户总资产:1.83915434972e+11
+2018-12-21 14:42:04,913-myloger-INFO-两融授信额度:200000000.0
+2018-12-21 14:42:04,913-myloger-INFO-股票代码:003271
+2018-12-21 14:42:04,913-myloger-INFO-当日交易资金轧差:0.0
+2018-12-21 14:42:04,913-myloger-INFO-浮动盈亏:0.0
+2018-12-21 14:42:04,913-myloger-INFO-正在进行报单查询，xtpID=108587150286548507
+2018-12-21 14:42:04,913-myloger-INFO-报单推送-报单状态/提交状态check结果:True,
+2018-12-21 14:42:04,913-myloger-INFO-报单回报状态为废单,XTP_ORDER_STATUS_REJECTED
+2018-12-21 14:42:04,914-myloger-INFO-这里是废单状态的报单推送业务校验
+2018-12-21 14:42:04,914-myloger-INFO-未成交状态报单回报校验正确！
+2018-12-21 14:42:04,914-myloger-INFO-报单推送数据检查结束，检查结果如下
+2018-12-21 14:42:04,914-myloger-INFO-撤销时间:0
+2018-12-21 14:42:04,914-myloger-INFO-报单检查状态:end
+2018-12-21 14:42:04,914-myloger-INFO-提交状态:XTP_ORDER_SUBMIT_STATUS_INSERT_REJECTED
+2018-12-21 14:42:04,914-myloger-INFO-报单状态:XTP_ORDER_STATUS_REJECTED
+2018-12-21 14:42:04,914-myloger-INFO-cancel_xtpID:0
+2018-12-21 14:42:04,914-myloger-INFO-成交金额:0.0
+2018-12-21 14:42:04,914-myloger-INFO-xtpID:108587150286548507
+2018-12-21 14:42:04,914-myloger-INFO-ErrMsg:Failed to check credit cash position.
+2018-12-21 14:42:04,914-myloger-INFO-剩余数量:10200
+2018-12-21 14:42:04,914-myloger-INFO-错误信息:
+2018-12-21 14:42:04,914-myloger-INFO-测试结果:True
+2018-12-21 14:42:04,914-myloger-INFO-委托时间:20181221144204902
+2018-12-21 14:42:04,915-myloger-INFO-成交数量:0
+2018-12-21 14:42:04,915-myloger-INFO-Err_code:11010502
+2018-12-21 14:42:04,915-myloger-INFO-最后修改时间:0
+2018-12-21 14:42:04,915-myloger-INFO-委托价格:9999.0
+2018-12-21 14:42:04,915-myloger-INFO-报单查询回调开始，当前报单xtpID=108587150286548507,报单状态=XTP_ORDER_STATUS_REJECTED,提交状态=XTP_ORDER_SUBMIT_STATUS_INSERT_REJECTED
+2018-12-21 14:42:04,918-myloger-INFO-最终资金持仓为:
+2018-12-21 14:42:04,918-myloger-INFO-当天出入金:0.0
+2018-12-21 14:42:04,918-myloger-INFO-可用资金:2000.0
+2018-12-21 14:42:04,918-myloger-INFO-冻结融券数量:0
+2018-12-21 14:42:04,918-myloger-INFO-预垫付资金:0.0
+2018-12-21 14:42:04,918-myloger-INFO-预扣资金:0.0
+2018-12-21 14:42:04,918-myloger-INFO-资金资产:0.0
+2018-12-21 14:42:04,918-myloger-INFO-冻结保证金:0.0
+2018-12-21 14:42:04,918-myloger-INFO-两融保证金可用数:1.26569536689e+11
+2018-12-21 14:42:04,918-myloger-INFO-拥股数量:2000000
+2018-12-21 14:42:04,918-myloger-INFO-买入资金:0.0
+2018-12-21 14:42:04,918-myloger-INFO-剩余可融券数量:0
+2018-12-21 14:42:04,919-myloger-INFO-维持担保品比例:20435048330.3
+2018-12-21 14:42:04,919-myloger-INFO-昨日日融券数量:0
+2018-12-21 14:42:04,919-myloger-INFO-卖出资金:0.0
+2018-12-21 14:42:04,919-myloger-INFO-买入费用:0.0
+2018-12-21 14:42:04,919-myloger-INFO-信用账户总负债:9.0
+2018-12-21 14:42:04,919-myloger-INFO-可用股份数:2000000
+2018-12-21 14:42:04,919-myloger-INFO-市场:XTP_MKT_SZ_A
+2018-12-21 14:42:04,919-myloger-INFO-融券限量:0
+2018-12-21 14:42:04,919-myloger-INFO-行权冻结资金:0.0
+2018-12-21 14:42:04,919-myloger-INFO-行权费用:0.0
+2018-12-21 14:42:04,919-myloger-INFO-总资产:20070011332.5
+2018-12-21 14:42:04,919-myloger-INFO-融券卖出所得资金可用:20070009332.5
+2018-12-21 14:42:04,919-myloger-INFO-融资头寸可用金额:1002899.0
+2018-12-21 14:42:04,919-myloger-INFO-卖出费用:0.0
+2018-12-21 14:42:04,919-myloger-INFO-垫付资金:0.0
+2018-12-21 14:42:04,920-myloger-INFO-昨日持仓:2000000
+2018-12-21 14:42:04,920-myloger-INFO-昨日余额:0.0
+2018-12-21 14:42:04,920-myloger-INFO-当前余额:0.0
+2018-12-21 14:42:04,920-myloger-INFO-持仓成本:9900.0
+2018-12-21 14:42:04,920-myloger-INFO-证券资产:0.0
+2018-12-21 14:42:04,920-myloger-INFO-今日可申购赎回持仓:0
+2018-12-21 14:42:04,920-myloger-INFO-信用账户总资产:1.83915434972e+11
+2018-12-21 14:42:04,920-myloger-INFO-两融授信额度:200000000.0
+2018-12-21 14:42:04,920-myloger-INFO-股票代码:003271
+2018-12-21 14:42:04,920-myloger-INFO-当日交易资金轧差:0.0
+2018-12-21 14:42:04,920-myloger-INFO-浮动盈亏:0.0
+2018-12-21 14:42:04,920-myloger-INFO-报单查询-报单状态/提交状态check结果:True,end,
+2018-12-21 14:42:04,920-myloger-INFO-当前为报单类型data
+2018-12-21 14:42:04,920-myloger-INFO-报单查询状态为废单，XTP_ORDER_STATUS_REJECTED
+2018-12-21 14:42:04,921-myloger-INFO-负债合约校验开始！
+2018-12-21 14:42:04,921-myloger-INFO-未生成负债合约, 负债合约校验正确！
+2018-12-21 14:42:06,993-myloger-INFO-资金股份验证正确
+2018-12-21 14:42:06,993-myloger-INFO-正在进行废单状态的报单查询业务校验
+2018-12-21 14:42:06,993-myloger-INFO-废单状态的报单查询业务校验正确
+2018-12-21 14:42:06,993-myloger-INFO-报单查询数据检查结束，检查结果如下
+2018-12-21 14:42:06,993-myloger-INFO-报单类型:报单
+2018-12-21 14:42:06,993-myloger-INFO-撤销时间:0
+2018-12-21 14:42:06,993-myloger-INFO-报单检查状态:end
+2018-12-21 14:42:06,993-myloger-INFO-提交状态:XTP_ORDER_SUBMIT_STATUS_INSERT_REJECTED
+2018-12-21 14:42:06,993-myloger-INFO-报单状态:XTP_ORDER_STATUS_REJECTED
+2018-12-21 14:42:06,994-myloger-INFO-cancel_xtpID:0
+2018-12-21 14:42:06,994-myloger-INFO-成交金额:0.0
+2018-12-21 14:42:06,994-myloger-INFO-xtpID:108587150286548507
+2018-12-21 14:42:06,994-myloger-INFO-ErrMsg:
+2018-12-21 14:42:06,994-myloger-INFO-剩余数量:10200
+2018-12-21 14:42:06,994-myloger-INFO-错误信息:
+2018-12-21 14:42:06,994-myloger-INFO-测试结果:True
+2018-12-21 14:42:06,994-myloger-INFO-委托时间:20181221144204902
+2018-12-21 14:42:06,994-myloger-INFO-成交数量:0
+2018-12-21 14:42:06,994-myloger-INFO-Err_code:0
+2018-12-21 14:42:06,994-myloger-INFO-最后修改时间:0
+2018-12-21 14:42:06,994-myloger-INFO-委托价格:9999.0
+2018-12-21 14:42:07,403-myloger-INFO-CaseEndCheck校验开始
+2018-12-21 14:42:07,403-myloger-INFO-CaseEndCheck校验结束
+2018-12-21 14:42:07,403-myloger-WARNING-执行结果为True
+2018-12-21 14:42:07,492-paramiko.transport-DEBUG-EOF in transport thread

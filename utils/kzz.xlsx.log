@@ -1,0 +1,288 @@
+2020-04-02 13:47:04,341-log_demo-INFO-sql able to connect!
+2020-04-02 13:47:04,341-log_demo-INFO-delete from xtp_fund_asset_20200402 where fund_acc = 100065004975 and oms_id = 6
+2020-04-02 13:47:04,343-log_demo-INFO-delete table xtp_fund_asset_20200402 success!
+2020-04-02 13:47:04,388-log_demo-INFO-insert into xtp_fund_asset_20200402
+                       select
+                        100065004975,
+                        cur_type,
+                        fund_avl_bal,
+                        fund_frz_bal,
+                        fund_bal,
+                        fund_buy_sale,
+                        fund_unc_buy,
+                        fund_unc_sale,
+                        fund_trsf,
+                        node_id,
+                        6
+                  from xtp_fund_asset_auto where py_name="YW_KZZMM_SHXJ_010"
+2020-04-02 13:47:04,390-log_demo-INFO-insert_fund_assetYW_KZZMM_SHXJ_010success!
+2020-04-02 13:47:04,402-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2020-04-02 13:47:04,518-paramiko.transport-INFO-Authentication (password) successful!
+2020-04-02 13:47:07,359-log_demo-INFO-sql able to connect!
+2020-04-02 13:47:07,359-log_demo-INFO-TRUNCATE TABLE ashare_cjhb
+2020-04-02 13:47:07,361-log_demo-INFO-TRUNCATE TABLE ashare_ordwth
+2020-04-02 13:47:07,362-log_demo-INFO-TRUNCATE TABLE ashare_ordwth2
+2020-04-02 13:47:07,364-log_demo-INFO-TRUNCATE TABLE reqresp
+2020-04-02 13:47:07,365-log_demo-INFO-TRUNCATE TABLE execreport
+2020-04-02 13:47:07,366-log_demo-INFO-TRUNCATE TABLE ashare_ordwth_cancel
+2020-04-02 13:47:07,367-log_demo-INFO-truncate table ashare_ordwth_cancel success!
+2020-04-02 13:47:07,378-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2020-04-02 13:47:07,463-paramiko.transport-INFO-Authentication (password) successful!
+2020-04-02 13:47:47,865-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2020-04-02 13:47:47,947-paramiko.transport-INFO-Authentication (password) successful!
+2020-04-02 13:48:08,680-myloger-WARNING-限价委托买-已成（费用>min）
+2020-04-02 13:48:09,149-myloger-ERROR-可用资金计算有错,原可用资金、成交金额、费用、现可用资金分别是50000000000.0,1000000.0,400.5,49998984593.5
+2020-04-02 13:48:09,149-myloger-ERROR-总资产计算有错,原总资产、成交金额、费用、现总资产分别是50000000000.0,1000000.0,400.5,49998999593.5
+2020-04-02 13:48:09,150-myloger-ERROR-预扣资金计算有错,原预扣资金、现预扣资金分别是0.0,15000.0
+2020-04-02 13:48:09,294-myloger-WARNING-执行结果为False,成交回报,['\xe9\xa2\x84\xe6\x89\xa3\xe8\xb5\x84\xe9\x87\x91\xe8\xae\xa1\xe7\xae\x97\xe6\x9c\x89\xe9\x94\x99', {'\xe5\x8e\x9f\xe9\xa2\x84\xe6\x89\xa3\xe8\xb5\x84\xe9\x87\x91': 0.0, '\xe7\x8e\xb0\xe9\xa2\x84\xe6\x89\xa3\xe8\xb5\x84\xe9\x87\x91': 15000.0}]
+2020-04-02 13:48:09,295-myloger-WARNING-限价委托买-已成（费用=min）
+2020-04-02 13:48:09,766-myloger-ERROR-可用资金计算有错,原可用资金、成交金额、费用、现可用资金分别是49998984593.5,1666.0,5.67,49998981871.7
+2020-04-02 13:48:09,767-myloger-ERROR-总资产计算有错,原总资产、成交金额、费用、现总资产分别是49998999593.5,1666.0,5.67,49998997921.7
+2020-04-02 13:48:09,767-myloger-ERROR-预扣资金计算有错,原预扣资金、现预扣资金分别是15000.0,16050.0
+2020-04-02 13:48:09,905-myloger-WARNING-执行结果为False,成交回报,['\xe9\xa2\x84\xe6\x89\xa3\xe8\xb5\x84\xe9\x87\x91\xe8\xae\xa1\xe7\xae\x97\xe6\x9c\x89\xe9\x94\x99', {'\xe5\x8e\x9f\xe9\xa2\x84\xe6\x89\xa3\xe8\xb5\x84\xe9\x87\x91': 15000.0, '\xe7\x8e\xb0\xe9\xa2\x84\xe6\x89\xa3\xe8\xb5\x84\xe9\x87\x91': 16050.0}]
+2020-04-02 13:48:09,906-myloger-WARNING-限价委托买-已成（费用<min）
+2020-04-02 13:48:10,374-myloger-ERROR-可用资金计算有错,原可用资金、成交金额、费用、现可用资金分别是49998981871.7,10000.0,6.5,49998971715.2
+2020-04-02 13:48:10,374-myloger-ERROR-总资产计算有错,原总资产、成交金额、费用、现总资产分别是49998997921.7,10000.0,6.5,49998987915.2
+2020-04-02 13:48:10,375-myloger-ERROR-预扣资金计算有错,原预扣资金、现预扣资金分别是16050.0,16200.0
+2020-04-02 13:48:10,509-myloger-WARNING-执行结果为False,成交回报,['\xe9\xa2\x84\xe6\x89\xa3\xe8\xb5\x84\xe9\x87\x91\xe8\xae\xa1\xe7\xae\x97\xe6\x9c\x89\xe9\x94\x99', {'\xe5\x8e\x9f\xe9\xa2\x84\xe6\x89\xa3\xe8\xb5\x84\xe9\x87\x91': 16050.0, '\xe7\x8e\xb0\xe9\xa2\x84\xe6\x89\xa3\xe8\xb5\x84\xe9\x87\x91': 16200.0}]
+2020-04-02 13:48:10,510-myloger-WARNING-限价委托买-买前有持仓
+2020-04-02 13:48:10,981-myloger-ERROR-可用资金计算有错,原可用资金、成交金额、费用、现可用资金分别是49998971715.2,10000.0,6.5,49998961558.7
+2020-04-02 13:48:10,981-myloger-ERROR-总资产计算有错,原总资产、成交金额、费用、现总资产分别是49998987915.2,10000.0,6.5,49998977908.7
+2020-04-02 13:48:10,982-myloger-ERROR-预扣资金计算有错,原预扣资金、现预扣资金分别是16200.0,16350.0
+2020-04-02 13:48:11,122-myloger-WARNING-执行结果为False,成交回报,['\xe9\xa2\x84\xe6\x89\xa3\xe8\xb5\x84\xe9\x87\x91\xe8\xae\xa1\xe7\xae\x97\xe6\x9c\x89\xe9\x94\x99', {'\xe5\x8e\x9f\xe9\xa2\x84\xe6\x89\xa3\xe8\xb5\x84\xe9\x87\x91': 16200.0, '\xe7\x8e\xb0\xe9\xa2\x84\xe6\x89\xa3\xe8\xb5\x84\xe9\x87\x91': 16350.0}]
+2020-04-02 13:48:11,138-myloger-WARNING-限价委托买-全成再撤单（OMS）
+2020-04-02 13:48:11,616-myloger-ERROR-可用资金计算有错,原可用资金、成交金额、费用、现可用资金分别是49998961558.7,20000.0,8.5,49998941250.1
+2020-04-02 13:48:11,616-myloger-ERROR-总资产计算有错,原总资产、成交金额、费用、现总资产分别是49998977908.7,20000.0,8.5,49998957900.1
+2020-04-02 13:48:11,616-myloger-ERROR-预扣资金计算有错,原预扣资金、现预扣资金分别是16350.0,16650.0
+2020-04-02 13:48:12,264-myloger-WARNING-执行结果为True,,
+2020-04-02 13:48:12,280-myloger-WARNING-上海Ａ股股票交易日限价委托买-不存在的证券代码
+2020-04-02 13:48:12,852-myloger-WARNING-执行结果为True,,
+2020-04-02 13:48:12,868-myloger-WARNING-上海Ａ股股票交易日限价委托买-错误的市场
+2020-04-02 13:48:13,473-myloger-WARNING-执行结果为True,,
+2020-04-02 13:48:13,489-myloger-WARNING-上海Ａ股股票交易日限价委托买-错误的价格（价格<0）
+2020-04-02 13:48:13,597-myloger-WARNING-执行结果为True,,
+2020-04-02 13:48:13,614-myloger-WARNING-交易日限价委托买-错误的价格（价格=0）
+2020-04-02 13:48:14,230-myloger-WARNING-执行结果为True,,
+2020-04-02 13:48:14,247-myloger-WARNING-上海Ａ股股票交易日限价委托买-错误的价格（价格巨大）
+2020-04-02 13:48:14,849-myloger-WARNING-执行结果为True,,
+2020-04-02 13:48:14,865-myloger-WARNING-上海Ａ股股票交易日限价委托买-错误的数量（数量<0）
+2020-04-02 13:48:14,968-myloger-WARNING-执行结果为True,,
+2020-04-02 13:48:14,983-myloger-WARNING-上海Ａ股股票交易日限价委托买-错误的数量（数量=0）
+2020-04-02 13:48:15,587-myloger-WARNING-执行结果为True,,
+2020-04-02 13:48:15,609-myloger-WARNING-上海Ａ股股票交易日限价委托买-错误的数量（数量>100万）
+2020-04-02 13:48:16,215-myloger-WARNING-执行结果为True,,
+2020-04-02 13:48:16,231-myloger-WARNING-上海Ａ股股票交易日限价委托买-错误的价格条件
+2020-04-02 13:48:16,857-myloger-WARNING-执行结果为True,,
+2020-04-02 13:48:16,873-myloger-WARNING-上海Ａ股股票交易日限价委托买-数量溢出（100亿）
+2020-04-02 13:48:17,481-myloger-WARNING-执行结果为True,,
+2020-04-02 13:48:17,481-myloger-WARNING-上海Ａ股股票交易日限价委托买-金额溢出（总金额>10亿）
+2020-04-02 13:48:17,998-myloger-ERROR-可用资金计算有错,原可用资金、成交金额、费用、现可用资金分别是49998941250.1,100000000.0,40000.5,49897400649.6
+2020-04-02 13:48:17,998-myloger-ERROR-总资产计算有错,原总资产、成交金额、费用、现总资产分别是49998957900.1,100000000.0,40000.5,49898917299.6
+2020-04-02 13:48:17,998-myloger-ERROR-预扣资金计算有错,原预扣资金、现预扣资金分别是16650.0,1516650.0
+2020-04-02 13:48:18,114-myloger-WARNING-执行结果为False,成交回报,['\xe9\xa2\x84\xe6\x89\xa3\xe8\xb5\x84\xe9\x87\x91\xe8\xae\xa1\xe7\xae\x97\xe6\x9c\x89\xe9\x94\x99', {'\xe5\x8e\x9f\xe9\xa2\x84\xe6\x89\xa3\xe8\xb5\x84\xe9\x87\x91': 16650.0, '\xe7\x8e\xb0\xe9\xa2\x84\xe6\x89\xa3\xe8\xb5\x84\xe9\x87\x91': 1516650.0}]
+2020-04-02 13:48:18,114-myloger-WARNING-限价委托卖-已成（费用>min）
+2020-04-02 13:48:18,667-myloger-ERROR-可用资金计算有错,原可用资金、成交金额、费用、现可用资金分别是49897400649.6,1000000.0,1300.5,49898399329.6
+2020-04-02 13:48:18,668-myloger-ERROR-总资产计算有错,原总资产、成交金额、费用、现总资产分别是49898917299.6,1000000.0,1300.5,49899915979.6
+2020-04-02 13:48:18,668-myloger-ERROR-卖出费用有误，原卖出费用、费用、现卖出费用分别是0.0,1300.5,1320.0
+2020-04-02 13:48:18,805-myloger-WARNING-执行结果为False,成交回报,['\xe5\x8d\x96\xe5\x87\xba\xe8\xb4\xb9\xe7\x94\xa8\xe6\x9c\x89\xe8\xaf\xaf', {'\xe7\x8e\xb0\xe5\x8d\x96\xe5\x87\xba\xe8\xb4\xb9\xe7\x94\xa8': 1320.0, '\xe5\x8e\x9f\xe5\x8d\x96\xe5\x87\xba\xe8\xb4\xb9\xe7\x94\xa8': 0.0, '\xe8\xb4\xb9\xe7\x94\xa8': 1300.5}]
+2020-04-02 13:48:18,806-myloger-WARNING-限价委托卖-已成（费用=min）
+2020-04-02 13:48:19,389-myloger-ERROR-可用资金计算有错,原可用资金、成交金额、费用、现可用资金分别是49898399329.6,1666.0,7.17,49898400987.3
+2020-04-02 13:48:19,390-myloger-ERROR-总资产计算有错,原总资产、成交金额、费用、现总资产分别是49899915979.6,1666.0,7.17,49899917637.3
+2020-04-02 13:48:19,390-myloger-ERROR-卖出费用有误，原卖出费用、费用、现卖出费用分别是1320.0,7.17,1328.22
+2020-04-02 13:48:19,499-myloger-WARNING-执行结果为False,成交回报,['\xe5\x8d\x96\xe5\x87\xba\xe8\xb4\xb9\xe7\x94\xa8\xe6\x9c\x89\xe8\xaf\xaf', {'\xe7\x8e\xb0\xe5\x8d\x96\xe5\x87\xba\xe8\xb4\xb9\xe7\x94\xa8': 1328.22, '\xe5\x8e\x9f\xe5\x8d\x96\xe5\x87\xba\xe8\xb4\xb9\xe7\x94\xa8': 1320.0, '\xe8\xb4\xb9\xe7\x94\xa8': 7.17}]
+2020-04-02 13:48:19,500-myloger-WARNING-限价委托卖-已成（费用<min）
+2020-04-02 13:48:20,058-myloger-ERROR-可用资金计算有错,原可用资金、成交金额、费用、现可用资金分别是49898400987.3,10000.0,15.5,49898410971.7
+2020-04-02 13:48:20,058-myloger-ERROR-总资产计算有错,原总资产、成交金额、费用、现总资产分别是49899917637.3,10000.0,15.5,49899927621.7
+2020-04-02 13:48:20,058-myloger-ERROR-卖出费用有误，原卖出费用、费用、现卖出费用分别是1328.22,15.5,1343.87
+2020-04-02 13:48:20,203-myloger-WARNING-执行结果为False,成交回报,['\xe5\x8d\x96\xe5\x87\xba\xe8\xb4\xb9\xe7\x94\xa8\xe6\x9c\x89\xe8\xaf\xaf', {'\xe7\x8e\xb0\xe5\x8d\x96\xe5\x87\xba\xe8\xb4\xb9\xe7\x94\xa8': 1343.87, '\xe5\x8e\x9f\xe5\x8d\x96\xe5\x87\xba\xe8\xb4\xb9\xe7\x94\xa8': 1328.22, '\xe8\xb4\xb9\xe7\x94\xa8': 15.5}]
+2020-04-02 13:48:20,219-myloger-WARNING-沪A限价卖（卖出数量=可用股份数+100）
+2020-04-02 13:48:20,917-myloger-WARNING-执行结果为True,,
+2020-04-02 13:48:20,917-myloger-WARNING-沪A限价卖（卖出数量=可用股份数）
+2020-04-02 13:48:23,625-myloger-WARNING-执行结果为True,,
+2020-04-02 13:48:23,644-myloger-WARNING-上海Ａ股股票交易日限价委托卖-不存在的证券代码
+2020-04-02 13:48:24,221-myloger-WARNING-执行结果为True,,
+2020-04-02 13:48:24,237-myloger-WARNING-上海Ａ股股票交易日限价委托卖-错误的市场
+2020-04-02 13:48:24,928-myloger-WARNING-执行结果为True,,
+2020-04-02 13:48:24,945-myloger-WARNING-上海Ａ股股票交易日限价委托卖-错误的价格（价格<0）
+2020-04-02 13:48:25,143-myloger-WARNING-执行结果为True,,
+2020-04-02 13:48:25,159-myloger-WARNING-交易日限价委托卖-错误的价格（价格=0）
+2020-04-02 13:48:25,851-myloger-WARNING-执行结果为True,,
+2020-04-02 13:48:25,867-myloger-WARNING-上海Ａ股股票交易日限价委托卖-错误的价格（价格巨大）
+2020-04-02 13:48:26,571-myloger-WARNING-执行结果为True,,
+2020-04-02 13:48:26,587-myloger-WARNING-上海Ａ股股票交易日限价委托卖-错误的数量（数量<0）
+2020-04-02 13:48:26,781-myloger-WARNING-执行结果为True,,
+2020-04-02 13:48:26,797-myloger-WARNING-上海Ａ股股票交易日限价委托卖-错误的数量（数量=0）
+2020-04-02 13:48:27,491-myloger-WARNING-执行结果为True,,
+2020-04-02 13:48:27,507-myloger-WARNING-上海Ａ股股票交易日限价委托卖-错误的数量（数量>100万）
+2020-04-02 13:48:28,226-myloger-WARNING-执行结果为True,,
+2020-04-02 13:48:28,242-myloger-WARNING-上海Ａ股股票交易日限价委托卖-错误的买卖方向
+2020-04-02 13:48:28,936-myloger-WARNING-执行结果为True,,
+2020-04-02 13:48:28,952-myloger-WARNING-上海Ａ股股票交易日限价委托卖-数量溢出（100亿）
+2020-04-02 13:48:29,654-myloger-WARNING-执行结果为True,,
+2020-04-02 13:48:29,655-myloger-WARNING-上海Ａ股股票交易日限价委托卖-金额溢出（总金额>10亿）
+2020-04-02 13:48:30,223-myloger-ERROR-可用资金计算有错,原可用资金、成交金额、费用、现可用资金分别是49898910321.2,100000000.0,130000.5,49998778370.7
+2020-04-02 13:48:30,223-myloger-ERROR-总资产计算有错,原总资产、成交金额、费用、现总资产分别是49900426971.2,100000000.0,130000.5,50000295020.7
+2020-04-02 13:48:30,223-myloger-ERROR-卖出费用有误，原卖出费用、费用、现卖出费用分别是1994.37,130000.5,133944.87
+2020-04-02 13:48:30,348-myloger-WARNING-执行结果为False,成交回报,['\xe5\x8d\x96\xe5\x87\xba\xe8\xb4\xb9\xe7\x94\xa8\xe6\x9c\x89\xe8\xaf\xaf', {'\xe7\x8e\xb0\xe5\x8d\x96\xe5\x87\xba\xe8\xb4\xb9\xe7\x94\xa8': 133944.87, '\xe5\x8e\x9f\xe5\x8d\x96\xe5\x87\xba\xe8\xb4\xb9\xe7\x94\xa8': 1994.37, '\xe8\xb4\xb9\xe7\x94\xa8': 130000.5}]
+2020-04-02 13:48:30,364-myloger-WARNING-交易日限价委托卖-非最后一次卖为非100的倍数
+2020-04-02 13:48:31,055-myloger-WARNING-执行结果为True,,
+2020-04-02 13:48:31,071-myloger-WARNING-交易日限价委托卖-最后一次卖为非100的倍数
+2020-04-02 13:48:31,765-myloger-WARNING-执行结果为True,,
+2020-04-02 13:48:31,912-myloger-WARNING-上海Ａ股可转债交易日限价委托-T+0卖
+2020-04-02 13:48:32,369-myloger-ERROR-可用资金计算有错,原可用资金、成交金额、费用、现可用资金分别是49998778370.7,334982.0,435.97,49999112916.5
+2020-04-02 13:48:32,369-myloger-ERROR-总资产计算有错,原总资产、成交金额、费用、现总资产分别是50000295020.7,334982.0,435.97,50000629566.5
+2020-04-02 13:48:32,369-myloger-ERROR-卖出费用有误，原卖出费用、费用、现卖出费用分别是133944.87,435.97,134381.04
+2020-04-02 13:48:32,494-myloger-WARNING-执行结果为False,成交回报,['\xe5\x8d\x96\xe5\x87\xba\xe8\xb4\xb9\xe7\x94\xa8\xe6\x9c\x89\xe8\xaf\xaf', {'\xe7\x8e\xb0\xe5\x8d\x96\xe5\x87\xba\xe8\xb4\xb9\xe7\x94\xa8': 134381.04, '\xe5\x8e\x9f\xe5\x8d\x96\xe5\x87\xba\xe8\xb4\xb9\xe7\x94\xa8': 133944.87, '\xe8\xb4\xb9\xe7\x94\xa8': 435.97}]
+2020-04-02 13:48:32,524-myloger-WARNING-上海Ａ股可转债交易日限价委托（未持有证券代码）-T+0买
+2020-04-02 13:48:32,928-myloger-ERROR-成交回报有问题：价格×数量不等于成交金额6824391.0,6824390.0
+2020-04-02 13:48:33,127-myloger-WARNING-执行结果为False,成交回报,成交回报有问题：价格×数量不等于成交金额
+2020-04-02 13:48:33,276-myloger-WARNING-上海Ａ股可转债交易日限价委托（已持有证券代码）-T+0买
+2020-04-02 13:48:34,356-myloger-WARNING-执行结果为True,,
+2020-04-02 13:48:34,356-myloger-WARNING-上海Ａ股可转债交易日限价委托（已持有证券代码）-T+0卖
+2020-04-02 13:48:34,965-myloger-WARNING-执行结果为True,,
+2020-04-02 13:48:35,085-myloger-WARNING-上海Ａ股可转债交易日限价委托（已持有证券代码）-T+0买
+2020-04-02 13:48:36,170-myloger-WARNING-执行结果为True,,
+2020-04-02 13:48:36,170-myloger-WARNING-上海Ａ股可转债交易日限价委托（已持有证券代码）-T+0卖
+2020-04-02 13:48:36,747-myloger-WARNING-执行结果为True,,
+2020-04-02 13:48:36,763-myloger-WARNING-限价委托卖-全成再撤单（OMS）
+2020-04-02 13:48:37,307-myloger-ERROR-可用资金计算有错,原可用资金、成交金额、费用、现可用资金分别是49992085115.0,20000.0,26.5,49992105088.1
+2020-04-02 13:48:37,307-myloger-ERROR-总资产计算有错,原总资产、成交金额、费用、现总资产分别是49993601765.0,20000.0,26.5,49993621738.1
+2020-04-02 13:48:37,307-myloger-ERROR-卖出费用有误，原卖出费用、费用、现卖出费用分别是146530.34,26.5,146557.23
+2020-04-02 13:48:37,955-myloger-WARNING-执行结果为True,,
+2020-04-02 13:48:38,002-log_demo-INFO-sql able to connect!
+2020-04-02 13:48:38,002-log_demo-INFO-delete from xtp_fund_asset_20200402 where fund_acc = 100065004975 and oms_id = 6
+2020-04-02 13:48:38,004-log_demo-INFO-delete table xtp_fund_asset_20200402 success!
+2020-04-02 13:48:38,050-log_demo-INFO-insert into xtp_fund_asset_20200402
+                       select
+                        100065004975,
+                        cur_type,
+                        fund_avl_bal,
+                        fund_frz_bal,
+                        fund_bal,
+                        fund_buy_sale,
+                        fund_unc_buy,
+                        fund_unc_sale,
+                        fund_trsf,
+                        node_id,
+                        6
+                  from xtp_fund_asset_auto where py_name="YW_KZZMM_SHXJ_029"
+2020-04-02 13:48:38,052-log_demo-INFO-insert_fund_assetYW_KZZMM_SHXJ_029success!
+2020-04-02 13:48:38,066-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2020-04-02 13:48:38,149-paramiko.transport-INFO-Authentication (password) successful!
+2020-04-02 13:48:40,967-log_demo-INFO-sql able to connect!
+2020-04-02 13:48:40,967-log_demo-INFO-TRUNCATE TABLE ashare_cjhb
+2020-04-02 13:48:40,969-log_demo-INFO-TRUNCATE TABLE ashare_ordwth
+2020-04-02 13:48:40,971-log_demo-INFO-TRUNCATE TABLE ashare_ordwth2
+2020-04-02 13:48:40,975-log_demo-INFO-TRUNCATE TABLE reqresp
+2020-04-02 13:48:40,976-log_demo-INFO-TRUNCATE TABLE execreport
+2020-04-02 13:48:40,977-log_demo-INFO-TRUNCATE TABLE ashare_ordwth_cancel
+2020-04-02 13:48:40,978-log_demo-INFO-truncate table ashare_ordwth_cancel success!
+2020-04-02 13:49:15,071-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2020-04-02 13:49:15,155-paramiko.transport-INFO-Authentication (password) successful!
+2020-04-02 13:49:44,865-myloger-WARNING-默认1：可用资金不足-沪A限价买（可用资金=下单金额+费用-0.01）
+2020-04-02 13:49:45,484-myloger-WARNING-执行结果为True,,
+2020-04-02 13:49:45,531-log_demo-INFO-sql able to connect!
+2020-04-02 13:49:45,531-log_demo-INFO-delete from xtp_fund_asset_20200402 where fund_acc = 100065004975 and oms_id = 6
+2020-04-02 13:49:45,533-log_demo-INFO-delete table xtp_fund_asset_20200402 success!
+2020-04-02 13:49:45,579-log_demo-INFO-insert into xtp_fund_asset_20200402
+                       select
+                        100065004975,
+                        cur_type,
+                        fund_avl_bal,
+                        fund_frz_bal,
+                        fund_bal,
+                        fund_buy_sale,
+                        fund_unc_buy,
+                        fund_unc_sale,
+                        fund_trsf,
+                        node_id,
+                        6
+                  from xtp_fund_asset_auto where py_name="YW_KZZMM_SHXJ_030"
+2020-04-02 13:49:45,581-log_demo-INFO-insert_fund_assetYW_KZZMM_SHXJ_030success!
+2020-04-02 13:49:45,593-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2020-04-02 13:49:45,685-paramiko.transport-INFO-Authentication (password) successful!
+2020-04-02 13:49:48,575-log_demo-INFO-sql able to connect!
+2020-04-02 13:49:48,575-log_demo-INFO-TRUNCATE TABLE ashare_cjhb
+2020-04-02 13:49:48,576-log_demo-INFO-TRUNCATE TABLE ashare_ordwth
+2020-04-02 13:49:48,577-log_demo-INFO-TRUNCATE TABLE ashare_ordwth2
+2020-04-02 13:49:48,579-log_demo-INFO-TRUNCATE TABLE reqresp
+2020-04-02 13:49:48,580-log_demo-INFO-TRUNCATE TABLE execreport
+2020-04-02 13:49:48,582-log_demo-INFO-TRUNCATE TABLE ashare_ordwth_cancel
+2020-04-02 13:49:48,583-log_demo-INFO-truncate table ashare_ordwth_cancel success!
+2020-04-02 13:50:22,664-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2020-04-02 13:50:22,747-paramiko.transport-INFO-Authentication (password) successful!
+2020-04-02 13:50:52,481-myloger-WARNING-默认1：可用资金正好-沪A限价买（可用资金=下单金额+费用）
+2020-04-02 13:50:52,715-myloger-ERROR-期望状态和报单状态、提交状态不匹配，期望状态、报单状态、提交状态分别为部成,XTP_ORDER_STATUS_REJECTED,XTP_ORDER_SUBMIT_STATUS_INSERT_REJECTED
+2020-04-02 13:50:53,089-myloger-WARNING-执行结果为False,报单查询,期望状态与报单状态不匹配
+2020-04-02 13:50:53,136-log_demo-INFO-sql able to connect!
+2020-04-02 13:50:53,136-log_demo-INFO-delete from xtp_fund_asset_20200402 where fund_acc = 100065004975 and oms_id = 6
+2020-04-02 13:50:53,137-log_demo-INFO-delete table xtp_fund_asset_20200402 success!
+2020-04-02 13:50:53,183-log_demo-INFO-insert into xtp_fund_asset_20200402
+                       select
+                        100065004975,
+                        cur_type,
+                        fund_avl_bal,
+                        fund_frz_bal,
+                        fund_bal,
+                        fund_buy_sale,
+                        fund_unc_buy,
+                        fund_unc_sale,
+                        fund_trsf,
+                        node_id,
+                        6
+                  from xtp_fund_asset_auto where py_name="YW_KZZMM_SHXJ_022"
+2020-04-02 13:50:53,184-log_demo-INFO-insert_fund_assetYW_KZZMM_SHXJ_022success!
+2020-04-02 13:50:53,197-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2020-04-02 13:50:53,282-paramiko.transport-INFO-Authentication (password) successful!
+2020-04-02 13:50:56,110-log_demo-INFO-sql able to connect!
+2020-04-02 13:50:56,110-log_demo-INFO-TRUNCATE TABLE ashare_cjhb
+2020-04-02 13:50:56,111-log_demo-INFO-TRUNCATE TABLE ashare_ordwth
+2020-04-02 13:50:56,113-log_demo-INFO-TRUNCATE TABLE ashare_ordwth2
+2020-04-02 13:50:56,114-log_demo-INFO-TRUNCATE TABLE reqresp
+2020-04-02 13:50:56,116-log_demo-INFO-TRUNCATE TABLE execreport
+2020-04-02 13:50:56,117-log_demo-INFO-TRUNCATE TABLE ashare_ordwth_cancel
+2020-04-02 13:50:56,119-log_demo-INFO-truncate table ashare_ordwth_cancel success!
+2020-04-02 13:51:30,215-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2020-04-02 13:51:30,298-paramiko.transport-INFO-Authentication (password) successful!
+2020-04-02 13:52:00,264-myloger-WARNING-限价委托买-废单再撤单（OMS）
+2020-04-02 13:52:00,876-myloger-WARNING-执行结果为True,,
+2020-04-02 13:52:00,892-myloger-WARNING-限价委托卖-废单再撤单（OMS）
+2020-04-02 13:52:01,583-myloger-WARNING-执行结果为True,,
+2020-04-02 13:52:01,583-myloger-WARNING-限价委托买-部成
+2020-04-02 13:52:04,152-myloger-ERROR-可用资金计算有错,原可用资金、成交金额、待成交数量、委托价格、费用、现可用资金分别是50000000000.0,10000.0,100,100,8.5,49999979691.4
+2020-04-02 13:52:04,691-myloger-WARNING-执行结果为False,成交回报,['\xe5\x8f\xaf\xe7\x94\xa8\xe8\xb5\x84\xe9\x87\x91\xe8\xae\xa1\xe7\xae\x97\xe6\x9c\x89\xe9\x94\x99', {'\xe8\xb4\xb9\xe7\x94\xa8': 8.5, '\xe5\xbe\x85\xe6\x88\x90\xe4\xba\xa4\xe6\x95\xb0\xe9\x87\x8f': 100, '\xe6\x88\x90\xe4\xba\xa4\xe9\x87\x91\xe9\xa2\x9d': 10000.0, '\xe5\xa7\x94\xe6\x89\x98\xe4\xbb\xb7\xe6\xa0\xbc': 100, '\xe7\x8e\xb0\xe5\x8f\xaf\xe7\x94\xa8\xe8\xb5\x84\xe9\x87\x91': 49999979691.38, '\xe5\x8e\x9f\xe5\x8f\xaf\xe7\x94\xa8\xe8\xb5\x84\xe9\x87\x91': 50000000000.0}]
+2020-04-02 13:52:04,692-myloger-WARNING-限价委托买-部成撤单 
+2020-04-02 13:52:06,976-myloger-WARNING-报单查询等待...,xtpID=901029373774140343
+2020-04-02 13:52:07,330-myloger-ERROR-可用资金计算不正确
+2020-04-02 13:52:07,797-myloger-WARNING-执行结果为False,报单查询,可用资金计算不正确
+2020-04-02 13:52:07,813-myloger-WARNING-限价委托买-部撤再撤单（OMS）
+2020-04-02 13:52:10,101-myloger-WARNING-报单查询等待...,xtpID=901029373774140345
+2020-04-02 13:52:10,918-myloger-WARNING-执行结果为True,,
+2020-04-02 13:52:10,919-myloger-WARNING-限价委托卖-部成
+2020-04-02 13:52:13,537-myloger-ERROR-可用资金计算有错,原可用资金、成交金额、费用、现可用资金分别是49999959378.3,10000.0,15.5,49999969362.7
+2020-04-02 13:52:13,537-myloger-ERROR-卖出费用有误，原卖出费用、现卖出费用分别是0.0,15.65
+2020-04-02 13:52:13,627-myloger-WARNING-执行结果为False,成交回报,['\xe5\x8d\x96\xe5\x87\xba\xe8\xb4\xb9\xe7\x94\xa8\xe6\x9c\x89\xe8\xaf\xaf', {'\xe7\x8e\xb0\xe5\x8d\x96\xe5\x87\xba\xe8\xb4\xb9\xe7\x94\xa8': 15.65, '\xe5\x8e\x9f\xe5\x8d\x96\xe5\x87\xba\xe8\xb4\xb9\xe7\x94\xa8': 0.0}]
+2020-04-02 13:52:13,628-myloger-WARNING-限价委托卖-部成撤单 
+2020-04-02 13:52:16,005-myloger-WARNING-报单查询等待...,xtpID=901029373774140349
+2020-04-02 13:52:16,358-myloger-ERROR-可用资金计算不正确
+2020-04-02 13:52:16,823-myloger-WARNING-执行结果为False,报单查询,可用资金计算不正确
+2020-04-02 13:52:16,840-myloger-WARNING-限价委托卖-部撤再撤单（OMS）
+2020-04-02 13:52:19,226-myloger-WARNING-报单查询等待...,xtpID=901029373774140351
+2020-04-02 13:52:20,104-myloger-WARNING-执行结果为True,,
+2020-04-02 13:52:20,105-myloger-WARNING-限价委托买-订单确认
+2020-04-02 13:52:22,510-myloger-ERROR-可用资金预冻结不正确
+2020-04-02 13:52:22,709-myloger-WARNING-执行结果为False,报单查询,可用资金预冻结不正确
+2020-04-02 13:52:22,710-myloger-WARNING-限价委托买-全部撤单
+2020-04-02 13:52:24,907-myloger-WARNING-报单查询等待...,xtpID=901029373774140355
+2020-04-02 13:52:25,827-myloger-WARNING-执行结果为True,,
+2020-04-02 13:52:25,844-myloger-WARNING-限价委托买-全撤再撤单（OMS）
+2020-04-02 13:52:28,033-myloger-WARNING-报单查询等待...,xtpID=901029373774140357
+2020-04-02 13:52:28,952-myloger-WARNING-执行结果为True,,
+2020-04-02 13:52:28,953-myloger-WARNING-限价委托卖-订单确认
+2020-04-02 13:52:31,655-myloger-WARNING-执行结果为True,,
+2020-04-02 13:52:31,655-myloger-WARNING-限价委托卖-全部撤单
+2020-04-02 13:52:33,923-myloger-WARNING-报单查询等待...,xtpID=901029373774140361
+2020-04-02 13:52:34,846-myloger-WARNING-执行结果为True,,
+2020-04-02 13:52:34,863-myloger-WARNING-限价委托卖-全撤再撤单（OMS）
+2020-04-02 13:52:37,140-myloger-WARNING-报单查询等待...,xtpID=901029373774140363
+2020-04-02 13:52:38,062-myloger-WARNING-执行结果为True,,

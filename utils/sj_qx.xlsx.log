@@ -1,0 +1,30 @@
+2020-07-23 14:55:46,398-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2020-07-23 14:55:46,518-paramiko.transport-INFO-Authentication (password) successful!
+2020-07-23 14:55:49,334-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2020-07-23 14:55:49,415-paramiko.transport-INFO-Authentication (password) successful!
+2020-07-23 14:55:55,702-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2020-07-23 14:55:55,793-paramiko.transport-INFO-Authentication (password) successful!
+2020-07-23 14:56:17,923-myloger-WARNING-有买入核准制创业板股票的权限&无买入注册制创业板股票的权限-配股缴款核准制创业板股票
+2020-07-23 14:56:21,034-myloger-WARNING-执行结果为True,,
+2020-07-23 14:56:21,051-myloger-WARNING-有买入核准制创业板股票的权限&无买入注册制创业板股票的权限--配股缴款注册制创业板股票
+2020-07-23 14:56:22,137-myloger-WARNING-执行结果为True,,
+2020-07-23 14:56:22,167-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2020-07-23 14:56:22,250-paramiko.transport-INFO-Authentication (password) successful!
+2020-07-23 14:56:25,065-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2020-07-23 14:56:25,148-paramiko.transport-INFO-Authentication (password) successful!
+2020-07-23 14:56:31,437-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2020-07-23 14:56:31,517-paramiko.transport-INFO-Authentication (password) successful!
+2020-07-23 14:56:53,624-myloger-WARNING-有买入注册制创业板股票的权限-配股缴款核准制创业板股票
+2020-07-23 14:56:56,721-myloger-WARNING-执行结果为True,,
+2020-07-23 14:56:56,722-myloger-WARNING-有买入注册制创业板股票的权限--配股缴款注册制创业板股票
+2020-07-23 14:56:59,809-myloger-WARNING-执行结果为True,,
+2020-07-23 14:56:59,838-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2020-07-23 14:56:59,922-paramiko.transport-INFO-Authentication (password) successful!
+2020-07-23 14:57:02,723-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2020-07-23 14:57:02,806-paramiko.transport-INFO-Authentication (password) successful!
+2020-07-23 14:57:09,091-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2020-07-23 14:57:09,172-paramiko.transport-INFO-Authentication (password) successful!
+2020-07-23 14:57:31,285-myloger-WARNING-无买入创业板股票的权限-配股缴款核准制创业板股票
+2020-07-23 14:57:32,370-myloger-WARNING-执行结果为True,,
+2020-07-23 14:57:32,386-myloger-WARNING-无买入创业板股票的权限--配股缴款注册制创业板股票
+2020-07-23 14:57:33,472-myloger-WARNING-执行结果为True,,

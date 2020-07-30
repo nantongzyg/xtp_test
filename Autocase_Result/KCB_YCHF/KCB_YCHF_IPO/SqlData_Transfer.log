@@ -1,0 +1,8 @@
+2019-09-30 14:59:00,125-log_demo-INFO-sql able to connect!
+2019-09-30 14:59:00,125-log_demo-INFO-TRUNCATE TABLE ashare_cjhb
+2019-09-30 14:59:00,126-log_demo-INFO-TRUNCATE TABLE ashare_ordwth
+2019-09-30 14:59:00,129-log_demo-INFO-TRUNCATE TABLE ashare_ordwth2
+2019-09-30 14:59:00,130-log_demo-INFO-TRUNCATE TABLE reqresp
+2019-09-30 14:59:00,131-log_demo-INFO-TRUNCATE TABLE execreport
+2019-09-30 14:59:00,133-log_demo-INFO-TRUNCATE TABLE ashare_ordwth_cancel
+2019-09-30 14:59:00,134-log_demo-INFO-truncate table ashare_ordwth_cancel success!

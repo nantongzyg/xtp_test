@@ -1,0 +1,20 @@
+2020-04-24 10:50:58,921-log_demo-INFO-sql able to connect!
+2020-04-24 10:50:58,921-log_demo-INFO-delete from xtp_fund_asset_20200424 where fund_acc = 100065004975 and oms_id = 6
+2020-04-24 10:50:58,923-log_demo-INFO-delete table xtp_fund_asset_20200424 success!
+2020-04-24 10:50:58,969-log_demo-INFO-insert into xtp_fund_asset_20200424
+                       select
+                        100065004975,
+                        cur_type,
+                        fund_avl_bal,
+                        fund_frz_bal,
+                        fund_bal,
+                        fund_buy_sale,
+                        fund_unc_buy,
+                        fund_unc_sale,
+                        fund_trsf,
+                        node_id,
+                        6
+                  from xtp_fund_asset_auto where py_name="YW_ETFMM_SZXJ_012_K"
+2020-04-24 10:50:58,970-log_demo-INFO-insert_fund_assetYW_ETFMM_SZXJ_012_Ksuccess!
+2020-04-24 10:50:58,983-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2020-04-24 10:50:59,102-paramiko.transport-INFO-Authentication (password) successful!

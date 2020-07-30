@@ -1,0 +1,94 @@
+2018-11-28 09:38:52,139-log_demo-INFO-sql able to connect!
+2018-11-28 09:38:52,139-log_demo-INFO-delete xtp_exch_sec_20181128 from xtp_exch_sec_20181128, xtp_exch_sec_auto where xtp_exch_sec_20181128.exch_id = xtp_exch_sec_auto.exch_id and xtp_exch_sec_20181128.instrument_id = xtp_exch_sec_auto.instrument_id
+2018-11-28 09:38:52,184-log_demo-INFO-delete table xtp_exch_sec_20181128 success!
+2018-11-28 09:38:52,184-log_demo-INFO-sql able to connect!
+2018-11-28 09:38:52,227-log_demo-INFO-insert into xtp_exch_sec_20181128
+                       select * from xtp_exch_sec_auto
+2018-11-28 09:38:52,227-log_demo-INFO-insert_exch_sec success!
+2018-11-28 09:38:52,228-log_demo-INFO-sql able to connect!
+2018-11-28 09:38:52,228-log_demo-INFO-delete xtp_stk_asset_20181128 from xtp_stk_asset_20181128, xtp_stk_asset_auto where xtp_stk_asset_20181128.fund_acc = 200021000246  and xtp_stk_asset_20181128.market = xtp_stk_asset_auto.market  and xtp_stk_asset_20181128.stock_code = xtp_stk_asset_auto.stock_code
+2018-11-28 09:38:52,398-log_demo-INFO-delete table xtp_stk_asset_20181128 success!
+2018-11-28 09:38:52,399-log_demo-INFO-sql able to connect!
+2018-11-28 09:38:52,399-log_demo-INFO-insert into xtp_stk_asset_20181128
+                      select
+                        200021000246,
+                        market,
+                        case market when 1
+                          then 'E010163608'
+                          else '06X0163558'
+                        end as secu_acc,
+                        stock_code,
+                        stk_avl_qty,
+                        stk_frz_qty,
+                        stk_bal,
+                        stk_buy_sale,
+                        stk_buy_unfrz,
+                        stk_sale_frz,
+                        lst_buy_cst,
+                        lst_prf_cst,
+                        buy_cst,
+                        profit_cst,
+                        stk_remain,
+                        stk_corp_rem,
+                        cre_stk_bal,
+                        node_id
+                      from xtp_stk_asset_auto
+2018-11-28 09:38:52,439-log_demo-INFO-insert_stk_asset success!
+2018-11-28 09:38:52,439-log_demo-INFO-sql able to connect!
+2018-11-28 09:38:52,439-log_demo-INFO-delete xtp_credit_guarantee_stk_20181128 from xtp_credit_guarantee_stk_20181128, xtp_credit_guarantee_stk_auto where xtp_credit_guarantee_stk_20181128.market = xtp_credit_guarantee_stk_auto.market and xtp_credit_guarantee_stk_20181128.stk_code = xtp_credit_guarantee_stk_auto.stk_code
+2018-11-28 09:38:52,441-log_demo-INFO-delete table xtp_credit_guarantee_stk_20181128 success!
+2018-11-28 09:38:52,441-log_demo-INFO-sql able to connect!
+2018-11-28 09:38:52,443-log_demo-INFO-insert into xtp_credit_guarantee_stk_20181128
+                       select * from xtp_credit_guarantee_stk_auto
+2018-11-28 09:38:52,444-log_demo-INFO-insert_credit_guarantee_stk success!
+2018-11-28 09:38:52,445-log_demo-INFO-sql able to connect!
+2018-11-28 09:38:52,445-log_demo-INFO-delete from xtp_credit_cust_contract_20181128 where fund_acc = 200021000246 and client_id = 2100069928
+2018-11-28 09:38:52,458-log_demo-INFO-delete table xtp_credit_cust_contract_20181128 success!
+2018-11-28 09:38:52,460-log_demo-INFO-insert into xtp_credit_cust_contract_20181128
+                       select 
+                         2100069928,
+                         200021000246,
+                         branch_id,
+                         cur_type,
+                         fi_debts_bal,
+                         sl_debts_bal,
+                         all_debts_bal,
+                         fi_mar_rate,
+                         sl_mar_rate,
+                         fi_intr_rate,
+                         sl_intr_rate,
+                         intr_type,
+                         contract_rights,
+                         cash_grp_no,
+                         sp_cash_grp_no,
+                         crd_fare_str,
+                         sp_crd_fare_str,
+                         crd_level,
+                         get_intr_way,
+                         node_id
+                       from xtp_credit_cust_contract_auto
+                       where py_name = ''
+            
+2018-11-28 09:38:52,478-log_demo-INFO-insert_credit_cust_contract success!
+2018-11-28 09:38:52,479-log_demo-INFO-sql able to connect!
+2018-11-28 09:38:52,479-log_demo-INFO-delete xtp_credit_target_stk_20181128 from xtp_credit_target_stk_20181128, xtp_credit_target_stk_auto where xtp_credit_target_stk_20181128.market = xtp_credit_target_stk_auto.market and xtp_credit_target_stk_20181128.stk_code = xtp_credit_target_stk_auto.stk_code
+2018-11-28 09:38:52,498-log_demo-INFO-delete table xtp_credit_target_stk_20181128 success!
+2018-11-28 09:38:52,499-log_demo-INFO-sql able to connect!
+2018-11-28 09:38:52,538-log_demo-INFO-insert into xtp_credit_target_stk_20181128
+                       select * from xtp_credit_target_stk_auto
+2018-11-28 09:38:52,538-log_demo-INFO-insert_credit_target_stk success!
+2018-11-28 09:38:52,539-log_demo-INFO-sql able to connect!
+2018-11-28 09:38:52,539-log_demo-INFO-delete from xtp_credit_cash_stk_asset_20181128
+2018-11-28 09:38:52,578-log_demo-INFO-delete table xtp_credit_cash_stk_asset_20181128 success!
+2018-11-28 09:38:52,579-log_demo-INFO-sql able to connect!
+2018-11-28 09:38:52,598-log_demo-INFO-insert into xtp_credit_cash_stk_asset_20181128
+                       select * from xtp_credit_cash_stk_asset_auto
+2018-11-28 09:38:52,598-log_demo-INFO-insert_credit_cash_stk_asset success!
+2018-11-28 09:38:52,599-log_demo-INFO-sql able to connect!
+2018-11-28 09:38:52,599-log_demo-INFO-
+                    delete a
+                    from xtp_stk_asset_20181128 a
+                    where not exists (select 1 from xtp_credit_guarantee_stk_20181128 b where a.stock_code = b.stk_code)
+                    and a.fund_acc = 200021000246
+            
+2018-11-28 09:39:01,539-log_demo-INFO-delete table xtp_cur_risk success!

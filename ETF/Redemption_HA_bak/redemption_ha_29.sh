@@ -1,0 +1,1 @@
+python S_REDEMPTION_HA_ETF_ETFSH029.py

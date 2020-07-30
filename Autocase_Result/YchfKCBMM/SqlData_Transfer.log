@@ -1,0 +1,106 @@
+2019-07-12 13:27:41,932-log_demo-INFO-sql able to connect!
+2019-07-12 13:27:41,932-log_demo-INFO-delete from xtp_fund_asset_20190712 where fund_acc = 100065004976 and oms_id = 8
+2019-07-12 13:27:41,936-log_demo-INFO-delete table xtp_fund_asset_20190712 success!
+2019-07-12 13:27:41,938-log_demo-INFO-insert into xtp_fund_asset_20190712
+                       select
+                        100065004976,
+                        cur_type,
+                        fund_avl_bal,
+                        fund_frz_bal,
+                        fund_bal,
+                        fund_buy_sale,
+                        fund_unc_buy,
+                        fund_unc_sale,
+                        fund_trsf,
+                        node_id,
+                        8
+                  from xtp_fund_asset_auto where py_name="YW_ETFMM_SHSJ_060_D"
+2019-07-12 13:27:41,941-log_demo-INFO-insert_fund_assetYW_ETFMM_SHSJ_060_Dsuccess!
+2019-07-12 13:27:41,942-paramiko.transport-DEBUG-starting thread (client mode): 0x15cad810L
+2019-07-12 13:27:41,942-paramiko.transport-DEBUG-Local version/idstring: SSH-2.0-paramiko_2.4.2
+2019-07-12 13:27:41,954-paramiko.transport-DEBUG-Remote version/idstring: SSH-2.0-OpenSSH_7.4
+2019-07-12 13:27:41,954-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_7.4)
+2019-07-12 13:27:41,957-paramiko.transport-DEBUG-kex algos:[u'curve25519-sha256', u'curve25519-sha256@libssh.org', u'ecdh-sha2-nistp256', u'ecdh-sha2-nistp384', u'ecdh-sha2-nistp521', u'diffie-hellman-group-exchange-sha256', u'diffie-hellman-group16-sha512', u'diffie-hellman-group18-sha512', u'diffie-hellman-group-exchange-sha1', u'diffie-hellman-group14-sha256', u'diffie-hellman-group14-sha1', u'diffie-hellman-group1-sha1'] server key:[u'ssh-rsa', u'rsa-sha2-512', u'rsa-sha2-256', u'ecdsa-sha2-nistp256', u'ssh-ed25519'] client encrypt:[u'chacha20-poly1305@openssh.com', u'aes128-ctr', u'aes192-ctr', u'aes256-ctr', u'aes128-gcm@openssh.com', u'aes256-gcm@openssh.com', u'aes128-cbc', u'aes192-cbc', u'aes256-cbc', u'blowfish-cbc', u'cast128-cbc', u'3des-cbc'] server encrypt:[u'chacha20-poly1305@openssh.com', u'aes128-ctr', u'aes192-ctr', u'aes256-ctr', u'aes128-gcm@openssh.com', u'aes256-gcm@openssh.com', u'aes128-cbc', u'aes192-cbc', u'aes256-cbc', u'blowfish-cbc', u'cast128-cbc', u'3des-cbc'] client mac:[u'umac-64-etm@openssh.com', u'umac-128-etm@openssh.com', u'hmac-sha2-256-etm@openssh.com', u'hmac-sha2-512-etm@openssh.com', u'hmac-sha1-etm@openssh.com', u'umac-64@openssh.com', u'umac-128@openssh.com', u'hmac-sha2-256', u'hmac-sha2-512', u'hmac-sha1'] server mac:[u'umac-64-etm@openssh.com', u'umac-128-etm@openssh.com', u'hmac-sha2-256-etm@openssh.com', u'hmac-sha2-512-etm@openssh.com', u'hmac-sha1-etm@openssh.com', u'umac-64@openssh.com', u'umac-128@openssh.com', u'hmac-sha2-256', u'hmac-sha2-512', u'hmac-sha1'] client compress:[u'none', u'zlib@openssh.com'] server compress:[u'none', u'zlib@openssh.com'] client lang:[u''] server lang:[u''] kex follows?False
+2019-07-12 13:27:41,957-paramiko.transport-DEBUG-Kex agreed: ecdh-sha2-nistp256
+2019-07-12 13:27:41,957-paramiko.transport-DEBUG-HostKey agreed: ssh-ed25519
+2019-07-12 13:27:41,957-paramiko.transport-DEBUG-Cipher agreed: aes128-ctr
+2019-07-12 13:27:41,957-paramiko.transport-DEBUG-MAC agreed: hmac-sha2-256
+2019-07-12 13:27:41,957-paramiko.transport-DEBUG-Compression agreed: none
+2019-07-12 13:27:42,002-paramiko.transport-DEBUG-kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2019-07-12 13:27:42,003-paramiko.transport-DEBUG-Switch to new keys ...
+2019-07-12 13:27:42,014-paramiko.transport-DEBUG-Adding ssh-ed25519 host key for 10.29.182.168: a7baecfa850eafc4f99d868eb0c34c61
+2019-07-12 13:27:42,042-paramiko.transport-DEBUG-userauth is OK
+2019-07-12 13:27:42,070-paramiko.transport-INFO-Authentication (password) successful!
+2019-07-12 13:27:42,078-paramiko.transport-DEBUG-[chan 0] Max packet in: 32768 bytes
+2019-07-12 13:27:42,079-paramiko.transport-DEBUG-Received global request "hostkeys-00@openssh.com"
+2019-07-12 13:27:42,079-paramiko.transport-DEBUG-Rejecting "hostkeys-00@openssh.com" global request from server.
+2019-07-12 13:27:42,119-paramiko.transport-DEBUG-[chan 0] Max packet out: 32768 bytes
+2019-07-12 13:27:42,119-paramiko.transport-DEBUG-Secsh channel 0 opened.
+2019-07-12 13:27:42,145-paramiko.transport-DEBUG-[chan 0] Sesch channel 0 request ok
+2019-07-12 13:27:42,676-paramiko.transport-DEBUG-[chan 0] EOF received (0)
+2019-07-12 13:27:42,676-paramiko.transport-DEBUG-[chan 0] EOF sent (0)
+2019-07-12 13:27:44,680-paramiko.transport-DEBUG-EOF in transport thread
+2019-07-12 13:27:44,822-log_demo-INFO-sql able to connect!
+2019-07-12 13:27:44,822-log_demo-INFO-TRUNCATE TABLE ashare_cjhb
+2019-07-12 13:27:44,824-log_demo-INFO-TRUNCATE TABLE ashare_ordwth
+2019-07-12 13:27:44,825-log_demo-INFO-TRUNCATE TABLE ashare_ordwth2
+2019-07-12 13:27:44,827-log_demo-INFO-TRUNCATE TABLE reqresp
+2019-07-12 13:27:44,828-log_demo-INFO-TRUNCATE TABLE execreport
+2019-07-12 13:27:44,829-log_demo-INFO-TRUNCATE TABLE ashare_ordwth_cancel
+2019-07-12 13:27:44,835-log_demo-INFO-truncate table ashare_ordwth_cancel success!
+2019-07-12 13:28:18,948-paramiko.transport-DEBUG-starting thread (client mode): 0x15cada90L
+2019-07-12 13:28:18,949-paramiko.transport-DEBUG-Local version/idstring: SSH-2.0-paramiko_2.4.2
+2019-07-12 13:28:18,959-paramiko.transport-DEBUG-Remote version/idstring: SSH-2.0-OpenSSH_7.4
+2019-07-12 13:28:18,959-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_7.4)
+2019-07-12 13:28:18,962-paramiko.transport-DEBUG-kex algos:[u'curve25519-sha256', u'curve25519-sha256@libssh.org', u'ecdh-sha2-nistp256', u'ecdh-sha2-nistp384', u'ecdh-sha2-nistp521', u'diffie-hellman-group-exchange-sha256', u'diffie-hellman-group16-sha512', u'diffie-hellman-group18-sha512', u'diffie-hellman-group-exchange-sha1', u'diffie-hellman-group14-sha256', u'diffie-hellman-group14-sha1', u'diffie-hellman-group1-sha1'] server key:[u'ssh-rsa', u'rsa-sha2-512', u'rsa-sha2-256', u'ecdsa-sha2-nistp256', u'ssh-ed25519'] client encrypt:[u'chacha20-poly1305@openssh.com', u'aes128-ctr', u'aes192-ctr', u'aes256-ctr', u'aes128-gcm@openssh.com', u'aes256-gcm@openssh.com', u'aes128-cbc', u'aes192-cbc', u'aes256-cbc', u'blowfish-cbc', u'cast128-cbc', u'3des-cbc'] server encrypt:[u'chacha20-poly1305@openssh.com', u'aes128-ctr', u'aes192-ctr', u'aes256-ctr', u'aes128-gcm@openssh.com', u'aes256-gcm@openssh.com', u'aes128-cbc', u'aes192-cbc', u'aes256-cbc', u'blowfish-cbc', u'cast128-cbc', u'3des-cbc'] client mac:[u'umac-64-etm@openssh.com', u'umac-128-etm@openssh.com', u'hmac-sha2-256-etm@openssh.com', u'hmac-sha2-512-etm@openssh.com', u'hmac-sha1-etm@openssh.com', u'umac-64@openssh.com', u'umac-128@openssh.com', u'hmac-sha2-256', u'hmac-sha2-512', u'hmac-sha1'] server mac:[u'umac-64-etm@openssh.com', u'umac-128-etm@openssh.com', u'hmac-sha2-256-etm@openssh.com', u'hmac-sha2-512-etm@openssh.com', u'hmac-sha1-etm@openssh.com', u'umac-64@openssh.com', u'umac-128@openssh.com', u'hmac-sha2-256', u'hmac-sha2-512', u'hmac-sha1'] client compress:[u'none', u'zlib@openssh.com'] server compress:[u'none', u'zlib@openssh.com'] client lang:[u''] server lang:[u''] kex follows?False
+2019-07-12 13:28:18,963-paramiko.transport-DEBUG-Kex agreed: ecdh-sha2-nistp256
+2019-07-12 13:28:18,963-paramiko.transport-DEBUG-HostKey agreed: ssh-ed25519
+2019-07-12 13:28:18,963-paramiko.transport-DEBUG-Cipher agreed: aes128-ctr
+2019-07-12 13:28:18,963-paramiko.transport-DEBUG-MAC agreed: hmac-sha2-256
+2019-07-12 13:28:18,963-paramiko.transport-DEBUG-Compression agreed: none
+2019-07-12 13:28:18,968-paramiko.transport-DEBUG-kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2019-07-12 13:28:18,968-paramiko.transport-DEBUG-Switch to new keys ...
+2019-07-12 13:28:18,980-paramiko.transport-DEBUG-Adding ssh-ed25519 host key for 10.29.182.168: a7baecfa850eafc4f99d868eb0c34c61
+2019-07-12 13:28:19,008-paramiko.transport-DEBUG-userauth is OK
+2019-07-12 13:28:19,034-paramiko.transport-INFO-Authentication (password) successful!
+2019-07-12 13:28:19,045-paramiko.transport-DEBUG-[chan 0] Max packet in: 32768 bytes
+2019-07-12 13:28:19,045-paramiko.transport-DEBUG-Received global request "hostkeys-00@openssh.com"
+2019-07-12 13:28:19,045-paramiko.transport-DEBUG-Rejecting "hostkeys-00@openssh.com" global request from server.
+2019-07-12 13:28:19,085-paramiko.transport-DEBUG-[chan 0] Max packet out: 32768 bytes
+2019-07-12 13:28:19,085-paramiko.transport-DEBUG-Secsh channel 0 opened.
+2019-07-12 13:28:19,111-paramiko.transport-DEBUG-[chan 0] Sesch channel 0 request ok
+2019-07-12 13:28:19,640-paramiko.transport-DEBUG-[chan 0] EOF received (0)
+2019-07-12 13:28:19,641-paramiko.transport-DEBUG-[chan 0] EOF sent (0)
+2019-07-12 13:28:25,645-paramiko.transport-DEBUG-[chan 1] Max packet in: 32768 bytes
+2019-07-12 13:28:25,645-paramiko.transport-DEBUG-[chan 1] Max packet out: 32768 bytes
+2019-07-12 13:28:25,646-paramiko.transport-DEBUG-Secsh channel 1 opened.
+2019-07-12 13:28:25,648-paramiko.transport-DEBUG-[chan 1] Sesch channel 1 request ok
+2019-07-12 13:28:26,176-paramiko.transport-DEBUG-[chan 1] EOF received (1)
+2019-07-12 13:28:26,177-paramiko.transport-DEBUG-[chan 1] EOF sent (1)
+2019-07-12 13:28:28,178-paramiko.transport-DEBUG-[chan 2] Max packet in: 32768 bytes
+2019-07-12 13:28:28,178-paramiko.transport-DEBUG-[chan 2] Max packet out: 32768 bytes
+2019-07-12 13:28:28,178-paramiko.transport-DEBUG-Secsh channel 2 opened.
+2019-07-12 13:28:28,181-paramiko.transport-DEBUG-[chan 2] Sesch channel 2 request ok
+2019-07-12 13:28:28,886-paramiko.transport-DEBUG-[chan 2] EOF received (2)
+2019-07-12 13:28:28,887-paramiko.transport-DEBUG-[chan 2] EOF sent (2)
+2019-07-12 13:28:34,892-paramiko.transport-DEBUG-[chan 3] Max packet in: 32768 bytes
+2019-07-12 13:28:34,892-paramiko.transport-DEBUG-[chan 3] Max packet out: 32768 bytes
+2019-07-12 13:28:34,892-paramiko.transport-DEBUG-Secsh channel 3 opened.
+2019-07-12 13:28:34,895-paramiko.transport-DEBUG-[chan 3] Sesch channel 3 request ok
+2019-07-12 13:28:35,430-paramiko.transport-DEBUG-[chan 3] EOF received (3)
+2019-07-12 13:28:35,431-paramiko.transport-DEBUG-[chan 3] EOF sent (3)
+2019-07-12 13:28:37,432-paramiko.transport-DEBUG-[chan 4] Max packet in: 32768 bytes
+2019-07-12 13:28:37,433-paramiko.transport-DEBUG-[chan 4] Max packet out: 32768 bytes
+2019-07-12 13:28:37,433-paramiko.transport-DEBUG-Secsh channel 4 opened.
+2019-07-12 13:28:37,436-paramiko.transport-DEBUG-[chan 4] Sesch channel 4 request ok
+2019-07-12 13:28:38,394-paramiko.transport-DEBUG-[chan 4] EOF received (4)
+2019-07-12 13:28:38,394-paramiko.transport-DEBUG-[chan 4] EOF sent (4)
+2019-07-12 13:28:44,396-paramiko.transport-DEBUG-[chan 5] Max packet in: 32768 bytes
+2019-07-12 13:28:44,397-paramiko.transport-DEBUG-[chan 5] Max packet out: 32768 bytes
+2019-07-12 13:28:44,397-paramiko.transport-DEBUG-Secsh channel 5 opened.
+2019-07-12 13:28:44,400-paramiko.transport-DEBUG-[chan 5] Sesch channel 5 request ok
+2019-07-12 13:28:45,356-paramiko.transport-DEBUG-[chan 5] EOF received (5)
+2019-07-12 13:28:45,357-paramiko.transport-DEBUG-[chan 5] EOF sent (5)
+2019-07-12 13:28:47,360-paramiko.transport-DEBUG-EOF in transport thread
+2019-07-12 13:28:47,483-myloger-WARNING-默认1：可用资金不足-沪A限价买入（可用资金=下单金额+费用-0.01）重启oms
+2019-07-12 13:28:48,089-myloger-WARNING-执行结果为True,,

@@ -1,0 +1,17 @@
+python YW_XGSG_SHSG_KCB_005.py
+python YW_XGSG_SHSG_KCB_008.py
+python YW_XGSG_SHSG_KCB_009.py
+python YW_XGSG_SHSG_KCB_010.py
+python YW_XGSG_SHSG_KCB_011.py
+python YW_XGSG_SHSG_KCB_012.py
+python YW_XGSG_SHSG_KCB_013.py
+python YW_XGSG_SHSG_KCB_014.py
+python YW_XGSG_SHSG_KCB_015.py
+python YW_XGSG_SHSG_KCB_016.py
+python YW_XGSG_SHSG_KCB_017.py
+python YW_XGSG_SHSG_KCB_018.py
+python YW_XGSG_SHSG_KCB_019.py
+python YW_XGSG_SHSG_KCB_020.py
+python YW_XGSG_SHSG_KCB_022.py
+python YW_XGSG_SHSG_KCB_023.py
+python YW_XGSG_SHSG_KCB_024.py

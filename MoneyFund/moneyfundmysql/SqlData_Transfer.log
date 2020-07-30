@@ -1,0 +1,36 @@
+2018-08-30 14:38:51,987-log_demo-INFO-sql able to connect!
+2018-08-30 14:38:51,987-log_demo-INFO-delete xtp_exch_sec_20180830 from xtp_exch_sec_20180830, xtp_exch_sec_auto where xtp_exch_sec_20180830.exch_id = xtp_exch_sec_auto.exch_id and xtp_exch_sec_20180830.instrument_id = xtp_exch_sec_auto.instrument_id
+2018-08-30 14:38:52,366-log_demo-INFO-delete table xtp_exch_sec_20180830 success!
+2018-08-30 14:38:52,523-log_demo-INFO-sql able to connect!
+2018-08-30 14:38:52,638-log_demo-INFO-insert into xtp_exch_sec_20180830
+                       select * from xtp_exch_sec_auto
+2018-08-30 14:38:52,638-log_demo-INFO-insert_exch_sec success!
+2018-08-30 14:38:52,961-log_demo-INFO-sql able to connect!
+2018-08-30 14:38:52,962-log_demo-INFO-delete xtp_stk_asset_20180830 from xtp_stk_asset_20180830, xtp_stk_asset_auto where xtp_stk_asset_20180830.fund_acc = 100065004979  and xtp_stk_asset_20180830.market = xtp_stk_asset_auto.market  and xtp_stk_asset_20180830.stock_code = xtp_stk_asset_auto.stock_code
+2018-08-30 14:38:59,249-log_demo-INFO-delete table xtp_stk_asset_20180830 success!
+2018-08-30 14:38:59,507-log_demo-INFO-sql able to connect!
+2018-08-30 14:38:59,507-log_demo-INFO-insert into xtp_stk_asset_20180830
+                      select
+                        100065004979,
+                        market,
+                        case market when 1
+                          then 'A102674247'
+                          else '0200063379'
+                        end as secu_acc,
+                        stock_code,
+                        stk_avl_qty,
+                        stk_frz_qty,
+                        stk_bal,
+                        stk_buy_sale,
+                        stk_buy_unfrz,
+                        stk_sale_frz,
+                        lst_buy_cst,
+                        lst_prf_cst,
+                        buy_cst,
+                        profit_cst,
+                        stk_remain,
+                        stk_corp_rem,
+                        cre_stk_bal,
+                        node_id
+                      from xtp_stk_asset_auto
+2018-08-30 14:38:59,581-log_demo-INFO-insert_stk_asset success!

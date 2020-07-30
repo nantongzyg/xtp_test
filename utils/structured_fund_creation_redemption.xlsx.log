@@ -1,0 +1,54 @@
+2018-12-07 15:09:41,538-log_demo-INFO-sql able to connect!
+2018-12-07 15:09:41,538-log_demo-INFO-delete from xtp_fund_asset_20181207 where fund_acc = 300065003677
+2018-12-07 15:09:41,539-log_demo-INFO-delete table xtp_fund_asset_20181207 success!
+2018-12-07 15:09:41,540-log_demo-INFO-insert into xtp_fund_asset_20181207
+                       select
+                        300065003677,
+                        cur_type,
+                        fund_avl_bal,
+                        fund_frz_bal,
+                        fund_bal,
+                        fund_buy_sale,
+                        fund_unc_buy,
+                        fund_unc_sale,
+                        fund_trsf,
+                        node_id
+                  from xtp_fund_asset_auto where py_name="YW_FJJJ_SZSS_007"
+2018-12-07 15:09:41,541-log_demo-INFO-insert_fund_assetYW_FJJJ_SZSS_007success!
+2018-12-07 15:09:41,542-log_demo-INFO-sql able to connect!
+2018-12-07 15:09:41,543-log_demo-INFO-
+                            update xtp_cur_fee_rate set
+                              value = 10
+                            where
+                              user_id = 282
+                            and fee_rate_id = 3003
+2018-12-07 15:09:41,543-log_demo-INFO-update_cur_fee_rate success!
+2018-12-07 15:09:41,551-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2018-12-07 15:09:41,652-paramiko.transport-INFO-Authentication (password) successful!
+2018-12-07 15:09:44,157-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2018-12-07 15:09:44,228-paramiko.transport-INFO-Authentication (password) successful!
+2018-12-07 15:09:50,388-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2018-12-07 15:09:50,458-paramiko.transport-INFO-Authentication (password) successful!
+2018-12-07 15:10:07,721-log_demo-INFO-sql able to connect!
+2018-12-07 15:10:07,722-log_demo-INFO-delete from xtp_fund_asset_20181207 where fund_acc = 300065003677
+2018-12-07 15:10:07,723-log_demo-INFO-delete table xtp_fund_asset_20181207 success!
+2018-12-07 15:10:07,724-log_demo-INFO-insert into xtp_fund_asset_20181207
+                       select
+                        300065003677,
+                        cur_type,
+                        fund_avl_bal,
+                        fund_frz_bal,
+                        fund_bal,
+                        fund_buy_sale,
+                        fund_unc_buy,
+                        fund_unc_sale,
+                        fund_trsf,
+                        node_id
+                  from xtp_fund_asset_auto where py_name="YW_FJJJ_SZSS_021"
+2018-12-07 15:10:07,725-log_demo-INFO-insert_fund_assetYW_FJJJ_SZSS_021success!
+2018-12-07 15:10:07,732-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2018-12-07 15:10:07,800-paramiko.transport-INFO-Authentication (password) successful!
+2018-12-07 15:10:10,287-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2018-12-07 15:10:10,356-paramiko.transport-INFO-Authentication (password) successful!
+2018-12-07 15:10:16,520-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2018-12-07 15:10:16,588-paramiko.transport-INFO-Authentication (password) successful!

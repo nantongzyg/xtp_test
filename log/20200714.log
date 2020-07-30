@@ -1,0 +1,122 @@
+2020-07-14 19:10:56,002 - YW_CYBGG_QXJY_001.py:42 - 有买入核准制创业板股票的权限&无买入注册制创业板股票的权限-买入核准制创业板股票
+2020-07-14 19:10:57,173 - YW_CYBGG_QXJY_001.py:69 - 执行结果为True,,
+2020-07-14 19:10:57,173 - YW_CYBGG_QXJY_002.py:36 - 有买入核准制创业板股票的权限&无买入注册制创业板股票的权限-卖出核准制创业板股票
+2020-07-14 19:10:58,399 - YW_CYBGG_QXJY_002.py:63 - 执行结果为True,,
+2020-07-14 19:10:58,415 - YW_CYBGG_QXJY_003.py:36 - 有买入核准制创业板股票的权限&无买入注册制创业板股票的权限-买入注册制创业板股票
+2020-07-14 19:10:58,676 - BdtsDataCheck.py:660 - 报单的error_msg与用例期望的不一致，期望和实际的error_msg分别是Fund account has no startup board buy right!,Security account has no startup board right!
+2020-07-14 19:10:59,533 - YW_CYBGG_QXJY_003.py:63 - 执行结果为False,报单推送,报单的error_msg与用例期望的不一致
+2020-07-14 19:10:59,534 - YW_CYBGG_QXJY_004.py:36 - 有买入核准制创业板股票的权限&无买入注册制创业板股票的权限-卖出注册制创业板股票
+2020-07-14 19:11:00,825 - YW_CYBGG_QXJY_004.py:63 - 执行结果为True,,
+2020-07-14 19:11:00,826 - YW_CYBGG_QXJY_005.py:36 - 有买入核准制创业板股票的权限&无买入注册制创业板股票的权限-可转债买入核准制创业板股票
+2020-07-14 19:11:00,858 - YW_CYBGG_QXJY_006.py:36 - 有买入核准制创业板股票的权限&无买入注册制创业板股票的权限-可转债卖出核准制创业板股票
+2020-07-14 19:11:01,008 - YW_CYBGG_QXJY_007.py:36 - 有买入核准制创业板股票的权限&无买入注册制创业板股票的权限-可转债买入注册制创业板股票
+2020-07-14 19:11:01,041 - YW_CYBGG_QXJY_008.py:36 - 有买入核准制创业板股票的权限&无买入注册制创业板股票的权限-可转债卖出注册制创业板股票
+2020-07-14 19:11:01,186 - YW_CYBGG_QXJY_009.py:36 - 有买入核准制创业板股票的权限&无买入注册制创业板股票的权限-买入核准制风险警示股票
+2020-07-14 19:11:02,307 - YW_CYBGG_QXJY_009.py:63 - 执行结果为True,,
+2020-07-14 19:11:02,308 - YW_CYBGG_QXJY_010.py:36 - 有买入核准制创业板股票的权限&无买入注册制创业板股票的权限-卖出核准制风险警示股票
+2020-07-14 19:11:03,535 - YW_CYBGG_QXJY_010.py:63 - 执行结果为True,,
+2020-07-14 19:11:03,552 - YW_CYBGG_QXJY_011.py:36 - 有买入核准制创业板股票的权限&无买入注册制创业板股票的权限-买入注册制风险警示股票
+2020-07-14 19:11:03,865 - BdtsDataCheck.py:660 - 报单的error_msg与用例期望的不一致，期望和实际的error_msg分别是Fund account has no startup board buy right!,Security account has no startup board right!
+2020-07-14 19:11:04,679 - YW_CYBGG_QXJY_011.py:63 - 执行结果为False,报单推送,报单的error_msg与用例期望的不一致
+2020-07-14 19:11:04,680 - YW_CYBGG_QXJY_012.py:36 - 有买入核准制创业板股票的权限&无买入注册制创业板股票的权限-卖出注册制风险警示股票
+2020-07-14 19:11:05,952 - YW_CYBGG_QXJY_012.py:63 - 执行结果为True,,
+2020-07-14 19:11:05,953 - YW_CYBGG_QXJY_013.py:36 - 有买入核准制创业板股票的权限&无买入注册制创业板股票的权限-买入核准制退市整理股票
+2020-07-14 19:11:07,077 - YW_CYBGG_QXJY_013.py:63 - 执行结果为True,,
+2020-07-14 19:11:07,077 - YW_CYBGG_QXJY_014.py:36 - 有买入核准制创业板股票的权限&无买入注册制创业板股票的权限-卖出核准制退市整理股票
+2020-07-14 19:11:08,360 - YW_CYBGG_QXJY_014.py:63 - 执行结果为True,,
+2020-07-14 19:11:08,377 - YW_CYBGG_QXJY_015.py:36 - 有买入核准制创业板股票的权限&无买入注册制创业板股票的权限-买入核准制退市整理股票
+2020-07-14 19:11:10,833 - BdtsDataCheck.py:208 - 期望状态和报单状态、提交状态不匹配，期望状态、报单状态、提交状态分别为废单,XTP_ORDER_STATUS_ALLTRADED,XTP_ORDER_SUBMIT_STATUS_INSERT_ACCEPTED
+2020-07-14 19:11:11,497 - YW_CYBGG_QXJY_015.py:63 - 执行结果为False,报单查询,期望状态与报单状态不匹配
+2020-07-14 19:11:11,498 - YW_CYBGG_QXJY_016.py:36 - 有买入核准制创业板股票的权限&无买入注册制创业板股票的权限-卖出核准制退市整理股票
+2020-07-14 19:11:12,720 - YW_CYBGG_QXJY_016.py:63 - 执行结果为True,,
+2020-07-14 19:11:12,737 - YW_CYBGG_QXJY_019.py:36 - 有买入核准制创业板股票的权限&无买入注册制创业板股票的权限-买入注册制退市整理股票
+2020-07-14 19:11:13,024 - BdtsDataCheck.py:660 - 报单的error_msg与用例期望的不一致，期望和实际的error_msg分别是Fund account has no startup board buy right!,Security account has no startup board right!
+2020-07-14 19:11:13,858 - YW_CYBGG_QXJY_019.py:63 - 执行结果为False,报单推送,报单的error_msg与用例期望的不一致
+2020-07-14 19:11:13,859 - YW_CYBGG_QXJY_020.py:36 - 有买入核准制创业板股票的权限&无买入注册制创业板股票的权限-卖出注册制退市整理股票
+2020-07-14 19:11:15,086 - YW_CYBGG_QXJY_020.py:63 - 执行结果为True,,
+2020-07-14 19:12:21,546 - YW_CYBGG_QXJY_017.py:42 - 有买入核准制创业板股票的权限&无买入注册制创业板股票的权限-买入注册制退市整理股票
+2020-07-14 19:12:21,828 - BdtsDataCheck.py:660 - 报单的error_msg与用例期望的不一致，期望和实际的error_msg分别是Fund account has no startup board buy right!,Security account has no startup board right!
+2020-07-14 19:12:22,675 - YW_CYBGG_QXJY_017.py:69 - 执行结果为False,报单推送,报单的error_msg与用例期望的不一致
+2020-07-14 19:12:22,676 - YW_CYBGG_QXJY_018.py:36 - 有买入核准制创业板股票的权限&无买入注册制创业板股票的权限-卖出注册制退市整理股票
+2020-07-14 19:12:23,899 - YW_CYBGG_QXJY_018.py:63 - 执行结果为True,,
+2020-07-14 19:13:30,201 - YW_CYBGG_QXJY_021.py:42 - 有买入注册制创业板股票的权限-买入核准制创业板股票
+2020-07-14 19:13:31,322 - YW_CYBGG_QXJY_021.py:69 - 执行结果为True,,
+2020-07-14 19:13:31,322 - YW_CYBGG_QXJY_022.py:36 - 有买入注册制创业板股票的权限-卖出核准制创业板股票
+2020-07-14 19:13:32,591 - YW_CYBGG_QXJY_022.py:63 - 执行结果为True,,
+2020-07-14 19:13:32,592 - YW_CYBGG_QXJY_023.py:36 - 有买入注册制创业板股票的权限-买入注册制创业板股票
+2020-07-14 19:13:33,710 - YW_CYBGG_QXJY_023.py:63 - 执行结果为True,,
+2020-07-14 19:13:33,711 - YW_CYBGG_QXJY_024.py:36 - 有买入注册制创业板股票的权限-卖出注册制创业板股票
+2020-07-14 19:13:34,952 - YW_CYBGG_QXJY_024.py:63 - 执行结果为True,,
+2020-07-14 19:13:34,952 - YW_CYBGG_QXJY_025.py:36 - 有买入注册制创业板股票的权限-可转债买入核准制创业板股票
+2020-07-14 19:13:34,986 - YW_CYBGG_QXJY_026.py:36 - 有买入注册制创业板股票的权限-可转债卖出核准制创业板股票
+2020-07-14 19:13:35,127 - YW_CYBGG_QXJY_027.py:36 - 有买入注册制创业板股票的权限-可转债买入注册制创业板股票
+2020-07-14 19:13:35,159 - YW_CYBGG_QXJY_028.py:36 - 有买入注册制创业板股票的权限-可转债卖出注册制创业板股票
+2020-07-14 19:13:35,303 - YW_CYBGG_QXJY_029.py:36 - 有买入注册制创业板股票的权限-买入核准制风险警示股票
+2020-07-14 19:13:36,448 - YW_CYBGG_QXJY_029.py:63 - 执行结果为True,,
+2020-07-14 19:13:36,449 - YW_CYBGG_QXJY_030.py:36 - 有买入注册制创业板股票的权限-卖出核准制风险警示股票
+2020-07-14 19:13:37,678 - YW_CYBGG_QXJY_030.py:63 - 执行结果为True,,
+2020-07-14 19:13:37,678 - YW_CYBGG_QXJY_031.py:36 - 有买入注册制创业板股票的权限-买入注册制风险警示股票
+2020-07-14 19:13:38,816 - YW_CYBGG_QXJY_031.py:63 - 执行结果为True,,
+2020-07-14 19:13:38,817 - YW_CYBGG_QXJY_032.py:36 - 有买入注册制创业板股票的权限-卖出注册制风险警示股票
+2020-07-14 19:13:40,044 - YW_CYBGG_QXJY_032.py:63 - 执行结果为True,,
+2020-07-14 19:13:40,044 - YW_CYBGG_QXJY_033.py:36 - 有买入注册制创业板股票的权限-买入核准制退市整理股票
+2020-07-14 19:13:41,208 - YW_CYBGG_QXJY_033.py:63 - 执行结果为True,,
+2020-07-14 19:13:41,208 - YW_CYBGG_QXJY_034.py:36 - 有买入注册制创业板股票的权限-卖出核准制退市整理股票
+2020-07-14 19:13:42,433 - YW_CYBGG_QXJY_034.py:63 - 执行结果为True,,
+2020-07-14 19:13:42,434 - YW_CYBGG_QXJY_035.py:36 - 有买入注册制创业板股票的权限-买入核准制退市整理股票
+2020-07-14 19:13:43,573 - YW_CYBGG_QXJY_035.py:63 - 执行结果为True,,
+2020-07-14 19:13:43,573 - YW_CYBGG_QXJY_036.py:36 - 有买入注册制创业板股票的权限-卖出核准制退市整理股票
+2020-07-14 19:13:44,817 - YW_CYBGG_QXJY_036.py:63 - 执行结果为True,,
+2020-07-14 19:13:44,834 - YW_CYBGG_QXJY_039.py:36 - 有买入注册制创业板股票的权限-买入注册制退市整理股票
+2020-07-14 19:13:47,300 - BdtsDataCheck.py:208 - 期望状态和报单状态、提交状态不匹配，期望状态、报单状态、提交状态分别为废单,XTP_ORDER_STATUS_ALLTRADED,XTP_ORDER_SUBMIT_STATUS_INSERT_ACCEPTED
+2020-07-14 19:13:47,977 - YW_CYBGG_QXJY_039.py:63 - 执行结果为False,报单查询,期望状态与报单状态不匹配
+2020-07-14 19:13:47,977 - YW_CYBGG_QXJY_040.py:36 - 有买入注册制创业板股票的权限-卖出注册制退市整理股票
+2020-07-14 19:13:49,202 - YW_CYBGG_QXJY_040.py:63 - 执行结果为True,,
+2020-07-14 19:14:55,343 - YW_CYBGG_QXJY_037.py:42 - 有买入注册制创业板股票的权限-买入注册制退市整理股票
+2020-07-14 19:14:56,465 - YW_CYBGG_QXJY_037.py:69 - 执行结果为True,,
+2020-07-14 19:14:56,466 - YW_CYBGG_QXJY_038.py:36 - 有买入注册制创业板股票的权限-卖出注册制退市整理股票
+2020-07-14 19:14:57,706 - YW_CYBGG_QXJY_038.py:63 - 执行结果为True,,
+2020-07-14 19:16:03,866 - YW_CYBGG_QXJY_041.py:42 - 无买入创业板股票的权限-买入核准制创业板股票
+2020-07-14 19:16:04,214 - BdtsDataCheck.py:660 - 报单的error_msg与用例期望的不一致，期望和实际的error_msg分别是Fund account has no startup board buy right!,Security account has no startup board right!
+2020-07-14 19:16:05,068 - YW_CYBGG_QXJY_041.py:69 - 执行结果为False,报单推送,报单的error_msg与用例期望的不一致
+2020-07-14 19:16:05,069 - YW_CYBGG_QXJY_042.py:36 - 无买入创业板股票的权限-卖出核准制创业板股票
+2020-07-14 19:16:06,306 - YW_CYBGG_QXJY_042.py:63 - 执行结果为True,,
+2020-07-14 19:16:06,332 - YW_CYBGG_QXJY_043.py:36 - 无买入创业板股票的权限-买入注册制创业板股票
+2020-07-14 19:16:06,621 - BdtsDataCheck.py:660 - 报单的error_msg与用例期望的不一致，期望和实际的error_msg分别是Fund account has no startup board buy right!,Security account has no startup board right!
+2020-07-14 19:16:07,473 - YW_CYBGG_QXJY_043.py:63 - 执行结果为False,报单推送,报单的error_msg与用例期望的不一致
+2020-07-14 19:16:07,473 - YW_CYBGG_QXJY_044.py:36 - 无买入创业板股票的权限-卖出注册制创业板股票
+2020-07-14 19:16:08,699 - YW_CYBGG_QXJY_044.py:63 - 执行结果为True,,
+2020-07-14 19:16:08,700 - YW_CYBGG_QXJY_045.py:36 - 无买入创业板股票的权限-可转债买入核准制创业板股票
+2020-07-14 19:16:08,732 - YW_CYBGG_QXJY_046.py:36 - 无买入创业板股票的权限-可转债卖出核准制创业板股票
+2020-07-14 19:16:08,880 - YW_CYBGG_QXJY_047.py:36 - 无买入创业板股票的权限-可转债买入注册制创业板股票
+2020-07-14 19:16:08,912 - YW_CYBGG_QXJY_048.py:36 - 无买入创业板股票的权限-可转债卖出注册制创业板股票
+2020-07-14 19:16:09,091 - YW_CYBGG_QXJY_049.py:36 - 无买入创业板股票的权限-买入核准制风险警示股票
+2020-07-14 19:16:09,395 - BdtsDataCheck.py:660 - 报单的error_msg与用例期望的不一致，期望和实际的error_msg分别是Fund account has no startup board buy right!,Security account has no startup board right!
+2020-07-14 19:16:10,238 - YW_CYBGG_QXJY_049.py:63 - 执行结果为False,报单推送,报单的error_msg与用例期望的不一致
+2020-07-14 19:16:10,239 - YW_CYBGG_QXJY_050.py:36 - 无买入创业板股票的权限-卖出核准制风险警示股票
+2020-07-14 19:16:11,489 - YW_CYBGG_QXJY_050.py:63 - 执行结果为True,,
+2020-07-14 19:16:11,506 - YW_CYBGG_QXJY_051.py:36 - 无买入创业板股票的权限-买入注册制风险警示股票
+2020-07-14 19:16:11,823 - BdtsDataCheck.py:660 - 报单的error_msg与用例期望的不一致，期望和实际的error_msg分别是Fund account has no startup board buy right!,Security account has no startup board right!
+2020-07-14 19:16:12,637 - YW_CYBGG_QXJY_051.py:63 - 执行结果为False,报单推送,报单的error_msg与用例期望的不一致
+2020-07-14 19:16:12,637 - YW_CYBGG_QXJY_052.py:36 - 无买入创业板股票的权限-卖出注册制风险警示股票
+2020-07-14 19:16:13,886 - YW_CYBGG_QXJY_052.py:63 - 执行结果为True,,
+2020-07-14 19:16:13,903 - YW_CYBGG_QXJY_055.py:36 - 无买入创业板股票的权限-买入核准制退市整理股票
+2020-07-14 19:16:14,198 - BdtsDataCheck.py:660 - 报单的error_msg与用例期望的不一致，期望和实际的error_msg分别是Fund account has no startup board buy right!,Security account has no startup board right!
+2020-07-14 19:16:15,025 - YW_CYBGG_QXJY_055.py:63 - 执行结果为False,报单推送,报单的error_msg与用例期望的不一致
+2020-07-14 19:16:15,026 - YW_CYBGG_QXJY_056.py:36 - 无买入创业板股票的权限-卖出核准制退市整理股票
+2020-07-14 19:16:16,292 - YW_CYBGG_QXJY_056.py:63 - 执行结果为True,,
+2020-07-14 19:16:16,308 - YW_CYBGG_QXJY_059.py:36 - 无买入创业板股票的权限-买入注册准制退市整理股票
+2020-07-14 19:16:16,601 - BdtsDataCheck.py:660 - 报单的error_msg与用例期望的不一致，期望和实际的error_msg分别是Fund account has no startup board buy right!,Security account has no startup board right!
+2020-07-14 19:16:17,426 - YW_CYBGG_QXJY_059.py:63 - 执行结果为False,报单推送,报单的error_msg与用例期望的不一致
+2020-07-14 19:16:17,427 - YW_CYBGG_QXJY_060.py:36 - 无买入创业板股票的权限-卖出注册制退市整理股票
+2020-07-14 19:16:18,649 - YW_CYBGG_QXJY_060.py:63 - 执行结果为True,,
+2020-07-14 19:17:25,091 - YW_CYBGG_QXJY_053.py:42 - 无买入创业板股票的权限-买入核准制退市整理股票
+2020-07-14 19:17:25,413 - BdtsDataCheck.py:660 - 报单的error_msg与用例期望的不一致，期望和实际的error_msg分别是Fund account has no startup board buy right!,Security account has no startup board right!
+2020-07-14 19:17:26,234 - YW_CYBGG_QXJY_053.py:69 - 执行结果为False,报单推送,报单的error_msg与用例期望的不一致
+2020-07-14 19:17:26,235 - YW_CYBGG_QXJY_054.py:36 - 无买入创业板股票的权限-卖出核准制退市整理股票
+2020-07-14 19:17:27,512 - YW_CYBGG_QXJY_054.py:63 - 执行结果为True,,
+2020-07-14 19:17:27,532 - YW_CYBGG_QXJY_057.py:36 - 无买入创业板股票的权限-买入注册制退市整理股票
+2020-07-14 19:17:27,802 - BdtsDataCheck.py:660 - 报单的error_msg与用例期望的不一致，期望和实际的error_msg分别是Fund account has no startup board buy right!,Security account has no startup board right!
+2020-07-14 19:17:28,661 - YW_CYBGG_QXJY_057.py:63 - 执行结果为False,报单推送,报单的error_msg与用例期望的不一致
+2020-07-14 19:17:28,662 - YW_CYBGG_QXJY_058.py:36 - 无买入创业板股票的权限-卖出注册制退市整理股票
+2020-07-14 19:17:29,905 - YW_CYBGG_QXJY_058.py:63 - 执行结果为True,,

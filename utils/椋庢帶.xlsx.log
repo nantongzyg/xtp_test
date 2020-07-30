@@ -1,0 +1,44 @@
+2019-05-28 10:04:58,009-log_demo-INFO-sql able to connect!
+2019-05-28 10:04:58,009-log_demo-INFO-delete xtp_cur_risk from xtp_cur_risk, xtp_oms_user where xtp_oms_user.user_name = 'testshopt02'  and xtp_cur_risk.server_id = xtp_oms_user.trade_server_id
+2019-05-28 10:04:58,025-log_demo-INFO-delete table xtp_cur_risk success!
+2019-05-28 10:04:58,026-log_demo-INFO-sql able to connect!
+2019-05-28 10:04:58,028-log_demo-INFO-sql able to connect!
+2019-05-28 10:04:58,029-log_demo-INFO-select * from xtp_cur_risk_auto where xtp_cur_risk_auto.py_name = 'FK_FKYW_GPWT_621'
+2019-05-28 10:04:58,041-log_demo-INFO-insert_cur_risk success!
+2019-05-28 10:04:58,042-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 0, '1', 16)
+2019-05-28 10:04:58,042-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 1001, '0', 16)
+2019-05-28 10:04:58,042-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 1002, '320000', 16)
+2019-05-28 10:04:58,043-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 2001, '0', 16)
+2019-05-28 10:04:58,043-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 2002, '10000000', 16)
+2019-05-28 10:04:58,043-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 9001, '0', 16)
+2019-05-28 10:04:58,043-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 9002, '310000', 16)
+2019-05-28 10:04:58,044-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 10001, '0', 16)
+2019-05-28 10:04:58,044-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 10002, '300000', 16)
+2019-05-28 10:04:58,044-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 14001, '1', 16)
+2019-05-28 10:04:58,044-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 14002, '3000', 16)
+2019-05-28 10:04:58,045-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 14003, '1', 16)
+2019-05-28 10:04:58,045-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 14004, '60', 16)
+2019-05-28 10:04:58,045-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 25001, '0', 16)
+2019-05-28 10:04:58,045-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 25002, '100', 16)
+2019-05-28 10:04:58,045-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 26001, '0', 16)
+2019-05-28 10:04:58,046-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 26002, '500', 16)
+2019-05-28 10:04:58,046-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 27001, '0', 16)
+2019-05-28 10:04:58,046-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 27002, '5', 16)
+2019-05-28 10:04:58,046-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 27003, '10', 16)
+2019-05-28 10:04:58,047-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 27004, '60', 16)
+2019-05-28 10:04:58,047-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 38001, '0', 16)
+2019-05-28 10:04:58,047-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 38002, '5', 16)
+2019-05-28 10:04:58,047-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 38003, '10', 16)
+2019-05-28 10:04:58,048-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 38004, '60', 16)
+2019-05-28 10:04:58,048-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 41001, '0', 16)
+2019-05-28 10:04:58,048-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 41002, '3', 16)
+2019-05-28 10:04:58,048-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 42001, '0', 16)
+2019-05-28 10:04:58,048-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 42002, '59', 16)
+2019-05-28 10:04:58,049-log_demo-INFO-insert into xtp_cur_risk values(null, 282, 42003, '2', 16)
+2019-05-28 10:04:58,049-log_demo-INFO-insert into xtp_cur_risk values(null, -1, 43001, '0', 16)
+2019-05-28 10:04:58,049-log_demo-INFO-insert into xtp_cur_risk values(null, -1, 43002, '1000', 16)
+2019-05-28 10:04:58,049-log_demo-INFO-insert into xtp_cur_risk values(null, -1, 43003, '1', 16)
+2019-05-28 10:04:58,050-log_demo-INFO-insert into xtp_cur_risk values(null, -1, 43004, '60', 16)
+2019-05-28 10:04:58,052-log_demo-INFO-insert_cur_risk success!
+2019-05-28 10:04:58,058-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-05-28 10:04:58,151-paramiko.transport-INFO-Authentication (password) successful!

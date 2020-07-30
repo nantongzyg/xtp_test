@@ -1,0 +1,6 @@
+2020-07-29 18:13:12,684-log_demo-INFO-sql able to connect!
+2020-07-29 18:13:12,685-log_demo-INFO-
+                    update xtp_opt_cntrt_info_20200729 set exercise_date = "20200730"
+2020-07-29 18:13:12,687-log_demo-INFO-
+                    update xtp_opt_cntrt_info_20200729 set exercise_date = "20180607" where cntrt_id = "11002637"
+2020-07-29 18:13:12,689-log_demo-INFO-update_opt_cntrt_info success!

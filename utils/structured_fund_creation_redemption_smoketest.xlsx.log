@@ -1,0 +1,58 @@
+2020-03-16 15:54:33,822-log_demo-INFO-sql able to connect!
+2020-03-16 15:54:33,822-log_demo-INFO-delete from xtp_fund_asset_20200316 where fund_acc = 100065004975 and oms_id = 11
+2020-03-16 15:54:33,824-log_demo-INFO-delete table xtp_fund_asset_20200316 success!
+2020-03-16 15:54:33,834-log_demo-INFO-insert into xtp_fund_asset_20200316
+                       select
+                        100065004975,
+                        cur_type,
+                        fund_avl_bal,
+                        fund_frz_bal,
+                        fund_bal,
+                        fund_buy_sale,
+                        fund_unc_buy,
+                        fund_unc_sale,
+                        fund_trsf,
+                        node_id,
+                        11
+                  from xtp_fund_asset_auto where py_name="YW_FJJJ_SZSS_007"
+2020-03-16 15:54:33,840-log_demo-INFO-insert_fund_assetYW_FJJJ_SZSS_007success!
+2020-03-16 15:54:33,852-log_demo-INFO-sql able to connect!
+2020-03-16 15:54:33,855-log_demo-INFO-
+                            update xtp_cur_fee_rate set
+                              value = 10
+                            where
+                              user_id = 281
+                            and fee_rate_id = 3003
+2020-03-16 15:54:33,856-log_demo-INFO-update_cur_fee_rate success!
+2020-03-16 15:54:33,863-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2020-03-16 15:54:33,960-paramiko.transport-INFO-Authentication (password) successful!
+2020-03-16 15:54:36,351-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2020-03-16 15:54:36,438-paramiko.transport-INFO-Authentication (password) successful!
+2020-03-16 15:54:42,517-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2020-03-16 15:54:42,620-paramiko.transport-INFO-Authentication (password) successful!
+2020-03-16 15:54:59,966-myloger-WARNING-母基金申赎—申购：订单确认
+2020-03-16 15:55:00,127-myloger-ERROR-报单回报状态为未成交,提交状态为已提交,XTP_ORDER_STATUS_NOTRADEQUEUEING,XTP_ORDER_SUBMIT_STATUS_INSERT_ACCEPTED
+2020-03-16 15:55:00,172-myloger-ERROR-可用资金预冻结不正确
+2020-03-16 15:55:00,517-myloger-WARNING-执行结果为False,报单查询,可用资金预冻结不正确
+2020-03-16 15:55:00,518-myloger-WARNING-母基金申赎—申购：撤单已成
+2020-03-16 15:55:00,668-myloger-ERROR-报单回报状态为未成交,提交状态为已提交,XTP_ORDER_STATUS_NOTRADEQUEUEING,XTP_ORDER_SUBMIT_STATUS_INSERT_ACCEPTED
+2020-03-16 15:55:00,669-myloger-WARNING-报单查询等待...,xtpID=901029373941991644
+2020-03-16 15:55:01,064-myloger-WARNING-执行结果为True,,
+2020-03-16 15:55:01,077-log_demo-INFO-sql able to connect!
+2020-03-16 15:55:01,082-log_demo-INFO-
+                            update xtp_cur_fee_rate set
+                              value = 10
+                            where
+                              user_id = 281
+                            and fee_rate_id = 3003
+2020-03-16 15:55:01,084-log_demo-INFO-update_cur_fee_rate success!
+2020-03-16 15:55:01,093-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2020-03-16 15:55:01,200-paramiko.transport-INFO-Authentication (password) successful!
+2020-03-16 15:55:18,776-myloger-WARNING-母基金申赎—赎回：订单确认
+2020-03-16 15:55:18,934-myloger-ERROR-报单回报状态为未成交,提交状态为已提交,XTP_ORDER_STATUS_NOTRADEQUEUEING,XTP_ORDER_SUBMIT_STATUS_INSERT_ACCEPTED
+2020-03-16 15:55:18,980-myloger-ERROR-可用资金预冻结不正确
+2020-03-16 15:55:19,329-myloger-WARNING-执行结果为False,报单查询,可用资金预冻结不正确
+2020-03-16 15:55:19,330-myloger-WARNING-母基金申赎—赎回：撤单已成
+2020-03-16 15:55:19,475-myloger-ERROR-报单回报状态为未成交,提交状态为已提交,XTP_ORDER_STATUS_NOTRADEQUEUEING,XTP_ORDER_SUBMIT_STATUS_INSERT_ACCEPTED
+2020-03-16 15:55:19,476-myloger-WARNING-报单查询等待...,xtpID=901029373941992648
+2020-03-16 15:55:19,874-myloger-WARNING-执行结果为True,,

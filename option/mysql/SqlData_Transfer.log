@@ -1,0 +1,6 @@
+2019-04-23 09:05:57,978-log_demo-INFO-sql able to connect!
+2019-04-23 09:05:57,978-log_demo-INFO-
+                    update xtp_opt_cntrt_info_20190423 set exercise_date = "20190423"
+2019-04-23 09:05:57,982-log_demo-INFO-
+                    update xtp_opt_cntrt_info_20190423 set exercise_date = "20180607" where cntrt_id = "11002637"
+2019-04-23 09:05:57,984-log_demo-INFO-update_opt_cntrt_info success!

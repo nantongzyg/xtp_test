@@ -1,0 +1,2230 @@
+2019-11-08 20:04:38,043-myloger-WARNING-五档即成转限价买--已成（特殊费用>min）
+2019-11-08 20:04:38,618-myloger-WARNING-执行结果为True,,
+2019-11-08 20:04:38,621-log_demo-INFO-sql able to connect!
+2019-11-08 20:04:38,621-log_demo-INFO-delete xtp_stk_asset_20191108 from xtp_stk_asset_20191108, xtp_stk_asset_auto where xtp_stk_asset_20191108.fund_acc = 100065004975  and xtp_stk_asset_20191108.market = xtp_stk_asset_auto.market  and xtp_stk_asset_20191108.stock_code = xtp_stk_asset_auto.stock_code
+2019-11-08 20:04:51,865-log_demo-INFO-delete table xtp_stk_asset_20191108 success!
+2019-11-08 20:04:51,868-log_demo-INFO-sql able to connect!
+2019-11-08 20:04:51,868-log_demo-INFO-insert into xtp_stk_asset_20191108
+                      select
+                        100065004975,
+                        market,
+                        case market when 1
+                          then 'A102673916'
+                          else '0200063365'
+                        end as secu_acc,
+                        stock_code,
+                        stk_avl_qty,
+                        stk_frz_qty,
+                        stk_bal,
+                        stk_buy_sale,
+                        stk_buy_unfrz,
+                        stk_sale_frz,
+                        lst_buy_cst,
+                        lst_prf_cst,
+                        buy_cst,
+                        profit_cst,
+                        stk_remain,
+                        stk_corp_rem,
+                        cre_stk_bal,
+                        node_id
+                      from xtp_stk_asset_auto
+2019-11-08 20:04:51,893-log_demo-INFO-insert_stk_asset success!
+2019-11-08 20:04:51,900-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:04:51,999-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:04:59,229-myloger-WARNING-五档即成转限价买--已成（特殊费用=min）
+2019-11-08 20:04:59,799-myloger-WARNING-执行结果为True,,
+2019-11-08 20:04:59,802-log_demo-INFO-sql able to connect!
+2019-11-08 20:04:59,802-log_demo-INFO-delete xtp_stk_asset_20191108 from xtp_stk_asset_20191108, xtp_stk_asset_auto where xtp_stk_asset_20191108.fund_acc = 100065004975  and xtp_stk_asset_20191108.market = xtp_stk_asset_auto.market  and xtp_stk_asset_20191108.stock_code = xtp_stk_asset_auto.stock_code
+2019-11-08 20:05:12,820-log_demo-INFO-delete table xtp_stk_asset_20191108 success!
+2019-11-08 20:05:12,823-log_demo-INFO-sql able to connect!
+2019-11-08 20:05:12,823-log_demo-INFO-insert into xtp_stk_asset_20191108
+                      select
+                        100065004975,
+                        market,
+                        case market when 1
+                          then 'A102673916'
+                          else '0200063365'
+                        end as secu_acc,
+                        stock_code,
+                        stk_avl_qty,
+                        stk_frz_qty,
+                        stk_bal,
+                        stk_buy_sale,
+                        stk_buy_unfrz,
+                        stk_sale_frz,
+                        lst_buy_cst,
+                        lst_prf_cst,
+                        buy_cst,
+                        profit_cst,
+                        stk_remain,
+                        stk_corp_rem,
+                        cre_stk_bal,
+                        node_id
+                      from xtp_stk_asset_auto
+2019-11-08 20:05:12,842-log_demo-INFO-insert_stk_asset success!
+2019-11-08 20:05:12,849-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:05:12,914-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:05:20,152-myloger-WARNING-五档即成转限价买--已成（特殊费用<min）
+2019-11-08 20:05:20,727-myloger-WARNING-执行结果为True,,
+2019-11-08 20:05:20,729-myloger-WARNING-五档即成转限价买--订单确认
+2019-11-08 20:05:22,960-myloger-ERROR-可用资金预冻结不正确
+2019-11-08 20:05:23,300-myloger-WARNING-执行结果为False,报单查询,可用资金预冻结不正确
+2019-11-08 20:05:23,302-myloger-WARNING-五档即成转限价买--部成
+2019-11-08 20:05:25,587-myloger-ERROR-可用资金计算有错,原可用资金、成交金额、待成交数量、委托价格、费用、现可用资金分别是12165584.23,27204.7,137,247.87,30.25,12104391.09
+2019-11-08 20:05:25,862-myloger-WARNING-执行结果为False,成交回报,['\xe5\x8f\xaf\xe7\x94\xa8\xe8\xb5\x84\xe9\x87\x91\xe8\xae\xa1\xe7\xae\x97\xe6\x9c\x89\xe9\x94\x99', {'\xe8\xb4\xb9\xe7\x94\xa8': 30.25, '\xe5\xbe\x85\xe6\x88\x90\xe4\xba\xa4\xe6\x95\xb0\xe9\x87\x8f': 137, '\xe6\x88\x90\xe4\xba\xa4\xe9\x87\x91\xe9\xa2\x9d': 27204.7, '\xe5\xa7\x94\xe6\x89\x98\xe4\xbb\xb7\xe6\xa0\xbc': 247.88, '\xe7\x8e\xb0\xe5\x8f\xaf\xe7\x94\xa8\xe8\xb5\x84\xe9\x87\x91': 12104391.09, '\xe5\x8e\x9f\xe5\x8f\xaf\xe7\x94\xa8\xe8\xb5\x84\xe9\x87\x91': 12165584.23}]
+2019-11-08 20:05:25,864-myloger-WARNING-五档即成转限价买-买前有持仓
+2019-11-08 20:05:26,429-myloger-WARNING-执行结果为True,,
+2019-11-08 20:05:26,431-myloger-WARNING-五档即成转限价买-部成撤单
+2019-11-08 20:05:28,587-myloger-WARNING-报单查询等待...,xtpID=901029374143240155
+2019-11-08 20:05:29,006-myloger-WARNING-执行结果为True,,
+2019-11-08 20:05:29,008-myloger-WARNING-五档即成转限价买-全部撤单
+2019-11-08 20:05:31,156-myloger-WARNING-报单查询等待...,xtpID=901029374143240157
+2019-11-08 20:05:31,569-myloger-WARNING-执行结果为True,,
+2019-11-08 20:05:31,570-myloger-WARNING-五档即成转限价买-全成再撤单(OMS)
+2019-11-08 20:05:32,630-myloger-WARNING-执行结果为True,,
+2019-11-08 20:05:32,632-myloger-WARNING-五档即成转限价买-废单再撤单(OMS)
+2019-11-08 20:05:33,191-myloger-WARNING-执行结果为True,,
+2019-11-08 20:05:33,192-myloger-WARNING-五档即成转限价买-部撤再撤单(OMS)
+2019-11-08 20:05:35,354-myloger-WARNING-报单查询等待...,xtpID=901029374143240163
+2019-11-08 20:05:35,771-myloger-WARNING-执行结果为True,,
+2019-11-08 20:05:35,773-myloger-WARNING-五档即成转限价买-全撤再撤单(OMS)
+2019-11-08 20:05:37,939-myloger-WARNING-报单查询等待...,xtpID=901029374143240166
+2019-11-08 20:05:38,355-myloger-WARNING-执行结果为True,,
+2019-11-08 20:05:38,356-myloger-WARNING-五档即成转限价买-保护价格<跌停价
+2019-11-08 20:05:38,918-myloger-WARNING-执行结果为True,,
+2019-11-08 20:05:38,920-myloger-WARNING-五档即成转限价买--保护价格=涨停价
+2019-11-08 20:05:39,481-myloger-WARNING-执行结果为True,,
+2019-11-08 20:05:39,483-myloger-WARNING-五档即成转限价买--保护价格>涨停价
+2019-11-08 20:05:40,050-myloger-WARNING-执行结果为True,,
+2019-11-08 20:05:40,051-myloger-WARNING-五档即成转限价买--保护价格>涨停价
+2019-11-08 20:05:42,613-myloger-WARNING-执行结果为True,,
+2019-11-08 20:05:42,614-myloger-WARNING-五档即成转限价买--保护价格>涨停价
+2019-11-08 20:05:45,190-myloger-WARNING-执行结果为True,,
+2019-11-08 20:05:45,192-myloger-WARNING-上海Ａ股股票交易日五档即成转限价买——错误的保护价格(价格为空)
+2019-11-08 20:05:45,751-myloger-WARNING-执行结果为True,,
+2019-11-08 20:05:45,753-myloger-WARNING-上海Ａ股股票交易日五档即成转限价买——错误的保护价格(价格<0)
+2019-11-08 20:05:45,810-myloger-WARNING-执行结果为True,,
+2019-11-08 20:05:45,812-myloger-WARNING-上海Ａ股股票交易日五档即成转限价买——错误的保护价格(价格=0)
+2019-11-08 20:05:46,383-myloger-WARNING-执行结果为True,,
+2019-11-08 20:05:46,385-myloger-WARNING-上海Ａ股股票交易日五档即成转限价买——允许的保护价格下限(价格=0.01)
+2019-11-08 20:05:46,942-myloger-WARNING-执行结果为True,,
+2019-11-08 20:05:46,944-myloger-WARNING-上海Ａ股股票交易日五档即成转限价买——输入的保护价格四舍五入后=保护价格下限(0.014)
+2019-11-08 20:05:47,527-myloger-WARNING-执行结果为True,,
+2019-11-08 20:05:47,529-myloger-WARNING-上海Ａ股股票交易日五档即成转限价买——输入的保护价格四舍五入后>保护价格下限0.015
+2019-11-08 20:05:48,095-myloger-WARNING-执行结果为True,,
+2019-11-08 20:05:48,097-myloger-WARNING-上海Ａ股股票交易日五档即成转限价买——允许的保护价格上限(价格=9999.99)
+2019-11-08 20:05:48,657-myloger-WARNING-执行结果为True,,
+2019-11-08 20:05:48,659-myloger-WARNING-上海Ａ股股票交易日五档即成转限价买——允许的保护价格上限+0.01(价格=10000.00)
+2019-11-08 20:05:49,216-myloger-WARNING-执行结果为True,,
+2019-11-08 20:05:49,218-myloger-WARNING-上海Ａ股股票交易日五档即成转限价买——输入的保护价格四舍五入后<保护价格上限(9999.984)
+2019-11-08 20:05:49,775-myloger-WARNING-执行结果为True,,
+2019-11-08 20:05:49,776-myloger-WARNING-上海Ａ股股票交易日五档即成转限价买——输入的保护价格四舍五入后>保护价格上限(9999.995)
+2019-11-08 20:05:50,334-myloger-WARNING-执行结果为True,,
+2019-11-08 20:05:50,336-myloger-WARNING-上海Ａ股股票交易日五档即成转限价买——错误的保护价格(价格10亿)
+2019-11-08 20:05:50,895-myloger-WARNING-执行结果为True,,
+2019-11-08 20:05:50,897-myloger-WARNING-上海Ａ股股票交易日五档即成转限价买——不存在的证券代码
+2019-11-08 20:05:51,435-myloger-WARNING-执行结果为True,,
+2019-11-08 20:05:51,437-myloger-WARNING-上海Ａ股股票交易日五档即成转限价买——错误的市场
+2019-11-08 20:05:52,006-myloger-WARNING-执行结果为True,,
+2019-11-08 20:05:52,008-myloger-WARNING-科创板股票交易日五档即成转限价买-错误的业务类型
+2019-11-08 20:05:52,566-myloger-WARNING-执行结果为True,,
+2019-11-08 20:05:52,567-myloger-WARNING-科创板股票交易日五档即成转限价买-错误的买卖方向
+2019-11-08 20:05:53,152-myloger-WARNING-执行结果为True,,
+2019-11-08 20:05:53,154-myloger-WARNING-科创板股票交易日限价委托买-错误的数量（数量<0）
+2019-11-08 20:05:53,222-myloger-WARNING-执行结果为True,,
+2019-11-08 20:05:53,223-myloger-WARNING-科创板股票交易日限价委托买-错误的数量（数量=0）
+2019-11-08 20:05:53,780-myloger-WARNING-执行结果为True,,
+2019-11-08 20:05:53,782-myloger-WARNING-科创板股票交易日限价委托买-允许的最小申报数量-1（200-1）
+2019-11-08 20:05:54,367-myloger-WARNING-执行结果为True,,
+2019-11-08 20:05:54,369-myloger-WARNING-科创板股票交易日限价委托买-允许的最小申报数量+1（200+1）
+2019-11-08 20:05:54,933-myloger-WARNING-执行结果为True,,
+2019-11-08 20:05:54,934-myloger-WARNING-科创板股票交易日限价委托买-允许的最大申报数量-1（5万-1）
+2019-11-08 20:05:55,101-myloger-ERROR-期望状态和报单状态、提交状态不匹配，期望状态、报单状态、提交状态分别为全成,XTP_ORDER_STATUS_REJECTED,XTP_ORDER_SUBMIT_STATUS_INSERT_REJECTED
+2019-11-08 20:05:55,517-myloger-WARNING-执行结果为False,报单查询,期望状态与报单状态不匹配
+2019-11-08 20:05:55,519-myloger-WARNING-科创板股票交易日限价委托买-允许的最大申报数量（5万）
+2019-11-08 20:05:55,645-myloger-ERROR-期望状态和报单状态、提交状态不匹配，期望状态、报单状态、提交状态分别为全成,XTP_ORDER_STATUS_REJECTED,XTP_ORDER_SUBMIT_STATUS_INSERT_REJECTED
+2019-11-08 20:05:56,079-myloger-WARNING-执行结果为False,报单查询,期望状态与报单状态不匹配
+2019-11-08 20:05:56,081-myloger-WARNING-科创板股票交易日限价委托买-超过限价单允许最大数量（5万+1）
+2019-11-08 20:05:56,650-myloger-WARNING-执行结果为True,,
+2019-11-08 20:05:56,652-myloger-WARNING-科创板股票交易日限价委托买-数量溢出（100亿）
+2019-11-08 20:05:57,211-myloger-WARNING-执行结果为True,,
+2019-11-08 20:05:57,213-myloger-WARNING-上海Ａ股股票交易日五档即成转限价买——错误的价格条件
+2019-11-08 20:05:57,794-myloger-WARNING-执行结果为True,,
+2019-11-08 20:05:57,797-log_demo-INFO-sql able to connect!
+2019-11-08 20:05:57,797-log_demo-INFO-delete from xtp_fund_asset_20191108 where fund_acc = 100065004975 and oms_id = 17
+2019-11-08 20:05:57,799-log_demo-INFO-delete table xtp_fund_asset_20191108 success!
+2019-11-08 20:05:57,802-log_demo-INFO-insert into xtp_fund_asset_20191108
+                       select
+                        100065004975,
+                        cur_type,
+                        fund_avl_bal,
+                        fund_frz_bal,
+                        fund_bal,
+                        fund_buy_sale,
+                        fund_unc_buy,
+                        fund_unc_sale,
+                        fund_trsf,
+                        node_id,
+                        17
+                  from xtp_fund_asset_auto where py_name="YW_KCB_HASPRICELIMIT_GPMM_SHSJ_WDZX_059"
+2019-11-08 20:05:57,804-log_demo-INFO-insert_fund_assetYW_KCB_HASPRICELIMIT_GPMM_SHSJ_WDZX_059success!
+2019-11-08 20:05:57,810-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:05:57,876-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:06:00,182-log_demo-INFO-sql able to connect!
+2019-11-08 20:06:00,182-log_demo-INFO-TRUNCATE TABLE ashare_cjhb
+2019-11-08 20:06:00,184-log_demo-INFO-TRUNCATE TABLE ashare_ordwth
+2019-11-08 20:06:00,198-log_demo-INFO-TRUNCATE TABLE ashare_ordwth2
+2019-11-08 20:06:00,213-log_demo-INFO-TRUNCATE TABLE reqresp
+2019-11-08 20:06:00,229-log_demo-INFO-TRUNCATE TABLE execreport
+2019-11-08 20:06:00,254-log_demo-INFO-TRUNCATE TABLE ashare_ordwth_cancel
+2019-11-08 20:06:00,275-log_demo-INFO-truncate table ashare_ordwth_cancel success!
+2019-11-08 20:06:00,281-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:06:00,346-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:06:02,379-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:06:02,446-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:06:08,509-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:06:08,574-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:06:39,665-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:06:39,741-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:07:08,852-myloger-WARNING-可用资金正好-沪A五档即成转限价买（可用资金=下单金额+费用）
+2019-11-08 20:07:09,411-myloger-WARNING-执行结果为True,,
+2019-11-08 20:07:09,415-log_demo-INFO-sql able to connect!
+2019-11-08 20:07:09,415-log_demo-INFO-delete from xtp_fund_asset_20191108 where fund_acc = 100065004975 and oms_id = 17
+2019-11-08 20:07:09,416-log_demo-INFO-delete table xtp_fund_asset_20191108 success!
+2019-11-08 20:07:09,419-log_demo-INFO-insert into xtp_fund_asset_20191108
+                       select
+                        100065004975,
+                        cur_type,
+                        fund_avl_bal,
+                        fund_frz_bal,
+                        fund_bal,
+                        fund_buy_sale,
+                        fund_unc_buy,
+                        fund_unc_sale,
+                        fund_trsf,
+                        node_id,
+                        17
+                  from xtp_fund_asset_auto where py_name="YW_KCB_BAK_000"
+2019-11-08 20:07:09,422-log_demo-INFO-insert_fund_assetYW_KCB_BAK_000success!
+2019-11-08 20:07:09,430-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:07:09,497-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:07:16,637-log_demo-INFO-sql able to connect!
+2019-11-08 20:07:16,637-log_demo-INFO-delete from xtp_fund_asset_20191108 where fund_acc = 100065004975 and oms_id = 17
+2019-11-08 20:07:16,639-log_demo-INFO-delete table xtp_fund_asset_20191108 success!
+2019-11-08 20:07:16,643-log_demo-INFO-insert into xtp_fund_asset_20191108
+                       select
+                        100065004975,
+                        cur_type,
+                        fund_avl_bal,
+                        fund_frz_bal,
+                        fund_bal,
+                        fund_buy_sale,
+                        fund_unc_buy,
+                        fund_unc_sale,
+                        fund_trsf,
+                        node_id,
+                        17
+                  from xtp_fund_asset_auto where py_name="YW_KCB_HASPRICELIMIT_GPMM_SHSJ_WDZX_060"
+2019-11-08 20:07:16,645-log_demo-INFO-insert_fund_assetYW_KCB_HASPRICELIMIT_GPMM_SHSJ_WDZX_060success!
+2019-11-08 20:07:16,652-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:07:16,722-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:07:19,026-log_demo-INFO-sql able to connect!
+2019-11-08 20:07:19,026-log_demo-INFO-TRUNCATE TABLE ashare_cjhb
+2019-11-08 20:07:19,028-log_demo-INFO-TRUNCATE TABLE ashare_ordwth
+2019-11-08 20:07:19,040-log_demo-INFO-TRUNCATE TABLE ashare_ordwth2
+2019-11-08 20:07:19,043-log_demo-INFO-TRUNCATE TABLE reqresp
+2019-11-08 20:07:19,052-log_demo-INFO-TRUNCATE TABLE execreport
+2019-11-08 20:07:19,057-log_demo-INFO-TRUNCATE TABLE ashare_ordwth_cancel
+2019-11-08 20:07:19,058-log_demo-INFO-truncate table ashare_ordwth_cancel success!
+2019-11-08 20:07:19,066-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:07:19,131-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:07:21,164-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:07:21,272-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:07:27,344-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:07:27,414-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:07:58,475-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:07:58,580-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:08:27,705-myloger-WARNING-可用资金不足-沪A五档即成转限价买（可用资金=下单金额+费用-0.01）
+2019-11-08 20:08:28,268-myloger-WARNING-执行结果为True,,
+2019-11-08 20:08:28,273-log_demo-INFO-sql able to connect!
+2019-11-08 20:08:28,273-log_demo-INFO-delete from xtp_fund_asset_20191108 where fund_acc = 100065004975 and oms_id = 17
+2019-11-08 20:08:28,275-log_demo-INFO-delete table xtp_fund_asset_20191108 success!
+2019-11-08 20:08:28,278-log_demo-INFO-insert into xtp_fund_asset_20191108
+                       select
+                        100065004975,
+                        cur_type,
+                        fund_avl_bal,
+                        fund_frz_bal,
+                        fund_bal,
+                        fund_buy_sale,
+                        fund_unc_buy,
+                        fund_unc_sale,
+                        fund_trsf,
+                        node_id,
+                        17
+                  from xtp_fund_asset_auto where py_name="YW_KCB_BAK_000"
+2019-11-08 20:08:28,279-log_demo-INFO-insert_fund_assetYW_KCB_BAK_000success!
+2019-11-08 20:08:28,286-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:08:28,352-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:08:35,470-myloger-WARNING-五档即成转限价卖--已成（特殊费用>min）
+2019-11-08 20:08:40,498-log_demo-INFO-sql able to connect!
+2019-11-08 20:08:40,498-log_demo-INFO-delete xtp_stk_asset_20191108 from xtp_stk_asset_20191108, xtp_stk_asset_auto where xtp_stk_asset_20191108.fund_acc = 100065004975  and xtp_stk_asset_20191108.market = xtp_stk_asset_auto.market  and xtp_stk_asset_20191108.stock_code = xtp_stk_asset_auto.stock_code
+2019-11-08 20:08:54,059-log_demo-INFO-delete table xtp_stk_asset_20191108 success!
+2019-11-08 20:08:54,061-log_demo-INFO-sql able to connect!
+2019-11-08 20:08:54,062-log_demo-INFO-insert into xtp_stk_asset_20191108
+                      select
+                        100065004975,
+                        market,
+                        case market when 1
+                          then 'A102673916'
+                          else '0200063365'
+                        end as secu_acc,
+                        stock_code,
+                        stk_avl_qty,
+                        stk_frz_qty,
+                        stk_bal,
+                        stk_buy_sale,
+                        stk_buy_unfrz,
+                        stk_sale_frz,
+                        lst_buy_cst,
+                        lst_prf_cst,
+                        buy_cst,
+                        profit_cst,
+                        stk_remain,
+                        stk_corp_rem,
+                        cre_stk_bal,
+                        node_id
+                      from xtp_stk_asset_auto
+2019-11-08 20:08:54,082-log_demo-INFO-insert_stk_asset success!
+2019-11-08 20:08:54,089-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:08:54,165-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:09:01,434-myloger-WARNING-五档即成转限价卖--已成（特殊费用=min）
+2019-11-08 20:09:02,039-myloger-WARNING-执行结果为True,,
+2019-11-08 20:09:02,042-log_demo-INFO-sql able to connect!
+2019-11-08 20:09:02,042-log_demo-INFO-delete xtp_stk_asset_20191108 from xtp_stk_asset_20191108, xtp_stk_asset_auto where xtp_stk_asset_20191108.fund_acc = 100065004975  and xtp_stk_asset_20191108.market = xtp_stk_asset_auto.market  and xtp_stk_asset_20191108.stock_code = xtp_stk_asset_auto.stock_code
+2019-11-08 20:09:15,085-log_demo-INFO-delete table xtp_stk_asset_20191108 success!
+2019-11-08 20:09:15,088-log_demo-INFO-sql able to connect!
+2019-11-08 20:09:15,088-log_demo-INFO-insert into xtp_stk_asset_20191108
+                      select
+                        100065004975,
+                        market,
+                        case market when 1
+                          then 'A102673916'
+                          else '0200063365'
+                        end as secu_acc,
+                        stock_code,
+                        stk_avl_qty,
+                        stk_frz_qty,
+                        stk_bal,
+                        stk_buy_sale,
+                        stk_buy_unfrz,
+                        stk_sale_frz,
+                        lst_buy_cst,
+                        lst_prf_cst,
+                        buy_cst,
+                        profit_cst,
+                        stk_remain,
+                        stk_corp_rem,
+                        cre_stk_bal,
+                        node_id
+                      from xtp_stk_asset_auto
+2019-11-08 20:09:15,107-log_demo-INFO-insert_stk_asset success!
+2019-11-08 20:09:15,114-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:09:15,183-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:09:22,417-myloger-WARNING-五档即成转限价卖--已成（特殊费用<min）
+2019-11-08 20:09:23,014-myloger-WARNING-执行结果为True,,
+2019-11-08 20:09:23,016-myloger-WARNING-五档即成转限价卖--订单确认
+2019-11-08 20:09:25,638-myloger-WARNING-执行结果为True,,
+2019-11-08 20:09:25,640-myloger-WARNING-五档即成转限价卖--部成
+2019-11-08 20:09:28,258-myloger-WARNING-执行结果为True,,
+2019-11-08 20:09:28,260-myloger-WARNING-五档即成转限价卖-部成撤单
+2019-11-08 20:09:30,463-myloger-WARNING-报单查询等待...,xtpID=901029374143244203
+2019-11-08 20:09:30,883-myloger-WARNING-执行结果为True,,
+2019-11-08 20:09:30,884-myloger-WARNING-五档即成转限价卖-全部撤单
+2019-11-08 20:09:33,072-myloger-WARNING-报单查询等待...,xtpID=901029374143244205
+2019-11-08 20:09:33,486-myloger-WARNING-执行结果为True,,
+2019-11-08 20:09:33,488-myloger-WARNING-五档即成转限价卖-全成再撤单(OMS)
+2019-11-08 20:09:34,592-myloger-WARNING-执行结果为True,,
+2019-11-08 20:09:34,594-myloger-WARNING-五档即成转限价卖-废单再撤单(OMS)
+2019-11-08 20:09:35,190-myloger-WARNING-执行结果为True,,
+2019-11-08 20:09:35,192-myloger-WARNING-五档即成转限价卖-部撤再撤单(OMS)
+2019-11-08 20:09:37,399-myloger-WARNING-报单查询等待...,xtpID=901029374143244211
+2019-11-08 20:09:38,298-myloger-WARNING-执行结果为True,,
+2019-11-08 20:09:38,300-myloger-WARNING-五档即成转限价卖-全撤再撤单(OMS)
+2019-11-08 20:09:40,474-myloger-WARNING-报单查询等待...,xtpID=901029374143244214
+2019-11-08 20:09:40,898-myloger-WARNING-执行结果为True,,
+2019-11-08 20:09:40,901-log_demo-INFO-sql able to connect!
+2019-11-08 20:09:40,901-log_demo-INFO-delete xtp_stk_asset_20191108 from xtp_stk_asset_20191108, xtp_stk_asset_auto where xtp_stk_asset_20191108.fund_acc = 100065004975  and xtp_stk_asset_20191108.market = xtp_stk_asset_auto.market  and xtp_stk_asset_20191108.stock_code = xtp_stk_asset_auto.stock_code
+2019-11-08 20:09:54,003-log_demo-INFO-delete table xtp_stk_asset_20191108 success!
+2019-11-08 20:09:54,006-log_demo-INFO-sql able to connect!
+2019-11-08 20:09:54,006-log_demo-INFO-insert into xtp_stk_asset_20191108
+                      select
+                        100065004975,
+                        market,
+                        case market when 1
+                          then 'A102673916'
+                          else '0200063365'
+                        end as secu_acc,
+                        stock_code,
+                        stk_avl_qty,
+                        stk_frz_qty,
+                        stk_bal,
+                        stk_buy_sale,
+                        stk_buy_unfrz,
+                        stk_sale_frz,
+                        lst_buy_cst,
+                        lst_prf_cst,
+                        buy_cst,
+                        profit_cst,
+                        stk_remain,
+                        stk_corp_rem,
+                        cre_stk_bal,
+                        node_id
+                      from xtp_stk_asset_auto
+2019-11-08 20:09:54,042-log_demo-INFO-insert_stk_asset success!
+2019-11-08 20:09:54,048-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:09:54,113-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:10:01,364-myloger-WARNING-沪A五档即成转限价卖（卖出数量=可用股份数+1）
+2019-11-08 20:10:02,003-myloger-WARNING-执行结果为True,,
+2019-11-08 20:10:02,005-log_demo-INFO-sql able to connect!
+2019-11-08 20:10:02,006-log_demo-INFO-delete xtp_stk_asset_20191108 from xtp_stk_asset_20191108, xtp_stk_asset_auto where xtp_stk_asset_20191108.fund_acc = 100065004975  and xtp_stk_asset_20191108.market = xtp_stk_asset_auto.market  and xtp_stk_asset_20191108.stock_code = xtp_stk_asset_auto.stock_code
+2019-11-08 20:10:15,718-log_demo-INFO-delete table xtp_stk_asset_20191108 success!
+2019-11-08 20:10:15,722-log_demo-INFO-sql able to connect!
+2019-11-08 20:10:15,722-log_demo-INFO-insert into xtp_stk_asset_20191108
+                      select
+                        100065004975,
+                        market,
+                        case market when 1
+                          then 'A102673916'
+                          else '0200063365'
+                        end as secu_acc,
+                        stock_code,
+                        stk_avl_qty,
+                        stk_frz_qty,
+                        stk_bal,
+                        stk_buy_sale,
+                        stk_buy_unfrz,
+                        stk_sale_frz,
+                        lst_buy_cst,
+                        lst_prf_cst,
+                        buy_cst,
+                        profit_cst,
+                        stk_remain,
+                        stk_corp_rem,
+                        cre_stk_bal,
+                        node_id
+                      from xtp_stk_asset_auto
+2019-11-08 20:10:15,745-log_demo-INFO-insert_stk_asset success!
+2019-11-08 20:10:15,751-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:10:15,830-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:10:23,098-myloger-WARNING-沪A五档即成转限价卖（卖出数量=可用股份数）
+2019-11-08 20:10:23,715-myloger-WARNING-执行结果为True,,
+2019-11-08 20:10:23,717-myloger-WARNING-五档即成转限价卖-保护价格>涨停价
+2019-11-08 20:10:24,340-myloger-WARNING-执行结果为True,,
+2019-11-08 20:10:24,342-myloger-WARNING-五档即成转限价卖--保护价格=跌停价
+2019-11-08 20:10:24,945-myloger-WARNING-执行结果为True,,
+2019-11-08 20:10:24,947-myloger-WARNING-五档即成转限价卖--保护价格<跌停价
+2019-11-08 20:10:25,556-myloger-WARNING-执行结果为True,,
+2019-11-08 20:10:25,558-myloger-WARNING-上海Ａ股股票交易日五档即成转限价卖——错误的保护价格(价格为空)
+2019-11-08 20:10:26,160-myloger-WARNING-执行结果为True,,
+2019-11-08 20:10:26,162-myloger-WARNING-上海Ａ股股票交易日五档即成转限价卖——错误的保护价格(价格<0)
+2019-11-08 20:10:26,264-myloger-WARNING-执行结果为True,,
+2019-11-08 20:10:26,266-myloger-WARNING-上海Ａ股股票交易日五档即成转限价卖——错误的保护价格(价格=0)
+2019-11-08 20:10:26,861-myloger-WARNING-执行结果为True,,
+2019-11-08 20:10:26,863-myloger-WARNING-上海Ａ股股票交易日五档即成转限价卖——允许的保护价格下限(价格=0.01)
+2019-11-08 20:10:27,481-myloger-WARNING-执行结果为True,,
+2019-11-08 20:10:27,483-myloger-WARNING-上海Ａ股股票交易日五档即成转限价卖——输入的保护价格四舍五入后=保护价格下限(0.014)
+2019-11-08 20:10:28,096-myloger-WARNING-执行结果为True,,
+2019-11-08 20:10:28,098-myloger-WARNING-上海Ａ股股票交易日五档即成转限价卖——输入的保护价格四舍五入后>保护价格下限0.015
+2019-11-08 20:10:28,704-myloger-WARNING-执行结果为True,,
+2019-11-08 20:10:28,706-myloger-WARNING-上海Ａ股股票交易日五档即成转限价卖——允许的保护价格上限(价格=9999.99)
+2019-11-08 20:10:29,352-myloger-WARNING-执行结果为True,,
+2019-11-08 20:10:29,354-myloger-WARNING-上海Ａ股股票交易日五档即成转限价卖——允许的保护价格上限+0.01(价格=10000.00)
+2019-11-08 20:10:29,962-myloger-WARNING-执行结果为True,,
+2019-11-08 20:10:29,964-myloger-WARNING-上海Ａ股股票交易日五档即成转限价卖——输入的保护价格四舍五入后<保护价格上限(9999.974)
+2019-11-08 20:10:30,588-myloger-WARNING-执行结果为True,,
+2019-11-08 20:10:30,590-myloger-WARNING-上海Ａ股股票交易日五档即成转限价卖——输入的保护价格四舍五入后>保护价格上限(9999.995)
+2019-11-08 20:10:31,218-myloger-WARNING-执行结果为True,,
+2019-11-08 20:10:31,220-myloger-WARNING-上海Ａ股股票交易日五档即成转限价卖——错误的保护价格(价格10亿)
+2019-11-08 20:10:31,828-myloger-WARNING-执行结果为True,,
+2019-11-08 20:10:31,830-myloger-WARNING-上海Ａ股股票交易日五档即成转限价卖——不存在的证券代码
+2019-11-08 20:10:32,377-myloger-WARNING-执行结果为True,,
+2019-11-08 20:10:32,380-myloger-WARNING-上海Ａ股股票交易日五档即成转限价卖——错误的市场
+2019-11-08 20:10:32,995-myloger-WARNING-执行结果为True,,
+2019-11-08 20:10:32,997-myloger-WARNING-科创板股票交易日五档即成转限价卖-错误的业务类型
+2019-11-08 20:10:33,622-myloger-WARNING-执行结果为True,,
+2019-11-08 20:10:33,625-myloger-WARNING-科创板股票交易日五档即成转限价卖-错误的买卖方向
+2019-11-08 20:10:34,227-myloger-WARNING-执行结果为True,,
+2019-11-08 20:10:34,229-myloger-WARNING-上海Ａ股股票交易日五档即成转限价卖——错误的数量(数量<0)
+2019-11-08 20:10:34,340-myloger-WARNING-执行结果为True,,
+2019-11-08 20:10:34,341-myloger-WARNING-上海Ａ股股票交易日五档即成转限价卖——错误的数量(数量=0)
+2019-11-08 20:10:34,941-myloger-WARNING-执行结果为True,,
+2019-11-08 20:10:34,943-myloger-WARNING-科创板股票交易日限价委托卖-允许的最小申报数量-1（200-1）
+2019-11-08 20:10:35,569-myloger-WARNING-执行结果为True,,
+2019-11-08 20:10:35,571-myloger-WARNING-科创板股票交易日限价委托卖-允许的最小申报数量+1（200+1）
+2019-11-08 20:10:36,180-myloger-WARNING-执行结果为True,,
+2019-11-08 20:10:36,182-myloger-WARNING-科创板股票交易日限价委托卖-允许的最大申报数量-1（5万-1）
+2019-11-08 20:10:36,796-myloger-WARNING-执行结果为True,,
+2019-11-08 20:10:36,798-myloger-WARNING-科创板股票交易日限价委托卖-允许的最大申报数量（5万）
+2019-11-08 20:10:37,400-myloger-WARNING-执行结果为True,,
+2019-11-08 20:10:37,402-myloger-WARNING-科创板股票交易日限价委托卖-超过限价单允许最大数量（5万+1）
+2019-11-08 20:10:38,006-myloger-WARNING-执行结果为True,,
+2019-11-08 20:10:38,008-myloger-WARNING-科创板股票交易日限价委托卖-数量溢出（100亿）
+2019-11-08 20:10:38,607-myloger-WARNING-执行结果为True,,
+2019-11-08 20:10:38,609-myloger-WARNING-上海Ａ股股票交易日五档即成转限价卖——错误的价格条件
+2019-11-08 20:10:39,223-myloger-WARNING-执行结果为True,,
+2019-11-08 20:10:39,225-myloger-WARNING-交易日五档即成转限价卖-非最后一次卖：余额不足200股部分
+2019-11-08 20:10:39,833-myloger-WARNING-执行结果为True,,
+2019-11-08 20:10:39,835-log_demo-INFO-sql able to connect!
+2019-11-08 20:10:39,835-log_demo-INFO-delete xtp_stk_asset_20191108 from xtp_stk_asset_20191108, xtp_stk_asset_auto where xtp_stk_asset_20191108.fund_acc = 100065004975  and xtp_stk_asset_20191108.market = xtp_stk_asset_auto.market  and xtp_stk_asset_20191108.stock_code = xtp_stk_asset_auto.stock_code
+2019-11-08 20:10:52,902-log_demo-INFO-delete table xtp_stk_asset_20191108 success!
+2019-11-08 20:10:52,905-log_demo-INFO-sql able to connect!
+2019-11-08 20:10:52,905-log_demo-INFO-insert into xtp_stk_asset_20191108
+                      select
+                        100065004975,
+                        market,
+                        case market when 1
+                          then 'A102673916'
+                          else '0200063365'
+                        end as secu_acc,
+                        stock_code,
+                        stk_avl_qty,
+                        stk_frz_qty,
+                        stk_bal,
+                        stk_buy_sale,
+                        stk_buy_unfrz,
+                        stk_sale_frz,
+                        lst_buy_cst,
+                        lst_prf_cst,
+                        buy_cst,
+                        profit_cst,
+                        stk_remain,
+                        stk_corp_rem,
+                        cre_stk_bal,
+                        node_id
+                      from xtp_stk_asset_auto
+2019-11-08 20:10:52,925-log_demo-INFO-insert_stk_asset success!
+2019-11-08 20:10:52,932-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:10:52,997-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:11:00,244-myloger-WARNING-交易日五档即成转限价卖-最后一次卖：余额不足200股部分
+2019-11-08 20:11:00,855-myloger-WARNING-执行结果为True,,
+2019-11-08 20:11:00,856-myloger-WARNING-交易日五档即成转限价卖-一次性卖出大于200，且非200整数倍持仓
+2019-11-08 20:11:01,483-myloger-WARNING-执行结果为True,,
+2019-11-08 20:11:01,486-log_demo-INFO-sql able to connect!
+2019-11-08 20:11:01,486-log_demo-INFO-delete xtp_stk_asset_20191108 from xtp_stk_asset_20191108, xtp_stk_asset_auto where xtp_stk_asset_20191108.fund_acc = 100065004975  and xtp_stk_asset_20191108.market = xtp_stk_asset_auto.market  and xtp_stk_asset_20191108.stock_code = xtp_stk_asset_auto.stock_code
+2019-11-08 20:11:14,632-log_demo-INFO-delete table xtp_stk_asset_20191108 success!
+2019-11-08 20:11:14,635-log_demo-INFO-sql able to connect!
+2019-11-08 20:11:14,635-log_demo-INFO-insert into xtp_stk_asset_20191108
+                      select
+                        100065004975,
+                        market,
+                        case market when 1
+                          then 'A102673916'
+                          else '0200063365'
+                        end as secu_acc,
+                        stock_code,
+                        stk_avl_qty,
+                        stk_frz_qty,
+                        stk_bal,
+                        stk_buy_sale,
+                        stk_buy_unfrz,
+                        stk_sale_frz,
+                        lst_buy_cst,
+                        lst_prf_cst,
+                        buy_cst,
+                        profit_cst,
+                        stk_remain,
+                        stk_corp_rem,
+                        cre_stk_bal,
+                        node_id
+                      from xtp_stk_asset_auto
+2019-11-08 20:11:14,655-log_demo-INFO-insert_stk_asset success!
+2019-11-08 20:11:14,661-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:11:14,727-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:11:17,026-log_demo-INFO-sql able to connect!
+2019-11-08 20:11:17,026-log_demo-INFO-TRUNCATE TABLE ashare_cjhb
+2019-11-08 20:11:17,036-log_demo-INFO-TRUNCATE TABLE ashare_ordwth
+2019-11-08 20:11:17,042-log_demo-INFO-TRUNCATE TABLE ashare_ordwth2
+2019-11-08 20:11:17,048-log_demo-INFO-TRUNCATE TABLE reqresp
+2019-11-08 20:11:17,057-log_demo-INFO-TRUNCATE TABLE execreport
+2019-11-08 20:11:17,059-log_demo-INFO-TRUNCATE TABLE ashare_ordwth_cancel
+2019-11-08 20:11:17,073-log_demo-INFO-truncate table ashare_ordwth_cancel success!
+2019-11-08 20:11:17,079-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:11:17,144-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:11:19,176-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:11:19,241-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:11:21,274-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:11:21,344-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:11:28,581-myloger-WARNING-交易日五档即成转限价卖-先卖不足200部分，再买200整数倍
+2019-11-08 20:11:29,203-myloger-WARNING-第一单执行结果为True,,
+2019-11-08 20:11:29,203-myloger-WARNING-下第二单:
+2019-11-08 20:11:29,743-myloger-WARNING-第二单执行结果为True,,
+2019-11-08 20:11:29,746-log_demo-INFO-sql able to connect!
+2019-11-08 20:11:29,746-log_demo-INFO-delete xtp_stk_asset_20191108 from xtp_stk_asset_20191108, xtp_stk_asset_auto where xtp_stk_asset_20191108.fund_acc = 100065004975  and xtp_stk_asset_20191108.market = xtp_stk_asset_auto.market  and xtp_stk_asset_20191108.stock_code = xtp_stk_asset_auto.stock_code
+2019-11-08 20:11:42,680-log_demo-INFO-delete table xtp_stk_asset_20191108 success!
+2019-11-08 20:11:42,683-log_demo-INFO-sql able to connect!
+2019-11-08 20:11:42,683-log_demo-INFO-insert into xtp_stk_asset_20191108
+                      select
+                        100065004975,
+                        market,
+                        case market when 1
+                          then 'A102673916'
+                          else '0200063365'
+                        end as secu_acc,
+                        stock_code,
+                        stk_avl_qty,
+                        stk_frz_qty,
+                        stk_bal,
+                        stk_buy_sale,
+                        stk_buy_unfrz,
+                        stk_sale_frz,
+                        lst_buy_cst,
+                        lst_prf_cst,
+                        buy_cst,
+                        profit_cst,
+                        stk_remain,
+                        stk_corp_rem,
+                        cre_stk_bal,
+                        node_id
+                      from xtp_stk_asset_auto
+2019-11-08 20:11:42,703-log_demo-INFO-insert_stk_asset success!
+2019-11-08 20:11:42,709-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:11:42,775-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:11:45,073-log_demo-INFO-sql able to connect!
+2019-11-08 20:11:45,073-log_demo-INFO-TRUNCATE TABLE ashare_cjhb
+2019-11-08 20:11:45,077-log_demo-INFO-TRUNCATE TABLE ashare_ordwth
+2019-11-08 20:11:45,086-log_demo-INFO-TRUNCATE TABLE ashare_ordwth2
+2019-11-08 20:11:45,105-log_demo-INFO-TRUNCATE TABLE reqresp
+2019-11-08 20:11:45,131-log_demo-INFO-TRUNCATE TABLE execreport
+2019-11-08 20:11:45,147-log_demo-INFO-TRUNCATE TABLE ashare_ordwth_cancel
+2019-11-08 20:11:45,166-log_demo-INFO-truncate table ashare_ordwth_cancel success!
+2019-11-08 20:11:45,173-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:11:45,239-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:11:47,272-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:11:47,341-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:11:49,370-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:11:49,437-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:11:56,672-myloger-WARNING-交易日五档即成转限价卖-先卖200整数倍，再卖不足200部分
+2019-11-08 20:11:57,276-myloger-WARNING-第一单执行结果为True,,
+2019-11-08 20:11:57,277-myloger-WARNING-下第二单:
+2019-11-08 20:11:57,829-myloger-WARNING-第二单执行结果为True,,
+2019-11-08 20:11:57,831-log_demo-INFO-sql able to connect!
+2019-11-08 20:11:57,831-log_demo-INFO-delete xtp_stk_asset_20191108 from xtp_stk_asset_20191108, xtp_stk_asset_auto where xtp_stk_asset_20191108.fund_acc = 100065004975  and xtp_stk_asset_20191108.market = xtp_stk_asset_auto.market  and xtp_stk_asset_20191108.stock_code = xtp_stk_asset_auto.stock_code
+2019-11-08 20:12:10,988-log_demo-INFO-delete table xtp_stk_asset_20191108 success!
+2019-11-08 20:12:10,991-log_demo-INFO-sql able to connect!
+2019-11-08 20:12:10,991-log_demo-INFO-insert into xtp_stk_asset_20191108
+                      select
+                        100065004975,
+                        market,
+                        case market when 1
+                          then 'A102673916'
+                          else '0200063365'
+                        end as secu_acc,
+                        stock_code,
+                        stk_avl_qty,
+                        stk_frz_qty,
+                        stk_bal,
+                        stk_buy_sale,
+                        stk_buy_unfrz,
+                        stk_sale_frz,
+                        lst_buy_cst,
+                        lst_prf_cst,
+                        buy_cst,
+                        profit_cst,
+                        stk_remain,
+                        stk_corp_rem,
+                        cre_stk_bal,
+                        node_id
+                      from xtp_stk_asset_auto
+2019-11-08 20:12:11,011-log_demo-INFO-insert_stk_asset success!
+2019-11-08 20:12:11,017-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:12:11,082-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:12:13,370-log_demo-INFO-sql able to connect!
+2019-11-08 20:12:13,371-log_demo-INFO-TRUNCATE TABLE ashare_cjhb
+2019-11-08 20:12:13,382-log_demo-INFO-TRUNCATE TABLE ashare_ordwth
+2019-11-08 20:12:13,387-log_demo-INFO-TRUNCATE TABLE ashare_ordwth2
+2019-11-08 20:12:13,401-log_demo-INFO-TRUNCATE TABLE reqresp
+2019-11-08 20:12:13,403-log_demo-INFO-TRUNCATE TABLE execreport
+2019-11-08 20:12:13,405-log_demo-INFO-TRUNCATE TABLE ashare_ordwth_cancel
+2019-11-08 20:12:13,411-log_demo-INFO-truncate table ashare_ordwth_cancel success!
+2019-11-08 20:12:13,417-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:12:13,482-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:12:15,514-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:12:15,582-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:12:17,611-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:12:17,675-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:12:24,933-myloger-WARNING-交易日五档即成转限价卖-第一笔卖出大于200且含个股数量；第二笔卖出剩余小于200部分
+2019-11-08 20:12:25,540-myloger-WARNING-第一单执行结果为True,,
+2019-11-08 20:12:25,540-myloger-WARNING-下第二单:
+2019-11-08 20:12:26,081-myloger-WARNING-第二单执行结果为True,,
+2019-11-08 20:12:26,083-log_demo-INFO-sql able to connect!
+2019-11-08 20:12:26,083-log_demo-INFO-delete xtp_stk_asset_20191108 from xtp_stk_asset_20191108, xtp_stk_asset_auto where xtp_stk_asset_20191108.fund_acc = 100065004975  and xtp_stk_asset_20191108.market = xtp_stk_asset_auto.market  and xtp_stk_asset_20191108.stock_code = xtp_stk_asset_auto.stock_code
+2019-11-08 20:12:39,262-log_demo-INFO-delete table xtp_stk_asset_20191108 success!
+2019-11-08 20:12:39,265-log_demo-INFO-sql able to connect!
+2019-11-08 20:12:39,265-log_demo-INFO-insert into xtp_stk_asset_20191108
+                      select
+                        100065004975,
+                        market,
+                        case market when 1
+                          then 'A102673916'
+                          else '0200063365'
+                        end as secu_acc,
+                        stock_code,
+                        stk_avl_qty,
+                        stk_frz_qty,
+                        stk_bal,
+                        stk_buy_sale,
+                        stk_buy_unfrz,
+                        stk_sale_frz,
+                        lst_buy_cst,
+                        lst_prf_cst,
+                        buy_cst,
+                        profit_cst,
+                        stk_remain,
+                        stk_corp_rem,
+                        cre_stk_bal,
+                        node_id
+                      from xtp_stk_asset_auto
+2019-11-08 20:12:39,285-log_demo-INFO-insert_stk_asset success!
+2019-11-08 20:12:39,292-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:12:39,360-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:12:41,761-log_demo-INFO-sql able to connect!
+2019-11-08 20:12:41,762-log_demo-INFO-TRUNCATE TABLE ashare_cjhb
+2019-11-08 20:12:41,770-log_demo-INFO-TRUNCATE TABLE ashare_ordwth
+2019-11-08 20:12:41,777-log_demo-INFO-TRUNCATE TABLE ashare_ordwth2
+2019-11-08 20:12:41,789-log_demo-INFO-TRUNCATE TABLE reqresp
+2019-11-08 20:12:41,805-log_demo-INFO-TRUNCATE TABLE execreport
+2019-11-08 20:12:41,819-log_demo-INFO-TRUNCATE TABLE ashare_ordwth_cancel
+2019-11-08 20:12:41,838-log_demo-INFO-truncate table ashare_ordwth_cancel success!
+2019-11-08 20:12:41,845-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:12:41,910-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:12:43,942-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:12:44,014-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:12:46,042-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:12:46,107-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:12:53,337-myloger-WARNING-交易日五档即成转限价-T+0卖→T+0买 卖全部300,再买300
+2019-11-08 20:12:53,938-myloger-WARNING-第一单执行结果为True,,
+2019-11-08 20:12:53,938-myloger-WARNING-下第二单:
+2019-11-08 20:12:54,476-myloger-WARNING-第二单执行结果为True,,
+2019-11-08 20:12:54,479-log_demo-INFO-sql able to connect!
+2019-11-08 20:12:54,479-log_demo-INFO-delete xtp_stk_asset_20191108 from xtp_stk_asset_20191108, xtp_stk_asset_auto where xtp_stk_asset_20191108.fund_acc = 100065004975  and xtp_stk_asset_20191108.market = xtp_stk_asset_auto.market  and xtp_stk_asset_20191108.stock_code = xtp_stk_asset_auto.stock_code
+2019-11-08 20:13:07,313-log_demo-INFO-delete table xtp_stk_asset_20191108 success!
+2019-11-08 20:13:07,316-log_demo-INFO-sql able to connect!
+2019-11-08 20:13:07,316-log_demo-INFO-insert into xtp_stk_asset_20191108
+                      select
+                        100065004975,
+                        market,
+                        case market when 1
+                          then 'A102673916'
+                          else '0200063365'
+                        end as secu_acc,
+                        stock_code,
+                        stk_avl_qty,
+                        stk_frz_qty,
+                        stk_bal,
+                        stk_buy_sale,
+                        stk_buy_unfrz,
+                        stk_sale_frz,
+                        lst_buy_cst,
+                        lst_prf_cst,
+                        buy_cst,
+                        profit_cst,
+                        stk_remain,
+                        stk_corp_rem,
+                        cre_stk_bal,
+                        node_id
+                      from xtp_stk_asset_auto
+2019-11-08 20:13:07,339-log_demo-INFO-insert_stk_asset success!
+2019-11-08 20:13:07,345-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:13:07,410-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:13:09,698-log_demo-INFO-sql able to connect!
+2019-11-08 20:13:09,699-log_demo-INFO-TRUNCATE TABLE ashare_cjhb
+2019-11-08 20:13:09,710-log_demo-INFO-TRUNCATE TABLE ashare_ordwth
+2019-11-08 20:13:09,717-log_demo-INFO-TRUNCATE TABLE ashare_ordwth2
+2019-11-08 20:13:09,725-log_demo-INFO-TRUNCATE TABLE reqresp
+2019-11-08 20:13:09,730-log_demo-INFO-TRUNCATE TABLE execreport
+2019-11-08 20:13:09,741-log_demo-INFO-TRUNCATE TABLE ashare_ordwth_cancel
+2019-11-08 20:13:09,746-log_demo-INFO-truncate table ashare_ordwth_cancel success!
+2019-11-08 20:13:09,752-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:13:09,818-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:13:11,849-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:13:11,916-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:13:13,946-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:13:14,019-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:13:21,264-myloger-WARNING-交易日五档即成转限价-T+0买→T+0卖（T-1日未持有证券代码688000)
+2019-11-08 20:13:21,849-myloger-WARNING-第一单执行结果为True,,
+2019-11-08 20:13:21,849-myloger-WARNING-下第二单:
+2019-11-08 20:13:22,391-myloger-WARNING-第二单执行结果为True,,
+2019-11-08 20:13:22,394-log_demo-INFO-sql able to connect!
+2019-11-08 20:13:22,394-log_demo-INFO-delete xtp_stk_asset_20191108 from xtp_stk_asset_20191108, xtp_stk_asset_auto where xtp_stk_asset_20191108.fund_acc = 100065004975  and xtp_stk_asset_20191108.market = xtp_stk_asset_auto.market  and xtp_stk_asset_20191108.stock_code = xtp_stk_asset_auto.stock_code
+2019-11-08 20:13:35,560-log_demo-INFO-delete table xtp_stk_asset_20191108 success!
+2019-11-08 20:13:35,562-log_demo-INFO-sql able to connect!
+2019-11-08 20:13:35,562-log_demo-INFO-insert into xtp_stk_asset_20191108
+                      select
+                        100065004975,
+                        market,
+                        case market when 1
+                          then 'A102673916'
+                          else '0200063365'
+                        end as secu_acc,
+                        stock_code,
+                        stk_avl_qty,
+                        stk_frz_qty,
+                        stk_bal,
+                        stk_buy_sale,
+                        stk_buy_unfrz,
+                        stk_sale_frz,
+                        lst_buy_cst,
+                        lst_prf_cst,
+                        buy_cst,
+                        profit_cst,
+                        stk_remain,
+                        stk_corp_rem,
+                        cre_stk_bal,
+                        node_id
+                      from xtp_stk_asset_auto
+2019-11-08 20:13:35,580-log_demo-INFO-insert_stk_asset success!
+2019-11-08 20:13:35,587-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:13:35,651-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:13:37,949-log_demo-INFO-sql able to connect!
+2019-11-08 20:13:37,949-log_demo-INFO-TRUNCATE TABLE ashare_cjhb
+2019-11-08 20:13:37,951-log_demo-INFO-TRUNCATE TABLE ashare_ordwth
+2019-11-08 20:13:37,960-log_demo-INFO-TRUNCATE TABLE ashare_ordwth2
+2019-11-08 20:13:37,966-log_demo-INFO-TRUNCATE TABLE reqresp
+2019-11-08 20:13:37,975-log_demo-INFO-TRUNCATE TABLE execreport
+2019-11-08 20:13:37,980-log_demo-INFO-TRUNCATE TABLE ashare_ordwth_cancel
+2019-11-08 20:13:37,990-log_demo-INFO-truncate table ashare_ordwth_cancel success!
+2019-11-08 20:13:37,998-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:13:38,071-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:13:40,131-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:13:40,210-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:13:42,263-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:13:42,328-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:13:49,599-myloger-WARNING-交易日五档即成转限价-T+0买→T+0卖（T-1日已持有证券代码688000）原有300,买300,再卖600
+2019-11-08 20:13:50,184-myloger-WARNING-第一单执行结果为True,,
+2019-11-08 20:13:50,184-myloger-WARNING-下第二单:
+2019-11-08 20:13:50,725-myloger-WARNING-第二单执行结果为True,,
+2019-11-08 20:13:50,728-log_demo-INFO-sql able to connect!
+2019-11-08 20:13:50,728-log_demo-INFO-delete xtp_stk_asset_20191108 from xtp_stk_asset_20191108, xtp_stk_asset_auto where xtp_stk_asset_20191108.fund_acc = 100065004975  and xtp_stk_asset_20191108.market = xtp_stk_asset_auto.market  and xtp_stk_asset_20191108.stock_code = xtp_stk_asset_auto.stock_code
+2019-11-08 20:14:03,904-log_demo-INFO-delete table xtp_stk_asset_20191108 success!
+2019-11-08 20:14:03,907-log_demo-INFO-sql able to connect!
+2019-11-08 20:14:03,907-log_demo-INFO-insert into xtp_stk_asset_20191108
+                      select
+                        100065004975,
+                        market,
+                        case market when 1
+                          then 'A102673916'
+                          else '0200063365'
+                        end as secu_acc,
+                        stock_code,
+                        stk_avl_qty,
+                        stk_frz_qty,
+                        stk_bal,
+                        stk_buy_sale,
+                        stk_buy_unfrz,
+                        stk_sale_frz,
+                        lst_buy_cst,
+                        lst_prf_cst,
+                        buy_cst,
+                        profit_cst,
+                        stk_remain,
+                        stk_corp_rem,
+                        cre_stk_bal,
+                        node_id
+                      from xtp_stk_asset_auto
+2019-11-08 20:14:03,928-log_demo-INFO-insert_stk_asset success!
+2019-11-08 20:14:03,935-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:14:04,003-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:14:06,308-log_demo-INFO-sql able to connect!
+2019-11-08 20:14:06,308-log_demo-INFO-TRUNCATE TABLE ashare_cjhb
+2019-11-08 20:14:06,319-log_demo-INFO-TRUNCATE TABLE ashare_ordwth
+2019-11-08 20:14:06,324-log_demo-INFO-TRUNCATE TABLE ashare_ordwth2
+2019-11-08 20:14:06,330-log_demo-INFO-TRUNCATE TABLE reqresp
+2019-11-08 20:14:06,335-log_demo-INFO-TRUNCATE TABLE execreport
+2019-11-08 20:14:06,340-log_demo-INFO-TRUNCATE TABLE ashare_ordwth_cancel
+2019-11-08 20:14:06,345-log_demo-INFO-truncate table ashare_ordwth_cancel success!
+2019-11-08 20:14:06,352-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:14:06,418-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:14:08,450-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:14:08,515-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:14:10,546-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:14:10,612-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:14:17,876-myloger-WARNING-交易日五档即成转限价-T+0买→T+0卖（T-1日已持有证券代码688000）原有300,买300,再卖300
+2019-11-08 20:14:18,446-myloger-WARNING-第一单执行结果为True,,
+2019-11-08 20:14:18,446-myloger-WARNING-下第二单:
+2019-11-08 20:14:18,987-myloger-WARNING-第二单执行结果为True,,
+2019-11-08 20:14:18,992-log_demo-INFO-sql able to connect!
+2019-11-08 20:14:18,992-log_demo-INFO-delete from xtp_fund_asset_20191108 where fund_acc = 100065004975 and oms_id = 17
+2019-11-08 20:14:18,994-log_demo-INFO-delete table xtp_fund_asset_20191108 success!
+2019-11-08 20:14:18,997-log_demo-INFO-insert into xtp_fund_asset_20191108
+                       select
+                        100065004975,
+                        cur_type,
+                        fund_avl_bal,
+                        fund_frz_bal,
+                        fund_bal,
+                        fund_buy_sale,
+                        fund_unc_buy,
+                        fund_unc_sale,
+                        fund_trsf,
+                        node_id,
+                        17
+                  from xtp_fund_asset_auto where py_name="YW_KCB_HASPRICELIMIT_GPMM_SHSJ_WDZX_139"
+2019-11-08 20:14:18,999-log_demo-INFO-insert_fund_assetYW_KCB_HASPRICELIMIT_GPMM_SHSJ_WDZX_139success!
+2019-11-08 20:14:19,007-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:14:19,073-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:14:21,371-log_demo-INFO-sql able to connect!
+2019-11-08 20:14:21,371-log_demo-INFO-TRUNCATE TABLE ashare_cjhb
+2019-11-08 20:14:21,380-log_demo-INFO-TRUNCATE TABLE ashare_ordwth
+2019-11-08 20:14:21,387-log_demo-INFO-TRUNCATE TABLE ashare_ordwth2
+2019-11-08 20:14:21,403-log_demo-INFO-TRUNCATE TABLE reqresp
+2019-11-08 20:14:21,429-log_demo-INFO-TRUNCATE TABLE execreport
+2019-11-08 20:14:21,445-log_demo-INFO-TRUNCATE TABLE ashare_ordwth_cancel
+2019-11-08 20:14:21,464-log_demo-INFO-truncate table ashare_ordwth_cancel success!
+2019-11-08 20:14:21,471-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:14:21,541-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:14:23,570-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:14:23,643-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:14:29,705-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:14:29,771-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:15:00,822-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:15:00,894-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:15:30,067-myloger-WARNING-单笔成交卖-  成交金额 < 手续费
+2019-11-08 20:15:30,691-myloger-WARNING-执行结果为True,,
+2019-11-08 20:15:30,695-log_demo-INFO-sql able to connect!
+2019-11-08 20:15:30,695-log_demo-INFO-delete from xtp_fund_asset_20191108 where fund_acc = 100065004975 and oms_id = 17
+2019-11-08 20:15:30,697-log_demo-INFO-delete table xtp_fund_asset_20191108 success!
+2019-11-08 20:15:30,701-log_demo-INFO-insert into xtp_fund_asset_20191108
+                       select
+                        100065004975,
+                        cur_type,
+                        fund_avl_bal,
+                        fund_frz_bal,
+                        fund_bal,
+                        fund_buy_sale,
+                        fund_unc_buy,
+                        fund_unc_sale,
+                        fund_trsf,
+                        node_id,
+                        17
+                  from xtp_fund_asset_auto where py_name="YW_KCB_BAK_000"
+2019-11-08 20:15:30,714-log_demo-INFO-insert_fund_assetYW_KCB_BAK_000success!
+2019-11-08 20:15:30,720-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:15:30,785-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:15:37,934-log_demo-INFO-sql able to connect!
+2019-11-08 20:15:37,934-log_demo-INFO-delete from xtp_fund_asset_20191108 where fund_acc = 100065004975 and oms_id = 17
+2019-11-08 20:15:37,935-log_demo-INFO-delete table xtp_fund_asset_20191108 success!
+2019-11-08 20:15:37,938-log_demo-INFO-insert into xtp_fund_asset_20191108
+                       select
+                        100065004975,
+                        cur_type,
+                        fund_avl_bal,
+                        fund_frz_bal,
+                        fund_bal,
+                        fund_buy_sale,
+                        fund_unc_buy,
+                        fund_unc_sale,
+                        fund_trsf,
+                        node_id,
+                        17
+                  from xtp_fund_asset_auto where py_name="YW_KCB_HASPRICELIMIT_GPMM_SHSJ_WDZX_141"
+2019-11-08 20:15:37,940-log_demo-INFO-insert_fund_assetYW_KCB_HASPRICELIMIT_GPMM_SHSJ_WDZX_141success!
+2019-11-08 20:15:37,947-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:15:38,017-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:15:40,308-log_demo-INFO-sql able to connect!
+2019-11-08 20:15:40,309-log_demo-INFO-TRUNCATE TABLE ashare_cjhb
+2019-11-08 20:15:40,324-log_demo-INFO-TRUNCATE TABLE ashare_ordwth
+2019-11-08 20:15:40,326-log_demo-INFO-TRUNCATE TABLE ashare_ordwth2
+2019-11-08 20:15:40,334-log_demo-INFO-TRUNCATE TABLE reqresp
+2019-11-08 20:15:40,340-log_demo-INFO-TRUNCATE TABLE execreport
+2019-11-08 20:15:40,351-log_demo-INFO-TRUNCATE TABLE ashare_ordwth_cancel
+2019-11-08 20:15:40,356-log_demo-INFO-truncate table ashare_ordwth_cancel success!
+2019-11-08 20:15:40,363-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:15:40,431-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:15:42,459-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:15:42,524-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:15:48,589-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:15:48,654-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:16:19,698-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:16:19,777-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:16:48,913-myloger-WARNING-分笔成交-累积成交金额 < 累积成交费用
+2019-11-08 20:16:49,531-myloger-WARNING-执行结果为True,,
+2019-11-08 20:16:49,534-log_demo-INFO-sql able to connect!
+2019-11-08 20:16:49,534-log_demo-INFO-delete from xtp_fund_asset_20191108 where fund_acc = 100065004975 and oms_id = 17
+2019-11-08 20:16:49,536-log_demo-INFO-delete table xtp_fund_asset_20191108 success!
+2019-11-08 20:16:49,539-log_demo-INFO-insert into xtp_fund_asset_20191108
+                       select
+                        100065004975,
+                        cur_type,
+                        fund_avl_bal,
+                        fund_frz_bal,
+                        fund_bal,
+                        fund_buy_sale,
+                        fund_unc_buy,
+                        fund_unc_sale,
+                        fund_trsf,
+                        node_id,
+                        17
+                  from xtp_fund_asset_auto where py_name="YW_KCB_BAK_000"
+2019-11-08 20:16:49,540-log_demo-INFO-insert_fund_assetYW_KCB_BAK_000success!
+2019-11-08 20:16:49,547-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:16:49,611-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:16:56,753-log_demo-INFO-sql able to connect!
+2019-11-08 20:16:56,753-log_demo-INFO-delete from xtp_fund_asset_20191108 where fund_acc = 100065004975 and oms_id = 17
+2019-11-08 20:16:56,755-log_demo-INFO-delete table xtp_fund_asset_20191108 success!
+2019-11-08 20:16:56,758-log_demo-INFO-insert into xtp_fund_asset_20191108
+                       select
+                        100065004975,
+                        cur_type,
+                        fund_avl_bal,
+                        fund_frz_bal,
+                        fund_bal,
+                        fund_buy_sale,
+                        fund_unc_buy,
+                        fund_unc_sale,
+                        fund_trsf,
+                        node_id,
+                        17
+                  from xtp_fund_asset_auto where py_name="YW_KCB_HASPRICELIMIT_GPMM_SHSJ_WDZX_142"
+2019-11-08 20:16:56,760-log_demo-INFO-insert_fund_assetYW_KCB_HASPRICELIMIT_GPMM_SHSJ_WDZX_142success!
+2019-11-08 20:16:56,766-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:16:56,830-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:16:59,152-log_demo-INFO-sql able to connect!
+2019-11-08 20:16:59,152-log_demo-INFO-TRUNCATE TABLE ashare_cjhb
+2019-11-08 20:16:59,163-log_demo-INFO-TRUNCATE TABLE ashare_ordwth
+2019-11-08 20:16:59,167-log_demo-INFO-TRUNCATE TABLE ashare_ordwth2
+2019-11-08 20:16:59,177-log_demo-INFO-TRUNCATE TABLE reqresp
+2019-11-08 20:16:59,180-log_demo-INFO-TRUNCATE TABLE execreport
+2019-11-08 20:16:59,184-log_demo-INFO-TRUNCATE TABLE ashare_ordwth_cancel
+2019-11-08 20:16:59,199-log_demo-INFO-truncate table ashare_ordwth_cancel success!
+2019-11-08 20:16:59,207-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:16:59,274-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:17:01,305-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:17:01,371-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:17:07,434-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:17:07,511-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:17:38,617-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:17:38,683-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:18:07,826-myloger-WARNING-分笔成交-累积成交金额 >= 手续费 且手续费小于最小值
+2019-11-08 20:18:08,431-myloger-WARNING-执行结果为True,,
+2019-11-08 20:18:08,434-log_demo-INFO-sql able to connect!
+2019-11-08 20:18:08,434-log_demo-INFO-delete from xtp_fund_asset_20191108 where fund_acc = 100065004975 and oms_id = 17
+2019-11-08 20:18:08,436-log_demo-INFO-delete table xtp_fund_asset_20191108 success!
+2019-11-08 20:18:08,439-log_demo-INFO-insert into xtp_fund_asset_20191108
+                       select
+                        100065004975,
+                        cur_type,
+                        fund_avl_bal,
+                        fund_frz_bal,
+                        fund_bal,
+                        fund_buy_sale,
+                        fund_unc_buy,
+                        fund_unc_sale,
+                        fund_trsf,
+                        node_id,
+                        17
+                  from xtp_fund_asset_auto where py_name="YW_KCB_BAK_000"
+2019-11-08 20:18:08,442-log_demo-INFO-insert_fund_assetYW_KCB_BAK_000success!
+2019-11-08 20:18:08,449-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:18:08,514-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:18:15,637-log_demo-INFO-sql able to connect!
+2019-11-08 20:18:15,637-log_demo-INFO-delete from xtp_fund_asset_20191108 where fund_acc = 100065004975 and oms_id = 17
+2019-11-08 20:18:15,639-log_demo-INFO-delete table xtp_fund_asset_20191108 success!
+2019-11-08 20:18:15,642-log_demo-INFO-insert into xtp_fund_asset_20191108
+                       select
+                        100065004975,
+                        cur_type,
+                        fund_avl_bal,
+                        fund_frz_bal,
+                        fund_bal,
+                        fund_buy_sale,
+                        fund_unc_buy,
+                        fund_unc_sale,
+                        fund_trsf,
+                        node_id,
+                        17
+                  from xtp_fund_asset_auto where py_name="YW_KCB_HASPRICELIMIT_GPMM_SHSJ_WDZX_143"
+2019-11-08 20:18:15,643-log_demo-INFO-insert_fund_assetYW_KCB_HASPRICELIMIT_GPMM_SHSJ_WDZX_143success!
+2019-11-08 20:18:15,649-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:18:15,713-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:18:17,997-log_demo-INFO-sql able to connect!
+2019-11-08 20:18:17,997-log_demo-INFO-TRUNCATE TABLE ashare_cjhb
+2019-11-08 20:18:18,000-log_demo-INFO-TRUNCATE TABLE ashare_ordwth
+2019-11-08 20:18:18,008-log_demo-INFO-TRUNCATE TABLE ashare_ordwth2
+2019-11-08 20:18:18,013-log_demo-INFO-TRUNCATE TABLE reqresp
+2019-11-08 20:18:18,023-log_demo-INFO-TRUNCATE TABLE execreport
+2019-11-08 20:18:18,027-log_demo-INFO-TRUNCATE TABLE ashare_ordwth_cancel
+2019-11-08 20:18:18,035-log_demo-INFO-truncate table ashare_ordwth_cancel success!
+2019-11-08 20:18:18,041-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:18:18,106-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:18:20,139-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:18:20,205-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:18:26,273-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:18:26,338-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:18:57,414-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:18:57,480-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:19:26,543-myloger-WARNING-分笔成交-累积成交金额 >= 手续费 且手续费大于最小值
+2019-11-08 20:19:28,170-myloger-WARNING-执行结果为True,,
+2019-11-08 20:19:28,174-log_demo-INFO-sql able to connect!
+2019-11-08 20:19:28,174-log_demo-INFO-delete from xtp_fund_asset_20191108 where fund_acc = 100065004975 and oms_id = 17
+2019-11-08 20:19:28,176-log_demo-INFO-delete table xtp_fund_asset_20191108 success!
+2019-11-08 20:19:28,179-log_demo-INFO-insert into xtp_fund_asset_20191108
+                       select
+                        100065004975,
+                        cur_type,
+                        fund_avl_bal,
+                        fund_frz_bal,
+                        fund_bal,
+                        fund_buy_sale,
+                        fund_unc_buy,
+                        fund_unc_sale,
+                        fund_trsf,
+                        node_id,
+                        17
+                  from xtp_fund_asset_auto where py_name="YW_KCB_BAK_000"
+2019-11-08 20:19:28,180-log_demo-INFO-insert_fund_assetYW_KCB_BAK_000success!
+2019-11-08 20:19:28,189-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:19:28,255-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:19:35,427-log_demo-INFO-delete from  xtp_default_fee_rate  
+            where fee_rate_id in (select fee_rate_id from  xtp_default_fee_rate_auto  where py_name = 'YW_KCB_HASPRICELIMIT_GPMM_SHSJ_WDZX_145')
+2019-11-08 20:19:35,430-log_demo-INFO-delete_xtp_default_fee_rateYW_KCB_HASPRICELIMIT_GPMM_SHSJ_WDZX_145success!
+2019-11-08 20:19:35,431-log_demo-INFO-insert into xtp_default_fee_rate select user_id, fee_rate_id, value 
+            from  xtp_default_fee_rate_auto  where py_name = "YW_KCB_HASPRICELIMIT_GPMM_SHSJ_WDZX_145"
+2019-11-08 20:19:35,432-log_demo-INFO-insert_xtp_default_fee_rateYW_KCB_HASPRICELIMIT_GPMM_SHSJ_WDZX_145success!
+2019-11-08 20:19:35,438-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:19:35,503-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:19:42,744-myloger-WARNING-买入最低特殊费用=0  xtp_default_fee_rate表改值
+2019-11-08 20:19:43,360-myloger-WARNING-执行结果为True,,
+2019-11-08 20:19:43,361-log_demo-INFO-delete from  xtp_default_fee_rate  
+            where fee_rate_id in (select fee_rate_id from  xtp_default_fee_rate_auto  where py_name = 'YW_KCB_BAK_000')
+2019-11-08 20:19:43,363-log_demo-INFO-delete_xtp_default_fee_rateYW_KCB_BAK_000success!
+2019-11-08 20:19:43,364-log_demo-INFO-insert into xtp_default_fee_rate select user_id, fee_rate_id, value 
+            from  xtp_default_fee_rate_auto  where py_name = "YW_KCB_BAK_000"
+2019-11-08 20:19:43,366-log_demo-INFO-insert_xtp_default_fee_rateYW_KCB_BAK_000success!
+2019-11-08 20:19:43,372-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:19:43,444-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:19:50,569-log_demo-INFO-delete from  xtp_default_fee_rate  
+            where fee_rate_id in (select fee_rate_id from  xtp_default_fee_rate_auto  where py_name = 'YW_KCB_HASPRICELIMIT_GPMM_SHSJ_WDZX_146')
+2019-11-08 20:19:50,571-log_demo-INFO-delete_xtp_default_fee_rateYW_KCB_HASPRICELIMIT_GPMM_SHSJ_WDZX_146success!
+2019-11-08 20:19:50,572-log_demo-INFO-insert into xtp_default_fee_rate select user_id, fee_rate_id, value 
+            from  xtp_default_fee_rate_auto  where py_name = "YW_KCB_HASPRICELIMIT_GPMM_SHSJ_WDZX_146"
+2019-11-08 20:19:50,572-log_demo-INFO-insert_xtp_default_fee_rateYW_KCB_HASPRICELIMIT_GPMM_SHSJ_WDZX_146success!
+2019-11-08 20:19:50,578-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:19:50,652-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:19:57,872-myloger-WARNING-卖出最低特殊费用=0  xtp_default_fee_rate表改值
+2019-11-08 20:19:58,486-myloger-WARNING-执行结果为True,,
+2019-11-08 20:19:58,488-log_demo-INFO-delete from  xtp_default_fee_rate  
+            where fee_rate_id in (select fee_rate_id from  xtp_default_fee_rate_auto  where py_name = 'YW_KCB_BAK_000')
+2019-11-08 20:19:58,491-log_demo-INFO-delete_xtp_default_fee_rateYW_KCB_BAK_000success!
+2019-11-08 20:19:58,491-log_demo-INFO-insert into xtp_default_fee_rate select user_id, fee_rate_id, value 
+            from  xtp_default_fee_rate_auto  where py_name = "YW_KCB_BAK_000"
+2019-11-08 20:19:58,495-log_demo-INFO-insert_xtp_default_fee_rateYW_KCB_BAK_000success!
+2019-11-08 20:19:58,501-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:19:58,566-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:20:05,890-log_demo-INFO-sql able to connect!
+2019-11-08 20:20:05,890-log_demo-INFO-delete xtp_stk_asset_20191108 from xtp_stk_asset_20191108, xtp_stk_asset_auto where xtp_stk_asset_20191108.fund_acc = 100065004975  and xtp_stk_asset_20191108.market = xtp_stk_asset_auto.market  and xtp_stk_asset_20191108.stock_code = xtp_stk_asset_auto.stock_code
+2019-11-08 20:20:18,998-log_demo-INFO-delete table xtp_stk_asset_20191108 success!
+2019-11-08 20:20:19,001-log_demo-INFO-sql able to connect!
+2019-11-08 20:20:19,001-log_demo-INFO-insert into xtp_stk_asset_20191108
+                      select
+                        100065004975,
+                        market,
+                        case market when 1
+                          then 'A102673916'
+                          else '0200063365'
+                        end as secu_acc,
+                        stock_code,
+                        stk_avl_qty,
+                        stk_frz_qty,
+                        stk_bal,
+                        stk_buy_sale,
+                        stk_buy_unfrz,
+                        stk_sale_frz,
+                        lst_buy_cst,
+                        lst_prf_cst,
+                        buy_cst,
+                        profit_cst,
+                        stk_remain,
+                        stk_corp_rem,
+                        cre_stk_bal,
+                        node_id
+                      from xtp_stk_asset_auto
+2019-11-08 20:20:19,021-log_demo-INFO-insert_stk_asset success!
+2019-11-08 20:20:19,027-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:20:19,098-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:20:26,324-myloger-WARNING-五档即成转撤销买--已成（特殊费用=min）
+2019-11-08 20:20:26,889-myloger-WARNING-执行结果为True,,
+2019-11-08 20:20:26,892-log_demo-INFO-sql able to connect!
+2019-11-08 20:20:26,892-log_demo-INFO-delete xtp_stk_asset_20191108 from xtp_stk_asset_20191108, xtp_stk_asset_auto where xtp_stk_asset_20191108.fund_acc = 100065004975  and xtp_stk_asset_20191108.market = xtp_stk_asset_auto.market  and xtp_stk_asset_20191108.stock_code = xtp_stk_asset_auto.stock_code
+2019-11-08 20:20:39,810-log_demo-INFO-delete table xtp_stk_asset_20191108 success!
+2019-11-08 20:20:39,813-log_demo-INFO-sql able to connect!
+2019-11-08 20:20:39,813-log_demo-INFO-insert into xtp_stk_asset_20191108
+                      select
+                        100065004975,
+                        market,
+                        case market when 1
+                          then 'A102673916'
+                          else '0200063365'
+                        end as secu_acc,
+                        stock_code,
+                        stk_avl_qty,
+                        stk_frz_qty,
+                        stk_bal,
+                        stk_buy_sale,
+                        stk_buy_unfrz,
+                        stk_sale_frz,
+                        lst_buy_cst,
+                        lst_prf_cst,
+                        buy_cst,
+                        profit_cst,
+                        stk_remain,
+                        stk_corp_rem,
+                        cre_stk_bal,
+                        node_id
+                      from xtp_stk_asset_auto
+2019-11-08 20:20:39,852-log_demo-INFO-insert_stk_asset success!
+2019-11-08 20:20:39,862-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:20:39,931-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:20:47,173-myloger-WARNING-五档即成转撤销买--已成（特殊费用<min）
+2019-11-08 20:20:47,734-myloger-WARNING-执行结果为True,,
+2019-11-08 20:20:47,736-myloger-WARNING-五档即成转撤销买--订单确认
+2019-11-08 20:20:48,316-myloger-WARNING-执行结果为True,,
+2019-11-08 20:20:48,318-myloger-WARNING-五档即成转撤销买--部成
+2019-11-08 20:20:48,877-myloger-WARNING-执行结果为True,,
+2019-11-08 20:20:48,879-myloger-WARNING-五档即成转撤销买-买前有持仓
+2019-11-08 20:20:49,441-myloger-WARNING-执行结果为True,,
+2019-11-08 20:20:49,443-myloger-WARNING-五档即成转撤销买-部成撤单
+2019-11-08 20:20:50,026-myloger-WARNING-执行结果为True,,
+2019-11-08 20:20:50,028-myloger-WARNING-五档即成转撤销买-全部撤单
+2019-11-08 20:20:50,590-myloger-WARNING-执行结果为True,,
+2019-11-08 20:20:50,592-myloger-WARNING-五档即成转撤销买-全成再撤单(OMS)
+2019-11-08 20:20:51,683-myloger-WARNING-执行结果为True,,
+2019-11-08 20:20:51,685-myloger-WARNING-五档即成转撤销买-废单再撤单(OMS)
+2019-11-08 20:20:52,246-myloger-WARNING-执行结果为True,,
+2019-11-08 20:20:52,247-myloger-WARNING-五档即成转撤销买-部撤再撤单(OMS)
+2019-11-08 20:20:52,813-myloger-WARNING-执行结果为True,,
+2019-11-08 20:20:52,815-myloger-WARNING-五档即成转撤销买-全撤再撤单(OMS)
+2019-11-08 20:20:53,375-myloger-WARNING-执行结果为True,,
+2019-11-08 20:20:53,376-myloger-WARNING-五档即成转撤销买-保护价格<跌停价
+2019-11-08 20:20:53,944-myloger-WARNING-执行结果为True,,
+2019-11-08 20:20:53,946-myloger-WARNING-五档即成转撤销买--保护价格=涨停价
+2019-11-08 20:20:54,517-myloger-WARNING-执行结果为True,,
+2019-11-08 20:20:54,519-myloger-WARNING-五档即成转撤销买--保护价格>涨停价
+2019-11-08 20:20:55,086-myloger-WARNING-执行结果为True,,
+2019-11-08 20:20:55,088-myloger-WARNING-五档即成转撤销买--保护价格>涨停价
+2019-11-08 20:20:55,648-myloger-WARNING-执行结果为True,,
+2019-11-08 20:20:55,650-myloger-WARNING-上海Ａ股股票交易日五档即成转撤销买——错误的保护价格(价格为空)
+2019-11-08 20:20:56,214-myloger-WARNING-执行结果为True,,
+2019-11-08 20:20:56,215-myloger-WARNING-上海Ａ股股票交易日五档即成转撤销买——错误的保护价格(价格<0)
+2019-11-08 20:20:56,293-myloger-WARNING-执行结果为True,,
+2019-11-08 20:20:56,295-myloger-WARNING-上海Ａ股股票交易日五档即成转撤销买——错误的保护价格(价格=0)
+2019-11-08 20:20:56,866-myloger-WARNING-执行结果为True,,
+2019-11-08 20:20:56,868-myloger-WARNING-上海Ａ股股票交易日五档即成转撤销买——允许的保护价格下限(价格=0.01)
+2019-11-08 20:20:57,442-myloger-WARNING-执行结果为True,,
+2019-11-08 20:20:57,444-myloger-WARNING-上海Ａ股股票交易日五档即成转撤销买——输入的保护价格四舍五入后=保护价格下限(0.014)
+2019-11-08 20:20:58,009-myloger-WARNING-执行结果为True,,
+2019-11-08 20:20:58,011-myloger-WARNING-上海Ａ股股票交易日五档即成转撤销买——输入的保护价格四舍五入后>保护价格下限0.015
+2019-11-08 20:20:58,577-myloger-WARNING-执行结果为True,,
+2019-11-08 20:20:58,578-myloger-WARNING-上海Ａ股股票交易日五档即成转撤销买——允许的保护价格上限(价格=9999.99)
+2019-11-08 20:20:59,145-myloger-WARNING-执行结果为True,,
+2019-11-08 20:20:59,147-myloger-WARNING-上海Ａ股股票交易日五档即成转撤销买——允许的保护价格上限+0.01(价格=10000.00)
+2019-11-08 20:20:59,709-myloger-WARNING-执行结果为True,,
+2019-11-08 20:20:59,710-myloger-WARNING-上海Ａ股股票交易日五档即成转撤销买——输入的保护价格四舍五入后<保护价格上限(9999.984)
+2019-11-08 20:21:00,268-myloger-WARNING-执行结果为True,,
+2019-11-08 20:21:00,270-myloger-WARNING-上海Ａ股股票交易日五档即成转撤销买——输入的保护价格四舍五入后>保护价格上限(9999.995)
+2019-11-08 20:21:00,829-myloger-WARNING-执行结果为True,,
+2019-11-08 20:21:00,831-myloger-WARNING-上海Ａ股股票交易日五档即成转撤销买——错误的保护价格(价格10亿)
+2019-11-08 20:21:01,392-myloger-WARNING-执行结果为True,,
+2019-11-08 20:21:01,394-myloger-WARNING-上海Ａ股股票交易日五档即成转撤销买——不存在的证券代码
+2019-11-08 20:21:01,934-myloger-WARNING-执行结果为True,,
+2019-11-08 20:21:01,936-myloger-WARNING-上海Ａ股股票交易日五档即成转撤销买——错误的市场
+2019-11-08 20:21:02,495-myloger-WARNING-执行结果为True,,
+2019-11-08 20:21:02,497-myloger-WARNING-科创板股票交易日五档即成转撤销买-错误的业务类型
+2019-11-08 20:21:03,072-myloger-WARNING-执行结果为True,,
+2019-11-08 20:21:03,074-myloger-WARNING-科创板股票交易日五档即成转撤销买-错误的买卖方向
+2019-11-08 20:21:03,637-myloger-WARNING-执行结果为True,,
+2019-11-08 20:21:03,639-myloger-WARNING-科创板股票交易日限价委托买-错误的数量（数量<0）
+2019-11-08 20:21:03,697-myloger-WARNING-执行结果为True,,
+2019-11-08 20:21:03,699-myloger-WARNING-科创板股票交易日限价委托买-错误的数量（数量=0）
+2019-11-08 20:21:04,256-myloger-WARNING-执行结果为True,,
+2019-11-08 20:21:04,258-myloger-WARNING-科创板股票交易日限价委托买-允许的最小申报数量-1（200-1）
+2019-11-08 20:21:04,819-myloger-WARNING-执行结果为True,,
+2019-11-08 20:21:04,821-myloger-WARNING-科创板股票交易日限价委托买-允许的最小申报数量+1（200+1）
+2019-11-08 20:21:05,398-myloger-WARNING-执行结果为True,,
+2019-11-08 20:21:05,400-myloger-WARNING-科创板股票交易日限价委托买-允许的最大申报数量-1（5万-1）
+2019-11-08 20:21:05,960-myloger-WARNING-执行结果为True,,
+2019-11-08 20:21:05,962-myloger-WARNING-科创板股票交易日限价委托买-允许的最大申报数量（5万）
+2019-11-08 20:21:06,521-myloger-WARNING-执行结果为True,,
+2019-11-08 20:21:06,523-myloger-WARNING-科创板股票交易日限价委托买-超过限价单允许最大数量（5万+1）
+2019-11-08 20:21:07,093-myloger-WARNING-执行结果为True,,
+2019-11-08 20:21:07,095-myloger-WARNING-科创板股票交易日限价委托买-数量溢出（100亿）
+2019-11-08 20:21:07,655-myloger-WARNING-执行结果为True,,
+2019-11-08 20:21:07,657-myloger-WARNING-上海Ａ股股票交易日五档即成转撤销买——错误的价格条件
+2019-11-08 20:21:08,237-myloger-WARNING-执行结果为True,,
+2019-11-08 20:21:08,241-log_demo-INFO-sql able to connect!
+2019-11-08 20:21:08,241-log_demo-INFO-delete from xtp_fund_asset_20191108 where fund_acc = 100065004975 and oms_id = 17
+2019-11-08 20:21:08,244-log_demo-INFO-delete table xtp_fund_asset_20191108 success!
+2019-11-08 20:21:08,247-log_demo-INFO-insert into xtp_fund_asset_20191108
+                       select
+                        100065004975,
+                        cur_type,
+                        fund_avl_bal,
+                        fund_frz_bal,
+                        fund_bal,
+                        fund_buy_sale,
+                        fund_unc_buy,
+                        fund_unc_sale,
+                        fund_trsf,
+                        node_id,
+                        17
+                  from xtp_fund_asset_auto where py_name="YW_KCB_HASPRICELIMIT_GPMM_SHSJ_WDZC_059"
+2019-11-08 20:21:08,249-log_demo-INFO-insert_fund_assetYW_KCB_HASPRICELIMIT_GPMM_SHSJ_WDZC_059success!
+2019-11-08 20:21:08,256-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:21:08,321-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:21:10,608-log_demo-INFO-sql able to connect!
+2019-11-08 20:21:10,608-log_demo-INFO-TRUNCATE TABLE ashare_cjhb
+2019-11-08 20:21:10,621-log_demo-INFO-TRUNCATE TABLE ashare_ordwth
+2019-11-08 20:21:10,634-log_demo-INFO-TRUNCATE TABLE ashare_ordwth2
+2019-11-08 20:21:10,651-log_demo-INFO-TRUNCATE TABLE reqresp
+2019-11-08 20:21:10,654-log_demo-INFO-TRUNCATE TABLE execreport
+2019-11-08 20:21:10,665-log_demo-INFO-TRUNCATE TABLE ashare_ordwth_cancel
+2019-11-08 20:21:10,681-log_demo-INFO-truncate table ashare_ordwth_cancel success!
+2019-11-08 20:21:10,688-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:21:10,761-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:21:12,822-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:21:12,887-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:21:18,954-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:21:19,022-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:21:50,086-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:21:50,152-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:22:19,183-myloger-WARNING-可用资金正好-沪A五档即成转撤销买（可用资金=下单金额+费用）
+2019-11-08 20:22:19,743-myloger-WARNING-执行结果为True,,
+2019-11-08 20:22:19,747-log_demo-INFO-sql able to connect!
+2019-11-08 20:22:19,747-log_demo-INFO-delete from xtp_fund_asset_20191108 where fund_acc = 100065004975 and oms_id = 17
+2019-11-08 20:22:19,752-log_demo-INFO-delete table xtp_fund_asset_20191108 success!
+2019-11-08 20:22:19,755-log_demo-INFO-insert into xtp_fund_asset_20191108
+                       select
+                        100065004975,
+                        cur_type,
+                        fund_avl_bal,
+                        fund_frz_bal,
+                        fund_bal,
+                        fund_buy_sale,
+                        fund_unc_buy,
+                        fund_unc_sale,
+                        fund_trsf,
+                        node_id,
+                        17
+                  from xtp_fund_asset_auto where py_name="YW_KCB_BAK_000"
+2019-11-08 20:22:19,757-log_demo-INFO-insert_fund_assetYW_KCB_BAK_000success!
+2019-11-08 20:22:19,764-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:22:19,830-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:22:26,933-log_demo-INFO-sql able to connect!
+2019-11-08 20:22:26,934-log_demo-INFO-delete from xtp_fund_asset_20191108 where fund_acc = 100065004975 and oms_id = 17
+2019-11-08 20:22:26,937-log_demo-INFO-delete table xtp_fund_asset_20191108 success!
+2019-11-08 20:22:26,940-log_demo-INFO-insert into xtp_fund_asset_20191108
+                       select
+                        100065004975,
+                        cur_type,
+                        fund_avl_bal,
+                        fund_frz_bal,
+                        fund_bal,
+                        fund_buy_sale,
+                        fund_unc_buy,
+                        fund_unc_sale,
+                        fund_trsf,
+                        node_id,
+                        17
+                  from xtp_fund_asset_auto where py_name="YW_KCB_HASPRICELIMIT_GPMM_SHSJ_WDZC_060"
+2019-11-08 20:22:26,942-log_demo-INFO-insert_fund_assetYW_KCB_HASPRICELIMIT_GPMM_SHSJ_WDZC_060success!
+2019-11-08 20:22:26,948-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:22:27,012-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:22:29,419-log_demo-INFO-sql able to connect!
+2019-11-08 20:22:29,419-log_demo-INFO-TRUNCATE TABLE ashare_cjhb
+2019-11-08 20:22:29,432-log_demo-INFO-TRUNCATE TABLE ashare_ordwth
+2019-11-08 20:22:29,437-log_demo-INFO-TRUNCATE TABLE ashare_ordwth2
+2019-11-08 20:22:29,448-log_demo-INFO-TRUNCATE TABLE reqresp
+2019-11-08 20:22:29,451-log_demo-INFO-TRUNCATE TABLE execreport
+2019-11-08 20:22:29,465-log_demo-INFO-TRUNCATE TABLE ashare_ordwth_cancel
+2019-11-08 20:22:29,468-log_demo-INFO-truncate table ashare_ordwth_cancel success!
+2019-11-08 20:22:29,475-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:22:29,545-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:22:31,576-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:22:31,649-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:22:37,740-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:22:37,806-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:23:08,854-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:23:08,959-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:23:38,015-myloger-WARNING-可用资金不足-沪A五档即成转撤销买（可用资金=下单金额+费用-0.01）
+2019-11-08 20:23:38,576-myloger-WARNING-执行结果为True,,
+2019-11-08 20:23:38,580-log_demo-INFO-sql able to connect!
+2019-11-08 20:23:38,581-log_demo-INFO-delete from xtp_fund_asset_20191108 where fund_acc = 100065004975 and oms_id = 17
+2019-11-08 20:23:38,582-log_demo-INFO-delete table xtp_fund_asset_20191108 success!
+2019-11-08 20:23:38,585-log_demo-INFO-insert into xtp_fund_asset_20191108
+                       select
+                        100065004975,
+                        cur_type,
+                        fund_avl_bal,
+                        fund_frz_bal,
+                        fund_bal,
+                        fund_buy_sale,
+                        fund_unc_buy,
+                        fund_unc_sale,
+                        fund_trsf,
+                        node_id,
+                        17
+                  from xtp_fund_asset_auto where py_name="YW_KCB_BAK_000"
+2019-11-08 20:23:38,588-log_demo-INFO-insert_fund_assetYW_KCB_BAK_000success!
+2019-11-08 20:23:38,594-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:23:38,659-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:23:45,773-myloger-WARNING-五档即成转撤销卖--已成（特殊费用>min）
+2019-11-08 20:23:50,818-log_demo-INFO-sql able to connect!
+2019-11-08 20:23:50,818-log_demo-INFO-delete xtp_stk_asset_20191108 from xtp_stk_asset_20191108, xtp_stk_asset_auto where xtp_stk_asset_20191108.fund_acc = 100065004975  and xtp_stk_asset_20191108.market = xtp_stk_asset_auto.market  and xtp_stk_asset_20191108.stock_code = xtp_stk_asset_auto.stock_code
+2019-11-08 20:24:03,903-log_demo-INFO-delete table xtp_stk_asset_20191108 success!
+2019-11-08 20:24:03,906-log_demo-INFO-sql able to connect!
+2019-11-08 20:24:03,906-log_demo-INFO-insert into xtp_stk_asset_20191108
+                      select
+                        100065004975,
+                        market,
+                        case market when 1
+                          then 'A102673916'
+                          else '0200063365'
+                        end as secu_acc,
+                        stock_code,
+                        stk_avl_qty,
+                        stk_frz_qty,
+                        stk_bal,
+                        stk_buy_sale,
+                        stk_buy_unfrz,
+                        stk_sale_frz,
+                        lst_buy_cst,
+                        lst_prf_cst,
+                        buy_cst,
+                        profit_cst,
+                        stk_remain,
+                        stk_corp_rem,
+                        cre_stk_bal,
+                        node_id
+                      from xtp_stk_asset_auto
+2019-11-08 20:24:03,933-log_demo-INFO-insert_stk_asset success!
+2019-11-08 20:24:03,940-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:24:04,010-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:24:11,225-myloger-WARNING-五档即成转撤销卖--已成（特殊费用=min）
+2019-11-08 20:24:11,840-myloger-WARNING-执行结果为True,,
+2019-11-08 20:24:11,843-log_demo-INFO-sql able to connect!
+2019-11-08 20:24:11,843-log_demo-INFO-delete xtp_stk_asset_20191108 from xtp_stk_asset_20191108, xtp_stk_asset_auto where xtp_stk_asset_20191108.fund_acc = 100065004975  and xtp_stk_asset_20191108.market = xtp_stk_asset_auto.market  and xtp_stk_asset_20191108.stock_code = xtp_stk_asset_auto.stock_code
+2019-11-08 20:24:25,310-log_demo-INFO-delete table xtp_stk_asset_20191108 success!
+2019-11-08 20:24:25,313-log_demo-INFO-sql able to connect!
+2019-11-08 20:24:25,313-log_demo-INFO-insert into xtp_stk_asset_20191108
+                      select
+                        100065004975,
+                        market,
+                        case market when 1
+                          then 'A102673916'
+                          else '0200063365'
+                        end as secu_acc,
+                        stock_code,
+                        stk_avl_qty,
+                        stk_frz_qty,
+                        stk_bal,
+                        stk_buy_sale,
+                        stk_buy_unfrz,
+                        stk_sale_frz,
+                        lst_buy_cst,
+                        lst_prf_cst,
+                        buy_cst,
+                        profit_cst,
+                        stk_remain,
+                        stk_corp_rem,
+                        cre_stk_bal,
+                        node_id
+                      from xtp_stk_asset_auto
+2019-11-08 20:24:25,335-log_demo-INFO-insert_stk_asset success!
+2019-11-08 20:24:25,342-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:24:25,407-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:24:32,633-myloger-WARNING-五档即成转撤销卖--已成（特殊费用<min）
+2019-11-08 20:24:33,234-myloger-WARNING-执行结果为True,,
+2019-11-08 20:24:33,236-myloger-WARNING-五档即成转撤销卖--订单确认
+2019-11-08 20:24:33,831-myloger-WARNING-执行结果为True,,
+2019-11-08 20:24:33,833-myloger-WARNING-五档即成转撤销卖--部成
+2019-11-08 20:24:34,449-myloger-WARNING-执行结果为True,,
+2019-11-08 20:24:34,451-myloger-WARNING-五档即成转撤销卖-部成撤单
+2019-11-08 20:24:35,085-myloger-WARNING-执行结果为True,,
+2019-11-08 20:24:35,087-myloger-WARNING-五档即成转撤销卖-全部撤单
+2019-11-08 20:24:35,704-myloger-WARNING-执行结果为True,,
+2019-11-08 20:24:35,706-myloger-WARNING-五档即成转撤销卖-全成再撤单(OMS)
+2019-11-08 20:24:36,816-myloger-WARNING-执行结果为True,,
+2019-11-08 20:24:36,817-myloger-WARNING-五档即成转撤销卖-废单再撤单(OMS)
+2019-11-08 20:24:37,428-myloger-WARNING-执行结果为True,,
+2019-11-08 20:24:37,430-myloger-WARNING-五档即成转撤销卖-部撤再撤单(OMS)
+2019-11-08 20:24:38,050-myloger-WARNING-执行结果为True,,
+2019-11-08 20:24:38,052-myloger-WARNING-五档即成转撤销卖-全撤再撤单(OMS)
+2019-11-08 20:24:38,664-myloger-WARNING-执行结果为True,,
+2019-11-08 20:24:38,667-log_demo-INFO-sql able to connect!
+2019-11-08 20:24:38,667-log_demo-INFO-delete xtp_stk_asset_20191108 from xtp_stk_asset_20191108, xtp_stk_asset_auto where xtp_stk_asset_20191108.fund_acc = 100065004975  and xtp_stk_asset_20191108.market = xtp_stk_asset_auto.market  and xtp_stk_asset_20191108.stock_code = xtp_stk_asset_auto.stock_code
+2019-11-08 20:24:52,172-log_demo-INFO-delete table xtp_stk_asset_20191108 success!
+2019-11-08 20:24:52,175-log_demo-INFO-sql able to connect!
+2019-11-08 20:24:52,175-log_demo-INFO-insert into xtp_stk_asset_20191108
+                      select
+                        100065004975,
+                        market,
+                        case market when 1
+                          then 'A102673916'
+                          else '0200063365'
+                        end as secu_acc,
+                        stock_code,
+                        stk_avl_qty,
+                        stk_frz_qty,
+                        stk_bal,
+                        stk_buy_sale,
+                        stk_buy_unfrz,
+                        stk_sale_frz,
+                        lst_buy_cst,
+                        lst_prf_cst,
+                        buy_cst,
+                        profit_cst,
+                        stk_remain,
+                        stk_corp_rem,
+                        cre_stk_bal,
+                        node_id
+                      from xtp_stk_asset_auto
+2019-11-08 20:24:52,193-log_demo-INFO-insert_stk_asset success!
+2019-11-08 20:24:52,200-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:24:52,274-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:24:59,562-myloger-WARNING-沪A五档即成转撤销卖（卖出数量=可用股份数+1）
+2019-11-08 20:25:00,176-myloger-WARNING-执行结果为True,,
+2019-11-08 20:25:00,179-log_demo-INFO-sql able to connect!
+2019-11-08 20:25:00,180-log_demo-INFO-delete xtp_stk_asset_20191108 from xtp_stk_asset_20191108, xtp_stk_asset_auto where xtp_stk_asset_20191108.fund_acc = 100065004975  and xtp_stk_asset_20191108.market = xtp_stk_asset_auto.market  and xtp_stk_asset_20191108.stock_code = xtp_stk_asset_auto.stock_code
+2019-11-08 20:25:13,153-log_demo-INFO-delete table xtp_stk_asset_20191108 success!
+2019-11-08 20:25:13,156-log_demo-INFO-sql able to connect!
+2019-11-08 20:25:13,156-log_demo-INFO-insert into xtp_stk_asset_20191108
+                      select
+                        100065004975,
+                        market,
+                        case market when 1
+                          then 'A102673916'
+                          else '0200063365'
+                        end as secu_acc,
+                        stock_code,
+                        stk_avl_qty,
+                        stk_frz_qty,
+                        stk_bal,
+                        stk_buy_sale,
+                        stk_buy_unfrz,
+                        stk_sale_frz,
+                        lst_buy_cst,
+                        lst_prf_cst,
+                        buy_cst,
+                        profit_cst,
+                        stk_remain,
+                        stk_corp_rem,
+                        cre_stk_bal,
+                        node_id
+                      from xtp_stk_asset_auto
+2019-11-08 20:25:13,176-log_demo-INFO-insert_stk_asset success!
+2019-11-08 20:25:13,183-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:25:13,256-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:25:20,494-myloger-WARNING-沪A五档即成转撤销卖（卖出数量=可用股份数）
+2019-11-08 20:25:21,115-myloger-WARNING-执行结果为True,,
+2019-11-08 20:25:21,117-myloger-WARNING-五档即成转撤销卖-保护价格>涨停价
+2019-11-08 20:25:21,726-myloger-WARNING-执行结果为True,,
+2019-11-08 20:25:21,728-myloger-WARNING-五档即成转撤销卖--保护价格=跌停价
+2019-11-08 20:25:22,324-myloger-WARNING-执行结果为True,,
+2019-11-08 20:25:22,326-myloger-WARNING-五档即成转撤销卖--保护价格<跌停价
+2019-11-08 20:25:22,924-myloger-WARNING-执行结果为True,,
+2019-11-08 20:25:22,926-myloger-WARNING-上海Ａ股股票交易日五档即成转撤销卖——错误的保护价格(价格为空)
+2019-11-08 20:25:23,553-myloger-WARNING-执行结果为True,,
+2019-11-08 20:25:23,555-myloger-WARNING-上海Ａ股股票交易日五档即成转撤销卖——错误的保护价格(价格<0)
+2019-11-08 20:25:23,668-myloger-WARNING-执行结果为True,,
+2019-11-08 20:25:23,669-myloger-WARNING-上海Ａ股股票交易日五档即成转撤销卖——错误的保护价格(价格=0)
+2019-11-08 20:25:24,282-myloger-WARNING-执行结果为True,,
+2019-11-08 20:25:24,283-myloger-WARNING-上海Ａ股股票交易日五档即成转撤销卖——允许的保护价格下限(价格=0.01)
+2019-11-08 20:25:24,900-myloger-WARNING-执行结果为True,,
+2019-11-08 20:25:24,901-myloger-WARNING-上海Ａ股股票交易日五档即成转撤销卖——输入的保护价格四舍五入后=保护价格下限(0.014)
+2019-11-08 20:25:25,509-myloger-WARNING-执行结果为True,,
+2019-11-08 20:25:25,511-myloger-WARNING-上海Ａ股股票交易日五档即成转撤销卖——输入的保护价格四舍五入后>保护价格下限0.015
+2019-11-08 20:25:26,110-myloger-WARNING-执行结果为True,,
+2019-11-08 20:25:26,111-myloger-WARNING-上海Ａ股股票交易日五档即成转撤销卖——允许的保护价格上限(价格=9999.99)
+2019-11-08 20:25:26,708-myloger-WARNING-执行结果为True,,
+2019-11-08 20:25:26,710-myloger-WARNING-上海Ａ股股票交易日五档即成转撤销卖——允许的保护价格上限+0.01(价格=10000.00)
+2019-11-08 20:25:27,306-myloger-WARNING-执行结果为True,,
+2019-11-08 20:25:27,308-myloger-WARNING-上海Ａ股股票交易日五档即成转撤销卖——输入的保护价格四舍五入后<保护价格上限(9999.974)
+2019-11-08 20:25:27,915-myloger-WARNING-执行结果为True,,
+2019-11-08 20:25:27,917-myloger-WARNING-上海Ａ股股票交易日五档即成转撤销卖——输入的保护价格四舍五入后>保护价格上限(9999.995)
+2019-11-08 20:25:28,528-myloger-WARNING-执行结果为True,,
+2019-11-08 20:25:28,530-myloger-WARNING-上海Ａ股股票交易日五档即成转撤销卖——错误的保护价格(价格10亿)
+2019-11-08 20:25:29,135-myloger-WARNING-执行结果为True,,
+2019-11-08 20:25:29,136-myloger-WARNING-上海Ａ股股票交易日五档即成转撤销卖——不存在的证券代码
+2019-11-08 20:25:29,689-myloger-WARNING-执行结果为True,,
+2019-11-08 20:25:29,691-myloger-WARNING-上海Ａ股股票交易日五档即成转撤销卖——错误的市场
+2019-11-08 20:25:30,287-myloger-WARNING-执行结果为True,,
+2019-11-08 20:25:30,290-myloger-WARNING-科创板股票交易日五档即成转撤销卖-错误的业务类型
+2019-11-08 20:25:30,892-myloger-WARNING-执行结果为True,,
+2019-11-08 20:25:30,894-myloger-WARNING-科创板股票交易日五档即成转撤销卖-错误的买卖方向
+2019-11-08 20:25:31,490-myloger-WARNING-执行结果为True,,
+2019-11-08 20:25:31,492-myloger-WARNING-上海Ａ股股票交易日五档即成转撤销卖——错误的数量(数量<0)
+2019-11-08 20:25:31,593-myloger-WARNING-执行结果为True,,
+2019-11-08 20:25:31,595-myloger-WARNING-上海Ａ股股票交易日五档即成转撤销卖——错误的数量(数量=0)
+2019-11-08 20:25:32,214-myloger-WARNING-执行结果为True,,
+2019-11-08 20:25:32,215-myloger-WARNING-科创板股票交易日限价委托卖-允许的最小申报数量-1（200-1）
+2019-11-08 20:25:32,812-myloger-WARNING-执行结果为True,,
+2019-11-08 20:25:32,815-myloger-WARNING-科创板股票交易日限价委托卖-允许的最小申报数量+1（200+1）
+2019-11-08 20:25:33,413-myloger-WARNING-执行结果为True,,
+2019-11-08 20:25:33,415-myloger-WARNING-科创板股票交易日限价委托卖-允许的最大申报数量-1（5万-1）
+2019-11-08 20:25:34,026-myloger-WARNING-执行结果为True,,
+2019-11-08 20:25:34,028-myloger-WARNING-科创板股票交易日限价委托卖-允许的最大申报数量（5万）
+2019-11-08 20:25:34,626-myloger-WARNING-执行结果为True,,
+2019-11-08 20:25:34,628-myloger-WARNING-科创板股票交易日限价委托卖-超过限价单允许最大数量（5万+1）
+2019-11-08 20:25:35,224-myloger-WARNING-执行结果为True,,
+2019-11-08 20:25:35,226-myloger-WARNING-科创板股票交易日限价委托卖-数量溢出（100亿）
+2019-11-08 20:25:35,830-myloger-WARNING-执行结果为True,,
+2019-11-08 20:25:35,832-myloger-WARNING-上海Ａ股股票交易日五档即成转撤销卖——错误的价格条件
+2019-11-08 20:25:36,456-myloger-WARNING-执行结果为True,,
+2019-11-08 20:25:36,459-myloger-WARNING-交易日五档即成转撤销卖-非最后一次卖：余额不足200股部分
+2019-11-08 20:25:37,057-myloger-WARNING-执行结果为True,,
+2019-11-08 20:25:37,060-log_demo-INFO-sql able to connect!
+2019-11-08 20:25:37,060-log_demo-INFO-delete xtp_stk_asset_20191108 from xtp_stk_asset_20191108, xtp_stk_asset_auto where xtp_stk_asset_20191108.fund_acc = 100065004975  and xtp_stk_asset_20191108.market = xtp_stk_asset_auto.market  and xtp_stk_asset_20191108.stock_code = xtp_stk_asset_auto.stock_code
+2019-11-08 20:25:50,010-log_demo-INFO-delete table xtp_stk_asset_20191108 success!
+2019-11-08 20:25:50,014-log_demo-INFO-sql able to connect!
+2019-11-08 20:25:50,014-log_demo-INFO-insert into xtp_stk_asset_20191108
+                      select
+                        100065004975,
+                        market,
+                        case market when 1
+                          then 'A102673916'
+                          else '0200063365'
+                        end as secu_acc,
+                        stock_code,
+                        stk_avl_qty,
+                        stk_frz_qty,
+                        stk_bal,
+                        stk_buy_sale,
+                        stk_buy_unfrz,
+                        stk_sale_frz,
+                        lst_buy_cst,
+                        lst_prf_cst,
+                        buy_cst,
+                        profit_cst,
+                        stk_remain,
+                        stk_corp_rem,
+                        cre_stk_bal,
+                        node_id
+                      from xtp_stk_asset_auto
+2019-11-08 20:25:50,035-log_demo-INFO-insert_stk_asset success!
+2019-11-08 20:25:50,043-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:25:50,112-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:25:57,318-myloger-WARNING-交易日五档即成转撤销卖-最后一次卖：余额不足200股部分
+2019-11-08 20:25:57,914-myloger-WARNING-执行结果为True,,
+2019-11-08 20:25:57,915-myloger-WARNING-交易日五档即成转撤销卖-一次性卖出大于200，且非200整数倍持仓
+2019-11-08 20:25:58,523-myloger-WARNING-执行结果为True,,
+2019-11-08 20:25:58,525-log_demo-INFO-sql able to connect!
+2019-11-08 20:25:58,525-log_demo-INFO-delete xtp_stk_asset_20191108 from xtp_stk_asset_20191108, xtp_stk_asset_auto where xtp_stk_asset_20191108.fund_acc = 100065004975  and xtp_stk_asset_20191108.market = xtp_stk_asset_auto.market  and xtp_stk_asset_20191108.stock_code = xtp_stk_asset_auto.stock_code
+2019-11-08 20:26:11,843-log_demo-INFO-delete table xtp_stk_asset_20191108 success!
+2019-11-08 20:26:11,846-log_demo-INFO-sql able to connect!
+2019-11-08 20:26:11,846-log_demo-INFO-insert into xtp_stk_asset_20191108
+                      select
+                        100065004975,
+                        market,
+                        case market when 1
+                          then 'A102673916'
+                          else '0200063365'
+                        end as secu_acc,
+                        stock_code,
+                        stk_avl_qty,
+                        stk_frz_qty,
+                        stk_bal,
+                        stk_buy_sale,
+                        stk_buy_unfrz,
+                        stk_sale_frz,
+                        lst_buy_cst,
+                        lst_prf_cst,
+                        buy_cst,
+                        profit_cst,
+                        stk_remain,
+                        stk_corp_rem,
+                        cre_stk_bal,
+                        node_id
+                      from xtp_stk_asset_auto
+2019-11-08 20:26:11,867-log_demo-INFO-insert_stk_asset success!
+2019-11-08 20:26:11,875-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:26:11,941-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:26:14,231-log_demo-INFO-sql able to connect!
+2019-11-08 20:26:14,232-log_demo-INFO-TRUNCATE TABLE ashare_cjhb
+2019-11-08 20:26:14,234-log_demo-INFO-TRUNCATE TABLE ashare_ordwth
+2019-11-08 20:26:14,262-log_demo-INFO-TRUNCATE TABLE ashare_ordwth2
+2019-11-08 20:26:14,276-log_demo-INFO-TRUNCATE TABLE reqresp
+2019-11-08 20:26:14,292-log_demo-INFO-TRUNCATE TABLE execreport
+2019-11-08 20:26:14,308-log_demo-INFO-TRUNCATE TABLE ashare_ordwth_cancel
+2019-11-08 20:26:14,325-log_demo-INFO-truncate table ashare_ordwth_cancel success!
+2019-11-08 20:26:14,333-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:26:14,405-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:26:16,438-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:26:16,502-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:26:18,534-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:26:18,601-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:26:25,813-myloger-WARNING-交易日五档即成转撤销卖-先卖不足200部分，再买200整数倍
+2019-11-08 20:26:26,423-myloger-WARNING-第一单执行结果为True,,
+2019-11-08 20:26:26,423-myloger-WARNING-下第二单:
+2019-11-08 20:26:26,961-myloger-WARNING-第二单执行结果为True,,
+2019-11-08 20:26:26,964-log_demo-INFO-sql able to connect!
+2019-11-08 20:26:26,964-log_demo-INFO-delete xtp_stk_asset_20191108 from xtp_stk_asset_20191108, xtp_stk_asset_auto where xtp_stk_asset_20191108.fund_acc = 100065004975  and xtp_stk_asset_20191108.market = xtp_stk_asset_auto.market  and xtp_stk_asset_20191108.stock_code = xtp_stk_asset_auto.stock_code
+2019-11-08 20:26:40,033-log_demo-INFO-delete table xtp_stk_asset_20191108 success!
+2019-11-08 20:26:40,036-log_demo-INFO-sql able to connect!
+2019-11-08 20:26:40,036-log_demo-INFO-insert into xtp_stk_asset_20191108
+                      select
+                        100065004975,
+                        market,
+                        case market when 1
+                          then 'A102673916'
+                          else '0200063365'
+                        end as secu_acc,
+                        stock_code,
+                        stk_avl_qty,
+                        stk_frz_qty,
+                        stk_bal,
+                        stk_buy_sale,
+                        stk_buy_unfrz,
+                        stk_sale_frz,
+                        lst_buy_cst,
+                        lst_prf_cst,
+                        buy_cst,
+                        profit_cst,
+                        stk_remain,
+                        stk_corp_rem,
+                        cre_stk_bal,
+                        node_id
+                      from xtp_stk_asset_auto
+2019-11-08 20:26:40,058-log_demo-INFO-insert_stk_asset success!
+2019-11-08 20:26:40,064-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:26:40,128-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:26:42,421-log_demo-INFO-sql able to connect!
+2019-11-08 20:26:42,421-log_demo-INFO-TRUNCATE TABLE ashare_cjhb
+2019-11-08 20:26:42,435-log_demo-INFO-TRUNCATE TABLE ashare_ordwth
+2019-11-08 20:26:42,443-log_demo-INFO-TRUNCATE TABLE ashare_ordwth2
+2019-11-08 20:26:42,453-log_demo-INFO-TRUNCATE TABLE reqresp
+2019-11-08 20:26:42,455-log_demo-INFO-TRUNCATE TABLE execreport
+2019-11-08 20:26:42,466-log_demo-INFO-TRUNCATE TABLE ashare_ordwth_cancel
+2019-11-08 20:26:42,473-log_demo-INFO-truncate table ashare_ordwth_cancel success!
+2019-11-08 20:26:42,479-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:26:42,544-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:26:44,579-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:26:44,644-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:26:46,675-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:26:46,739-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:26:53,961-myloger-WARNING-交易日五档即成转撤销卖-先卖200整数倍，再卖不足200部分
+2019-11-08 20:26:54,557-myloger-WARNING-第一单执行结果为True,,
+2019-11-08 20:26:54,557-myloger-WARNING-下第二单:
+2019-11-08 20:26:55,108-myloger-WARNING-第二单执行结果为True,,
+2019-11-08 20:26:55,110-log_demo-INFO-sql able to connect!
+2019-11-08 20:26:55,111-log_demo-INFO-delete xtp_stk_asset_20191108 from xtp_stk_asset_20191108, xtp_stk_asset_auto where xtp_stk_asset_20191108.fund_acc = 100065004975  and xtp_stk_asset_20191108.market = xtp_stk_asset_auto.market  and xtp_stk_asset_20191108.stock_code = xtp_stk_asset_auto.stock_code
+2019-11-08 20:27:08,106-log_demo-INFO-delete table xtp_stk_asset_20191108 success!
+2019-11-08 20:27:08,110-log_demo-INFO-sql able to connect!
+2019-11-08 20:27:08,110-log_demo-INFO-insert into xtp_stk_asset_20191108
+                      select
+                        100065004975,
+                        market,
+                        case market when 1
+                          then 'A102673916'
+                          else '0200063365'
+                        end as secu_acc,
+                        stock_code,
+                        stk_avl_qty,
+                        stk_frz_qty,
+                        stk_bal,
+                        stk_buy_sale,
+                        stk_buy_unfrz,
+                        stk_sale_frz,
+                        lst_buy_cst,
+                        lst_prf_cst,
+                        buy_cst,
+                        profit_cst,
+                        stk_remain,
+                        stk_corp_rem,
+                        cre_stk_bal,
+                        node_id
+                      from xtp_stk_asset_auto
+2019-11-08 20:27:08,130-log_demo-INFO-insert_stk_asset success!
+2019-11-08 20:27:08,136-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:27:08,208-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:27:10,499-log_demo-INFO-sql able to connect!
+2019-11-08 20:27:10,499-log_demo-INFO-TRUNCATE TABLE ashare_cjhb
+2019-11-08 20:27:10,513-log_demo-INFO-TRUNCATE TABLE ashare_ordwth
+2019-11-08 20:27:10,515-log_demo-INFO-TRUNCATE TABLE ashare_ordwth2
+2019-11-08 20:27:10,527-log_demo-INFO-TRUNCATE TABLE reqresp
+2019-11-08 20:27:10,531-log_demo-INFO-TRUNCATE TABLE execreport
+2019-11-08 20:27:10,543-log_demo-INFO-TRUNCATE TABLE ashare_ordwth_cancel
+2019-11-08 20:27:10,557-log_demo-INFO-truncate table ashare_ordwth_cancel success!
+2019-11-08 20:27:10,565-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:27:10,636-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:27:12,664-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:27:12,731-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:27:14,762-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:27:14,831-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:27:22,050-myloger-WARNING-交易日五档即成转撤销卖-第一笔卖出大于200且含个股数量；第二笔卖出剩余小于200部分
+2019-11-08 20:27:22,670-myloger-WARNING-第一单执行结果为True,,
+2019-11-08 20:27:22,670-myloger-WARNING-下第二单:
+2019-11-08 20:27:23,209-myloger-WARNING-第二单执行结果为True,,
+2019-11-08 20:27:23,212-log_demo-INFO-sql able to connect!
+2019-11-08 20:27:23,212-log_demo-INFO-delete xtp_stk_asset_20191108 from xtp_stk_asset_20191108, xtp_stk_asset_auto where xtp_stk_asset_20191108.fund_acc = 100065004975  and xtp_stk_asset_20191108.market = xtp_stk_asset_auto.market  and xtp_stk_asset_20191108.stock_code = xtp_stk_asset_auto.stock_code
+2019-11-08 20:27:36,448-log_demo-INFO-delete table xtp_stk_asset_20191108 success!
+2019-11-08 20:27:36,451-log_demo-INFO-sql able to connect!
+2019-11-08 20:27:36,451-log_demo-INFO-insert into xtp_stk_asset_20191108
+                      select
+                        100065004975,
+                        market,
+                        case market when 1
+                          then 'A102673916'
+                          else '0200063365'
+                        end as secu_acc,
+                        stock_code,
+                        stk_avl_qty,
+                        stk_frz_qty,
+                        stk_bal,
+                        stk_buy_sale,
+                        stk_buy_unfrz,
+                        stk_sale_frz,
+                        lst_buy_cst,
+                        lst_prf_cst,
+                        buy_cst,
+                        profit_cst,
+                        stk_remain,
+                        stk_corp_rem,
+                        cre_stk_bal,
+                        node_id
+                      from xtp_stk_asset_auto
+2019-11-08 20:27:36,475-log_demo-INFO-insert_stk_asset success!
+2019-11-08 20:27:36,482-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:27:36,547-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:27:38,818-log_demo-INFO-sql able to connect!
+2019-11-08 20:27:38,818-log_demo-INFO-TRUNCATE TABLE ashare_cjhb
+2019-11-08 20:27:38,823-log_demo-INFO-TRUNCATE TABLE ashare_ordwth
+2019-11-08 20:27:38,840-log_demo-INFO-TRUNCATE TABLE ashare_ordwth2
+2019-11-08 20:27:38,856-log_demo-INFO-TRUNCATE TABLE reqresp
+2019-11-08 20:27:38,871-log_demo-INFO-TRUNCATE TABLE execreport
+2019-11-08 20:27:38,887-log_demo-INFO-TRUNCATE TABLE ashare_ordwth_cancel
+2019-11-08 20:27:38,905-log_demo-INFO-truncate table ashare_ordwth_cancel success!
+2019-11-08 20:27:38,911-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:27:38,978-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:27:41,010-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:27:41,094-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:27:43,145-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:27:43,220-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:27:50,462-myloger-WARNING-交易日五档即成转撤销-T+0卖→T+0买 卖全部300,再买300
+2019-11-08 20:27:51,061-myloger-WARNING-第一单执行结果为True,,
+2019-11-08 20:27:51,061-myloger-WARNING-下第二单:
+2019-11-08 20:27:51,611-myloger-WARNING-第二单执行结果为True,,
+2019-11-08 20:27:51,614-log_demo-INFO-sql able to connect!
+2019-11-08 20:27:51,614-log_demo-INFO-delete xtp_stk_asset_20191108 from xtp_stk_asset_20191108, xtp_stk_asset_auto where xtp_stk_asset_20191108.fund_acc = 100065004975  and xtp_stk_asset_20191108.market = xtp_stk_asset_auto.market  and xtp_stk_asset_20191108.stock_code = xtp_stk_asset_auto.stock_code
+2019-11-08 20:28:05,044-log_demo-INFO-delete table xtp_stk_asset_20191108 success!
+2019-11-08 20:28:05,048-log_demo-INFO-sql able to connect!
+2019-11-08 20:28:05,048-log_demo-INFO-insert into xtp_stk_asset_20191108
+                      select
+                        100065004975,
+                        market,
+                        case market when 1
+                          then 'A102673916'
+                          else '0200063365'
+                        end as secu_acc,
+                        stock_code,
+                        stk_avl_qty,
+                        stk_frz_qty,
+                        stk_bal,
+                        stk_buy_sale,
+                        stk_buy_unfrz,
+                        stk_sale_frz,
+                        lst_buy_cst,
+                        lst_prf_cst,
+                        buy_cst,
+                        profit_cst,
+                        stk_remain,
+                        stk_corp_rem,
+                        cre_stk_bal,
+                        node_id
+                      from xtp_stk_asset_auto
+2019-11-08 20:28:05,080-log_demo-INFO-insert_stk_asset success!
+2019-11-08 20:28:05,087-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:28:05,151-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:28:07,450-log_demo-INFO-sql able to connect!
+2019-11-08 20:28:07,450-log_demo-INFO-TRUNCATE TABLE ashare_cjhb
+2019-11-08 20:28:07,453-log_demo-INFO-TRUNCATE TABLE ashare_ordwth
+2019-11-08 20:28:07,465-log_demo-INFO-TRUNCATE TABLE ashare_ordwth2
+2019-11-08 20:28:07,479-log_demo-INFO-TRUNCATE TABLE reqresp
+2019-11-08 20:28:07,484-log_demo-INFO-TRUNCATE TABLE execreport
+2019-11-08 20:28:07,496-log_demo-INFO-TRUNCATE TABLE ashare_ordwth_cancel
+2019-11-08 20:28:07,499-log_demo-INFO-truncate table ashare_ordwth_cancel success!
+2019-11-08 20:28:07,506-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:28:07,572-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:28:09,605-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:28:09,670-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:28:11,693-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:28:11,761-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:28:18,965-myloger-WARNING-交易日五档即成转撤销-T+0买→T+0卖（T-1日未持有证券代码688000)
+2019-11-08 20:28:19,525-myloger-WARNING-第一单执行结果为True,,
+2019-11-08 20:28:19,525-myloger-WARNING-下第二单:
+2019-11-08 20:28:20,101-myloger-WARNING-第二单执行结果为True,,
+2019-11-08 20:28:20,104-log_demo-INFO-sql able to connect!
+2019-11-08 20:28:20,104-log_demo-INFO-delete xtp_stk_asset_20191108 from xtp_stk_asset_20191108, xtp_stk_asset_auto where xtp_stk_asset_20191108.fund_acc = 100065004975  and xtp_stk_asset_20191108.market = xtp_stk_asset_auto.market  and xtp_stk_asset_20191108.stock_code = xtp_stk_asset_auto.stock_code
+2019-11-08 20:28:33,232-log_demo-INFO-delete table xtp_stk_asset_20191108 success!
+2019-11-08 20:28:33,235-log_demo-INFO-sql able to connect!
+2019-11-08 20:28:33,236-log_demo-INFO-insert into xtp_stk_asset_20191108
+                      select
+                        100065004975,
+                        market,
+                        case market when 1
+                          then 'A102673916'
+                          else '0200063365'
+                        end as secu_acc,
+                        stock_code,
+                        stk_avl_qty,
+                        stk_frz_qty,
+                        stk_bal,
+                        stk_buy_sale,
+                        stk_buy_unfrz,
+                        stk_sale_frz,
+                        lst_buy_cst,
+                        lst_prf_cst,
+                        buy_cst,
+                        profit_cst,
+                        stk_remain,
+                        stk_corp_rem,
+                        cre_stk_bal,
+                        node_id
+                      from xtp_stk_asset_auto
+2019-11-08 20:28:33,255-log_demo-INFO-insert_stk_asset success!
+2019-11-08 20:28:33,262-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:28:33,326-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:28:35,608-log_demo-INFO-sql able to connect!
+2019-11-08 20:28:35,608-log_demo-INFO-TRUNCATE TABLE ashare_cjhb
+2019-11-08 20:28:35,623-log_demo-INFO-TRUNCATE TABLE ashare_ordwth
+2019-11-08 20:28:35,637-log_demo-INFO-TRUNCATE TABLE ashare_ordwth2
+2019-11-08 20:28:35,653-log_demo-INFO-TRUNCATE TABLE reqresp
+2019-11-08 20:28:35,668-log_demo-INFO-TRUNCATE TABLE execreport
+2019-11-08 20:28:35,684-log_demo-INFO-TRUNCATE TABLE ashare_ordwth_cancel
+2019-11-08 20:28:35,701-log_demo-INFO-truncate table ashare_ordwth_cancel success!
+2019-11-08 20:28:35,707-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:28:35,774-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:28:37,805-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:28:37,871-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:28:39,904-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:28:39,981-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:28:47,226-myloger-WARNING-交易日五档即成转撤销-T+0买→T+0卖（T-1日已持有证券代码688000）原有300,买300,再卖600
+2019-11-08 20:28:47,796-myloger-WARNING-第一单执行结果为True,,
+2019-11-08 20:28:47,796-myloger-WARNING-下第二单:
+2019-11-08 20:28:48,336-myloger-WARNING-第二单执行结果为True,,
+2019-11-08 20:28:48,339-log_demo-INFO-sql able to connect!
+2019-11-08 20:28:48,339-log_demo-INFO-delete xtp_stk_asset_20191108 from xtp_stk_asset_20191108, xtp_stk_asset_auto where xtp_stk_asset_20191108.fund_acc = 100065004975  and xtp_stk_asset_20191108.market = xtp_stk_asset_auto.market  and xtp_stk_asset_20191108.stock_code = xtp_stk_asset_auto.stock_code
+2019-11-08 20:29:01,355-log_demo-INFO-delete table xtp_stk_asset_20191108 success!
+2019-11-08 20:29:01,358-log_demo-INFO-sql able to connect!
+2019-11-08 20:29:01,358-log_demo-INFO-insert into xtp_stk_asset_20191108
+                      select
+                        100065004975,
+                        market,
+                        case market when 1
+                          then 'A102673916'
+                          else '0200063365'
+                        end as secu_acc,
+                        stock_code,
+                        stk_avl_qty,
+                        stk_frz_qty,
+                        stk_bal,
+                        stk_buy_sale,
+                        stk_buy_unfrz,
+                        stk_sale_frz,
+                        lst_buy_cst,
+                        lst_prf_cst,
+                        buy_cst,
+                        profit_cst,
+                        stk_remain,
+                        stk_corp_rem,
+                        cre_stk_bal,
+                        node_id
+                      from xtp_stk_asset_auto
+2019-11-08 20:29:01,385-log_demo-INFO-insert_stk_asset success!
+2019-11-08 20:29:01,391-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:29:01,457-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:29:03,750-log_demo-INFO-sql able to connect!
+2019-11-08 20:29:03,750-log_demo-INFO-TRUNCATE TABLE ashare_cjhb
+2019-11-08 20:29:03,760-log_demo-INFO-TRUNCATE TABLE ashare_ordwth
+2019-11-08 20:29:03,763-log_demo-INFO-TRUNCATE TABLE ashare_ordwth2
+2019-11-08 20:29:03,767-log_demo-INFO-TRUNCATE TABLE reqresp
+2019-11-08 20:29:03,778-log_demo-INFO-TRUNCATE TABLE execreport
+2019-11-08 20:29:03,780-log_demo-INFO-TRUNCATE TABLE ashare_ordwth_cancel
+2019-11-08 20:29:03,795-log_demo-INFO-truncate table ashare_ordwth_cancel success!
+2019-11-08 20:29:03,802-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:29:03,870-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:29:05,898-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:29:05,964-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:29:07,995-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:29:08,061-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:29:15,278-myloger-WARNING-交易日五档即成转撤销-T+0买→T+0卖（T-1日已持有证券代码688000）原有300,买300,再卖300
+2019-11-08 20:29:15,851-myloger-WARNING-第一单执行结果为True,,
+2019-11-08 20:29:15,851-myloger-WARNING-下第二单:
+2019-11-08 20:29:16,390-myloger-WARNING-第二单执行结果为True,,
+2019-11-08 20:29:16,394-log_demo-INFO-sql able to connect!
+2019-11-08 20:29:16,395-log_demo-INFO-delete from xtp_fund_asset_20191108 where fund_acc = 100065004975 and oms_id = 17
+2019-11-08 20:29:16,398-log_demo-INFO-delete table xtp_fund_asset_20191108 success!
+2019-11-08 20:29:16,401-log_demo-INFO-insert into xtp_fund_asset_20191108
+                       select
+                        100065004975,
+                        cur_type,
+                        fund_avl_bal,
+                        fund_frz_bal,
+                        fund_bal,
+                        fund_buy_sale,
+                        fund_unc_buy,
+                        fund_unc_sale,
+                        fund_trsf,
+                        node_id,
+                        17
+                  from xtp_fund_asset_auto where py_name="YW_KCB_HASPRICELIMIT_GPMM_SHSJ_WDZC_139"
+2019-11-08 20:29:16,403-log_demo-INFO-insert_fund_assetYW_KCB_HASPRICELIMIT_GPMM_SHSJ_WDZC_139success!
+2019-11-08 20:29:16,409-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:29:16,474-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:29:18,877-log_demo-INFO-sql able to connect!
+2019-11-08 20:29:18,877-log_demo-INFO-TRUNCATE TABLE ashare_cjhb
+2019-11-08 20:29:18,889-log_demo-INFO-TRUNCATE TABLE ashare_ordwth
+2019-11-08 20:29:18,905-log_demo-INFO-TRUNCATE TABLE ashare_ordwth2
+2019-11-08 20:29:18,923-log_demo-INFO-TRUNCATE TABLE reqresp
+2019-11-08 20:29:18,949-log_demo-INFO-TRUNCATE TABLE execreport
+2019-11-08 20:29:18,965-log_demo-INFO-TRUNCATE TABLE ashare_ordwth_cancel
+2019-11-08 20:29:18,983-log_demo-INFO-truncate table ashare_ordwth_cancel success!
+2019-11-08 20:29:18,992-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:29:19,065-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:29:21,125-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:29:21,193-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:29:27,252-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:29:27,318-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:29:58,370-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:29:58,435-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:30:27,500-myloger-WARNING-单笔成交卖-  成交金额 < 手续费
+2019-11-08 20:30:28,123-myloger-WARNING-执行结果为True,,
+2019-11-08 20:30:28,127-log_demo-INFO-sql able to connect!
+2019-11-08 20:30:28,127-log_demo-INFO-delete from xtp_fund_asset_20191108 where fund_acc = 100065004975 and oms_id = 17
+2019-11-08 20:30:28,129-log_demo-INFO-delete table xtp_fund_asset_20191108 success!
+2019-11-08 20:30:28,132-log_demo-INFO-insert into xtp_fund_asset_20191108
+                       select
+                        100065004975,
+                        cur_type,
+                        fund_avl_bal,
+                        fund_frz_bal,
+                        fund_bal,
+                        fund_buy_sale,
+                        fund_unc_buy,
+                        fund_unc_sale,
+                        fund_trsf,
+                        node_id,
+                        17
+                  from xtp_fund_asset_auto where py_name="YW_KCB_BAK_000"
+2019-11-08 20:30:28,135-log_demo-INFO-insert_fund_assetYW_KCB_BAK_000success!
+2019-11-08 20:30:28,144-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:30:28,209-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:30:35,330-log_demo-INFO-sql able to connect!
+2019-11-08 20:30:35,330-log_demo-INFO-delete from xtp_fund_asset_20191108 where fund_acc = 100065004975 and oms_id = 17
+2019-11-08 20:30:35,332-log_demo-INFO-delete table xtp_fund_asset_20191108 success!
+2019-11-08 20:30:35,335-log_demo-INFO-insert into xtp_fund_asset_20191108
+                       select
+                        100065004975,
+                        cur_type,
+                        fund_avl_bal,
+                        fund_frz_bal,
+                        fund_bal,
+                        fund_buy_sale,
+                        fund_unc_buy,
+                        fund_unc_sale,
+                        fund_trsf,
+                        node_id,
+                        17
+                  from xtp_fund_asset_auto where py_name="YW_KCB_HASPRICELIMIT_GPMM_SHSJ_WDZC_141"
+2019-11-08 20:30:35,337-log_demo-INFO-insert_fund_assetYW_KCB_HASPRICELIMIT_GPMM_SHSJ_WDZC_141success!
+2019-11-08 20:30:35,343-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:30:35,414-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:30:37,687-log_demo-INFO-sql able to connect!
+2019-11-08 20:30:37,687-log_demo-INFO-TRUNCATE TABLE ashare_cjhb
+2019-11-08 20:30:37,699-log_demo-INFO-TRUNCATE TABLE ashare_ordwth
+2019-11-08 20:30:37,716-log_demo-INFO-TRUNCATE TABLE ashare_ordwth2
+2019-11-08 20:30:37,731-log_demo-INFO-TRUNCATE TABLE reqresp
+2019-11-08 20:30:37,746-log_demo-INFO-TRUNCATE TABLE execreport
+2019-11-08 20:30:37,762-log_demo-INFO-TRUNCATE TABLE ashare_ordwth_cancel
+2019-11-08 20:30:37,779-log_demo-INFO-truncate table ashare_ordwth_cancel success!
+2019-11-08 20:30:37,786-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:30:37,851-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:30:39,887-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:30:39,959-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:30:46,021-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:30:46,087-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:31:17,214-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:31:17,278-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:31:46,337-myloger-WARNING-分笔成交-累积成交金额 < 累积成交费用
+2019-11-08 20:31:46,938-myloger-WARNING-执行结果为True,,
+2019-11-08 20:31:46,941-log_demo-INFO-sql able to connect!
+2019-11-08 20:31:46,942-log_demo-INFO-delete from xtp_fund_asset_20191108 where fund_acc = 100065004975 and oms_id = 17
+2019-11-08 20:31:46,943-log_demo-INFO-delete table xtp_fund_asset_20191108 success!
+2019-11-08 20:31:46,946-log_demo-INFO-insert into xtp_fund_asset_20191108
+                       select
+                        100065004975,
+                        cur_type,
+                        fund_avl_bal,
+                        fund_frz_bal,
+                        fund_bal,
+                        fund_buy_sale,
+                        fund_unc_buy,
+                        fund_unc_sale,
+                        fund_trsf,
+                        node_id,
+                        17
+                  from xtp_fund_asset_auto where py_name="YW_KCB_BAK_000"
+2019-11-08 20:31:46,947-log_demo-INFO-insert_fund_assetYW_KCB_BAK_000success!
+2019-11-08 20:31:46,954-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:31:47,024-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:31:54,151-log_demo-INFO-sql able to connect!
+2019-11-08 20:31:54,151-log_demo-INFO-delete from xtp_fund_asset_20191108 where fund_acc = 100065004975 and oms_id = 17
+2019-11-08 20:31:54,154-log_demo-INFO-delete table xtp_fund_asset_20191108 success!
+2019-11-08 20:31:54,158-log_demo-INFO-insert into xtp_fund_asset_20191108
+                       select
+                        100065004975,
+                        cur_type,
+                        fund_avl_bal,
+                        fund_frz_bal,
+                        fund_bal,
+                        fund_buy_sale,
+                        fund_unc_buy,
+                        fund_unc_sale,
+                        fund_trsf,
+                        node_id,
+                        17
+                  from xtp_fund_asset_auto where py_name="YW_KCB_HASPRICELIMIT_GPMM_SHSJ_WDZC_142"
+2019-11-08 20:31:54,160-log_demo-INFO-insert_fund_assetYW_KCB_HASPRICELIMIT_GPMM_SHSJ_WDZC_142success!
+2019-11-08 20:31:54,166-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:31:54,233-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:31:56,530-log_demo-INFO-sql able to connect!
+2019-11-08 20:31:56,530-log_demo-INFO-TRUNCATE TABLE ashare_cjhb
+2019-11-08 20:31:56,536-log_demo-INFO-TRUNCATE TABLE ashare_ordwth
+2019-11-08 20:31:56,545-log_demo-INFO-TRUNCATE TABLE ashare_ordwth2
+2019-11-08 20:31:56,560-log_demo-INFO-TRUNCATE TABLE reqresp
+2019-11-08 20:31:56,562-log_demo-INFO-TRUNCATE TABLE execreport
+2019-11-08 20:31:56,573-log_demo-INFO-TRUNCATE TABLE ashare_ordwth_cancel
+2019-11-08 20:31:56,577-log_demo-INFO-truncate table ashare_ordwth_cancel success!
+2019-11-08 20:31:56,583-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:31:56,656-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:31:58,684-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:31:58,754-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:32:04,816-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:32:04,881-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:32:35,998-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:32:36,066-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:33:05,188-myloger-WARNING-分笔成交-累积成交金额 >= 手续费 且手续费小于最小值
+2019-11-08 20:33:05,786-myloger-WARNING-执行结果为True,,
+2019-11-08 20:33:05,789-log_demo-INFO-sql able to connect!
+2019-11-08 20:33:05,789-log_demo-INFO-delete from xtp_fund_asset_20191108 where fund_acc = 100065004975 and oms_id = 17
+2019-11-08 20:33:05,792-log_demo-INFO-delete table xtp_fund_asset_20191108 success!
+2019-11-08 20:33:05,795-log_demo-INFO-insert into xtp_fund_asset_20191108
+                       select
+                        100065004975,
+                        cur_type,
+                        fund_avl_bal,
+                        fund_frz_bal,
+                        fund_bal,
+                        fund_buy_sale,
+                        fund_unc_buy,
+                        fund_unc_sale,
+                        fund_trsf,
+                        node_id,
+                        17
+                  from xtp_fund_asset_auto where py_name="YW_KCB_BAK_000"
+2019-11-08 20:33:05,797-log_demo-INFO-insert_fund_assetYW_KCB_BAK_000success!
+2019-11-08 20:33:05,805-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:33:05,870-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:33:12,992-log_demo-INFO-sql able to connect!
+2019-11-08 20:33:12,992-log_demo-INFO-delete from xtp_fund_asset_20191108 where fund_acc = 100065004975 and oms_id = 17
+2019-11-08 20:33:12,995-log_demo-INFO-delete table xtp_fund_asset_20191108 success!
+2019-11-08 20:33:12,998-log_demo-INFO-insert into xtp_fund_asset_20191108
+                       select
+                        100065004975,
+                        cur_type,
+                        fund_avl_bal,
+                        fund_frz_bal,
+                        fund_bal,
+                        fund_buy_sale,
+                        fund_unc_buy,
+                        fund_unc_sale,
+                        fund_trsf,
+                        node_id,
+                        17
+                  from xtp_fund_asset_auto where py_name="YW_KCB_HASPRICELIMIT_GPMM_SHSJ_WDZC_143"
+2019-11-08 20:33:12,999-log_demo-INFO-insert_fund_assetYW_KCB_HASPRICELIMIT_GPMM_SHSJ_WDZC_143success!
+2019-11-08 20:33:13,006-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:33:13,070-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:33:15,422-log_demo-INFO-sql able to connect!
+2019-11-08 20:33:15,422-log_demo-INFO-TRUNCATE TABLE ashare_cjhb
+2019-11-08 20:33:15,429-log_demo-INFO-TRUNCATE TABLE ashare_ordwth
+2019-11-08 20:33:15,437-log_demo-INFO-TRUNCATE TABLE ashare_ordwth2
+2019-11-08 20:33:15,440-log_demo-INFO-TRUNCATE TABLE reqresp
+2019-11-08 20:33:15,452-log_demo-INFO-TRUNCATE TABLE execreport
+2019-11-08 20:33:15,454-log_demo-INFO-TRUNCATE TABLE ashare_ordwth_cancel
+2019-11-08 20:33:15,467-log_demo-INFO-truncate table ashare_ordwth_cancel success!
+2019-11-08 20:33:15,474-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:33:15,540-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:33:17,572-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:33:17,636-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:33:23,702-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:33:23,767-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:33:54,840-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:33:54,909-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:34:24,003-myloger-WARNING-分笔成交-累积成交金额 >= 手续费 且手续费大于最小值
+2019-11-08 20:34:25,621-myloger-WARNING-执行结果为True,,
+2019-11-08 20:34:25,625-log_demo-INFO-sql able to connect!
+2019-11-08 20:34:25,625-log_demo-INFO-delete from xtp_fund_asset_20191108 where fund_acc = 100065004975 and oms_id = 17
+2019-11-08 20:34:25,627-log_demo-INFO-delete table xtp_fund_asset_20191108 success!
+2019-11-08 20:34:25,630-log_demo-INFO-insert into xtp_fund_asset_20191108
+                       select
+                        100065004975,
+                        cur_type,
+                        fund_avl_bal,
+                        fund_frz_bal,
+                        fund_bal,
+                        fund_buy_sale,
+                        fund_unc_buy,
+                        fund_unc_sale,
+                        fund_trsf,
+                        node_id,
+                        17
+                  from xtp_fund_asset_auto where py_name="YW_KCB_BAK_000"
+2019-11-08 20:34:25,632-log_demo-INFO-insert_fund_assetYW_KCB_BAK_000success!
+2019-11-08 20:34:25,639-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:34:25,709-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:34:32,810-log_demo-INFO-delete from  xtp_default_fee_rate  
+            where fee_rate_id in (select fee_rate_id from  xtp_default_fee_rate_auto  where py_name = 'YW_KCB_HASPRICELIMIT_GPMM_SHSJ_WDZC_145')
+2019-11-08 20:34:32,811-log_demo-INFO-delete_xtp_default_fee_rateYW_KCB_HASPRICELIMIT_GPMM_SHSJ_WDZC_145success!
+2019-11-08 20:34:32,812-log_demo-INFO-insert into xtp_default_fee_rate select user_id, fee_rate_id, value 
+            from  xtp_default_fee_rate_auto  where py_name = "YW_KCB_HASPRICELIMIT_GPMM_SHSJ_WDZC_145"
+2019-11-08 20:34:32,813-log_demo-INFO-insert_xtp_default_fee_rateYW_KCB_HASPRICELIMIT_GPMM_SHSJ_WDZC_145success!
+2019-11-08 20:34:32,819-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:34:32,883-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:34:40,133-myloger-WARNING-买入最低特殊费用=0  xtp_default_fee_rate表改值
+2019-11-08 20:34:40,753-myloger-WARNING-执行结果为True,,
+2019-11-08 20:34:40,754-log_demo-INFO-delete from  xtp_default_fee_rate  
+            where fee_rate_id in (select fee_rate_id from  xtp_default_fee_rate_auto  where py_name = 'YW_KCB_BAK_000')
+2019-11-08 20:34:40,758-log_demo-INFO-delete_xtp_default_fee_rateYW_KCB_BAK_000success!
+2019-11-08 20:34:40,759-log_demo-INFO-insert into xtp_default_fee_rate select user_id, fee_rate_id, value 
+            from  xtp_default_fee_rate_auto  where py_name = "YW_KCB_BAK_000"
+2019-11-08 20:34:40,760-log_demo-INFO-insert_xtp_default_fee_rateYW_KCB_BAK_000success!
+2019-11-08 20:34:40,766-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:34:40,830-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:34:47,971-log_demo-INFO-delete from  xtp_default_fee_rate  
+            where fee_rate_id in (select fee_rate_id from  xtp_default_fee_rate_auto  where py_name = 'YW_KCB_HASPRICELIMIT_GPMM_SHSJ_WDZC_146')
+2019-11-08 20:34:47,972-log_demo-INFO-delete_xtp_default_fee_rateYW_KCB_HASPRICELIMIT_GPMM_SHSJ_WDZC_146success!
+2019-11-08 20:34:47,973-log_demo-INFO-insert into xtp_default_fee_rate select user_id, fee_rate_id, value 
+            from  xtp_default_fee_rate_auto  where py_name = "YW_KCB_HASPRICELIMIT_GPMM_SHSJ_WDZC_146"
+2019-11-08 20:34:47,974-log_demo-INFO-insert_xtp_default_fee_rateYW_KCB_HASPRICELIMIT_GPMM_SHSJ_WDZC_146success!
+2019-11-08 20:34:47,982-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:34:48,048-paramiko.transport-INFO-Authentication (password) successful!
+2019-11-08 20:34:55,288-myloger-WARNING-卖出最低特殊费用=0  xtp_default_fee_rate表改值
+2019-11-08 20:34:55,884-myloger-WARNING-执行结果为True,,
+2019-11-08 20:34:55,885-log_demo-INFO-delete from  xtp_default_fee_rate  
+            where fee_rate_id in (select fee_rate_id from  xtp_default_fee_rate_auto  where py_name = 'YW_KCB_BAK_000')
+2019-11-08 20:34:55,887-log_demo-INFO-delete_xtp_default_fee_rateYW_KCB_BAK_000success!
+2019-11-08 20:34:55,889-log_demo-INFO-insert into xtp_default_fee_rate select user_id, fee_rate_id, value 
+            from  xtp_default_fee_rate_auto  where py_name = "YW_KCB_BAK_000"
+2019-11-08 20:34:55,890-log_demo-INFO-insert_xtp_default_fee_rateYW_KCB_BAK_000success!
+2019-11-08 20:34:55,897-paramiko.transport-INFO-Connected (version 2.0, client OpenSSH_6.6.1)
+2019-11-08 20:34:55,962-paramiko.transport-INFO-Authentication (password) successful!
